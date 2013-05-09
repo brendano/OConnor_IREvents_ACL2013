@@ -41,7 +41,7 @@ Files contained here (149 MB total; 35 MB without data/):
         TABARI's verb pattern dictionary.
       - match.py: matching between our Stanford-style dependency paths, against
         TABARI verb patterns
-      - score.py: lexical scale purity evaluation (also an HTLM reporting tool)
+      - score.py: lexical scale purity evaluation
   - eval/MIDnew: conflict evaluation code, plus plots
   - post/: other posterior analysis scripts, to process saved Gibbs samples
   - preproc/: preprocessing scripts, used to create the event tuples file

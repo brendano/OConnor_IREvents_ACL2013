@@ -7,7 +7,7 @@ Website: http://brenocon.com/irevents
 
 Contact: Brendan O'Connor (http://brenocon.com, http://github.com/brendano)
 
-Files contained here:
+Files contained here (149 MB total; 35 MB without data/):
 
 - paper.pdf: the paper.
 - supp.pdf: the supplementary appendix.

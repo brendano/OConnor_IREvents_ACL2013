@@ -1,0 +1,518 @@
+===
+START /usr/users/9/brenocon/ptab/s/255372.v7.sf.k=100.c=sg.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+Time difference of 5.987716 mins
+Load tuning data
+Train tuning model
+Time difference of 1.365098 mins
+Tuning path analysis
+       g.lambda g.df   g.dev.ratio       lls chosen
+1  0.0651313573    0 -3.376732e-12 -44184.18       
+2  0.0593452671    2  2.459867e-03 -44045.79       
+3  0.0540731971    2  5.832043e-03 -43865.26       
+4  0.0492694833    2  8.682303e-03 -43708.11       
+5  0.0448925182    2  1.110958e-02 -43570.35       
+6  0.0409043906    4  1.388892e-02 -43405.97       
+7  0.0372705573    4  1.729990e-02 -43210.94       
+8  0.0339595437    5  2.074068e-02 -43027.70       
+9  0.0309426714    9  2.522192e-02 -42810.11       
+10 0.0281938098   11  3.031229e-02 -42568.61       
+11 0.0256891494   14  3.510098e-02 -42318.85       
+12 0.0234069962   18  4.033925e-02 -42032.25       
+13 0.0213275832   21  4.593416e-02 -41750.52       
+14 0.0194328995   23  5.121492e-02 -41482.87       
+15 0.0177065342   24  5.591158e-02 -41243.80       
+16 0.0161335345   29  6.028270e-02 -41022.40       
+17 0.0147002758   30  6.446585e-02 -40801.54       
+18 0.0133943438   32  6.819485e-02 -40590.08       
+19 0.0122044272   33  7.149874e-02 -40394.31       
+20 0.0111202195   41  7.461718e-02 -40212.56       
+21 0.0101323299   48  7.773521e-02 -40034.36       
+22 0.0092322016   50  8.063658e-02 -39867.63       
+23 0.0084120383   56  8.319560e-02 -39714.25       
+24 0.0076647360   59  8.557341e-02 -39555.61       
+25 0.0069838220   61  8.766114e-02 -39417.84       
+26 0.0063633985   65  8.950593e-02 -39292.00       
+27 0.0057980917   68  9.114831e-02 -39172.48       
+28 0.0052830052   70  9.256106e-02 -39066.82       
+29 0.0048136776   73  9.379719e-02 -38970.12       
+30 0.0043860437   77  9.489155e-02 -38881.96       
+31 0.0039963997   79  9.583320e-02 -38801.05       
+32 0.0036413706   81  9.664771e-02 -38728.06       
+33 0.0033178812   85  9.735451e-02 -38662.10       
+34 0.0030231298   89  9.797533e-02 -38600.87       
+35 0.0027545633   90  9.851238e-02 -38543.64       
+36 0.0025098555   91  9.896679e-02 -38491.58       
+37 0.0022868868   93  9.935765e-02 -38444.28       
+38 0.0020837261   93  9.968889e-02 -38401.46       
+39 0.0018986136   93  9.996795e-02 -38362.55       
+40 0.0017299460   93  1.002028e-01 -38327.18       
+41 0.0015762624   94  1.004011e-01 -38294.95       
+42 0.0014362316   95  1.005686e-01 -38265.72       
+43 0.0013086407   96  1.007099e-01 -38239.28       
+44 0.0011923847   96  1.008292e-01 -38215.51       
+45 0.0010864565   97  1.009294e-01 -38193.83       
+46 0.0009899387   98  1.010140e-01 -38173.78       
+47 0.0009019953   99  1.010856e-01 -38155.25       
+48 0.0008218645   99  1.011458e-01 -38138.35       
+49 0.0007488523   99  1.011961e-01 -38122.96       
+50 0.0006823264   99  1.012382e-01 -38108.95       
+51 0.0006217104   99  1.012734e-01 -38096.20       
+52 0.0005664793   99  1.013028e-01 -38084.60       
+53 0.0005161549   99  1.013274e-01 -38074.03       
+54 0.0004703011   99  1.013480e-01 -38064.40       
+55 0.0004285208  100  1.013651e-01 -38055.63       
+56 0.0003904522  100  1.013795e-01 -38047.64       
+57 0.0003557655  100  1.013912e-01 -38040.30       
+58 0.0003241603  100  1.014014e-01 -38033.74       
+59 0.0002953628  100  1.014095e-01 -38027.65   *** 
+Load full data
+Train full model
+Time difference of 2.999484 mins
+Full model info
+df 100
+coefs -1.766 -7.847 0.5809 0.8332 -1.02 -0.9125 -0.3683 3.219 -0.1117 -0.3436 -0.09834 1.913 -1.69 -0.5765 0.255 -2.031 -0.148 0.5844 1.326 1.352 0.07597 0.01943 1.134 -0.9469 -2.63 -0.1784 0.07976 0.5636 -0.5783 -4.13 -0.4928 -3.415 -0.912 -10.92 -3.99 -0.6444 -2.114 0.4685 -0.4157 -0.9934 -0.6027 -1.759 -1.541 0.98 0.08298 0.6185 0.2433 0.2906 -0.3429 -0.4351 -5.641 0.5895 -0.09179 1.191 0.5485 -0.2967 0.05521 0.6798 -0.3525 0.468 -0.7152 -0.7943 -0.02429 0.3965 3.558 -1.207 -0.7091 -4.652 0.6366 0.003695 -0.4109 0.8977 -0.0752 0.3525 -0.1403 -0.1986 0.5677 0.2956 0.4736 -4.999 0.953 -1.932 -0.3673 0.3712 1.218 -1.868 5.048 0.4 2.323 -0.8682 -2.219 0.07343 0.9727 -0.4915 -0.9071 -1.721 -0.6715 0.4672 -0.8174 2280
+AUC	/usr/users/9/brenocon/ptab/s/255372.v7.sf.k=100.c=sg.out	0.711804
+(; Rscript -e ; )  880.76s user 55.36s system 99% cpu 15:40.60 total
+END /usr/users/9/brenocon/ptab/s/255372.v7.sf.k=100.c=sg.out
+===
+START /usr/users/9/brenocon/ptab/s/255366.v7.sf.k=100.c=sg.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+Time difference of 5.973718 mins
+Load tuning data
+Train tuning model
+Time difference of 1.359249 mins
+Tuning path analysis
+       g.lambda g.df   g.dev.ratio       lls chosen
+1  0.0631931211    0 -3.376732e-12 -44184.18       
+2  0.0575792184    1  1.961326e-03 -44069.40       
+3  0.0524640393    2  4.494088e-03 -43902.79       
+4  0.0478032787    2  7.317940e-03 -43706.92       
+5  0.0435565672    4  1.033316e-02 -43519.33       
+6  0.0396871218    5  1.460931e-02 -43287.29       
+7  0.0361614273    6  1.868659e-02 -43075.92       
+8  0.0329489457    6  2.288523e-02 -42857.69       
+9  0.0300218522    8  2.690768e-02 -42652.58       
+10 0.0273547936    8  3.080944e-02 -42459.04       
+11 0.0249246691   11  3.467650e-02 -42268.25       
+12 0.0227104302   16  3.929836e-02 -42029.64       
+13 0.0206928982   19  4.408757e-02 -41807.53       
+14 0.0188545981   20  4.861990e-02 -41596.99       
+15 0.0171796076   24  5.282843e-02 -41395.83       
+16 0.0156534186   32  5.714263e-02 -41183.32       
+17 0.0142628121   38  6.170978e-02 -40929.25       
+18 0.0129957431   44  6.610685e-02 -40694.27       
+19 0.0118412371   45  7.021946e-02 -40474.01       
+20 0.0107892943   47  7.380347e-02 -40277.31       
+21 0.0098308031   52  7.700647e-02 -40107.86       
+22 0.0089574616   53  7.987277e-02 -39959.34       
+23 0.0081617054   55  8.234721e-02 -39825.25       
+24 0.0074366420   59  8.458154e-02 -39701.53       
+25 0.0067759912   60  8.655196e-02 -39590.39       
+26 0.0061740309   64  8.828997e-02 -39491.21       
+27 0.0056255470   67  8.980753e-02 -39401.51       
+28 0.0051257889   69  9.115263e-02 -39319.40       
+29 0.0046704279   72  9.233013e-02 -39246.23       
+30 0.0042555200   75  9.335450e-02 -39185.74       
+31 0.0038774713   79  9.425693e-02 -39127.98       
+32 0.0035330075   79  9.503001e-02 -39075.40       
+33 0.0032191448   80  9.568351e-02 -39027.70       
+34 0.0029331649   81  9.623968e-02 -38983.60       
+35 0.0026725906   82  9.671153e-02 -38942.91       
+36 0.0024351650   85  9.711771e-02 -38906.41       
+37 0.0022188316   86  9.746178e-02 -38873.53       
+38 0.0020217168   87  9.775351e-02 -38844.57       
+39 0.0018421130   87  9.799994e-02 -38818.60       
+40 0.0016784648   89  9.820922e-02 -38795.40       
+41 0.0015293546   90  9.838562e-02 -38774.56       
+42 0.0013934909   90  9.853433e-02 -38755.70       
+43 0.0012696970   91  9.865892e-02 -38738.62       
+44 0.0011569007   91  9.876389e-02 -38723.41       
+45 0.0010541248   93  9.885229e-02 -38709.77       
+46 0.0009604793   94  9.892667e-02 -38697.56       
+47 0.0008751529   94  9.898912e-02 -38686.37       
+48 0.0007974067   94  9.904124e-02 -38676.21       
+49 0.0007265673   95  9.908496e-02 -38667.05       
+50 0.0006620211   95  9.912146e-02 -38658.74       
+51 0.0006032090   95  9.915189e-02 -38651.18       
+52 0.0005496215   95  9.917725e-02 -38644.30       
+53 0.0005007947   95  9.919838e-02 -38638.05       
+54 0.0004563055   96  9.921602e-02 -38632.37       
+55 0.0004157685   96  9.923079e-02 -38627.23       
+56 0.0003788328   96  9.924278e-02 -38622.54       
+57 0.0003451783   96  9.925331e-02 -38618.30       
+58 0.0003145137   96  9.926162e-02 -38614.41   *** 
+Load full data
+Train full model
+Time difference of 3.186831 mins
+Full model info
+df 98
+coefs 0.7117 -3.932 2.848 -0.4285 0.02905 0.3682 -0.5332 0.0371 -1.75 -0.4962 -1.755 -0.272 4.655 0 0.003119 -0.1975 -0.009465 -0.115 2.798 0.6981 -1.507 -0.5738 -0.5121 -1.253 -0.03401 0.1797 -0.1677 -4.372 -6.963 1.012 1.022 1.179 -0.2532 0.1887 -0.7852 -2.699 0.3178 0.3607 0.7855 0.05713 0.6922 1.581 -0.2883 -0.4346 -0.6525 0.9846 -0.0388 0.3784 -0.903 0 -0.2209 0.05843 -1.227 -0.1978 -0.1501 1.59 -0.9364 0.6293 -0.7008 -0.611 0.6819 1.373 0.2797 0.5102 -1.791 -1.264 -1.189 -1.041 -1.665 0.2009 4.025 -9.513 0.7838 -0.6093 -0.5501 0.2847 1.75 1.009 0.93 0.03016 0.798 -1.511 -0.6489 0.4619 -0.472 1.154 -4.434 -0.07573 -0.1543 8.854 -0.7134 -1.244 0.2433 -1.28 0.3782 -4.457 -1.328 -0.1086 0.1276 3511
+AUC	/usr/users/9/brenocon/ptab/s/255366.v7.sf.k=100.c=sg.out	0.658065
+(; Rscript -e ; )  896.15s user 49.26s system 99% cpu 15:49.29 total
+END /usr/users/9/brenocon/ptab/s/255366.v7.sf.k=100.c=sg.out
+===
+START /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=2.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+Time difference of 9.446704 mins
+Load tuning data
+Train tuning model
+Time difference of 43.35613 secs
+Tuning path analysis
+       g.lambda g.df   g.dev.ratio       lls chosen
+1  0.0285222616    0 -3.376732e-12 -44184.18       
+2  0.0259884225    1  3.996863e-04 -44109.88       
+3  0.0236796827    1  7.370085e-04 -44047.40       
+4  0.0215760449    2  1.035699e-03 -43991.37       
+5  0.0196592886    2  1.507677e-03 -43881.35       
+6  0.0179128116    2  1.911693e-03 -43786.84       
+7  0.0163214867    3  2.304413e-03 -43706.28       
+8  0.0148715308    3  2.677853e-03 -43637.61       
+9  0.0135503850    3  2.998288e-03 -43578.09       
+10 0.0123466062    3  3.273945e-03 -43526.28       
+11 0.0112497677    3  3.511548e-03 -43481.00       
+12 0.0102503694    4  3.744554e-03 -43433.65       
+13 0.0093397548    4  3.963842e-03 -43386.92       
+14 0.0085100367    6  4.216629e-03 -43338.91       
+15 0.0077540285   10  4.504198e-03 -43293.44       
+16 0.0070651820   13  4.840984e-03 -43256.42       
+17 0.0064375307   14  5.158361e-03 -43225.17       
+18 0.0058656382   19  5.495012e-03 -43200.23       
+19 0.0053445511   22  5.830186e-03 -43176.78       
+20 0.0048697559   25  6.149610e-03 -43155.73       
+21 0.0044371402   31  6.459026e-03 -43135.92       
+22 0.0040429569   33  6.777905e-03 -43119.26       
+23 0.0036837917   36  7.056419e-03 -43105.62       
+24 0.0033565338   40  7.306036e-03 -43094.11       
+25 0.0030583486   41  7.531926e-03 -43082.95       
+26 0.0027866534   43  7.731223e-03 -43072.60       
+27 0.0025390948   49  7.913437e-03 -43062.92       
+28 0.0023135286   52  8.082719e-03 -43054.71       
+29 0.0021080011   57  8.240849e-03 -43048.04       
+30 0.0019207321   62  8.383921e-03 -43042.41       
+31 0.0017500995   64  8.511587e-03 -43037.74       
+32 0.0015946255   65  8.620135e-03 -43033.92       
+33 0.0014529634   68  8.712976e-03 -43030.78       
+34 0.0013238861   68  8.792860e-03 -43028.44       
+35 0.0012062757   70  8.861973e-03 -43026.51       
+36 0.0010991135   75  8.923183e-03 -43024.76       
+37 0.0010014713   77  8.975741e-03 -43023.43       
+38 0.0009125033   79  9.021314e-03 -43022.12       
+39 0.0008314391   79  9.059526e-03 -43021.14       
+40 0.0007575763   80  9.091822e-03 -43020.36       
+41 0.0006902753   80  9.118823e-03 -43019.78       
+42 0.0006289532   81  9.141286e-03 -43019.38       
+43 0.0005730787   82  9.160008e-03 -43019.00       
+44 0.0005221680   82  9.176276e-03 -43018.69       
+45 0.0004757800   83  9.190029e-03 -43018.42       
+46 0.0004335130   86  9.201786e-03 -43018.17       
+47 0.0003950009   87  9.211818e-03 -43017.89       
+48 0.0003599101   87  9.220258e-03 -43017.66   *** 
+Load full data
+Train full model
+Time difference of 1.396112 mins
+Full model info
+df 89
+coefs -0.2856 2.911 -0.6597 -0.3704 0 -0.259 0.4179 -0.2704 0.7117 -1.177 -0.1721 -0.2855 0 0.5641 0.3811 -0.246 -0.3189 4.175 -1.251 5.235 0.1625 -0.2908 0.4971 1.518 -1.119 -0.06427 0.09128 1.018 0 -1.498 -0.7002 0.4932 0.2761 -1.091 -0.1858 0.1139 0.309 0.6818 -1.247 0.7395 -0.2561 -0.1466 0 0.4043 0.1039 -0.4625 0.09769 -0.1043 0.5029 -0.3734 -0.1049 0 0.1234 -0.2973 0.1832 0.2238 2.452 -0.8107 0.6099 0 -0.2825 0.4997 0.07693 -0.4327 0.3126 0.1415 -0.2256 0.7228 -0.9055 0.002528 -0.4329 0.2202 0.2488 -0.3337 0.5941 -0.6307 0 -0.8848 0 0.4908 0.6891 0 2.003 -0.9388 0.1011 -0.5176 0.1055 0.05629 0 0.1057 -0.007501 -1.238 -0.2485 0 0.209 -0.2889 0.316 -0.0102 -0.3311 28.35
+AUC	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=2.out	0.542953
+(; Rscript -e ; )  977.62s user 48.08s system 99% cpu 17:08.06 total
+END /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=2.out
+===
+START /usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+Time difference of 9.55614 mins
+Load tuning data
+Train tuning model
+Time difference of 43.68019 secs
+Tuning path analysis
+       g.lambda g.df   g.dev.ratio       lls chosen
+1  0.0273383416    0 -3.376732e-12 -44184.18       
+2  0.0249096787    1  3.672339e-04 -44126.29       
+3  0.0226967715    1  6.773608e-04 -44077.00       
+4  0.0206804528    1  9.428656e-04 -44034.55       
+5  0.0188432584    2  1.373107e-03 -43927.18       
+6  0.0171692753    2  1.745982e-03 -43833.36       
+7  0.0156440042    2  2.067622e-03 -43752.13       
+8  0.0142542340    3  2.370209e-03 -43681.78       
+9  0.0129879271    3  2.665644e-03 -43621.06       
+10 0.0118341155    4  2.975614e-03 -43569.75       
+11 0.0107828053    4  3.248140e-03 -43525.34       
+12 0.0098248906    5  3.517192e-03 -43488.17       
+13 0.0089520744    7  3.794110e-03 -43454.34       
+14 0.0081567967   10  4.120009e-03 -43421.69       
+15 0.0074321694   11  4.434975e-03 -43390.25       
+16 0.0067719160   13  4.719665e-03 -43362.76       
+17 0.0061703176   15  5.006747e-03 -43340.03       
+18 0.0056221636   16  5.271301e-03 -43320.55       
+19 0.0051227061   20  5.526167e-03 -43303.03       
+20 0.0046676190   24  5.779719e-03 -43285.42       
+21 0.0042529606   31  6.047532e-03 -43266.28       
+22 0.0038751393   37  6.335851e-03 -43249.11       
+23 0.0035308826   44  6.622168e-03 -43231.02       
+24 0.0032172087   47  6.894936e-03 -43215.76       
+25 0.0029314008   47  7.130843e-03 -43202.62       
+26 0.0026709832   52  7.344064e-03 -43190.91       
+27 0.0024337004   56  7.545140e-03 -43180.05       
+28 0.0022174972   60  7.726132e-03 -43170.61       
+29 0.0020205008   65  7.890002e-03 -43162.99       
+30 0.0018410051   65  8.033405e-03 -43157.05       
+31 0.0016774553   72  8.158161e-03 -43151.70       
+32 0.0015284348   74  8.270631e-03 -43146.30       
+33 0.0013926529   76  8.367796e-03 -43141.81       
+34 0.0012689334   78  8.451083e-03 -43137.79       
+35 0.0011562049   82  8.523751e-03 -43134.44       
+36 0.0010534908   84  8.586213e-03 -43131.80       
+37 0.0009599016   85  8.639329e-03 -43129.38       
+38 0.0008746266   87  8.684840e-03 -43127.39       
+39 0.0007969272   88  8.723562e-03 -43126.11       
+40 0.0007261304   88  8.754417e-03 -43125.43       
+41 0.0006616229   90  8.781817e-03 -43124.97       
+42 0.0006028462   92  8.805102e-03 -43124.48       
+43 0.0005492910   93  8.824691e-03 -43124.13       
+44 0.0005004935   93  8.841154e-03 -43123.88       
+45 0.0004560310   93  8.854846e-03 -43123.72       
+46 0.0004155185   93  8.866238e-03 -43123.63       
+47 0.0003786050   94  8.875765e-03 -43123.54   *** 
+Load full data
+Train full model
+Time difference of 1.40731 mins
+Full model info
+df 94
+coefs 0.4996 0 -0.8256 0.1318 -0.4479 0.9329 0.435 -0.04495 -0.3106 -0.547 -0.07147 -0.01414 -2.056 -0.2384 -0.299 0.2723 -0.3957 -0.3093 -0.7542 -0.6508 -0.9888 1.905 0.7726 0 -0.5325 1.483 0.3635 0.2188 1.01 0.1907 0.7413 -1.41 1.539 -0.321 0.05376 -0.0632 0.03971 0.2146 -0.9739 0.4344 -0.1615 2.268 1.793 0.1866 -1.145 -1.465 0.4092 -1.379 0.5542 0.147 -0.08796 0.3783 0 -0.7198 -0.03868 0.9434 -1.422 -0.7119 -0.02796 0.1105 -0.2497 -0.9279 -0.1566 -0.8324 0.1478 -0.1244 -0.1349 4.275 0.2015 0.7557 -0.4573 -0.1456 0.04448 0.6362 0.4191 0.01191 -0.936 -0.1901 1.087 0.1202 0.2878 0.1186 0 -2.228 0 0.6146 0.06556 0.194 0.2242 0 0.03141 2.439 -0.6863 0.1605 0.1111 -0.9161 0.2325 -0.1144 5.365 34.15
+AUC	/usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=1.out	0.544629
+(; Rscript -e ; )  977.59s user 50.25s system 99% cpu 17:13.60 total
+END /usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=1.out

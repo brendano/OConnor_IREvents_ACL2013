@@ -1,0 +1,1420 @@
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=7.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 2 items
+Load data from disk
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+Time difference of 11.27739 secs
+Load tuning data
+Train tuning model
+Time difference of 1.451216 secs
+Tuning path analysis
+     g.lambda g.df   g.dev.ratio       lls chosen
+1 0.003583788    0 -3.376732e-12 -44184.18   *** 
+2 0.003265414    1  6.292045e-06 -44188.58       
+3 0.002975324    1  1.151651e-05 -44192.62       
+4 0.002711004    1  1.585496e-05 -44196.31       
+5 0.002470166    1  1.945795e-05 -44199.69       
+Load full data
+Train full model
+Time difference of 8.620282 secs
+Full model info
+df 2
+coefs -2.993 0.7532
+AUC	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=7.out	0.539238
+(; Rscript -e ; )  47.71s user 4.36s system 91% cpu 57.117 total
+END /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=7.out
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=5.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 3 items
+Load data from disk
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+Time difference of 17.11291 secs
+Load tuning data
+Train tuning model
+Time difference of 4.513877 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.022791359    0 -3.376732e-12 -44184.18   *** 
+2  0.020766637    1  2.544756e-04 -44189.61       
+3  0.018921786    1  4.657692e-04 -44195.16       
+4  0.017240827    1  6.412234e-04 -44200.71       
+5  0.015709199    1  7.869264e-04 -44206.18       
+6  0.014313638    1  9.079281e-04 -44211.50       
+7  0.013042053    1  1.008419e-03 -44216.64       
+8  0.011883433    1  1.091877e-03 -44221.56       
+9  0.010827742    2  1.180143e-03 -44226.09       
+10 0.009865835    2  1.290017e-03 -44230.10       
+11 0.008989382    2  1.381770e-03 -44233.93       
+12 0.008190790    2  1.458546e-03 -44237.56       
+13 0.007463142    2  1.522883e-03 -44241.00       
+14 0.006800137    2  1.576851e-03 -44244.23       
+15 0.006196032    2  1.622154e-03 -44247.27       
+16 0.005645594    2  1.660196e-03 -44250.12       
+17 0.005144055    2  1.692148e-03 -44252.78       
+18 0.004687071    2  1.718984e-03 -44255.25       
+19 0.004270685    2  1.741520e-03 -44257.56       
+20 0.003891289    2  1.760440e-03 -44259.70       
+21 0.003545597    2  1.776318e-03 -44261.69       
+22 0.003230616    2  1.789638e-03 -44263.53       
+23 0.002943617    2  1.800807e-03 -44265.24       
+24 0.002682114    2  1.810168e-03 -44266.81       
+Load full data
+Train full model
+Time difference of 4.668096 secs
+Full model info
+df 0
+coefs 0 0 0
+AUC	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=5.out	0.416204
+(; Rscript -e ; )  50.54s user 3.66s system 93% cpu 57.911 total
+END /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=5.out
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 3 items
+Load data from disk
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+dense theta load
+Read 1451187 items
+Time difference of 16.74798 secs
+Load tuning data
+Train tuning model
+Time difference of 5.931993 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.025348335    0 -3.376732e-12 -44184.18       
+2  0.023096459    1  3.176719e-04 -44174.74       
+3  0.021044633    1  5.952495e-04 -44166.06       
+4  0.019175086    1  8.468604e-04 -44157.88       
+5  0.017471624    2  1.098109e-03 -44150.26       
+6  0.015919493    2  1.457630e-03 -44144.82       
+7  0.014505249    2  1.779484e-03 -44139.78       
+8  0.013216643    2  2.067585e-03 -44135.09       
+9  0.012042513    2  2.324766e-03 -44130.70       
+10 0.010972689    2  2.553385e-03 -44126.60       
+11 0.009997906    2  2.755649e-03 -44122.77       
+12 0.009109719    2  2.933736e-03 -44119.21       
+13 0.008300437    2  3.089813e-03 -44115.89       
+14 0.007563049    2  3.226016e-03 -44112.81       
+15 0.006891169    2  3.344410e-03 -44109.95       
+16 0.006278976    2  3.446952e-03 -44107.29       
+17 0.005721169    2  3.535471e-03 -44104.82       
+18 0.005212916    2  3.611655e-03 -44102.53       
+19 0.004749815    2  3.677040e-03 -44100.40       
+20 0.004327855    2  3.733011e-03 -44098.43       
+21 0.003943380    2  3.780812e-03 -44096.60       
+22 0.003593061    2  3.821543e-03 -44094.91       
+23 0.003273863    2  3.856181e-03 -44093.35       
+24 0.002983022    2  3.885580e-03 -44091.90       
+25 0.002718019    2  3.910490e-03 -44090.56       
+26 0.002476558    2  3.931561e-03 -44089.32       
+27 0.002256547    2  3.949359e-03 -44088.18       
+28 0.002056082    2  3.964370e-03 -44087.13       
+29 0.001873425    2  3.977016e-03 -44086.16       
+30 0.001706995    2  3.987654e-03 -44085.27       
+31 0.001555350    2  3.996596e-03 -44084.46   *** 
+Load full data
+Train full model
+Time difference of 11.30722 secs
+Full model info
+df 2
+coefs 0.05569 0 -18.22
+AUC	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=1.out	0.402086
+(; Rscript -e ; )  62.43s user 5.33s system 95% cpu 1:11.26 total
+END /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=1.out
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=8.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 10 items
+Load data from disk
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+Time difference of 40.73916 secs
+Load tuning data
+Train tuning model
+Time difference of 10.80436 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.058359112    0 -3.376732e-12 -44184.18       
+2  0.053174649    1  1.669462e-03 -44113.01       
+3  0.048450760    1  3.060226e-03 -44051.55       
+4  0.044146528    1  4.221922e-03 -43998.28       
+5  0.040224672    1  5.194194e-03 -43951.98       
+6  0.036651223    3  6.863106e-03 -43884.24       
+7  0.033395229    4  9.284725e-03 -43761.98       
+8  0.030428489    4  1.173992e-02 -43610.37       
+9  0.027725306    4  1.378810e-02 -43477.20       
+10 0.025262266    5  1.557826e-02 -43356.21       
+11 0.023018036    5  1.714352e-02 -43246.27       
+12 0.020973177    6  1.850919e-02 -43151.54       
+13 0.019109978    6  1.977585e-02 -43073.05       
+14 0.017412300    6  2.083284e-02 -43003.86       
+15 0.015865440    7  2.175686e-02 -42939.22       
+16 0.014455998    7  2.262929e-02 -42873.19       
+17 0.013171767    7  2.335670e-02 -42814.60       
+18 0.012001623    7  2.396308e-02 -42762.54       
+19 0.010935432    7  2.446850e-02 -42716.20       
+20 0.009963958    7  2.488971e-02 -42674.89       
+21 0.009078788    7  2.524068e-02 -42638.00       
+22 0.008272253    7  2.553306e-02 -42605.02       
+23 0.007537369    7  2.577660e-02 -42575.49       
+24 0.006867770    7  2.597941e-02 -42549.02       
+25 0.006257656    8  2.616486e-02 -42526.34       
+26 0.005701743    8  2.632043e-02 -42506.09       
+27 0.005195216    8  2.644990e-02 -42487.90       
+28 0.004733687    8  2.655762e-02 -42471.54       
+29 0.004313160    8  2.664723e-02 -42456.82       
+30 0.003929991    9  2.672234e-02 -42443.50       
+31 0.003580861    9  2.679141e-02 -42430.80       
+32 0.003262747    9  2.684889e-02 -42419.32       
+33 0.002972894    9  2.689671e-02 -42408.95       
+34 0.002708790    9  2.693652e-02 -42399.56       
+35 0.002468149    9  2.696964e-02 -42391.07       
+36 0.002248885    9  2.699720e-02 -42383.37       
+37 0.002049100    9  2.702014e-02 -42376.39       
+38 0.001867064    9  2.703922e-02 -42370.06       
+39 0.001701199    9  2.705509e-02 -42364.32       
+40 0.001550069    9  2.706829e-02 -42359.11       
+41 0.001412365    9  2.707927e-02 -42354.38       
+42 0.001286895    9  2.708840e-02 -42350.08   *** 
+Load full data
+===
+START /usr/users/9/brenocon/ptab/s/255367.v7.sf.k=100.c=sg.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 20 items
+Load data from disk
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+dense theta load
+Read 9674580 items
+Time difference of 1.336636 mins
+Load tuning data
+===
+START /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=2.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 50 items
+Load data from disk
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=6.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 10 items
+Load data from disk
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+Time difference of 41.4357 secs
+Load tuning data
+Train tuning model
+Time difference of 10.70067 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.049510940    0 -3.376732e-12 -44184.18       
+2  0.045112525    1  1.201374e-03 -44128.87       
+3  0.041104852    1  2.201100e-03 -44080.97       
+4  0.037453211    3  3.836925e-03 -43998.80       
+5  0.034125971    3  5.855157e-03 -43901.59       
+6  0.031094313    3  7.536996e-03 -43817.07       
+7  0.028331980    3  8.939654e-03 -43743.34       
+8  0.025815045    4  1.055089e-02 -43662.35       
+9  0.023521708    7  1.229668e-02 -43575.93       
+10 0.021432104    7  1.410042e-02 -43491.38       
+11 0.019528135    7  1.560345e-02 -43417.36       
+12 0.017793309    7  1.685640e-02 -43352.41       
+13 0.016212601    7  1.790114e-02 -43295.29       
+14 0.014772318    7  1.877237e-02 -43244.94       
+15 0.013459986    7  1.949894e-02 -43200.47       
+16 0.012264238    8  2.011224e-02 -43159.79       
+17 0.011174717    8  2.066980e-02 -43114.35       
+18 0.010181986    8  2.114251e-02 -43072.38       
+19 0.009277446    8  2.153839e-02 -43034.53       
+20 0.008453263    8  2.186868e-02 -43000.61       
+21 0.007702299    8  2.214392e-02 -42970.23       
+22 0.007018048    8  2.237200e-02 -42943.32       
+23 0.006394584    8  2.256272e-02 -42918.96       
+24 0.005826507    8  2.272177e-02 -42897.01       
+25 0.005308896    9  2.286555e-02 -42875.12       
+26 0.004837268    9  2.298980e-02 -42854.50       
+27 0.004407539    9  2.309334e-02 -42835.87       
+28 0.004015985    9  2.317964e-02 -42819.04       
+29 0.003659216    9  2.325156e-02 -42803.82       
+30 0.003334141    9  2.331150e-02 -42790.05       
+31 0.003037945    9  2.336145e-02 -42777.58       
+32 0.002768063    9  2.340308e-02 -42766.28       
+33 0.002522156    9  2.343776e-02 -42756.04       
+34 0.002298094    9  2.346666e-02 -42746.75       
+35 0.002093938    9  2.349073e-02 -42738.32       
+36 0.001907918    9  2.351077e-02 -42730.67       
+37 0.001738424    9  2.352746e-02 -42723.71       
+38 0.001583987    9  2.354135e-02 -42717.40       
+39 0.001443270    9  2.355291e-02 -42711.66       
+40 0.001315054    9  2.356254e-02 -42706.44   *** 
+Load full data
+Train full model
+===
+START /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 50 items
+Load data from disk
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+Read 24186450 items
+dense theta load
+===
+START /usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 50 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=5.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 10 items
+Load data from disk
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+dense theta load
+Read 4837290 items
+Time difference of 41.06345 secs
+Load tuning data
+Train tuning model
+Time difference of 10.08747 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.056991486    0 -3.376732e-12 -44184.18       
+2  0.051928520    1  1.591368e-03 -44175.19       
+3  0.047315333    1  2.913466e-03 -44169.41       
+4  0.043111969    1  4.012450e-03 -44166.13       
+5  0.039282021    2  5.454974e-03 -44118.08       
+6  0.035792314    2  7.242670e-03 -44023.44       
+7  0.032612624    3  8.918711e-03 -43937.36       
+8  0.029715408    3  1.046010e-02 -43859.71       
+9  0.027075573    4  1.184530e-02 -43785.23       
+10 0.024670254    4  1.322988e-02 -43703.96       
+11 0.022478616    4  1.438436e-02 -43632.34       
+12 0.020481678    4  1.534741e-02 -43569.07       
+13 0.018662142    5  1.623189e-02 -43511.59       
+14 0.017004249    5  1.704499e-02 -43459.21       
+15 0.015493638    5  1.772319e-02 -43412.70       
+16 0.014117226    5  1.828883e-02 -43371.31       
+17 0.012863091    5  1.876056e-02 -43334.43       
+18 0.011720369    5  1.915392e-02 -43301.50       
+19 0.010679164    5  1.948195e-02 -43272.07       
+20 0.009730456    6  1.980016e-02 -43241.98       
+21 0.008866030    6  2.008032e-02 -43213.70       
+22 0.008078396    6  2.031369e-02 -43188.29       
+23 0.007360733    6  2.050804e-02 -43165.43       
+24 0.006706826    6  2.066986e-02 -43144.84       
+25 0.006111010    6  2.080457e-02 -43126.28       
+26 0.005568125    6  2.091670e-02 -43109.54       
+27 0.005073468    6  2.101001e-02 -43094.42       
+28 0.004622755    6  2.108765e-02 -43080.75       
+29 0.004212082    6  2.115225e-02 -43068.40       
+30 0.003837893    6  2.120598e-02 -43057.22       
+31 0.003496945    6  2.125067e-02 -43047.10       
+32 0.003186286    7  2.128874e-02 -43038.15       
+33 0.002903225    7  2.132362e-02 -43030.86       
+34 0.002645310    8  2.135475e-02 -43024.44       
+35 0.002410308    8  2.138314e-02 -43018.78       
+36 0.002196183    8  2.140674e-02 -43013.66       
+37 0.002001080    8  2.142633e-02 -43009.01       
+38 0.001823310    9  2.144359e-02 -43003.43       
+39 0.001661332    9  2.145810e-02 -42998.02       
+40 0.001513744    9  2.147017e-02 -42993.05       
+41 0.001379267    9  2.148021e-02 -42988.51       
+42 0.001256737    9  2.148855e-02 -42984.38   *** 
+Load full data
+===
+START /usr/users/9/brenocon/ptab/s/255371.v7.sf.k=100.c=sg.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+dense theta load
+Read 48372900 items
+dense theta load
+Read 48372900 items
+dense theta load
+===
+START /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=8.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 10 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+Time difference of 1.386414 mins
+Load tuning data
+===
+START /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=2.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 3 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+Time difference of 48.99956 secs
+Load tuning data
+Train tuning model
+Time difference of 4.299112 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.023654117    0 -3.376732e-12 -44184.18       
+2  0.021552750    1  2.741565e-04 -44158.66       
+3  0.019638063    1  5.020268e-04 -44137.37       
+4  0.017893472    1  6.915944e-04 -44119.57       
+5  0.016303865    1  8.493999e-04 -44104.69       
+6  0.014855475    1  9.808249e-04 -44092.23       
+7  0.013535755    1  1.090312e-03 -44081.78       
+8  0.012333276    2  1.244648e-03 -44070.75       
+9  0.011237622    2  1.386139e-03 -44061.65       
+10 0.010239303    2  1.503806e-03 -44054.65       
+11 0.009329671    2  1.601661e-03 -44049.33       
+12 0.008500849    2  1.683037e-03 -44045.38       
+13 0.007745657    2  1.750707e-03 -44042.51       
+14 0.007057554    2  1.806977e-03 -44040.51       
+15 0.006430580    2  1.853763e-03 -44039.20       
+16 0.005859305    2  1.892661e-03 -44038.43       
+17 0.005338781    2  1.925000e-03 -44038.08       
+18 0.004864498    2  1.951882e-03 -44038.06   *** 
+19 0.004432350    2  1.974227e-03 -44038.28       
+20 0.004038592    2  1.992799e-03 -44038.69       
+21 0.003679815    2  2.008235e-03 -44039.23       
+22 0.003352910    2  2.021062e-03 -44039.86       
+23 0.003055047    2  2.031721e-03 -44040.55       
+24 0.002783645    2  2.040578e-03 -44041.28       
+Load full data
+Train full model
+Time difference of 10.23973 secs
+Full model info
+df 2
+coefs 0.0575 0.4513 0
+===
+START /usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=4.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 50 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+===
+START /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=8.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 100 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+===
+START /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=4.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 2 items
+Load data from disk
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+dense theta load
+Read 967458 items
+Time difference of 10.42155 secs
+Load tuning data
+Train tuning model
+Time difference of 4.599429 secs
+Tuning path analysis
+      g.lambda g.df   g.dev.ratio       lls chosen
+1  0.032949053    0 -3.376732e-12 -44184.18       
+2  0.030021950    2  5.317306e-04 -44164.72       
+3  0.027354883    2  9.737964e-04 -44148.22       
+4  0.024924750    2  1.341735e-03 -44134.20       
+5  0.022710504    2  1.648219e-03 -44122.26       
+6  0.020692966    2  1.903649e-03 -44112.06       
+7  0.018854660    2  2.116596e-03 -44103.34       
+8  0.017179664    2  2.294152e-03 -44095.86       
+9  0.015653470    2  2.442205e-03 -44089.44       
+10 0.014262859    2  2.565650e-03 -44083.93       
+11 0.012995786    2  2.668564e-03 -44079.17       
+12 0.011841276    2  2.754347e-03 -44075.07       
+13 0.010789329    2  2.825837e-03 -44071.52       
+14 0.009830835    2  2.885401e-03 -44068.44       
+15 0.008957491    2  2.935019e-03 -44065.77       
+16 0.008161732    2  2.976341e-03 -44063.45       
+17 0.007436666    2  3.010747e-03 -44061.43       
+18 0.006776013    2  3.039387e-03 -44059.66       
+19 0.006174051    2  3.063223e-03 -44058.12       
+20 0.005625565    2  3.083057e-03 -44056.77       
+21 0.005125806    2  3.099557e-03 -44055.58       
+22 0.004670443    2  3.113281e-03 -44054.53       
+23 0.004255534    2  3.124695e-03 -44053.61       
+24 0.003877484    2  3.134186e-03 -44052.80   *** 
+Load full data
+===
+START /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=7.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 4 items
+Load data from disk
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+sparse eta load & theta calc
+===
+START /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=1.out
+Loading required package: methods
+Loading required package: gplots
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object(s) are masked from ‘package:stats’:
+
+    nobs
+
+The following object(s) are masked from ‘package:utils’:
+
+    object.size
+
+Loading required package: caTools
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: ‘gplots’
+
+The following object(s) are masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: Matrix
+Loading required package: lattice
+Loaded glmnet 1.9-3
+
+
+Attaching package: ‘plyr’
+
+The following object(s) are masked from ‘package:lubridate’:
+
+    here
+
+Read 20 items
+Load data from disk
+dense theta load
+Read 9674580 items
+dense theta load

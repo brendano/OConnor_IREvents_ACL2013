@@ -1,7 +1,7 @@
 source("plotcommon.r")
 source("functions.r")
 # d=load_scale_results("scaleeval.sample=5000")
-d=load_scale_results("scaleevals/scaleeval.new.txt")
+d=load_scale_results("scaleevals/scaleeval.new2.txt")
 # d=d[!bgrep("252380",d$modelname),]
 
 dn=read.table(pipe("grep -h NULL ~/ptab/verbdict/internal_diff_null*"))
@@ -37,5 +37,5 @@ p = p + ylab("Scale impurity\n(lower is better)\n")
 p = p + xlab("Number of frames (K)")
 p = p + theme(plot.margin=unit(c(0.1, 0, 0, 0.0),"in"))
 print(p)
-ggsave("scale_results.pdf", width=5, height=3)
+ggsave("scale_results.pdf", width=5, height=2.5)
 system("cp scale_results.pdf ~/ptab/writing/newplots")

@@ -1,0 +1,758 @@
+112	accus	|nsubj->|accuse/VERB|dobj,<-	1716
+020	urg	|nsubj->|urge/VERB|dobj,<-	1289
+040	meet with_	|nsubj->|meet/VERB|prep_with,<-	966
+130	warn	|nsubj->|warn/VERB|dobj,<-	534
+020	calling_on	|nsubj->|call/VERB|prep_on,<-	467
+057	sign with_	|nsubj->|sign/VERB|prep_with,<-	333
+120	reject	|nsubj->|reject/VERB|dobj,<-	329
+042	visit	|nsubj->|visit/VERB|dobj,<-	318
+112	blam	|nsubj->|blame/VERB|dobj,<-	252
+020	appeal to_	|nsubj->|appeal/VERB|prep_to,<-	252
+042	travel to_	|nsubj->|travel/VERB|prep_to,<-	248
+051	prais	|nsubj->|praise/VERB|dobj,<-	244
+111!	condemn	|nsubj->|condemn/VERB|dobj,<-	235
+190	kill	|nsubj->|kill/VERB|dobj,<-	230
+036	fly to_	|nsubj->|fly/VERB|prep_to,<-	229
+020	called_for_	|nsubj->|call/VERB|prep_for,<-	202
+042	return to_	|nsubj->|return/VERB|prep_to,<-	198
+051	welcom	|nsubj->|welcome/VERB|dobj,<-	179
+040	meet in_	|nsubj->|meet/VERB|prep_in,<-	152
+046	discuss with_	|nsubj->|discuss/VERB|prep_with,<-	137
+036	leave ENTITYSKIP for_	|nsubj->|leave/VERB|prep_for,<-	136
+111	denounc	|nsubj->|denounce/VERB|dobj,<-	135
+190	said killed	|nsubj->|say/VERB|ccomp<-|kill/VERB|nsubjpass,<-	130
+173	arrest	|nsubj->|arrest/VERB|dobj,<-	121
+190	fire at_	|nsubj->|fire/VERB|prep_at,<-	120
+042	head to_	|nsubj->|head/VERB|prep_to,<-	111
+190	attack	|nsubj->|attack/VERB|dobj,<-	110
+030	assure	|nsubj->|assure/VERB|dobj,<-	98
+084	release	|nsubj->|release/VERB|dobj,<-	96
+043	host	|nsubj->|host/VERB|dobj,<-	93
+110	dismiss	|nsubj->|dismiss/VERB|dobj,<-	91
+051	thank	|nsubj->|thank/VERB|dobj,<-	90
+190	clash with_	|nsubj->|clash/VERB|prep_with,<-	85
+032	back	|nsubj->|back/VERB|dobj,<-	84
+0874	withdraw_from	|nsubj->|withdraw/VERB|prep_from,<-	83
+173	detain	|nsubj->|detain/VERB|dobj,<-	79
+173	convict	|nsubj->|convict/VERB|dobj,<-	76
+046	discuss	|nsubj->|discuss/VERB|dobj,<-	73
+114	protest to_	|nsubj->|protest/VERB|prep_to,<-	71
+190	raid	|nsubj->|raid/VERB|dobj,<-	68
+174	expel	|nsubj->|expel/VERB|dobj,<-	67
+192	mov into	|nsubj->|move/VERB|prep_into,<-	64
+051	congratulate	|nsubj->|congratulate/VERB|dobj,<-	64
+173	seiz	|nsubj->|seize/VERB|dobj,<-	63
+173	said arrested	|nsubj->|say/VERB|ccomp<-|arrest/VERB|dobj,<-	59
+051	welcom decision	|nsubj->|welcome/VERB|dobj<-|decision/NOUN|poss,<-	59
+010?	quot	|nsubj->|quote/VERB|dobj,<-	59
+190	pound	|nsubj->|pound/VERB|dobj,<-	57
+190	strike	|nsubj->|strike/VERB|dobj,<-	55
+050	negotiat with_	|nsubj->|negotiate/VERB|prep_with,<-	55
+042	land in_	|nsubj->|land/VERB|prep_in,<-	55
+172	ban_	|nsubj->|ban/VERB|dobj,<-	52
+046	meet discuss	|nsubj->|meet/VERB|xcomp<-|discuss/VERB|dobj,<-	50
+190	battl	|nsubj->|battle/VERB|dobj,<-	48
+111	condemn ENTITYSKIP on_	|nsubj->|condemn/VERB|prep_on,<-	48
+051	endorse	|nsubj->|endorse/VERB|dobj,<-	48
+020	said asked	|nsubj->|say/VERB|ccomp<-|ask/VERB|dobj,<-	48
+040	summon	|nsubj->|summon/VERB|dobj,<-	47
+193	shoot	|nsubj->|shoot/VERB|dobj,<-	45
+114	complain to_	|nsubj->|complain/VERB|prep_to,<-	45
+010	said expect	|nsubj->|say/VERB|ccomp<-|expect/VERB|dobj,<-	45
+130	caution	|nsubj->|caution/VERB|dobj,<-	44
+042	touring	|nsubj->|tour/VERB|dobj,<-	44
+190	said killed	|nsubj->|say/VERB|ccomp<-|kill/VERB|dobj,<-	41
+046	receive	|nsubj->|receive/VERB|dobj,<-	41
+190	clash in_	|nsubj->|clash/VERB|prep_in,<-	38
+172	bar_	|nsubj->|bar/VERB|dobj,<-	36
+129	veto	|nsubj->|veto/VERB|dobj,<-	36
+042	return from	|nsubj->|return/VERB|prep_from,<-	36
+042	head for_	|nsubj->|head/VERB|prep_for,<-	34
+040	confer with_	|nsubj->|confer/VERB|prep_with,<-	33
+051	say support	|nsubj->|say/VERB|ccomp<-|support/VERB|dobj,<-	32
+010	said after meeting	|nsubj->|say/VERB|prepc_after<-|meet/VERB|dobj,<-	32
+020	appeal for_	|nsubj->|appeal/VERB|prep_for,<-	31
+080	surrender to_	|nsubj->|surrender/VERB|prep_to,<-	30
+031	exchang with	|nsubj->|exchange/VERB|prep_with,<-	30
+111	rebuke	|nsubj->|rebuke/VERB|dobj,<-	29
+051	hail	|nsubj->|hail/VERB|dobj,<-	29
+111	chide	|nsubj->|chide/VERB|dobj,<-	28
+090	search for_	|nsubj->|search/VERB|prep_for,<-	27
+051	said welcome	|nsubj->|say/VERB|ccomp<-|welcome/VERB|dobj,<-	27
+010	said expect	|nsubj->|say/VERB|ccomp<-|expect/VERB|nsubjpass,<-	27
+010	describ	|nsubj->|describe/VERB|dobj,<-	27
+112	said violat	|nsubj->|say/VERB|ccomp<-|violate/VERB|dobj,<-	26
+192	roll into	|nsubj->|roll/VERB|prep_into,<-	25
+128	defy	|nsubj->|defy/VERB|dobj,<-	25
+110	said opposed	|nsubj->|say/VERB|ccomp<-|oppose/VERB|dobj,<-	25
+042	dispatch to_	|nsubj->|dispatch/VERB|prep_to,<-	25
+026	said meet	|nsubj->|say/VERB|ccomp<-|meet/VERB|dobj,<-	25
+073	rescue	|nsubj->|rescue/VERB|dobj,<-	24
+057	sign agreement with	|nsubj->|sign/VERB|dobj<-|agreement/NOUN|prep_with,<-	24
+017	greet	|nsubj->|greet/VERB|dobj,<-	24
+193	shelled	|nsubj->|shell/VERB|dobj,<-	23
+046	talk with	|nsubj->|talk/VERB|prep_with,<-	23
+020	propos	|nsubj->|propose/VERB|dobj,<-	23
+130	said warning	|nsubj->|say/VERB|ccomp<-|warn/VERB|dobj,<-	22
+081	acquit	|nsubj->|acquit/VERB|dobj,<-	22
+051	condemn killing of_	|nsubj->|condemn/VERB|dobj<-|killing/NOUN|prep_of,<-	22
+046	said negotiat with	|nsubj->|say/VERB|ccomp<-|negotiate/VERB|prep_with,<-	22
+130	break_with	|nsubj->|break/VERB|prep_with,<-	21
+051	honor	|nsubj->|honor/VERB|dobj,<-	21
+042	gather in_	|nsubj->|gather/VERB|prep_in,<-	21
+042	depart for_	|nsubj->|depart/VERB|prep_for,<-	20
+020	said urg	|nsubj->|say/VERB|ccomp<-|urge/VERB|dobj,<-	20
+120	reject demand	|nsubj->|reject/VERB|dobj<-|demand/NOUN|poss,<-	19
+111	condemn decision	|nsubj->|condemn/VERB|dobj<-|decision/NOUN|poss,<-	19
+090	said investigating	|nsubj->|say/VERB|ccomp<-|investigate/VERB|dobj,<-	19
+193	rocketed	|nsubj->|rocket/VERB|dobj,<-	18
+051	applaud	|nsubj->|applaud/VERB|dobj,<-	18
+036	said going to_	|nsubj->|say/VERB|ccomp<-|go/VERB|prep_to,<-	18
+111	chastise	|nsubj->|chastise/VERB|dobj,<-	17
+1053	demand release of_	|nsubj->|demand/VERB|dobj<-|release/NOUN|prep_of,<-	17
+051	encourag	|nsubj->|encourage/VERB|dobj,<-	17
+173	indict	|nsubj->|indict/VERB|dobj,<-	16
+053	calling_for release of_	|nsubj->|call/VERB|prep_for<-|release/NOUN|prep_of,<-	16
+051	said recognize	|nsubj->|say/VERB|ccomp<-|recognize/VERB|dobj,<-	16
+041	telephone	|nsubj->|telephone/VERB|dobj,<-	16
+010	said detain	|nsubj->|say/VERB|ccomp<-|detain/VERB|dobj,<-	16
+160	evacuat from_	|nsubj->|evacuate/VERB|prep_from,<-	15
+120	said reject	|nsubj->|say/VERB|ccomp<-|reject/VERB|dobj,<-	15
+051	sided_with	|nsubj->|side/VERB|prep_with,<-	15
+051	lauded	|nsubj->|laud/VERB|dobj,<-	15
+036	plan travel to_	|nsubj->|plan/VERB|xcomp<-|travel/VERB|prep_to,<-	15
+020	urg	|nsubj->|urge/VERB|tmod,<-	15
+180	ambush	|nsubj->|ambush/VERB|dobj,<-	14
+042	rush to_	|nsubj->|rush/VERB|prep_to,<-	14
+036	plan visit	|nsubj->|plan/VERB|xcomp<-|visit/VERB|dobj,<-	14
+080	flee to_	|nsubj->|flee/VERB|prep_to,<-	13
+051	condemn bombing in_	|nsubj->|condemn/VERB|dobj<-|bombing/NOUN|prep_in,<-	13
+036	said invit	|nsubj->|say/VERB|ccomp<-|invite/VERB|dobj,<-	13
+030	said back	|nsubj->|say/VERB|ccomp<-|back/VERB|dobj,<-	13
+020	advise	|nsubj->|advise/VERB|dobj,<-	13
+130	warn	|nsubj->|warn/VERB|tmod,<-	12
+130	said target	|nsubj->|say/VERB|ccomp<-|target/VERB|dobj,<-	12
+111	assail	|nsubj->|assail/VERB|dobj,<-	12
+0841	order release of_	|nsubj->|order/VERB|dobj<-|release/NOUN|prep_of,<-	12
+064	assist	|nsubj->|assist/VERB|dobj,<-	12
+040	debate	|nsubj->|debate/VERB|dobj,<-	12
+036	announc visit	|nsubj->|announce/VERB|ccomp<-|visit/VERB|dobj,<-	12
+030	offer help	|nsubj->|offer/VERB|xcomp<-|help/VERB|dobj,<-	12
+020	implore	|nsubj->|implore/VERB|dobj,<-	12
+192	push into_	|nsubj->|push/VERB|prep_into,<-	11
+173	said arrested	|nsubj->|say/VERB|ccomp<-|arrest/VERB|nsubjpass,<-	11
+141	protest against	|nsubj->|protest/VERB|prep_against,<-	11
+111	brand	|nsubj->|brand/VERB|dobj,<-	11
+070	extend mandate of_	|nsubj->|extend/VERB|dobj<-|mandate/NOUN|prep_of,<-	11
+036	said plan visit	|nsubj->|say/VERB|ccomp<-|plan/VERB|xcomp<-|visit/VERB|dobj,<-	11
+182	stoned	|nsubj->|stone/VERB|dobj,<-	10
+160	evacuat	|nsubj->|evacuate/VERB|dobj,<-	10
+120	reject request	|nsubj->|reject/VERB|dobj<-|request/NOUN|poss,<-	10
+120	reject proposal	|nsubj->|reject/VERB|dobj<-|proposal/NOUN|poss,<-	10
+111	scold	|nsubj->|scold/VERB|dobj,<-	10
+063	said extradit to_	|nsubj->|say/VERB|ccomp<-|extradite/VERB|prep_to,<-	10
+061	import from_	|nsubj->|import/VERB|prep_from,<-	10
+042	attend	|nsubj->|attend/VERB|dobj,<-	10
+022	seek support	|nsubj->|seek/VERB|dobj<-|support/NOUN|poss,<-	10
+014	said consider	|nsubj->|say/VERB|ccomp<-|consider/VERB|dobj,<-	10
+140	protest outside	|nsubj->|protest/VERB|prep_outside,<-	9
+051	commend	|nsubj->|commend/VERB|dobj,<-	9
+046	discuss situation in_ ENTITYSKIP	|nsubj->|discuss/VERB|dobj<-|situation/NOUN|prep_in,<-	9
+023	seek help	|nsubj->|seek/VERB|dobj<-|help/NOUN|poss,<-	9
+018	condemn slaying of_	|nsubj->|condemn/VERB|dobj<-|slaying/NOUN|prep_of,<-	9
+010	address	|nsubj->|address/VERB|dobj,<-	9
+190	kill	|nsubj->|kill/VERB|pobj,<-	8
+190	crash into	|nsubj->|crash/VERB|prep_into,<-	8
+174	extradite	|nsubj->|extradite/VERB|dobj,<-	8
+173	announc arrest of_	|nsubj->|announce/VERB|dobj<-|arrest/NOUN|prep_of,<-	8
+062	fight alongside	|nsubj->|fight/VERB|prep_alongside,<-	8
+032	pledg support	|nsubj->|pledge/VERB|xcomp<-|support/VERB|dobj,<-	8
+030	welcom offer	|nsubj->|welcome/VERB|dobj<-|offer/NOUN|poss,<-	8
+020	try persuade	|nsubj->|try/VERB|xcomp<-|persuade/VERB|dobj,<-	8
+020	suggest	|nsubj->|suggest/VERB|dobj,<-	8
+020	said need	|nsubj->|say/VERB|ccomp<-|need/VERB|nsubjpass,<-	8
+020	count on_	|nsubj->|count/VERB|prep_on,<-	8
+018	condemn assassination of_	|nsubj->|condemn/VERB|dobj<-|assassination/NOUN|prep_of,<-	8
+016	reject claim_	|nsubj->|reject/VERB|dobj<-|claim/NOUN|poss,<-	8
+012	said concern	|nsubj->|say/VERB|ccomp<-|concern/VERB|nsubjpass,<-	8
+195	attack target in_	|nsubj->|attack/VERB|dobj<-|target/NOUN|prep_in,<-	7
+141	demonstrat in_	|nsubj->|demonstrate/VERB|prep_in,<-	7
+120	reject call	|nsubj->|reject/VERB|dobj<-|call/NOUN|poss,<-	7
+111	snub	|nsubj->|snub/VERB|dobj,<-	7
+111	join in_ condemning	|nsubj->|join/VERB|prepc_in<-|condemn/VERB|dobj,<-	7
+111	admonish	|nsubj->|admonish/VERB|dobj,<-	7
+051	welcom plan	|nsubj->|welcome/VERB|dobj<-|plan/NOUN|poss,<-	7
+050	said reach agreement with	|nsubj->|say/VERB|ccomp<-|reach/VERB|dobj<-|agreement/NOUN|prep_with,<-	7
+036	said invit	|nsubj->|say/VERB|ccomp<-|invite/VERB|nsubjpass,<-	7
+020	recommend	|nsubj->|recommend/VERB|dobj,<-	7
+013	said free	|nsubj->|say/VERB|ccomp<-|free/VERB|dobj,<-	7
+010	said detain	|nsubj->|say/VERB|ccomp<-|detain/VERB|nsubjpass,<-	7
+173	confine	|nsubj->|confine/VERB|dobj,<-	6
+160	disband	|nsubj->|disband/VERB|dobj,<-	6
+141	demonstrat outside	|nsubj->|demonstrate/VERB|prep_outside,<-	6
+1125	accus of_ spying for_	|nsubj->|accuse/VERB|prep_of<-|spy/VERB|prep_for,<-	6
+060	ENTITYSKIP weigh	|nsubj->|weigh/VERB|dobj,<-	6
+052	hail decision	|nsubj->|hail/VERB|dobj<-|decision/NOUN|poss,<-	6
+051	welcom agreement	|nsubj->|welcome/VERB|dobj<-|agreement/NOUN|poss,<-	6
+051	condemn murder of_	|nsubj->|condemn/VERB|dobj<-|murder/NOUN|prep_of,<-	6
+042	visit_to_	|nsubj->|visit/VERB|prep_to,<-	6
+042	visit	|nsubj->|visit/VERB|tmod,<-	6
+033	pledg help rebuild	|nsubj->|pledge/VERB|xcomp<-|help/VERB|xcomp<-|rebuild/VERB|dobj,<-	6
+032	accept proposal	|nsubj->|accept/VERB|dobj<-|proposal/NOUN|poss,<-	6
+030	promis help	|nsubj->|promise/VERB|xcomp<-|help/VERB|dobj,<-	6
+022	urg support	|nsubj->|urge/VERB|xcomp<-|support/VERB|dobj,<-	6
+020	called_upon	|nsubj->|call/VERB|prep_upon,<-	6
+193	shoot	|nsubj->|shoot/VERB|tmod,<-	5
+191	seal border	|nsubj->|seal/VERB|dobj<-|border/NOUN|poss,<-	5
+190	strike against	|nsubj->|strike/VERB|prep_against,<-	5
+190	murder	|nsubj->|murder/VERB|dobj,<-	5
+190	battl with_	|nsubj->|battle/VERB|prep_with,<-	5
+182	stab_	|nsubj->|stab/VERB|dobj,<-	5
+174	said deport	|nsubj->|say/VERB|ccomp<-|deport/VERB|dobj,<-	5
+160	advise against travel to_	|nsubj->|advise/VERB|prepc_against<-|travel/VERB|prep_to,<-	5
+141	rally outside	|nsubj->|rally/VERB|prep_outside,<-	5
+1243	refuse release	|nsubj->|refuse/VERB|xcomp<-|release/VERB|dobj,<-	5
+120	reject	|nsubj->|reject/VERB|iobj,<-	5
+113	urg ENTITYSKIP act against	|nsubj->|urge/VERB|xcomp<-|act/VERB|prep_against,<-	5
+112	said destroying	|nsubj->|say/VERB|ccomp<-|destroy/VERB|dobj,<-	5
+100	put pressure on_	|nsubj->|put/VERB|dobj<-|pressure/NOUN|prep_on,<-	5
+090	search	|nsubj->|search/VERB|dobj,<-	5
+060	sign contract with	|nsubj->|sign/VERB|dobj<-|contract/NOUN|prep_with,<-	5
+051	saluted	|nsubj->|salute/VERB|dobj,<-	5
+051	cheer	|nsubj->|cheer/VERB|dobj,<-	5
+040	consult	|nsubj->|consult/VERB|dobj,<-	5
+0214	ask investigat	|nsubj->|ask/VERB|xcomp<-|investigate/VERB|dobj,<-	5
+017	mourn death_of_	|nsubj->|mourn/VERB|dobj<-|death/NOUN|prep_of,<-	5
+016	deny allegation	|nsubj->|deny/VERB|dobj<-|allegation/NOUN|poss,<-	5
+010	reiterat	|nsubj->|reiterate/VERB|dobj,<-	5
+190	fire at_	|agent->|fire/VERB|prep_at,<-	4
+173	order arrest of_	|nsubj->|order/VERB|dobj<-|arrest/NOUN|prep_of,<-	4
+163	boycott	|nsubj->|boycott/VERB|dobj,<-	4
+160	blacklist	|nsubj->|blacklist/VERB|dobj,<-	4
+141	attack by_	|nsubj->|attack/VERB|prep_by,<-	4
+138	plan attack	|nsubj->|plan/VERB|xcomp<-|attack/VERB|dobj,<-	4
+112	accus	|nsubj->|accuse/VERB|tmod,<-	4
+111	protest over	|nsubj->|protest/VERB|prep_over,<-	4
+111	decry	|nsubj->|decry/VERB|dobj,<-	4
+110	vote against	|nsubj->|vote/VERB|prep_against,<-	4
+110	said opposed	|nsubj->|say/VERB|ccomp<-|oppose/VERB|nsubjpass,<-	4
+110	hail arrest of_	|nsubj->|hail/VERB|dobj<-|arrest/NOUN|prep_of,<-	4
+106	demand meeting of_	|nsubj->|demand/VERB|dobj<-|meeting/NOUN|prep_of,<-	4
+090	inspect	|nsubj->|inspect/VERB|dobj,<-	4
+090	examin	|nsubj->|examine/VERB|dobj,<-	4
+080	surrender	|nsubj->|surrender/VERB|dobj,<-	4
+080	pardon	|nsubj->|pardon/VERB|dobj,<-	4
+071	cancel debt	|nsubj->|cancel/VERB|dobj<-|debt/NOUN|poss,<-	4
+061	sign export	|nsubj->|sign/VERB|xcomp<-|export/VERB|dobj,<-	4
+057	sign with_	|agent->|sign/VERB|prep_with,<-	4
+052	defend from	|nsubj->|defend/VERB|prep_from,<-	4
+051	welcom talk between	|nsubj->|welcome/VERB|dobj<-|talk/NOUN|prep_between,<-	4
+051	welcom proposal	|nsubj->|welcome/VERB|dobj<-|proposal/NOUN|poss,<-	4
+051	said pleased	|nsubj->|say/VERB|ccomp<-|please/VERB|nsubjpass,<-	4
+042	dock in_	|nsubj->|dock/VERB|prep_in,<-	4
+042	convene	|nsubj->|convene/VERB|dobj,<-	4
+040	hold meet	|nsubj->|hold/VERB|advcl<-|meet/VERB|dobj,<-	4
+036	said hoped meet	|nsubj->|say/VERB|ccomp<-|hope/VERB|xcomp<-|meet/VERB|dobj,<-	4
+036	plan visit	|nsubj->|plan/NOUN|xcomp<-|visit/VERB|dobj,<-	4
+036	called_for_ dialogue with_	|nsubj->|call/VERB|prep_for<-|dialogue/NOUN|prep_with,<-	4
+036	ask for_ meeting of_	|nsubj->|ask/VERB|prep_for<-|meeting/NOUN|prep_of,<-	4
+033	said donate to_	|nsubj->|say/VERB|ccomp<-|donate/VERB|prep_to,<-	4
+032	back	|nsubj->|back/VERB|iobj,<-	4
+020	said need	|nsubj->|say/VERB|ccomp<-|need/VERB|dobj,<-	4
+020	requir	|nsubj->|require/VERB|dobj,<-	4
+020	exhort	|nsubj->|exhort/VERB|dobj,<-	4
+016	refute	|nsubj->|refute/VERB|dobj,<-	4
+010	said_ question	|nsubj->|say/VERB|ccomp<-|question/VERB|dobj,<-	4
+010	express	|nsubj->|express/VERB|pobj,<-	4
+010	express	|nsubj->|express/VERB|dobj,<-	4
+194	fire missile at	|nsubj->|fire/VERB|dobj<-|missile/NOUN|prep_at,<-	3
+193	shoot	|nsubj->|shoot/VERB|pobj,<-	3
+192	recapture	|nsubj->|recapture/VERB|dobj,<-	3
+190	strike	|nsubj->|strike/VERB|tmod,<-	3
+190	kill	|nsubj->|kill/VERB|acomp,<-	3
+190	attack kill	|nsubj->|attack/VERB|advcl<-|kill/VERB|dobj,<-	3
+183	explod near	|nsubj->|explode/VERB|prep_near,<-	3
+1821	rape	|nsubj->|rape/VERB|dobj,<-	3
+173	detain	|agent->|detain/VERB|pobj,<-	3
+173	confirmed detain	|nsubj->|confirm/VERB|ccomp<-|detain/VERB|dobj,<-	3
+173	confirm arrest	|nsubj->|confirm/VERB|ccomp<-|arrest/VERB|nsubjpass,<-	3
+173	announc arrest	|nsubj->|announce/VERB|ccomp<-|arrest/VERB|dobj,<-	3
+172	fined	|nsubj->|fine/VERB|dobj,<-	3
+160	evacuat from_	|agent->|evacuate/VERB|prep_from,<-	3
+160	decid bar_	|nsubj->|decide/VERB|xcomp<-|bar/NOUN|dobj,<-	3
+145	burn effigy of_	|nsubj->|burn/VERB|dobj<-|effigy/NOUN|prep_of,<-	3
+141	stage protest	|nsubj->|stage/VERB|xcomp<-|protest/VERB|dobj,<-	3
+138	warn attack	|nsubj->|warn/VERB|ccomp<-|attack/VERB|dobj,<-	3
+131	said ban_	|nsubj->|say/VERB|ccomp<-|ban/VERB|dobj,<-	3
+120	reject	|nsubj->|reject/VERB|pobj,<-	3
+120	overruled	|nsubj->|overrule/VERB|dobj,<-	3
+112	implicate	|nsubj->|implicate/VERB|dobj,<-	3
+112	blam	|nsubj->|blame/VERB|tmod,<-	3
+112	blam	|nsubj->|blame/VERB|pobj,<-	3
+111	scorn	|nsubj->|scorn/VERB|dobj,<-	3
+111	oppos plan	|nsubj->|oppose/VERB|dobj<-|plan/NOUN|poss,<-	3
+111	censure	|nsubj->|censure/VERB|dobj,<-	3
+111	castigat	|nsubj->|castigate/VERB|dobj,<-	3
+110	said failed	|nsubj->|say/VERB|ccomp<-|fail/VERB|dobj,<-	3
+090	said investigating	|nsubj->|say/VERB|ccomp<-|investigate/VERB|nsubjpass,<-	3
+051	welcom statement	|nsubj->|welcome/VERB|dobj<-|statement/NOUN|poss,<-	3
+051	welcom release	|nsubj->|welcome/VERB|dobj<-|release/NOUN|poss,<-	3
+051	welcom	|nsubj->|welcome/VERB|xcomp,<-	3
+051	said trusted	|nsubj->|say/VERB|ccomp<-|trust/VERB|dobj,<-	3
+046	discuss	|nsubj->|discuss/VERB|pobj,<-	3
+046	discuss	|nsubj->|discuss/VERB|iobj,<-	3
+042	attend meeting ENTITYSKIP in_	|nsubj->|attend/VERB|dobj<-|meeting/NOUN|prep_in,<-	3
+036	said ready for_ dialogue with_	|nsubj->|say/VERB|ccomp<-|ready/ADJ|prep_for<-|dialogue/NOUN|prep_with,<-	3
+036	begin trip to_	|nsubj->|begin/VERB|dobj<-|trip/NOUN|prep_to,<-	3
+036	agree meet	|nsubj->|agree/VERB|xcomp<-|meet/VERB|dobj,<-	3
+036	accept invitation	|nsubj->|accept/VERB|dobj<-|invitation/NOUN|poss,<-	3
+032	pledg support to_	|nsubj->|pledge/VERB|xcomp<-|support/VERB|prep_to,<-	3
+032	back	|nsubj->|back/VERB|tmod,<-	3
+032	back	|nsubj->|back/VERB|pobj,<-	3
+030	oppos action against	|nsubj->|oppose/VERB|dobj<-|action/NOUN|prep_against,<-	3
+023	seek help	|nsubj->|seek/VERB|xcomp<-|help/VERB|dobj,<-	3
+020	join in_ calling for_	|nsubj->|join/VERB|prepc_in<-|call/VERB|prep_for,<-	3
+016	reject allegation	|nsubj->|reject/VERB|dobj<-|allegation/NOUN|poss,<-	3
+015	acknowledge	|nsubj->|acknowledge/VERB|ccomp,<-	3
+013	said hope	|nsubj->|say/VERB|ccomp<-|hope/VERB|dobj,<-	3
+013	said encouraged	|nsubj->|say/VERB|ccomp<-|encourage/VERB|dobj,<-	3
+012	express concern over	|nsubj->|express/VERB|dobj<-|concern/NOUN|prep_over,<-	3
+012	express concern about	|nsubj->|express/VERB|dobj<-|concern/NOUN|prep_about,<-	3
+010	said shared	|nsubj->|say/VERB|ccomp<-|share/VERB|dobj,<-	3
+010	outline	|nsubj->|outline/VERB|dobj,<-	3
+###	jet into_	|nsubj->|jet/VERB|prep_into,<-	3
+192	seiz control of_	|nsubj->|seize/VERB|dobj<-|control/NOUN|prep_of,<-	2
+190	said killed	|nsubj->|say/VERB|partmod<-|kill/VERB|dobj,<-	2
+190	said killed	|nsubj->|say/VERB|advcl<-|kill/VERB|nsubjpass,<-	2
+190	raid	|nsubj->|raid/VERB|ccomp,<-	2
+190	join attack on_	|nsubj->|join/VERB|dobj<-|attack/NOUN|prep_on,<-	2
+190	fire against	|nsubj->|fire/VERB|prep_against,<-	2
+190	battl	|nsubj->|battle/VERB|tmod,<-	2
+186	assassinat	|nsubj->|assassinate/VERB|dobj,<-	2
+1822	torture	|nsubj->|torture/VERB|dobj,<-	2
+181	snatch	|nsubj->|snatch/VERB|dobj,<-	2
+174	said deport	|nsubj->|say/VERB|ccomp<-|deport/VERB|nsubjpass,<-	2
+173	file charge against	|nsubj->|file/VERB|dobj<-|charge/NOUN|prep_against,<-	2
+173	extend detention of_	|nsubj->|extend/VERB|dobj<-|detention/NOUN|prep_of,<-	2
+173	confirm arrest	|nsubj->|confirm/VERB|ccomp<-|arrest/VERB|dobj,<-	2
+173	arrest ENTITYSKIP for_	|nsubj->|arrest/VERB|prep_for,<-	2
+173	arrest	|nsubj->|arrest/VERB|pobj,<-	2
+172	ban_ from_ enter	|nsubj->|ban/VERB|prepc_from<-|enter/VERB|dobj,<-	2
+164	fail meeting	|nsubj->|fail/VERB|xcomp<-|meet/VERB|dobj,<-	2
+154	begin deploy to_	|nsubj->|begin/VERB|xcomp<-|deploy/VERB|prep_to,<-	2
+145	loot	|nsubj->|loot/VERB|dobj,<-	2
+144	block arrival of_	|nsubj->|block/VERB|dobj<-|arrival/NOUN|prep_of,<-	2
+141	march protest	|nsubj->|march/VERB|xcomp<-|protest/VERB|dobj,<-	2
+1312	say boycott	|nsubj->|say/VERB|ccomp<-|boycott/NOUN|dobj,<-	2
+130	endanger	|nsubj->|endanger/VERB|dobj,<-	2
+129	veto by_	|nsubj->|veto/VERB|prep_by,<-	2
+127	reject decision	|nsubj->|reject/VERB|dobj<-|decision/NOUN|poss,<-	2
+120	reject plan_	|nsubj->|reject/VERB|dobj<-|plan/NOUN|poss,<-	2
+120	reject appeal	|nsubj->|reject/VERB|dobj<-|appeal/NOUN|poss,<-	2
+114	issue condemn	|nsubj->|issue/VERB|xcomp<-|condemn/VERB|dobj,<-	2
+112	try accused	|nsubj->|try/VERB|xcomp<-|accuse/VERB|dobj,<-	2
+112	faulted	|nsubj->|fault/VERB|dobj,<-	2
+112	charge with_	|nsubj->|charge/VERB|prep_with,<-	2
+112	accus	|nsubj->|accuse/VERB|xcomp,<-	2
+111!	condemn	|nsubj->|condemn/VERB|xcomp,<-	2
+111	said upset	|nsubj->|say/VERB|ccomp<-|upset/VERB|nsubjpass,<-	2
+111	ridicule	|nsubj->|ridicule/VERB|dobj,<-	2
+111	deplor	|nsubj->|deplore/VERB|dobj,<-	2
+111	blast decision	|nsubj->|blast/VERB|dobj<-|decision/NOUN|poss,<-	2
+110	reproach	|nsubj->|reproach/VERB|dobj,<-	2
+110	fire_off	|nsubj->|fire/VERB|prep_off,<-	2
+110	complain	|nsubj->|complain/VERB|dobj,<-	2
+1053	demand release	|nsubj->|demand/VERB|ccomp<-|release/VERB|dobj,<-	2
+090	said investigating	|nsubj->|say/VERB|ccomp<-|investigate/VERB|ccomp,<-	2
+090	interrogat	|nsubj->|interrogate/VERB|dobj,<-	2
+090	inspect	|nsubj->|inspect/VERB|pobj,<-	2
+0841	hand over to_	|nsubj->|hand/VERB|advmod<-|over/PRT|prep_to,<-	2
+084	hand over	|nsubj->|hand/VERB|prep_over,<-	2
+073	airlift	|nsubj->|airlift/VERB|dobj,<-	2
+070	donat	|nsubj->|donate/VERB|dobj,<-	2
+060	appoint minister	|nsubj->|appoint/VERB|dobj<-|minister/NOUN|poss,<-	2
+056	forgive	|nsubj->|forgive/VERB|dobj,<-	2
+051	welcom move	|nsubj->|welcome/VERB|dobj<-|move/NOUN|poss,<-	2
+051	welcom	|nsubj->|welcome/VERB|tmod,<-	2
+051	support for_	|nsubj->|support/VERB|prep_for,<-	2
+051	reaffirm commitment	|nsubj->|reaffirm/VERB|dobj<-|commitment/NOUN|poss,<-	2
+051	prais	|nsubj->|praise/VERB|xcomp,<-	2
+051	prais	|nsubj->|praise/VERB|tmod,<-	2
+051	lauded	|nsubj->|laud/VERB|tmod,<-	2
+051	express support	|nsubj->|express/VERB|dobj<-|support/NOUN|poss,<-	2
+051	endorse	|nsubj->|endorse/VERB|advcl,<-	2
+051	embrac	|nsubj->|embrace/VERB|dobj,<-	2
+051	condemn kidnapping of_	|nsubj->|condemn/VERB|dobj<-|kidnapping/NOUN|prep_of,<-	2
+051	condemn bombing in_	|nsubj->|condemn/VERB|dobj<-|bomb/NOUN|prep_in,<-	2
+051	commemorate	|nsubj->|commemorate/VERB|dobj,<-	2
+051	celebrat	|nsubj->|celebrate/VERB|dobj,<-	2
+051	approve deal with_	|nsubj->|approve/VERB|dobj<-|deal/NOUN|prep_with,<-	2
+050	appoint ambassador to_	|nsubj->|appoint/VERB|xcomp<-|ambassador/NOUN|prep_to,<-	2
+046	receive	|nsubj->|receive/VERB|pobj,<-	2
+046	meet discuss	|nsubj->|meet/VERB|xcomp<-|discuss/VERB|iobj,<-	2
+046	meet discuss	|nsubj->|meet/VERB|advcl<-|discuss/VERB|dobj,<-	2
+046	huddle with	|nsubj->|huddle/VERB|prep_with,<-	2
+046	discuss withdrawal	|nsubj->|discuss/VERB|dobj<-|withdrawal/NOUN|poss,<-	2
+045	mediat between	|nsubj->|mediate/VERB|prep_between,<-	2
+043	host	|nsubj->|host/NOUN|dobj,<-	2
+042	visit	|nsubj->|visit/NOUN|dobj,<-	2
+042	send official to_	|nsubj->|send/VERB|dobj<-|official/NOUN|prep_to,<-	2
+042	head to_	|agent->|head/VERB|prep_to,<-	2
+042	attend	|nsubj->|attend/VERB|pobj,<-	2
+040	said during meeting with_	|nsubj->|say/VERB|prep_during<-|meeting/NOUN|prep_with,<-	2
+036	said invit	|nsubj->|say/VERB|ccomp<-|invite/VERB|xcomp,<-	2
+036	fly to_	|agent->|fly/VERB|prep_to,<-	2
+036	announc visit	|nsubj->|announce/VERB|advcl<-|visit/VERB|dobj,<-	2
+0356	pledg withdraw	|nsubj->|pledge/VERB|xcomp<-|withdraw/VERB|dobj,<-	2
+0356	agree withdraw	|nsubj->|agree/VERB|xcomp<-|withdraw/VERB|dobj,<-	2
+035	plan reopen	|nsubj->|plan/VERB|xcomp<-|reopen/VERB|dobj,<-	2
+0331	sign grant	|nsubj->|sign/VERB|xcomp<-|grant/VERB|iobj,<-	2
+033	ready help	|nsubj->|ready/ADJ|xcomp<-|help/VERB|dobj,<-	2
+033	announc aid_ for_	|nsubj->|announce/VERB|dobj<-|aid/NOUN|prep_for,<-	2
+032	pledg support bid	|nsubj->|pledge/VERB|xcomp<-|support/VERB|dobj<-|bid/NOUN|poss,<-	2
+032	pledg support	|nsubj->|pledge/VERB|dobj<-|support/NOUN|poss,<-	2
+032	back declaration	|nsubj->|back/VERB|dobj<-|declaration/NOUN|poss,<-	2
+031	exchang with	|nsubj->|exchange/VERB|xcomp<-|with/ADP|pobj,<-	2
+030	reiterat commitment	|nsubj->|reiterate/VERB|dobj<-|commitment/NOUN|poss,<-	2
+030	offer help	|nsubj->|offer/VERB|dobj<-|help/NOUN|poss,<-	2
+030	assure	|nsubj->|assure/VERB|tmod,<-	2
+030	accept request	|nsubj->|accept/VERB|dobj<-|request/NOUN|poss,<-	2
+026	said meet	|nsubj->|say/VERB|ccomp<-|meet/VERB|nsubjpass,<-	2
+026	said meet	|nsubj->|say/VERB|advcl<-|meet/VERB|tmod,<-	2
+022	seek support	|nsubj->|seek/VERB|xcomp<-|support/VERB|dobj,<-	2
+022	called_for_ cooperation	|nsubj->|call/VERB|prep_for<-|cooperation/NOUN|poss,<-	2
+0213	seek extradition from	|nsubj->|seek/VERB|dobj<-|extradition/NOUN|prep_from,<-	2
+020	suggest	|nsubj->|suggest/VERB|ccomp,<-	2
+020	said asked	|nsubj->|say/VERB|ccomp<-|ask/VERB|nsubjpass,<-	2
+020	recommend	|nsubj->|recommend/VERB|pobj,<-	2
+020	ask for_ help	|nsubj->|ask/VERB|prep_for<-|help/NOUN|poss,<-	2
+014	said consider	|nsubj->|say/VERB|ccomp<-|consider/VERB|nsubjpass,<-	2
+013	said persuaded	|nsubj->|say/VERB|ccomp<-|persuade/VERB|dobj,<-	2
+013	said free	|nsubj->|say/VERB|xcomp<-|free/VERB|dobj,<-	2
+013	said free	|nsubj->|say/VERB|ccomp<-|free/VERB|nsubjpass,<-	2
+012	lament failure	|nsubj->|lament/VERB|dobj<-|failure/NOUN|poss,<-	2
+010	said relocating	|nsubj->|say/VERB|ccomp<-|relocate/VERB|dobj,<-	2
+010	broadcast	|nsubj->|broadcast/VERB|dobj,<-	2
+010	assess	|nsubj->|assess/VERB|dobj,<-	2
+010	argue	|nsubj->|argue/VERB|dobj,<-	2
+195	warplane bomb	|nsubj->|warplane/VERB|ccomp<-|bomb/VERB|dobj,<-	1
+195	launch airstrike in_	|nsubj->|launch/VERB|dobj<-|airstrike/NOUN|prep_in,<-	1
+194	bomb attack	|nsubj->|bomb/VERB|advcl<-|attack/VERB|dobj,<-	1
+193	slaughter	|nsubj->|slaughter/VERB|dobj,<-	1
+192	mov into	|nsubj->|move/VERB|prepc_into,<-	1
+191	close border	|nsubj->|close/VERB|dobj<-|border/NOUN|poss,<-	1
+190	strike target	|nsubj->|strike/VERB|partmod<-|target/VERB|dobj,<-	1
+190	strike	|nsubj->|strike/VERB|pobj,<-	1
+190	said killed	|nsubj->|say/VERB|xcomp<-|kill/VERB|dobj,<-	1
+190	said killed	|nsubj->|say/VERB|advcl<-|kill/VERB|dobj,<-	1
+190	retaliat against	|nsubj->|retaliate/VERB|prep_against,<-	1
+190	report fighting with	|nsubj->|report/VERB|advcl<-|fight/VERB|prep_with,<-	1
+190	launch assault on_	|nsubj->|launch/VERB|dobj<-|assault/NOUN|prep_on,<-	1
+190	kill	|nsubj->|kill/VERB|xcomp,<-	1
+190	kill	|nsubj->|kill/VERB|tmod,<-	1
+190	kill	|nsubj->|kill/VERB|advcl,->	1
+190	kill	|agent->|kill/VERB|pobj,<-	1
+190	fire at_	|nsubj->|fire/NOUN|prep_at,<-	1
+190	battl	|nsubj->|battle/VERB|pobj,<-	1
+190	attack kill	|nsubj->|attack/VERB|xcomp<-|kill/VERB|dobj,<-	1
+190	attack kill	|nsubj->|attack/VERB|partmod<-|kill/VERB|dobj,<-	1
+190	attack base	|nsubj->|attack/VERB|dobj<-|base/NOUN|poss,<-	1
+190	attack	|nsubj->|attack/VERB|xcomp,<-	1
+190	attack	|nsubj->|attack/NOUN|dobj,<-	1
+180	assault	|nsubj->|assault/VERB|dobj,<-	1
+174	sack by_	|nsubj->|sack/VERB|prep_by,<-	1
+174	expel	|nsubj->|expel/VERB|tmod,<-	1
+174	expel	|nsubj->|expel/VERB|npadvmod,<-	1
+174	expel	|nsubj->|expel/VERB|iobj,<-	1
+173	seiz	|nsubj->|seize/VERB|pobj,<-	1
+173	said arrested	|nsubj->|say/VERB|ccomp<-|arrest/VERB|iobj,<-	1
+173	indict	|agent->|indict/VERB|dobj,<-	1
+173	hunt for_	|nsubj->|hunt/VERB|prep_for,<-	1
+173	detain	|nsubj->|detain/VERB|ccomp,<-	1
+173	convict	|nsubj->|convict/VERB|npadvmod,<-	1
+173	confirmed detain	|nsubj->|confirm/VERB|ccomp<-|detain/VERB|nsubjpass,<-	1
+173	arrest militant	|nsubj->|arrest/VERB|dobj<-|militant/ADJ|amod,<-	1
+173	arrest ENTITYSKIP for_	|agent->|arrest/VERB|prep_for,<-	1
+173	arrest	|nsubj->|arrest/VERB|xcomp,<-	1
+173	arrest	|agent->|arrest/VERB|pobj,<-	1
+173	announc arrest	|nsubj->|announce/VERB|ccomp<-|arrest/VERB|tmod,<-	1
+173	announc arrest	|nsubj->|announce/VERB|ccomp<-|arrest/VERB|nsubjpass,<-	1
+173	announc arrest	|nsubj->|announce/VERB|advcl<-|arrest/VERB|dobj,<-	1
+1721	order closure of_	|nsubj->|order/VERB|dobj<-|closure/NOUN|prep_of,<-	1
+172	bar_	|nsubj->|bar/VERB|pobj,<-	1
+172	bar_	|nsubj->|bar/NOUN|dobj,<-	1
+172	ban_	|nsubj->|ban/VERB|xcomp,<-	1
+172	ban_	|nsubj->|ban/VERB|pobj,<-	1
+1711	confiscate	|nsubj->|confiscate/VERB|dobj,<-	1
+162	stop send	|nsubj->|stop/VERB|partmod<-|send/VERB|dobj,<-	1
+161	said recall ambassador to_	|nsubj->|say/VERB|ccomp<-|recall/VERB|dobj<-|ambassador/NOUN|prep_to,<-	1
+161	recall ambassador	|nsubj->|recall/VERB|dobj<-|ambassador/NOUN|poss,<-	1
+160	postpon plan ENTITYSKIP in_	|nsubj->|postpone/VERB|ccomp<-|plan/VERB|prep_in,<-	1
+160	disassociat	|nsubj->|disassociate/VERB|dobj,<-	1
+160	delay handover	|nsubj->|delay/VERB|xcomp<-|handover/VERB|dobj,<-	1
+160	cancel visit	|nsubj->|cancel/VERB|xcomp<-|visit/VERB|dobj,<-	1
+160	betray	|nsubj->|betray/VERB|dobj,<-	1
+150	patrol border	|nsubj->|patrol/VERB|dobj<-|border/NOUN|poss,<-	1
+150	inspect troops	|nsubj->|inspect/VERB|dobj<-|troops/NOUN|poss,<-	1
+141	stage protest	|nsubj->|stage/VERB|partmod<-|protest/VERB|dobj,<-	1
+141	stage protest	|nsubj->|stage/VERB|advcl<-|protest/VERB|dobj,<-	1
+141	protest visit of_	|nsubj->|protest/VERB|dobj<-|visit/NOUN|prep_of,<-	1
+141	march protest	|nsubj->|march/VERB|ccomp<-|protest/VERB|dobj,<-	1
+141	hold protest	|nsubj->|hold/VERB|xcomp<-|protest/VERB|dobj,<-	1
+141	demonstrat against	|nsubj->|demonstrate/VERB|prep_against,<-	1
+140	said lodged_ protest_ with_	|nsubj->|say/VERB|ccomp<-|lodge/VERB|dobj<-|protest/NOUN|prep_with,<-	1
+138	warn attack	|nsubj->|warn/VERB|xcomp<-|attack/VERB|dobj,<-	1
+138	warn attack	|nsubj->|warn/VERB|advcl<-|attack/VERB|dobj,<-	1
+133	plan protest	|nsubj->|plan/VERB|xcomp<-|protest/VERB|dobj,<-	1
+131	say campaign against	|nsubj->|say/VERB|ccomp<-|campaign/NOUN|prep_against,<-	1
+131	said prepar against_	|nsubj->|say/VERB|ccomp<-|prepare/VERB|prep_against,<-	1
+130	warn	|nsubj->|warn/VERB|ccomp,<-	1
+130	said warning to_	|nsubj->|say/VERB|ccomp<-|warning/NOUN|prep_to,<-	1
+130	said warning to_	|nsubj->|say/VERB|ccomp<-|warn/VERB|prep_to,<-	1
+130	said warning	|nsubj->|say/VERB|ccomp<-|warn/VERB|xcomp,<-	1
+130	said target	|nsubj->|say/VERB|ccomp<-|target/VERB|advcl,<-	1
+130	said target	|nsubj->|say/VERB|ccomp<-|target/NOUN|poss,<-	1
+130	said target	|nsubj->|say/VERB|advcl<-|target/VERB|nsubjpass,<-	1
+128	defy	|nsubj->|defy/VERB|tmod,<-	1
+128	breach	|nsubj->|breach/VERB|dobj,<-	1
+125	refus visit	|nsubj->|refuse/VERB|xcomp<-|visit/VERB|dobj,<-	1
+125	refus discuss	|nsubj->|refuse/VERB|xcomp<-|discuss/VERB|dobj,<-	1
+124	overturn ruling_ against_	|nsubj->|overturn/VERB|dobj<-|ruling/NOUN|prep_against,<-	1
+120	said reject	|nsubj->|say/VERB|xcomp<-|reject/VERB|dobj,<-	1
+120	said reject	|nsubj->|say/VERB|partmod<-|reject/VERB|dobj,<-	1
+120	said reject	|nsubj->|say/VERB|ccomp<-|reject/VERB|xcomp,<-	1
+120	said reject	|nsubj->|say/VERB|advcl<-|reject/VERB|dobj,<-	1
+120	reject ultimatum	|nsubj->|reject/VERB|dobj<-|ultimatum/NOUN|poss,<-	1
+120	reject call by	|nsubj->|reject/VERB|dobj<-|call/NOUN|prep_by,<-	1
+120	reject call	|nsubj->|reject/VERB|partmod<-|call/VERB|dobj,<-	1
+120	reject	|nsubj->|reject/VERB|xcomp,<-	1
+120	reject	|nsubj->|reject/VERB|tmod,<-	1
+120	reiterat refusal	|nsubj->|reiterate/VERB|dobj<-|refusal/NOUN|poss,<-	1
+120	decline	|nsubj->|decline/VERB|dobj,<-	1
+120	block attempt	|nsubj->|block/VERB|dobj<-|attempt/NOUN|poss,<-	1
+115	file case against_	|nsubj->|file/VERB|dobj<-|case/NOUN|prep_against,<-	1
+1124	blam for_ attack	|nsubj->|blame/VERB|prepc_for<-|attack/VERB|dobj,<-	1
+1124	believe kidnap	|nsubj->|believe/VERB|ccomp<-|kidnap/VERB|xcomp,<-	1
+112	said violat	|nsubj->|say/VERB|ccomp<-|violate/VERB|pobj,<-	1
+112	said destroying	|nsubj->|say/VERB|ccomp<-|destroy/VERB|tmod,<-	1
+112	said destroying	|nsubj->|say/VERB|ccomp<-|destroy/VERB|nsubjpass,<-	1
+112	blam for_ attack on_	|agent->|blame/VERB|prep_for<-|attack/NOUN|prep_on,<-	1
+112	blam	|nsubj->|blame/VERB|npadvmod,<-	1
+112	alleg	|nsubj->|allege/VERB|dobj,<-	1
+111!	condemn	|nsubj->|condemn/VERB|tmod,<-	1
+111	slam action	|nsubj->|slam/VERB|dobj<-|action/NOUN|poss,<-	1
+111	savage	|nsubj->|savage/VERB|dobj,<-	1
+111	protest denial	|nsubj->|protest/VERB|dobj<-|denial/NOUN|poss,<-	1
+111	mock	|nsubj->|mock/VERB|dobj,<-	1
+111	lash out_ at_	|nsubj->|lash/VERB|advmod<-|out/PRT|prep_at,<-	1
+111	hit back at	|nsubj->|hit/VERB|advmod<-|back/ADV|prep_at,<-	1
+111	deride	|nsubj->|deride/VERB|dobj,<-	1
+111	deplor attack on_	|nsubj->|deplore/VERB|dobj<-|attack/NOUN|prep_on,<-	1
+111	denounc	|nsubj->|denounce/VERB|tmod,<-	1
+111	decry	|nsubj->|decry/VERB|ccomp,<-	1
+111	curse	|nsubj->|curse/VERB|dobj,<-	1
+111	chastise	|nsubj->|chastise/VERB|tmod,<-	1
+111	adopt resolution condemning	|nsubj->|adopt/VERB|dobj<-|resolution/NOUN|partmod<-|condemn/VERB|dobj,<-	1
+110	said regret	|nsubj->|say/VERB|ccomp<-|regret/VERB|dobj,<-	1
+110	said rebuff	|nsubj->|say/VERB|dobj<-|rebuff/NOUN|poss,<-	1
+110	said losing patience with	|nsubj->|say/VERB|ccomp<-|lose/VERB|dobj<-|patience/NOUN|prep_with,<-	1
+110	said displeased by	|nsubj->|say/VERB|ccomp<-|displeased/ADJ|prep_by,<-	1
+110	said alarmed by_	|nsubj->|say/VERB|ccomp<-|alarm/VERB|prep_by,<-	1
+110	reiterat concern	|nsubj->|reiterate/VERB|dobj<-|concern/NOUN|poss,<-	1
+110	join protest	|nsubj->|join/VERB|xcomp<-|protest/VERB|dobj,<-	1
+110	hail killing of_	|nsubj->|hail/VERB|dobj<-|killing/NOUN|prep_of,<-	1
+110	hail execution of_	|nsubj->|hail/VERB|dobj<-|execution/NOUN|prep_of,<-	1
+110	express displeasure	|nsubj->|express/VERB|dobj<-|displeasure/NOUN|appos,<-	1
+110	distance itself from	|nsubj->|distance/VERB|dobj<-|itself/PRON|prep_from,<-	1
+110	dismiss	|nsubj->|dismiss/VERB|pobj,<-	1
+110	complain	|nsubj->|complain/VERB|ccomp,<-	1
+110	challeng claim	|nsubj->|challenge/VERB|dobj<-|claim/NOUN|poss,<-	1
+110	appeal for_ pressure on_	|nsubj->|appeal/VERB|prep_for<-|pressure/NOUN|prep_on,<-	1
+1056	demand withdraw	|nsubj->|demand/VERB|ccomp<-|withdraw/VERB|nsubjpass,<-	1
+1056	demand withdraw	|nsubj->|demand/VERB|ccomp<-|withdraw/VERB|dobj,<-	1
+1053	demand release	|nsubj->|demand/VERB|ccomp<-|release/NOUN|dobj,<-	1
+100	repeat demand that	|nsubj->|repeat/VERB|dobj<-|demand/NOUN|prep_that,<-	1
+090	said examin	|nsubj->|say/VERB|ccomp<-|examine/VERB|dobj,<-	1
+090	monitor activity	|nsubj->|monitor/VERB|dobj<-|activity/NOUN|poss,<-	1
+090	monitor	|nsubj->|monitor/VERB|dobj,<-	1
+090	investigat killing of_	|nsubj->|investigate/VERB|dobj<-|killing/NOUN|prep_of,<-	1
+090	inspector visit	|nsubj->|inspector/VERB|ccomp<-|visit/VERB|dobj,<-	1
+090	inspect	|nsubj->|inspect/VERB|ccomp,<-	1
+090	examin	|nsubj->|examine/VERB|advcl,<-	1
+090	announc investigat	|nsubj->|announce/VERB|xcomp<-|investigate/VERB|dobj,<-	1
+0874	drive_from	|nsubj->|drive/VERB|prep_from,<-	1
+0841	kidnap released	|nsubj->|kidnap/VERB|advcl<-|release/VERB|nsubjpass,<-	1
+084	release	|nsubj->|release/VERB|xcomp,<-	1
+084	release	|nsubj->|release/VERB|ccomp,<-	1
+084	release	|nsubj->|release/VERB|advmod,<-	1
+084	allow leave	|nsubj->|allow/VERB|xcomp<-|leave/VERB|dobj,<-	1
+081	suspen trial of_	|nsubj->|suspend/VERB|dobj<-|trial/NOUN|prep_of,<-	1
+081	exonerate	|nsubj->|exonerate/VERB|dobj,<-	1
+080	surrender	|nsubj->|surrender/VERB|pobj,<-	1
+080	stop deport	|nsubj->|stop/VERB|xcomp<-|deport/VERB|dobj,<-	1
+080	mov block	|nsubj->|move/VERB|xcomp<-|block/VERB|dobj,<-	1
+080	conced	|nsubj->|concede/VERB|dobj,<-	1
+080	bow to_ pressure from	|nsubj->|bow/VERB|prep_to<-|pressure/NOUN|prep_from,<-	1
+075	shelter	|nsubj->|shelter/VERB|dobj,<-	1
+074	vote extend peacekeep in_	|nsubj->|vote/VERB|xcomp<-|extend/VERB|xcomp<-|peacekeep/VERB|prep_in,<-	1
+074	vote extend peacekeep in_	|nsubj->|vote/VERB|xcomp<-|extend/VERB|ccomp<-|peacekeep/VERB|prep_in,<-	1
+073	airlift	|nsubj->|airlift/VERB|pobj,<-	1
+072	said send troops to_	|nsubj->|say/VERB|ccomp<-|send/VERB|dobj<-|troops/NOUN|prep_to,<-	1
+072	help fight	|nsubj->|help/VERB|xcomp<-|fight/VERB|dobj,<-	1
+070	monitor head for_	|nsubj->|monitor/VERB|dobj<-|head/NOUN|prep_for,<-	1
+070	contribut	|nsubj->|contribute/VERB|dobj,<-	1
+057	sign memorandum with	|nsubj->|sign/VERB|dobj<-|memorandum/NOUN|prep_with,<-	1
+057	sign agreement with	|nsubj->|sign/VERB|xcomp<-|agreement/NOUN|prep_with,<-	1
+055	ask forgiveness	|nsubj->|ask/VERB|dobj<-|forgiveness/NOUN|poss,<-	1
+054	open embassy	|nsubj->|open/VERB|dobj<-|embassy/NOUN|poss,<-	1
+053	said united behind	|nsubj->|say/VERB|ccomp<-|unite/VERB|prep_behind,<-	1
+053	offer ENTITYSKIP support for_	|nsubj->|offer/VERB|dobj<-|support/NOUN|prep_for,<-	1
+051	welcom resolution	|nsubj->|welcome/VERB|dobj<-|resolution/NOUN|nn,<-	1
+051	welcom report	|nsubj->|welcome/VERB|dobj<-|report/NOUN|poss,<-	1
+051	welcom release	|nsubj->|welcome/VERB|tmod<-|release/NOUN|poss,<-	1
+051	welcom constitution	|nsubj->|welcome/VERB|dobj<-|constitution/NOUN|poss,<-	1
+051	thank	|nsubj->|thank/VERB|pobj,<-	1
+051	support of_	|nsubj->|support/NOUN|prep_of,<-	1
+051	support for_	|agent->|support/VERB|prep_for,<-	1
+051	showed support for	|nsubj->|show/VERB|dobj<-|support/NOUN|prep_for,<-	1
+051	say support	|nsubj->|say/VERB|ccomp<-|support/VERB|tmod,<-	1
+051	say support	|nsubj->|say/VERB|ccomp<-|support/VERB|nsubjpass,<-	1
+051	said welcome	|nsubj->|say/VERB|ccomp<-|welcome/VERB|nsubjpass,<-	1
+051	said welcome	|nsubj->|say/VERB|advcl<-|welcome/VERB|dobj,<-	1
+051	said recognize	|nsubj->|say/VERB|advcl<-|recognize/VERB|dobj,<-	1
+051	said pleased	|nsubj->|say/VERB|ccomp<-|please/VERB|pobj,<-	1
+051	rule in_favor	|nsubj->|rule/VERB|prep_in<-|favor/NOUN|poss,<-	1
+051	restat support	|nsubj->|restate/VERB|dobj<-|support/NOUN|poss,<-	1
+051	renew commitment	|nsubj->|renew/VERB|dobj<-|commitment/NOUN|poss,<-	1
+051	reiterat support	|nsubj->|reiterate/VERB|dobj<-|support/NOUN|poss,<-	1
+051	reaffirm support	|nsubj->|reaffirm/VERB|dobj<-|support/NOUN|poss,<-	1
+051	march in_ support_ of_	|nsubj->|march/VERB|prep_in<-|support/NOUN|prep_of,<-	1
+051	honor	|nsubj->|honor/VERB|iobj,<-	1
+051	hail plan_	|nsubj->|hail/VERB|dobj<-|plan/NOUN|poss,<-	1
+051	hail decision by_	|nsubj->|hail/VERB|dobj<-|decision/NOUN|prep_by,<-	1
+051	extend support	|nsubj->|extend/VERB|xcomp<-|support/VERB|dobj,<-	1
+051	express support	|nsubj->|express/VERB|ccomp<-|support/VERB|dobj,<-	1
+051	endorse deal	|nsubj->|endorse/VERB|xcomp<-|deal/NOUN|poss,<-	1
+051	embrac	|nsubj->|embrace/VERB|tmod,<-	1
+051	embrac	|agent->|embrace/VERB|advcl,->	1
+051	decorat	|nsubj->|decorate/VERB|dobj,<-	1
+051	congratulate	|nsubj->|congratulate/VERB|tmod,<-	1
+051	condemn bombing in_	|nsubj->|condemn/VERB|tmod<-|bombing/NOUN|prep_in,<-	1
+051	condemn arrest of_	|nsubj->|condemn/VERB|dobj<-|arrest/NOUN|prep_of,<-	1
+051	celebrat	|nsubj->|celebrate/VERB|tmod,<-	1
+051	bless	|nsubj->|bless/VERB|dobj,<-	1
+050	said reach agreement with	|nsubj->|say/VERB|ccomp<-|reach/VERB|nsubjpass<-|agreement/NOUN|prep_with,<-	1
+050	provid support	|agent->|provide/VERB|xcomp<-|support/VERB|dobj,<-	1
+050	name ambassador to_	|nsubj->|name/VERB|dobj<-|ambassador/NOUN|prep_to,<-	1
+050	appoint ambassador to_	|nsubj->|appoint/VERB|dobj<-|ambassador/NOUN|prep_to,<-	1
+046	talk with	|nsubj->|talk/NOUN|prep_with,<-	1
+046	open debate on_	|nsubj->|open/VERB|dobj<-|debate/NOUN|prep_on,<-	1
+046	meet discuss	|nsubj->|meet/VERB|xcomp<-|discuss/VERB|pobj,<-	1
+046	discuss	|nsubj->|discuss/VERB|tmod,<-	1
+044	attend conference	|nsubj->|attend/VERB|dobj<-|conference/NOUN|poss,<-	1
+043	welcom visit	|nsubj->|welcome/VERB|dobj<-|visit/NOUN|poss,<-	1
+043	receive at residence	|nsubj->|receive/VERB|prep_at<-|residence/NOUN|poss,<-	1
+043	host by_	|nsubj->|host/VERB|prep_by,<-	1
+043	host	|nsubj->|host/VERB|tmod,<-	1
+042	visit	|nsubj->|visit/VERB|pobj,<-	1
+042	visit	|nsubj->|visit/VERB|acomp,<-	1
+042	trip to_	|nsubj->|trip/NOUN|prep_to,<-	1
+042	plan tour_	|nsubj->|plan/VERB|xcomp<-|tour/VERB|dobj,<-	1
+042	leave for_ tour of_	|nsubj->|leave/VERB|prep_for<-|tour/NOUN|prep_of,<-	1
+042	ended visit to_	|nsubj->|end/VERB|dobj<-|visit/NOUN|prep_to,<-	1
+042	ended tour of_	|nsubj->|end/VERB|dobj<-|tour/NOUN|prep_of,<-	1
+042	embark on_ tour of_	|nsubj->|embark/VERB|prep_on<-|tour/NOUN|prep_of,<-	1
+042	begin tour	|nsubj->|begin/VERB|xcomp<-|tour/VERB|dobj,<-	1
+040	deliver message to_	|nsubj->|deliver/VERB|dobj<-|message/NOUN|prep_to,<-	1
+040	deliver letter to_	|nsubj->|deliver/VERB|dobj<-|letter/NOUN|prep_to,<-	1
+036	welcom invitation	|nsubj->|welcome/VERB|dobj<-|invitation/NOUN|poss,<-	1
+036	said invit	|nsubj->|say/VERB|partmod<-|invite/VERB|dobj,<-	1
+036	said invit	|nsubj->|say/VERB|ccomp<-|invite/VERB|pobj,<-	1
+036	said going to_	|nsubj->|say/VERB|advcl<-|go/VERB|prep_to,<-	1
+036	plan visit to_	|nsubj->|plan/VERB|xcomp<-|visit/VERB|prep_to,<-	1
+036	plan travel to_	|nsubj->|plan/NOUN|xcomp<-|travel/VERB|prep_to,<-	1
+036	plan stop_in_	|nsubj->|plan/VERB|dobj<-|stop/NOUN|prep_in,<-	1
+036	offer negotiat	|nsubj->|offer/VERB|ccomp<-|negotiate/VERB|dobj,<-	1
+036	leave for_ meeting with_	|nsubj->|leave/VERB|prep_for<-|meeting/NOUN|prep_with,<-	1
+036	lead delegation to_	|nsubj->|lead/VERB|dobj<-|delegation/NOUN|prep_to,<-	1
+036	authoriz meeting	|nsubj->|authorize/VERB|advcl<-|meet/VERB|dobj,<-	1
+0356	pledg withdraw	|nsubj->|pledge/VERB|xcomp<-|withdraw/VERB|advcl,<-	1
+0331	sign grant	|nsubj->|sign/VERB|xcomp<-|grant/VERB|dobj,<-	1
+033	pledg help rebuild	|nsubj->|pledge/VERB|ccomp<-|help/VERB|xcomp<-|rebuild/VERB|dobj,<-	1
+032	pledg support to_	|nsubj->|pledge/VERB|ccomp<-|support/VERB|prep_to,<-	1
+032	pledg support	|nsubj->|pledge/VERB|ccomp<-|support/VERB|dobj,<-	1
+032	back call by_	|nsubj->|back/VERB|xcomp<-|call/VERB|prep_by,<-	1
+0311	offer help to_	|nsubj->|offer/VERB|dobj<-|help/NOUN|prep_to,<-	1
+0311	agree invest in_	|nsubj->|agree/VERB|ccomp<-|invest/VERB|prep_in,<-	1
+030	turn over to_	|nsubj->|turn/VERB|advmod<-|over/PRT|prep_to,<-	1
+030	said back	|nsubj->|say/VERB|ccomp<-|back/VERB|iobj,<-	1
+030	said back	|nsubj->|say/VERB|ccomp->|back/VERB|pobj,<-	1
+030	said back	|nsubj->|say/VERB|ccomp->|back/VERB|dobj,<-	1
+030	said back	|nsubj->|say/VERB|advmod<-|back/ADV|pobj,<-	1
+030	promis support	|nsubj->|promise/VERB|xcomp<-|support/VERB|advcl,<-	1
+030	promis support	|nsubj->|promise/VERB|dobj<-|support/NOUN|poss,<-	1
+030	promis support	|nsubj->|promise/VERB|ccomp<-|support/VERB|dobj,<-	1
+030	pledg support for	|nsubj->|pledge/VERB|xcomp<-|support/VERB|prep_for,<-	1
+030	pledg support for	|nsubj->|pledge/VERB|dobj<-|support/NOUN|prep_for,<-	1
+030	approve plan in_	|nsubj->|approve/VERB|dobj<-|plan/NOUN|prep_in,<-	1
+028	extend invit	|nsubj->|extend/VERB|partmod<-|invite/VERB|dobj,<-	1
+026	said meet	|nsubj->|say/VERB|ccomp<-|meet/VERB|tmod,<-	1
+026	said meet	|nsubj->|say/VERB|advcl<-|meet/VERB|dobj,<-	1
+026	propos meet	|nsubj->|propose/VERB|ccomp<-|meet/VERB|pobj,<-	1
+0256	urg withdraw	|nsubj->|urge/VERB|xcomp<-|withdraw/VERB|dobj,<-	1
+0241	called_for_ election	|nsubj->|call/VERB|prep_for<-|election/NOUN|poss,<-	1
+022	urg support	|nsubj->|urge/VERB|dobj<-|support/NOUN|poss,<-	1
+020	urg	|nsubj->|urge/VERB|xcomp,<-	1
+020	urg	|nsubj->|urge/VERB|pobj,<-	1
+020	urg	|nsubj->|urge/VERB|ccomp,<-	1
+020	urg	|nsubj->|urge/VERB|acomp,<-	1
+020	said urg	|nsubj->|say/VERB|advcl<-|urge/VERB|dobj,<-	1
+020	said asked	|nsubj->|say/VERB|partmod<-|ask/VERB|dobj,<-	1
+020	said asked	|nsubj->|say/VERB|ccomp<-|ask/VERB|iobj,<-	1
+020	reiterat call for_	|nsubj->|reiterate/VERB|xcomp<-|call/VERB|prep_for,<-	1
+020	reiterat call for_	|nsubj->|reiterate/VERB|dobj<-|call/NOUN|prep_for,<-	1
+020	propos	|nsubj->|propose/VERB|pobj,<-	1
+020	propos	|nsubj->|propose/VERB|ccomp,<-	1
+020	outlined plan	|nsubj->|outline/VERB|dobj<-|plan/NOUN|appos,<-	1
+020	advise	|nsubj->|advise/VERB|tmod,<-	1
+018	condemn slaying of_	|nsubj->|condemn/VERB|xcomp<-|slaying/NOUN|prep_of,<-	1
+017	bid farewell to_	|nsubj->|bid/VERB|acomp<-|farewell/ADJ|prep_to,<-	1
+017	attend funeral of_	|nsubj->|attend/VERB|dobj<-|funeral/ADJ|prep_of,<-	1
+016	reject report_	|nsubj->|reject/VERB|dobj<-|report/NOUN|poss,<-	1
+016	deny allegation	|nsubj->|deny/VERB|dobj<-|allegation/NOUN|rcmod,<-	1
+015	acknowledge	|nsubj->|acknowledge/VERB|pobj,<-	1
+015	acknowledge	|nsubj->|acknowledge/VERB|dobj,<-	1
+014	said mulling	|nsubj->|say/VERB|ccomp<-|mull/VERB|dobj,<-	1
+014	said interested in_ offer	|nsubj->|say/VERB|ccomp<-|interested/ADJ|prep_in<-|offer/NOUN|poss,<-	1
+014	said consider	|nsubj->|say/VERB|ccomp<-|consider/VERB|advcl,<-	1
+014	discuss idea_of_	|nsubj->|discuss/VERB|dobj<-|idea/NOUN|prep_of,<-	1
+013	said hope	|nsubj->|say/VERB|ccomp<-|hope/VERB|acomp,<-	1
+013	said hope	|nsubj->|say/VERB|ccomp<-|hope/NOUN|poss,<-	1
+013	express appreciation	|nsubj->|express/VERB|dobj<-|appreciation/NOUN|poss,<-	1
+012	voic concern	|nsubj->|voice/VERB|dobj<-|concern/NOUN|poss,<-	1
+012	say threat	|nsubj->|say/VERB|dobj<-|threat/NOUN|poss,<-	1
+012	say threat	|nsubj->|say/VERB|ccomp<-|threat/NOUN|poss,<-	1
+012	said offend	|nsubj->|say/VERB|ccomp<-|offend/VERB|dobj,<-	1
+012	said expected attack	|nsubj->|say/VERB|ccomp<-|expect/VERB|advcl<-|attack/VERB|nsubjpass,<-	1
+012	said doomed	|nsubj->|say/VERB|ccomp<-|doom/VERB|nsubjpass,<-	1
+012	said alarmed	|nsubj->|say/VERB|ccomp<-|alarm/VERB|nsubjpass,<-	1
+012	frustrate	|nsubj->|frustrate/VERB|dobj,<-	1
+012	concerned	|nsubj->|concern/VERB|dobj,<-	1
+011	refus comment	|nsubj->|refuse/VERB|xcomp<-|comment/VERB|ccomp,<-	1
+010?	quot	|nsubj->|quote/VERB|tmod,<-	1
+010	said_ question	|nsubj->|say/VERB|ccomp<-|question/VERB|nsubjpass,<-	1
+010	said shock	|nsubj->|say/VERB|ccomp<-|shock/VERB|nsubjpass,<-	1
+010	said shared	|nsubj->|say/VERB|ccomp<-|share/VERB|ccomp,<-	1
+010	said expect	|nsubj->|say/VERB|advcl<-|expect/VERB|nsubjpass,<-	1
+010	said enter into	|nsubj->|say/VERB|ccomp<-|enter/VERB|prep_into,<-	1
+010	said detain	|nsubj->|say/VERB|ccomp<-|detain/VERB|tmod,<-	1
+010	said act_ against	|nsubj->|say/VERB|ccomp<-|act/VERB|prep_against,<-	1
+010	reiterat	|nsubj->|reiterate/VERB|ccomp,<-	1
+010	express	|nsubj->|express/VERB|ccomp,<-	1
+010	disclos	|nsubj->|disclose/VERB|dobj,<-	1
+010	describ	|nsubj->|describe/VERB|pobj,<-	1
+010	confirm kidnap	|nsubj->|confirm/VERB|ccomp<-|kidnap/VERB|nsubjpass,<-	1
+010	confirm kidnap	|nsubj->|confirm/VERB|ccomp<-|kidnap/VERB|dobj,<-	1
+010	confirm fire on_	|nsubj->|confirm/VERB|ccomp<-|fire/VERB|prep_on,<-	1
+010	assess	|nsubj->|assess/VERB|pobj,<-	1
+010	address	|nsubj->|address/VERB|tmod,<-	1

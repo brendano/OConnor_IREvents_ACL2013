@@ -1,0 +1,26 @@
+~/ptab/verbdict % cat CAMEO.09b5.options | perl -pe 's|^//(\d+)|LABEL: \1|' | grep -v '//' | grep LABEL
+
+276 codes in CAMEO.SCALE.txt
+
+304 codes in CAMEO.09b5.options
+(284 fine-grained codes, 20 base codes)
+
+
+~/ptab/verbdict % setvenn =(cut -f1 cameo.09b5.labels ) =(cut -f1 cameo.05b1.scales )
+  |A| =   304   |A&B| =   271     |B| =   276
+|A-B| =    33   |AvB| =   309   |B-A| =     5
+   AB/A 0.891    Jacc = 0.877      AB/B 0.982
+
+~/ptab/verbdict % hashjoin --outer cameo.05b1.scales cameo.09b5.labels | sort > cameo_joined.tsv
+
+======================
+
+~/ptab/verbdict % cat ../data/v3.pathcounts | awk '{print $2}' | python match.py | grep -v UNSEEN > matches
+
+~/ptab/verbdict % hashjoin -1 3 -2 2 --left matches =(ssv2tsv < ../data/v3.pathcounts) | tabsort -rnk4 > matches.withcounts
+
+~/ptab/verbdict % wc -l matches*
+     758 matches
+     758 matches.more_norm
+
+

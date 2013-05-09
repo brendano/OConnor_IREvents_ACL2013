@@ -1,0 +1,1783 @@
+This article features a listing of all professional sports teams based in the [[United States]] and [[Canada]], in addition to teams from other countries that compete in professional leagues based in the two countries.
+{{Expand list|date=February 2011}}
+
+==Association Football/Soccer==
+=== [[Canadian Major Indoor Soccer League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Team
+!City
+!Home Arena
+|-
+|'''[[Calgary United F.C.]]'''  || [[Calgary]], [[Alberta]] || [[Subway Soccer Centre]]
+|-
+|'''[[Edmonton Drillers (CMISL)|Edmonton Drillers]]''' || [[St. Albert, Alberta|St. Albert]], [[Alberta]] ||   [[Servus Credit Union Place]]
+|-
+|'''[[Winnipeg Alliance FC]]'''   || [[Winnipeg]], [[Manitoba]] || [[MTS Centre]]
+|}
+
+=== [[Major League Soccer]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Club
+!City
+!Ground
+|-
+! rowspan="10" | [[Eastern Conference (MLS)|Eastern]]
+|'''[[Chicago Fire S.C.|Chicago Fire]]'''
+|[[Bridgeview, Illinois]]
+|[[Toyota Park (Bridgeview)|Toyota Park]]
+|-
+|'''[[Columbus Crew]]'''
+|[[Columbus, Ohio]]
+|[[Columbus Crew Stadium]]
+|-
+|'''[[D.C. United]]'''
+|[[Washington, D.C.]]
+|[[RFK Stadium]]
+|-
+|'''[[Houston Dynamo]]'''
+|[[Houston|Houston, Texas]]
+|[[BBVA Compass Stadium]]
+|-
+|'''[[Montreal Impact]]'''
+|[[Montreal|Montreal, Quebec]]
+|[[Saputo Stadium]] (primary)<br>[[Olympic Stadium (Montreal)]] (secondary)
+|-
+|'''[[New England Revolution]]'''
+|[[Foxborough, Massachusetts]]
+|[[Gillette Stadium]]
+|-
+|'''[[New York Red Bulls]]'''
+|[[Harrison, New Jersey]]
+|[[Red Bull Arena (New Jersey)|Red Bull Arena]]
+|-
+|'''[[Philadelphia Union]]'''
+|[[Chester, Pennsylvania]]
+|[[PPL Park]]
+|-
+|'''[[Sporting Kansas City]]'''
+|[[Kansas City, Kansas]]
+|[[Livestrong Sporting Park]]
+|-
+|'''[[Toronto FC]]'''
+|[[Toronto|Toronto, Ontario]]
+|[[BMO Field]]
+|-
+! rowspan="9" | [[Western Conference (MLS)|Western]]
+|'''[[CD Chivas USA]]'''
+|[[Carson, California]]
+|[[The Home Depot Center]]
+|-
+|'''[[Colorado Rapids]]'''
+|[[Commerce City, Colorado]]
+|[[Dick's Sporting Goods Park]]
+|-
+|'''[[FC Dallas]]'''
+|[[Frisco, Texas]]
+|[[FC Dallas Stadium]]
+|-
+|'''[[Los Angeles Galaxy]]'''
+|[[Carson, California]]
+|[[The Home Depot Center]]
+|-
+|'''[[Portland Timbers]]'''
+|[[Portland, Oregon]]
+|[[Jeld-Wen Field]]
+|-
+|'''[[Real Salt Lake]]'''
+|[[Sandy, Utah]]
+|[[Rio Tinto Stadium]]
+|-
+|'''[[San Jose Earthquakes]]'''
+|[[Santa Clara, California]]
+|[[Stanford Stadium]]
+|-
+|'''[[Seattle Sounders FC]]'''
+|[[Seattle|Seattle, Washington]]
+|[[CenturyLink Field]]
+|-
+|'''[[Vancouver Whitecaps FC]]'''
+|[[Vancouver|Vancouver, British Columbia]]
+|[[BC Place Stadium|BC Place]]
+|}
+
+=== [[Major Indoor Soccer League (2009)|Major Indoor Soccer League]] ===
+{| class="wikitable"
+|-
+!Team
+!City
+!Arena
+|-
+|'''[[Baltimore Blast (current)|Baltimore Blast]]'''
+|[[Baltimore|Baltimore, Maryland]]
+|[[1st Mariner Arena]]
+|-
+|'''[[Chicago Soul FC|Chicago Soul]]'''
+|[[Hoffman Estates, Illinois]]
+|[[Sears Centre]]
+|-
+|'''[[Milwaukee Wave]]'''
+|[[Milwaukee|Milwaukee, Wisconsin]]
+|[[U.S. Cellular Arena]]
+|-
+|'''[[Missouri Comets]]'''
+|[[Independence, Missouri]] ([[Kansas City Metropolitan Area|Kansas City area]])
+|[[Independence Events Center]]
+|-
+|'''[[Wichita Wings (2011)|Wichita Wings]]'''
+|[[Park City, Kansas]] ([[Wichita, Kansas|Wichita area]])
+|[[Hartman Arena]]
+|-
+|'''[[Rochester Lancers (2010)|Rochester Lancers]]'''
+|[[Rochester, New York]] 
+|[[Blue Cross Arena]]
+|-
+|'''[[Syracuse Silver Knights]]'''
+|[[Syracuse, New York]]
+|[[War Memorial at Oncenter]]  
+|-       
+|}
+
+=== [[National Premier Soccer League]] ===
+{| class="navbox wikitable" style="text-align:left"
+|-
+! style="background:white" | Team
+! style="background:white" | City
+! style="background:white" | Stadium
+|-
+! style="background:blue;" colspan="6"| <span style="color:white;">Northeast Division</span>
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Atlantic Conference'''</span>
+|-
+|[[Brooklyn Italians]] 
+|[[Brooklyn, New York]]
+|[[John Dewey High School]]
+|-
+|[[FC New York]] 
+|[[Queens, New York]]
+|[[Belson Stadium]]
+|-
+|[[Mass United FC]] 
+|[[Lynn, Massachusetts]]
+|Manning Field
+|-
+|[[New York Athletic Club (NPSL)|New York Athletic Club]] 
+|[[Pelham, New York]]
+|[[New York Athletic Club]]
+|-
+|[[New York Red Bull NPSL]] 
+|[[Newark, New Jersey]]
+|Lubetkin Field 
+|-
+| [[Rhode Island Reds F.C.]] 
+|[[Providence, Rhode Island]]
+|Cranston Stadium
+|-
+|[[Seacoast United Mariners]] 
+|[[Scarborough, Maine]]
+|[[Scarborough High School (Maine)|Scarborough HS]]
+|-
+|[[Seacoast United Phantoms (NPSL)|Seacoast United Phantoms]] 
+|[[Portsmouth, New Hampshire]]
+|[[Portsmouth High School (New Hampshire)|Portsmouth HS Stadium]]
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Keystone Conference'''</span>
+|-
+|[[AC Crusaders]] 
+|[[Egg Harbor Township, New Jersey]]
+|[[Egg Harbor Township High School]]
+|-
+|[[Buxmont Torch]] 
+|[[Ottsville, Pennsylvania]]
+|Pennridge High School Stadium
+|-
+|[[FC Sonic Lehigh Valley|FC Sonic]] 
+|[[Bethlehem, Pennsylvania]]
+|Ulrich Sports Complex
+|-
+|[[Jersey City Eagles FC]]
+|[[Jersey City, New Jersey]]
+|[[Cochrane Stadium]]
+|-
+|[[Junior Lone Star FC]] 
+|[[Philadelphia, Pennsylvania]]
+|[[Northeast High School (Philadelphia, Pennsylvania)|Northeast High School]]
+|-
+|[[Morris County Colonials]] 
+|[[Madison, New Jersey]]
+|[[Fairleigh Dickinson University|Robert T. Shields Field]]
+|-
+|[[Pocono Snow]] 
+|[[East Stroudsburg, Pennsylvania]]
+|[[East Stroudsburg University of Pennsylvania|Eiler-Martin Stadium]]
+|-
+! style="background:blue;" colspan="6"| <span style="color:white;">Southeast Division</span>
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''East Conference'''</span>
+|-
+|[[Atlanta Silverbacks Reserves]] 
+|[[Atlanta, Georgia]]
+|[[Atlanta Silverbacks Park]]
+|-
+|[[Georgia Revolution]] 
+|[[Conyers, Georgia]]
+|RYSA Soccerplex
+|-
+|[[Jacksonville United]] 
+|[[Jacksonville, Florida]]
+|Patton Park
+|-
+|[[Myrtle Beach FC]] 
+|[[ Myrtle Beach, South Carolina]]
+|[[Doug Shaw Memorial Stadium]]
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''West Conference'''</span>
+|-
+|[[Chattanooga FC]] 
+|[[Chattanooga, Tennessee]]
+|[[W. Max Finley Stadium|Finley Stadium]]
+|-
+|[[Knoxville Force]] 
+|[[Knoxville, Tennessee]]
+|Regal Stadium
+|-
+|[[Mississippi Storm]] 
+|[[Ocean Springs, Mississippi]]
+|[[Greyhound Stadium]]
+|-
+|[[Rocket City United]] 
+|[[Madison, Alabama]]
+|Madison City Schools Stadium
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Central Conference'''</span>
+|-
+|[[FC New Orleans]] 
+|[[New Orleans, Louisiana]]
+|
+|-
+|[[FC Tulsa]] 
+|[[Tulsa, Oklahoma]]
+|[[Memorial High School (Tulsa, Oklahoma)|Memorial High School]]
+|-
+|[[Galveston Pirate SC|Galveston Pirates]] 
+|[[Galveston, Texas]]
+|[[Galveston Independent School District|Courville Stadium]]
+|-
+|[[Rock City SC]] 
+|
+|
+
+|-
+|[[Texas South Devils]] 
+|
+|
+|-
+! style="background:blue;" colspan="6"| <span style="color:white;">Midwest Division</span>
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Central Conference'''</span>
+|-
+|[[Eau Claire Aris FC]] 
+|[[Eau Claire, Wisconsin]]
+|Bollinger Field
+|-
+|[[Madison 56ers]]  
+|[[Madison, Wisconsin]]
+|[[Breese Stevens Field]]
+|-
+|[[Milwaukee Bavarians]]  
+|[[Milwaukee, Wisconsin]]
+|Bavarian Soccer Park
+|-
+|[[Minnesota Twin Stars]] 
+|[[Minneapolis, Minnesota]]
+|[[Augsburg College|Edor Nelson FIeld]]
+|-
+|[[Quad City Eagles]] 
+|[[ Moline, Illinois]]
+|[[Augustana College (Illinois)|Lucken Field]]
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Great Lakes Conference'''</span>
+|-
+|[[AFC Cleveland]]  
+|[[Parma, Ohio]]
+|[[Byers Field]]
+|-
+|[[Detroit City Football Club|Detroit City FC]]  
+|[[Detroit, Michigan]]
+|Cass Technical High School Stadium
+|-
+|[[Erie Admirals S.C.]]  
+|[[Erie, Pennsylvania]]
+|[[Gannon University|Gannon University Field]]
+|-
+|[[FC Buffalo]]  
+|[[Buffalo, New York]]
+|[[All-High Stadium]]
+|-
+|[[FC Sparta Michigan]]  
+|[[Berkley, Michigan]]
+|Hurley Field
+|-
+|[[Greater Binghamton FC]]  
+|[[Binghamton, New York]]
+|[[Greater Binghamton Sports Complex]]
+|-
+|[[Zanesville Athletic FC]] 
+|[[Zanesville, Ohio]]
+|Foxfire Field 
+|-
+! style="background:blue;" colspan="6"| <span style="color:white;">West Division</span>
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Southern Conference'''</span>
+|-
+|[[FC Hasental]]  
+|[[Agoura Hills]]
+|Various
+|-
+|[[Fullerton Rangers]]  
+|[[Fullerton, California]]
+|Eddie West Field
+|-
+|[[FC Santa Clarita]]  
+|[[Santa Clarita, California]]
+|Various
+|-
+|[[Phoenix Monsoon]]  
+|[[San Tan Valley, Arizona]]
+|[[Poston Butte High School]]
+|-
+|[[San Diego Boca FC|San Diego Boca]] 
+|[[San Diego, California]]
+|[[Balboa Stadium]]
+|-
+|[[San Diego Flash]] 
+|[[San Diego, California]]
+|[[Del Norte High School (San Diego, California)|Del Norte High School Stadium]]
+|-
+! style="text-align:center; background:gray;" colspan="6"| <span style="color:white;">'''Northern Conference'''</span>
+|-
+|[[Bay Area Ambassadors]]  
+|[[Hayward, California]]
+|[[Chabot College|Gladiator Stadium]]
+|-
+|[[North Coast Tsunami]]  
+|
+|
+|-
+|[[Real San Jose]]  
+|[[San Jose, California]]
+|[[Yerba Buena High School]]
+|-
+|[[Sacramento Gold (NPSL)|Sacramento Gold]]  
+|[[West Sacramento, California]]
+|[[River City High School]]
+|-
+|[[San Francisco Stompers FC]]  
+|[[Pacifica, California]]
+|[[Terra Nova High School (California)]]
+|-
+|[[Sonoma County Sol]]
+|[[Rohnert Park, California]]
+|[[Sonoma State University|Seawolf Stadium]]
+|-
+|}
+
+=== [[North American Soccer League (2010)|North American Soccer League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Team
+!City
+!Home Stadium
+|-
+|'''[[Atlanta Silverbacks]]'''  || [[Atlanta|Atlanta, Georgia]] ||   [[RE/MAX Greater Atlanta Stadium]]
+|-
+|'''[[Carolina RailHawks FC]]'''  || [[Cary, North Carolina]] ||   [[WakeMed Soccer Park]]
+|-
+|'''[[FC Edmonton]]'''  || [[Edmonton|Edmonton, Alberta]] || [[Foote Field]]
+|-
+|'''[[Miami FC|Fort Lauderdale Strikers]]'''  || [[Fort Lauderdale, Florida]] ||  [[Lockhart Stadium]]
+|-
+|'''[[NSC Minnesota Stars]]'''  || [[Blaine, Minnesota]] || [[National Sports Center]]
+|-
+|'''[[Puerto Rico Islanders]]'''  || [[Bayamón, Puerto Rico]] || [[Juan Ramón Loubriel Stadium|Estadio Juan Ramón Loubriel]]
+|-
+|'''[[FC Tampa Bay]]'''  || [[St. Petersburg, Florida]]  || [[Progress Energy Park]]
+|}
+
+=== [[Professional Arena Soccer League]] ===
+{{update|section|date=November 2012}}
+Teams in the Eastern and Western Divisions play a complete schedule. Teams in the Frontier Division play a partial 12-game schedule.
+
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Division
+!Team
+!City
+!Home Arena
+|-
+! rowspan="4" | Eastern
+|'''[[Cincinnati Kings Indoor Team|Cincinnati Kings]]'''
+|[[Cincinnati|Cincinnati, Ohio]]
+|[[Cincinnati Gardens]]
+|-
+|'''[[Detroit Waza]]'''
+|[[Taylor, Michigan]]
+|Taylor Sportsplex
+|-
+|'''[[Louisville Lightning]]'''
+|[[Louisville, Kentucky]]
+|Mockingbird Valley Soccer Club
+|-
+|'''[[Ohio Vortex]]'''
+|[[Canton, Ohio]]
+|[[Canton Civic Center]]
+|-
+! rowspan="4" | Western
+|'''[[California Cougars]]'''
+|[[Stockton, California]]
+|[[Stockton Arena]]
+|-
+|'''[[Tacoma Stars (PASL-Pro)|Tacoma Stars]]'''
+|[[Tacoma, Washington]]
+|Tacoma Soccer Center
+|-
+|Revolucion Tijuana
+|[[Tijuana]], [[Baja California]], [[Mexico]]
+|Estadio Furati
+|-
+|'''[[San Diego Sockers (PASL)|San Diego Sockers]]'''
+|[[San Diego|San Diego, California]]
+|[[Valley View Casino Center]]
+|-
+! rowspan="4" | Frontier
+|'''[[Piasa FC|Illinois Piasa]]'''
+|[[Pontoon Beach, Illinois]]
+| Soccer For Fun
+|-
+|'''[[Kitsap Pumas]]'''
+|[[Bremerton, Washington]]
+| Olympic Soccer Center
+|-
+|'''[[Springfield Demize]]'''
+|[[Springfield, Missouri]]
+| Lake Country Soccerdome
+|-
+|'''[[Wenatchee Fire]]'''
+|[[Wenatchee, Washington]]
+|Wenatchee Valley Sportsplex
+|}
+
+=== [[USL Pro]] (soccer) ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Division
+!Team
+!City
+!Home Arena
+|-
+! rowspan= 5 | American
+| '''[[Charleston Battery]]'''
+| [[Charleston, South Carolina]]
+| [[Blackbaud Stadium]]
+|-
+| '''[[Charlotte Eagles]]'''
+| [[Charlotte, North Carolina]]
+| [[Charlotte Christian School|Restart Field]]
+|-
+| '''[[Orlando City S.C.|Orlando City]]'''
+| [[Orlando, Florida]]
+| [[Citrus Bowl]]
+|-
+| '''[[Richmond Kickers]]'''
+| [[Richmond, Virginia]]
+| [[City Stadium (Richmond)|City Stadium]]
+|-
+| '''[[Wilmington Hammerheads]]'''
+| [[Wilmington, North Carolina]]
+| [[Legion Stadium]]
+|-
+! rowspan= 5 | National
+| '''[[Dayton Dutch Lions]]'''
+| [[Bellbrook, Ohio]]
+| [[Bellbrook High School|Miami Valley South Stadium]]
+|-
+| '''[[F.C. New York]]'''
+| [[Queens|Queens, New York]]
+| [[Belson Stadium]]
+|-
+| '''[[Harrisburg City Islanders]]'''
+| [[Harrisburg, Pennsylvania]]
+| [[Skyline Sports Complex]]
+|-
+| '''[[Pittsburgh Riverhounds]]'''
+| [[Pittsburgh|Pittsburgh, Pennsylvania]]
+| [[Chartiers Valley High School]]
+|-
+| '''[[Rochester Rhinos]]'''
+| [[Rochester, New York]]
+| [[Sahlen's Stadium]]
+|-
+! rowspan= 5 | International
+| '''[[Antigua Barracuda FC|Antigua Barracuda]]'''
+| [[St. John's, Antigua and Barbuda|St John's]], [[Antigua and Barbuda]]
+| [[Sir Vivian Richards Stadium]]
+|-
+| '''[[Los Angeles Blues]]'''
+| [[Fullerton, California]]
+| [[Titan Stadium]]
+|}
+
+==Basketball==
+=== [[American Basketball Association]] ===
+
+=== [[Continental Basketball League]] ===
+
+=== [[National Basketball Association]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Division
+!Team
+!City
+!Home Arena
+|-
+! rowspan="15" | [[Eastern Conference (NBA)|Eastern]]
+! rowspan="5" | [[Atlantic Division (NBA)|Atlantic]]
+|'''[[Boston Celtics]]'''
+|[[Boston|Boston, Massachusetts]]
+|[[TD Garden]]
+|-
+|'''[[Brooklyn Nets]]'''
+|[[New York, New York]] ([[Brooklyn]])
+|[[Barclays Center]]
+|-
+|'''[[New York Knicks]]'''
+|[[New York, New York]] ([[Manhattan]])
+|[[Madison Square Garden]]
+|-
+|'''[[Philadelphia 76ers]]'''
+|[[Philadelphia|Philadelphia, Pennsylvania]]
+|[[Wells Fargo Center (Philadelphia)|Wells Fargo Center]]
+|-
+|'''[[Toronto Raptors]]'''
+|[[Toronto|Toronto, Ontario]]
+|[[Air Canada Centre]]
+|-
+! rowspan="5" | [[Central Division (NBA)|Central]]
+|'''[[Chicago Bulls]]'''
+|[[Chicago|Chicago, Illinois]]
+|[[United Center]]
+|-
+|'''[[Cleveland Cavaliers]]'''
+|[[Cleveland|Cleveland, Ohio]]
+|[[Quicken Loans Arena]]
+|-
+|'''[[Detroit Pistons]]'''
+|[[Auburn Hills, Michigan]]
+|[[The Palace of Auburn Hills]]
+|-
+|'''[[Indiana Pacers]]'''
+|[[Indianapolis|Indianapolis, Indiana]]
+|[[Bankers Life Fieldhouse]]
+|-
+|'''[[Milwaukee Bucks]]'''
+|[[Milwaukee|Milwaukee, Wisconsin]]
+|[[Bradley Center]]
+|-
+! rowspan="5" | [[Southeast Division (NBA)|Southeast]]
+|'''[[Atlanta Hawks]]'''
+|[[Atlanta|Atlanta, Georgia]]
+|[[Philips Arena]]
+|-
+|'''[[Charlotte Bobcats]]
+|[[Charlotte, North Carolina]]
+|[[Time Warner Cable Arena]]
+|-
+|'''[[Miami Heat]]'''
+|[[Miami|Miami, Florida]]
+|[[AmericanAirlines Arena]]
+|-
+|'''[[Orlando Magic]]'''
+|[[Orlando, Florida]]
+|[[Amway Center]]
+|-
+|'''[[Washington Wizards]]'''
+|[[Washington, D.C.]]
+|[[Verizon Center]]
+|-
+! rowspan="15" | [[Western Conference (NBA)|Western]]
+! rowspan="5" | [[Northwest Division (NBA)|Northwest]]
+|'''[[Denver Nuggets]]'''
+|[[Denver|Denver, Colorado]]
+|[[Pepsi Center]]
+|-
+|'''[[Minnesota Timberwolves]]'''
+|[[Minneapolis|Minneapolis, Minnesota]]
+|[[Target Center]]
+|-
+|'''[[Oklahoma City Thunder]]'''
+|[[Oklahoma City|Oklahoma City, Oklahoma]]
+|[[Chesapeake Energy Arena]]
+|-
+|'''[[Portland Trail Blazers]]'''
+|[[Portland, Oregon]]
+|[[Rose Garden (arena)|Rose Garden]]
+|-
+|'''[[Utah Jazz]]'''
+|[[Salt Lake City|Salt Lake City, Utah]]
+|[[EnergySolutions Arena]]
+|-
+! rowspan="5" | [[Pacific Division (NBA)|Pacific]]
+|'''[[Golden State Warriors]]'''
+|[[Oakland, California]]
+|[[Oracle Arena]]
+|-
+|'''[[Los Angeles Clippers]]'''
+|[[Los Angeles|Los Angeles, California]]
+|[[Staples Center]]
+|-
+|'''[[Los Angeles Lakers]]'''
+|[[Los Angeles|Los Angeles, California]]
+|[[Staples Center]]
+|-
+|'''[[Phoenix Suns]]'''
+|[[Phoenix, Arizona]]
+|[[US Airways Center]]
+|-
+|'''[[Sacramento Kings]]'''
+|[[Sacramento, California]]
+|[[Power Balance Pavilion]]
+|-
+! rowspan="5" | [[Southwest Division (NBA)|Southwest]]
+|'''[[Dallas Mavericks]]'''
+|[[Dallas|Dallas, Texas]]
+|[[American Airlines Center]]
+|-
+|'''[[Houston Rockets]]'''
+|[[Houston|Houston, Texas]]
+|[[Toyota Center (Houston)|Toyota Center]]
+|-
+|'''[[Memphis Grizzlies]]'''
+|[[Memphis, Tennessee]]
+|[[FedExForum]]
+|-
+|'''[[New Orleans Hornets]]'''
+|[[New Orleans|New Orleans, Louisiana]]
+|[[New Orleans Arena]]
+|-
+|'''[[San Antonio Spurs]]'''
+|[[San Antonio|San Antonio, Texas]]
+|[[AT&T Center]]
+|}
+
+=== [[Women's National Basketball Association]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Team
+!City
+!Home Arena
+|-
+! rowspan=6 | [[Eastern Conference (WNBA)|Eastern]]
+|'''[[Atlanta Dream]]'''
+|[[Atlanta]], [[Georgia (U.S. state)|Georgia]]
+|[[Philips Arena]]
+|-
+|'''[[Chicago Sky]]'''
+|[[Rosemont, Illinois|Rosemont]], [[Illinois]]
+|[[Allstate Arena]]
+|-
+|'''[[Connecticut Sun]]'''
+|[[Uncasville, Connecticut|Uncasville]], [[Connecticut]]
+|[[Mohegan Sun Arena]]
+|-
+|'''[[Indiana Fever]]'''
+|[[Indianapolis]], [[Indiana]]
+|[[Bankers Life Fieldhouse]]
+|-
+|'''[[New York Liberty]]'''
+|[[New York City]], [[New York]]
+|[[Madison Square Garden]]
+|-
+|'''[[Washington Mystics]]'''
+|[[Washington D.C.]]
+|[[Verizon Center]]
+|-
+! rowspan=6 | [[Western Conference (WNBA)|Western]]
+|'''[[Los Angeles Sparks]]'''
+|[[Los Angeles]], [[California]]
+|[[Staples Center]]
+|-
+|'''[[Minnesota Lynx]]'''
+|[[Minneapolis]], [[Minnesota]]
+|[[Target Center]]
+|-
+|'''[[Phoenix Mercury]]'''
+|[[Phoenix, Arizona|Phoenix]], [[Arizona]]
+|[[US Airways Center]]
+|-
+|'''[[San Antonio Silver Stars]]'''
+|[[San Antonio]], [[Texas]]
+|[[AT&T Center]]
+|-
+|'''[[Seattle Storm]]'''
+|[[Seattle]], [[Washington (U.S. state)|Washington]]
+|[[KeyArena]]
+|-
+| '''[[Tulsa Shock]]'''
+|[[Tulsa, Oklahoma|Tulsa]], [[Oklahoma]]
+| [[BOK Center]]
+|}
+
+==Gridiron Football==
+=== [[American Indoor Football]] ===
+
+=== [[Canadian Football League]] ===
+{| class="wikitable" border=1 cellpadding=5 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Team
+!City
+!Home Stadium
+|-
+! rowspan="04" | [[East]]
+|'''[[Hamilton Tiger-Cats]]'''  || [[Hamilton, Ontario|Hamilton]], [[Ontario]] || [[Ivor Wynne Stadium]]
+|-
+|'''[[Montreal Alouettes]]'''  || [[Montreal]], [[Quebec]] ||   [[Percival Molson Memorial Stadium]]
+|-
+|'''[[Toronto Argonauts]]'''   || [[Toronto]], [[Ontario]] || [[Rogers Centre]]
+|-
+|'''[[Winnipeg Blue Bombers]]'''   || [[Winnipeg]], [[Manitoba]] || [[Investors Group Field]]
+|-
+
+! rowspan="04" | [[West]]
+|'''[[BC Lions]]''' || [[Vancouver]], [[British Columbia]] || [[Empire Field]]/[[BC Place Stadium|BC Place]]
+|-
+|'''[[Calgary Stampeders]]'''  || [[Calgary]], [[Alberta]] || [[McMahon Stadium]]
+|-
+|'''[[Edmonton Eskimos]]''' || [[Edmonton]], [[Alberta]]  || [[Commonwealth Stadium (Edmonton)|Commonwealth Stadium]]
+|-
+|'''[[Saskatchewan Roughriders]]''' || [[Regina, Saskatchewan|Regina]], [[Saskatchewan]] || [[Mosaic Stadium at Taylor Field]]
+|}
+
+=== [[Independent Women's Football League]] ===
+
+=== [[Lone Star Football League]] ===
+
+=== [[National Football League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Division
+!Team
+!City
+!Home Stadium
+|-
+! rowspan="16" | [[American Football Conference|American]]
+! rowspan="4" | [[American Football Conference East Division|East]]
+|'''[[Buffalo Bills]]'''
+|[[Orchard Park (town), New York|Orchard Park, New York]]
+|[[Ralph Wilson Stadium]]
+|-
+|'''[[Miami Dolphins]]'''
+|[[Miami Gardens, Florida]]
+|[[Sun Life Stadium]]
+|-
+|'''[[New England Patriots]]'''
+|[[Foxborough, Massachusetts]]
+|[[Gillette Stadium]]
+|-
+|'''[[New York Jets]]'''
+|[[East Rutherford, New Jersey]]
+|[[MetLife Stadium]]
+|-
+! rowspan="4" | [[American Football Conference North Division|North]]
+|'''[[Baltimore Ravens]]'''
+|[[Baltimore|Baltimore, Maryland]]
+|[[M&T Bank Stadium]]
+|-
+|'''[[Cincinnati Bengals]]'''
+|[[Cincinnati|Cincinnati, Ohio]]
+|[[Paul Brown Stadium]]
+|-
+|'''[[Cleveland Browns]]'''
+|[[Cleveland|Cleveland, Ohio]]
+|[[Cleveland Browns Stadium]]
+|-
+|'''[[Pittsburgh Steelers]]'''
+|[[Pittsburgh|Pittsburgh, Pennsylvania]]
+|[[Heinz Field]]
+|-
+! rowspan="4" | [[American Football Conference South Division|South]]
+|'''[[Houston Texans]]'''
+|[[Houston|Houston, Texas]]
+|[[Reliant Stadium]]
+|-
+|'''[[Indianapolis Colts]]'''
+|[[Indianapolis|Indianapolis, Indiana]]
+|[[Lucas Oil Stadium]]
+|-
+|'''[[Jacksonville Jaguars]]'''
+|[[Jacksonville, Florida]]
+|[[EverBank Field]]
+|-
+|'''[[Tennessee Titans]]'''
+|[[Nashville, Tennessee]]
+|[[LP Field]]
+|-
+! rowspan="4" | [[American Football Conference West Division|West]]
+|'''[[Denver Broncos]]'''
+|[[Denver|Denver, Colorado]]
+|[[Sports Authority Field at Mile High]]
+|-
+|'''[[Kansas City Chiefs]]'''
+|[[Kansas City, Missouri]]
+|[[Arrowhead Stadium]]
+|-
+|'''[[Oakland Raiders]]'''
+|[[Oakland, California]]
+|[[O.co Coliseum]]
+|-
+|'''[[San Diego Chargers]]'''
+|[[San Diego|San Diego, California]]
+|[[Qualcomm Stadium]]
+|-
+! rowspan="16" | [[National Football Conference|National]]
+! rowspan="4" | [[National Football Conference East Division|East]]
+|'''[[Dallas Cowboys]]'''
+|[[Arlington, Texas]]
+|[[Cowboys Stadium]]
+|-
+|'''[[New York Giants]]'''
+|[[East Rutherford, New Jersey]]
+|[[MetLife Stadium]]
+|-
+|'''[[Philadelphia Eagles]]'''
+|[[Philadelphia|Philadelphia, Pennsylvania]]
+|[[Lincoln Financial Field]]
+|-
+|'''[[Washington Redskins]]'''
+|[[Landover, Maryland]]
+|[[FedExField]]
+|-
+! rowspan="4" | [[National Football Conference North Division|North]]
+|'''[[Chicago Bears]]'''
+|[[Chicago|Chicago, Illinois]]
+|[[Soldier Field]]
+|-
+|'''[[Detroit Lions]]'''
+|[[Detroit|Detroit, Michigan]]
+|[[Ford Field]]
+|-
+|'''[[Green Bay Packers]]'''
+|[[Green Bay, Wisconsin]]
+|[[Lambeau Field]]
+|-
+|'''[[Minnesota Vikings]]'''
+|[[Minneapolis|Minneapolis, Minnesota]]
+|[[Hubert H. Humphrey Metrodome]]
+|-
+! rowspan="4" | [[National Football Conference South Division|South]]
+|'''[[Atlanta Falcons]]'''
+|[[Atlanta|Atlanta, Georgia]]
+|[[Georgia Dome]]
+|-
+|'''[[Carolina Panthers]]'''
+|[[Charlotte, North Carolina]]
+|[[Bank of America Stadium]]
+|-
+|'''[[New Orleans Saints]]'''
+|[[New Orleans|New Orleans, Louisiana]]
+|[[Mercedes-Benz Superdome]]
+|-
+|'''[[Tampa Bay Buccaneers]]'''
+|[[Tampa, Florida]]
+|[[Raymond James Stadium]]
+|-
+! rowspan="4" | [[National Football Conference West Division|West]]
+|'''[[Arizona Cardinals]]'''
+|[[Glendale, Arizona]]
+|[[University of Phoenix Stadium]]
+|-
+|'''[[St. Louis Rams]]'''
+|[[St. Louis, Missouri]]
+|[[Edward Jones Dome]]
+|-
+|'''[[San Francisco 49ers]]'''
+|[[San Francisco|San Francisco, California]]
+|[[Candlestick Park]]
+|-
+|'''[[Seattle Seahawks]]'''
+|[[Seattle|Seattle, Washington]]
+|[[CenturyLink Field]]
+|}
+
+=== [[Professional Indoor Football League]] ===
+
+=== [[United Football League (2009)|United Football League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Team
+!City
+!Home Field
+|-
+| '''[[Las Vegas Locomotives]]'''
+| [[Whitney, Nevada]]
+| [[Sam Boyd Stadium]]
+|-
+| '''[[Omaha Nighthawks]]'''
+| [[Omaha, Nebraska]]
+| [[TD Ameritrade Park Omaha]]
+|-
+| '''[[Sacramento Mountain Lions]]'''
+| [[Sacramento, California]]
+| [[AT&T Park]]
+|-
+| '''[[Virginia Destroyers]]'''
+| [[Virginia Beach|Virginia Beach, Virginia]]
+| [[Virginia Beach Sportsplex]]
+|}
+
+==Ice Hockey==
+=== [[American Hockey League]] ===
+{| class="navbox wikitable" style="width:100%; text-align:left;"
+|+Current Teams<ref>http://theahl.com/board-of-governors-meeting-concludes-p178164</ref>
+!style="background:white;"| Division
+!style="background:white;"| Team
+!style="background:white;"| Arena
+!style="background:white;"| Location
+!style="background:white;"| NHL Affiliate Team(s)
+!style="background:white;"| ECHL/CHL Affiliate Team(s)
+|-
+!style="background:white;" colspan="6" | Eastern Conference
+|-
+! rowspan=5 style=background:#d0a5d3 | Atlantic
+| '''[[Manchester Monarchs]]'''
+| [[Verizon Wireless Arena]]
+| [[Manchester, New Hampshire]]
+| [[Los Angeles Kings]]
+| [[Ontario Reign]]
+|-
+| '''[[Portland Pirates]]'''
+| [[Cumberland County Civic Center]]
+| [[Portland, Maine]]
+| [[Phoenix Coyotes]]
+| [[Gwinnett Gladiators]]/[[Arizona Sundogs]]
+|-
+| '''[[Providence Bruins]]'''
+| [[Dunkin' Donuts Center]]
+| [[Providence, Rhode Island]]
+| [[Boston Bruins]]
+| [[South Carolina Stingrays]]
+|-
+| '''[[St. John's IceCaps]]'''
+| [[Mile One Centre]]
+| [[St. John's, Newfoundland and Labrador]]
+| [[Winnipeg Jets]]
+| [[Colorado Eagles]]
+|-
+| '''[[Worcester Sharks]]'''
+| [[DCU Center]]
+| [[Worcester, Massachusetts]]
+| [[San Jose Sharks]]
+| [[San Francisco Bulls]]
+|-
+! rowspan=5 style=background:#9aa5d2 | Northeast
+| '''[[Adirondack Phantoms]]'''
+| [[Glens Falls Civic Center]]
+| [[Glens Falls, New York]]
+| [[Philadelphia Flyers]]
+| [[Trenton Titans]]
+|-
+| '''[[Albany Devils]]'''
+| [[Times Union Center]]
+| [[Albany, New York]]
+| [[New Jersey Devils]]
+| None
+|-
+| '''[[Bridgeport Sound Tigers]]'''
+| [[Webster Bank Arena]]
+| [[Bridgeport, Connecticut]]
+| [[New York Islanders]]
+| None
+|-
+| '''[[Connecticut Whale]]'''
+| [[XL Center]]
+| [[Hartford, Connecticut]]
+| [[New York Rangers]]
+| [[Greenville Road Warriors]]
+|-
+| '''[[Springfield Falcons]]'''
+| [[MassMutual Center]]
+| [[Springfield, Massachusetts]]
+| [[Columbus Blue Jackets]]
+| [[Evansville IceMen]]
+|-
+! rowspan=5 style=background:#b6d999 | East
+| '''[[Binghamton Senators]]'''
+| [[Broome County Veterans Memorial Arena]]
+| [[Binghamton, New York]]
+| [[Ottawa Senators]]
+| [[Elmira Jackals]]
+|-
+| '''[[Hershey Bears]]'''
+| [[Giant Center]]
+| [[Hershey, Pennsylvania]]
+| [[Washington Capitals]]
+| [[Reading Royals]]
+|-
+| '''[[Norfolk Admirals]]'''
+| [[Norfolk Scope]]
+| [[Norfolk, Virginia]]
+| [[Anaheim Ducks]]
+| [[Fort Wayne Komets]]
+|-
+| '''[[Syracuse Crunch]]'''
+| [[Oncenter War Memorial Arena]]
+| [[Syracuse, New York]]
+| [[Tampa Bay Lightning]]
+| [[Florida Everblades]]
+|-
+| '''[[Wilkes-Barre/Scranton Penguins]]'''
+| [[Mohegan Sun Arena at Casey Plaza]]
+| [[Wilkes-Barre, Pennsylvania]]
+| [[Pittsburgh Penguins]]
+| [[Wheeling Nailers]]
+|-
+!style="background:white;" colspan="6" | Western Conference
+|-
+! rowspan=5 style=background:#ebeeb6 | North
+| '''[[Abbotsford Heat]]'''
+| [[Abbotsford Entertainment & Sports Centre]]
+| [[Abbotsford, British Columbia]]
+| [[Calgary Flames]]
+| [[Utah Grizzlies]]
+|-
+| '''[[Hamilton Bulldogs]]'''
+| [[Copps Coliseum]]
+| [[Hamilton, Ontario]]
+| [[Montreal Canadiens]]
+| [[Wheeling Nailers]]
+|-
+| '''[[Lake Erie Monsters]]'''
+| [[Quicken Loans Arena]]
+| [[Cleveland]], [[Ohio]]
+| [[Colorado Avalanche]]
+| [[Denver Cutthroats]]
+|-
+| '''[[Rochester Americans]]'''
+| [[Blue Cross Arena]]
+| [[Rochester, New York]]
+| [[Buffalo Sabres]]
+| None
+|-
+| '''[[Toronto Marlies]]'''
+| [[Ricoh Coliseum]]
+| [[Toronto]], [[Ontario]]
+| [[Toronto Maple Leafs]]
+| None
+|-
+! rowspan=5 style=background:#dfc0a1 | Midwest
+| '''[[Chicago Wolves]]'''
+| [[Allstate Arena]]
+| [[Rosemont, Illinois]]
+| [[Vancouver Canucks]]
+| [[Kalamazoo Wings]]/[[Missouri Mavericks]]
+|-
+| '''[[Grand Rapids Griffins]]'''
+| [[Van Andel Arena]]
+| [[Grand Rapids, Michigan]]
+| [[Detroit Red Wings]]
+| [[Toledo Walleye]]
+|-
+| '''[[Milwaukee Admirals]]'''
+| [[BMO Harris Bradley Center]]
+| [[Milwaukee|Milwaukee, Wisconsin]]
+| [[Nashville Predators]]
+| [[Cincinnati Cyclones]]
+|-
+| '''[[Peoria Rivermen]]'''
+| [[Peoria Civic Center]]
+| [[Peoria, Illinois]]
+| [[St. Louis Blues]]
+| [[Evansville IceMen]]
+|-
+| '''[[Rockford IceHogs]]'''
+| [[BMO Harris Bank Center]]
+| [[Rockford, Illinois]]
+| [[Chicago Blackhawks]]
+| [[Toledo Walleye]]
+|-
+! rowspan=5 style=background:#dbabb0 | South
+| '''[[Charlotte Checkers (2010–)|Charlotte Checkers]]'''
+| [[Time Warner Cable Arena]]
+| [[Charlotte, North Carolina]]
+| [[Carolina Hurricanes]]
+| [[Florida Everblades]]
+|-
+| '''[[Houston Aeros]]'''
+| [[Toyota Center]]
+| [[Houston]], [[Texas]]
+| [[Minnesota Wild]]
+| [[Orlando Solar Bears]]/[[Allen Americans]]
+|-
+| '''[[Oklahoma City Barons]]'''
+| [[Cox Convention Center]]
+| [[Oklahoma City]], [[Oklahoma]]
+| [[Edmonton Oilers]]
+| [[Stockton Thunder]]
+|-
+| '''[[San Antonio Rampage]]'''
+| [[AT&T Center]]
+| [[San Antonio]], [[Texas]]
+| [[Florida Panthers]]<ref>{{cite web|title=Rampage, Panthers ink affiliation deal|url=http://theahl.com/rampage-panthers-ink-affiliation-deal-p171462|work=theahl.com|accessdate=29 June 2011}}</ref> 
+| [[Cincinnati Cyclones]]
+|-
+| '''[[Texas Stars]]'''
+| [[Cedar Park Center]]
+| [[Cedar Park, Texas]]
+| [[Dallas Stars]]
+| [[Idaho Steelheads]]/[[Allen Americans]]
+|}
+
+=== [[Canadian Women's Hockey League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Team
+!City
+!Home Arena
+|-
+|'''[[Team Alberta CWHL]]''' || [[Calgary|Calgary, AB]] || Athletic and Ice Complex
+|-
+|'''[[Boston Blades]]''' || [[Boston|Boston, MA]] || [[Bright Hockey Center]] 
+|-
+|'''[[Brampton Thunder]]''' || [[Brampton|Brampton, ON]] || [[Powerade Centre]]
+|-
+|'''[[Burlington Barracudas]]''' || [[Burlington, Ontario|Burlington, ON]] || [[Appleby Ice Center]]
+|-
+|'''[[Toronto Furies]]''' || [[Toronto|Toronto, ON]] || George Bell Arena at [[Runnymede Park]]
+|-
+|'''[[Montreal Stars]]''' || [[Montreal|Montreal, QC]]  ||  [[Centre Etienne Desmarteau]] 
+|-
+|}
+
+=== [[ECHL]] ===
+{| class="navbox wikitable" style="width:100%; text-align:left"
+! style="background:white; width:7%" | Division
+! style="background:white; width:15%" | Team
+! style="background:white; width:10%" | City/Area
+! style="background:white; width:12%" | Arena
+! style="background:white; width:18%" | NHL Affiliate(s)
+! style="background:white; width:22%" | AHL Affiliate(s)
+
+|-
+! style=background:red colspan=9 | <span style="color:white;">Eastern Conference</span>
+|-
+! style=background:#FFDDFF rowspan=4 | Atlantic
+| '''[[Elmira Jackals]]'''
+| [[Elmira, New York|Elmira]], [[New York|NY]]
+| [[First Arena]]
+| [[Ottawa Senators]]
+| [[Binghamton Senators]]
+|-
+| '''[[Reading Royals]]'''
+| [[Reading, Pennsylvania|Reading]], [[Pennsylvania|PA]]
+| [[Sovereign Center]]
+| [[Washington Capitals]]
+| [[Hershey Bears]]
+|-
+| '''[[Trenton Titans]]'''
+| [[Trenton, New Jersey|Trenton]], [[New Jersey|NJ]]
+| [[Sun National Bank Center]]
+| [[Philadelphia Flyers]]
+| [[Adirondack Phantoms]]
+|-
+| '''[[Wheeling Nailers]]'''
+| [[Wheeling, West Virginia|Wheeling]], [[West Virginia|WV]]
+| [[WesBanco Arena]]
+| [[Montreal Canadiens]]/[[Pittsburgh Penguins]]
+| [[Hamilton Bulldogs]]/[[Wilkes-Barre/Scranton Penguins]]
+|-
+! style=background:#DDDDFF rowspan=5 | North
+| '''[[Cincinnati Cyclones]]'''
+| [[Cincinnati]], [[Ohio|OH]]
+| [[U.S. Bank Arena]]
+| [[Florida Panthers]]/[[Nashville Predators]]
+| [[San Antonio Rampage]]/[[Milwaukee Admirals]]
+|-
+| '''[[Evansville IceMen]]'''
+| [[Evansville, Indiana|Evansville]], [[Indiana|IN]]
+| [[Ford Center (Evansville)|Ford Center]]
+| [[Columbus Blue Jackets]]/[[St. Louis Blues]]
+| [[Springfield Falcons]]/[[Peoria Rivermen]]
+|-
+| '''[[Fort Wayne Komets]]'''
+| [[Fort Wayne, Indiana|Fort Wayne]], [[Indiana|IN]]
+| [[Allen County War Memorial Coliseum]]
+| [[Anaheim Ducks]]
+| [[Norfolk Admirals]]
+|-
+| '''[[Kalamazoo Wings]]'''
+| [[Kalamazoo, Michigan|Kalamazoo]], [[Michigan|MI]]
+| [[Wings Stadium]]
+| [[Vancouver Canucks]]
+| [[Chicago Wolves]]
+|-
+| '''[[Toledo Walleye]]'''
+| [[Toledo, Ohio|Toledo]], [[Ohio|OH]]
+| [[Huntington Center (Toledo)|Huntington Center]]
+| [[Chicago Blackhawks]]/[[Detroit Red Wings]]
+| [[Grand Rapids Griffins]]/[[Rockford IceHogs]]
+|-
+! style=background:#DDFFDD rowspan=5 | South
+| '''[[Florida Everblades]]'''
+| [[Estero, Florida|Estero]], [[Florida|FL]]
+| [[Germain Arena]]
+| [[Carolina Hurricanes]]/[[Tampa Bay Lightning]]
+| [[Charlotte Checkers (2010–)|Charlotte Checkers]]/[[Syracuse Crunch]]
+|-
+| '''[[Greenville Road Warriors]]'''
+| [[Greenville, South Carolina|Greenville]], [[South Carolina|SC]]
+| [[BI-LO Center]]
+| [[New York Rangers]]
+| [[Connecticut Whale]]
+|-
+| '''[[Gwinnett Gladiators]]'''
+| [[Duluth, Georgia|Duluth]], [[Georgia (U.S. state)|GA]]
+| [[Arena at Gwinnett Center]]
+| [[Phoenix Coyotes]]
+| [[Portland Pirates]]
+|-
+| '''[[Orlando Solar Bears (ECHL)|Orlando Solar Bears]]'''
+| [[Orlando, Florida|Orlando]], [[Florida|FL]]
+| [[Amway Center]]
+| [[Minnesota Wild]]
+| [[Houston Aeros]]
+|-
+| '''[[South Carolina Stingrays]]'''
+| [[North Charleston, South Carolina|N. Charleston]], [[South Carolina|SC]]
+| [[North Charleston Coliseum]]
+| [[Boston Bruins]]
+| [[Providence Bruins]]
+|-
+! style=background:navy colspan=9 | <span style="color:white;">Western Conference</span>
+|-
+! style=background:#FFE5B4 rowspan=4 | Mountain
+| '''[[Alaska Aces (ECHL)|Alaska Aces]]'''
+| [[Anchorage, Alaska|Anchorage]], [[Alaska|AK]]
+| [[Sullivan Arena]]
+| Independent
+| Independent
+|-
+| '''[[Colorado Eagles]]'''
+| [[Loveland, Colorado|Loveland]], [[Colorado|CO]]
+| [[Budweiser Events Center]]
+| [[Winnipeg Jets]]
+| [[St. John's IceCaps]]
+|-
+| '''[[Idaho Steelheads]]'''
+| [[Boise, Idaho|Boise]], [[Idaho|ID]]
+| [[CenturyLink Arena Boise]]
+| [[Dallas Stars]]
+| [[Texas Stars]]
+|-
+| '''[[Utah Grizzlies]]'''
+| [[West Valley City, Utah|West Valley City]], [[Utah|UT]]
+| [[Maverik Center]]
+| [[Calgary Flames]]
+| [[Abbotsford Heat]]
+|-
+! style=background:#FFFFDD rowspan=5 | Pacific
+| '''[[Bakersfield Condors]]'''
+| [[Bakersfield, California|Bakersfield]], [[California|CA]]
+| [[Rabobank Arena]]
+| Independent
+| Independent
+|-
+| '''[[Las Vegas Wranglers]]'''
+| [[Las Vegas Valley|Las Vegas]], [[Nevada|NV]]
+| [[Orleans Arena]]
+| Independent
+| Independent
+|-
+| '''[[Ontario Reign]]'''
+| [[Ontario, California|Ontario]], [[California|CA]]
+| [[Citizens Business Bank Arena]]
+| [[Los Angeles Kings]]
+| [[Manchester Monarchs]]
+|-
+| '''[[San Francisco Bulls]]'''
+| [[Daly City, California|Daly City]], [[California|CA]]
+| [[Cow Palace]]
+| [[San Jose Sharks]]
+| [[Worcester Sharks]]
+|-
+| '''[[Stockton Thunder]]'''
+| [[Stockton, California|Stockton]], [[California|CA]]
+| [[Stockton Arena]]
+| [[Edmonton Oilers]]
+| [[Oklahoma City Barons]]
+|}
+
+=== [[National Hockey League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Division
+!Team
+!City
+!Home Arena
+|-
+! rowspan="15" | [[Eastern Conference (NHL)|Eastern]]
+! rowspan="5" | [[Atlantic Division (NHL)|Atlantic]]
+|'''[[New Jersey Devils]]'''
+|[[Newark, New Jersey]]
+|[[Prudential Center]]
+|-
+|'''[[New York Islanders]]'''
+|[[Uniondale, New York]]
+|[[Nassau Veterans Memorial Coliseum]]
+|-
+|'''[[New York Rangers]]'''
+|[[New York City|New York, New York]]
+|[[Madison Square Garden]]
+|-
+|'''[[Philadelphia Flyers]]'''
+|[[Philadelphia|Philadelphia, Pennsylvania]]
+|[[Wells Fargo Center (Philadelphia)|Wells Fargo Center]]
+|-
+|'''[[Pittsburgh Penguins]]'''
+|[[Pittsburgh|Pittsburgh, Pennsylvania]]
+|[[Consol Energy Center]]
+|-
+! rowspan="5" | [[Northeast Division (NHL)|Northeast]]
+|'''[[Boston Bruins]]'''
+|[[Boston|Boston, Massachusetts]]
+|[[TD Garden]]
+|-
+|'''[[Buffalo Sabres]]'''
+|[[Buffalo, New York]]
+|[[First Niagara Center]]
+|-
+|'''[[Montreal Canadiens]]'''
+|[[Montreal|Montreal, Quebec]]
+|[[Bell Centre]]
+|-
+|'''[[Ottawa Senators]]'''
+|[[Ottawa|Ottawa, Ontario]]
+|[[Scotiabank Place]]
+|-
+|'''[[Toronto Maple Leafs]]
+|[[Toronto|Toronto, Ontario]]
+|[[Air Canada Centre]]
+|-
+!rowspan="5" | [[Southeast Division (NHL)|Southeast]]
+|'''[[Carolina Hurricanes]]'''
+|[[Raleigh, North Carolina]]
+|[[RBC Center]]
+|-
+|'''[[Florida Panthers]]'''
+|[[Sunrise, Florida]]
+|[[BankAtlantic Center]]
+|-
+|'''[[Tampa Bay Lightning]]'''
+|[[Tampa, Florida]]
+|[[Tampa Bay Times Forum]]
+|-
+|'''[[Washington Capitals]]'''
+|[[Washington, D.C.]]
+|[[Verizon Center]]
+|-
+|'''[[Winnipeg Jets]]'''
+|[[Winnipeg|Winnipeg, Manitoba]]
+|[[MTS Centre]]
+|-
+! rowspan="15" | [[Western Conference (NHL)|Western]]
+! rowspan="5" | [[Central Division (NHL)|Central]]
+|'''[[Chicago Blackhawks]]'''
+|[[Chicago|Chicago, Illinois]]
+|[[United Center]]
+|-
+|'''[[Columbus Blue Jackets]]'''
+|[[Columbus, Ohio]]
+|[[Nationwide Arena]]
+|-
+|'''[[Detroit Red Wings]]'''
+|[[Detroit|Detroit, Michigan]]
+|[[Joe Louis Arena]]
+|-
+|'''[[Nashville Predators]]'''
+|[[Nashville, Tennessee]]
+|[[Bridgestone Arena]]
+|-
+|'''[[St. Louis Blues]]'''
+|[[St. Louis, Missouri]]
+|[[Scottrade Center]]
+|-
+! rowspan="5" | [[Northwest Division (NHL)|Northwest]]
+|'''[[Calgary Flames]]'''
+|[[Calgary|Calgary, Alberta]]
+|[[Scotiabank Saddledome]]
+|-
+|'''[[Colorado Avalanche]]'''
+|[[Denver|Denver, Colorado]]
+|[[Pepsi Center]]
+|-
+|'''[[Edmonton Oilers]]'''
+|[[Edmonton|Edmonton, Alberta]]
+|[[Rexall Place]]
+|-
+|'''[[Minnesota Wild]]'''
+|[[Saint Paul, Minnesota|St. Paul, Minnesota]]
+|[[Xcel Energy Center]]
+|-
+|'''[[Vancouver Canucks]]'''
+|[[Vancouver|Vancouver, British Columbia]]
+|[[Rogers Arena]]
+|-
+! rowspan="5" | [[Pacific Division (NHL)|Pacific]]
+|'''[[Anaheim Ducks]]'''
+|[[Anaheim, California]]
+|[[Honda Center]]
+|-
+|'''[[Dallas Stars]]'''
+|[[Dallas|Dallas, Texas]]
+|[[American Airlines Center]]
+|-
+|'''[[Los Angeles Kings]]'''
+|[[Los Angeles|Los Angeles, California]]
+|[[Staples Center]]
+|-
+|'''[[Phoenix Coyotes]]'''
+|[[Glendale, Arizona]]
+|[[Jobing.com Arena]]
+|-
+|'''[[San Jose Sharks]]'''
+|[[San Jose, California]]
+|[[HP Pavilion at San Jose]]
+|}
+
+=== [[Southern Professional Hockey League]] ===
+{| class="wikitable"
+|-
+!Team
+!City/Area
+!Arena
+|-
+| '''[[Augusta RiverHawks]]'''
+| [[Augusta, Georgia|Augusta]], [[Georgia (U.S. state)|Georgia]]
+| [[James Brown Arena]]
+|-
+| '''[[Columbus Cottonmouths]]'''
+| [[Columbus, Georgia|Columbus]], [[Georgia (U.S. state)|Georgia]]
+| [[Columbus Civic Center]]
+|-
+| '''[[Fayetteville FireAntz]]'''
+| [[Fayetteville, North Carolina|Fayetteville]], [[North Carolina]]
+| [[Cumberland County Crown Coliseum]]
+|-
+| '''[[Huntsville Havoc]]'''
+| [[Huntsville, Alabama|Huntsville]], [[Alabama]]
+| [[Von Braun Center]]
+|-
+| '''[[Knoxville Ice Bears]]'''
+| [[Knoxville, Tennessee|Knoxville]], [[Tennessee]]
+| [[Knoxville Civic Auditorium and Coliseum]]
+|-
+| '''[[Louisiana IceGators]]'''
+| [[Lafayette, Louisiana|Lafayette]], [[Louisiana]]
+| [[Cajundome]]
+|-
+| '''[[Mississippi RiverKings]]'''
+| [[Southaven, Mississippi|Southaven]], [[Mississippi]] ([[Memphis, Tennessee|Memphis]] area)
+| [[Lander's Center]]
+|-
+| '''[[Mississippi Surge]]'''
+| [[Biloxi, Mississippi|Biloxi]], [[Mississippi]]
+| [[Mississippi Coast Coliseum]]
+|-
+| '''[[Pensacola Ice Flyers]]'''
+| [[Pensacola, Florida|Pensacola]], [[Florida]]
+| [[Pensacola Civic Center]]
+|}
+
+=== [[Western Women's Hockey League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+! Team !! City !! Home Arena
+|-
+| ''' [[Manitoba Maple Leafs]]''' || [[Winnipeg|Winnipeg, Manitoba]] || [[MTS Iceplex]]
+|-
+| '''[[Minnesota Whitecaps]] ''' || [[Minneapolis – Saint Paul|Minneapolis-St. Paul, Minnesota]] area  || No regular arena, home games played throughout Minnesota
+|}
+
+== [[Baseball]] ==
+=== [[Major League Baseball]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!League
+!Division
+!Team
+!City
+!Home Park
+|-
+! rowspan="15" | [[National League|National]]
+! rowspan="5" | [[National League East|East]]
+|'''[[Atlanta Braves]]'''
+|[[Atlanta|Atlanta, Georgia]]
+|[[Turner Field]]
+|-
+|'''[[Miami Marlins]]'''
+|[[Miami, Florida]]
+|[[Marlins Park]]
+|-
+|'''[[New York Mets]]'''
+|[[New York City|New York, New York]] ([[Queens]])
+|[[Citi Field]]
+|-
+|'''[[Philadelphia Phillies]]'''
+|[[Philadelphia|Philadelphia, Pennsylvania]]
+|[[Citizens Bank Park]]
+|-
+|'''[[Washington Nationals]]'''
+|[[Washington, D.C.]]
+|[[Nationals Park]]
+|-
+! rowspan="5" | [[National League Central|Central]]
+|'''[[Chicago Cubs]]'''
+|[[Chicago|Chicago, Illinois]]
+|[[Wrigley Field]]
+|-
+|'''[[Cincinnati Reds]]'''
+|[[Cincinnati|Cincinnati, Ohio]]
+|[[Great American Ball Park]]
+|-
+|'''[[Milwaukee Brewers]]'''
+|[[Milwaukee|Milwaukee, Wisconsin]]
+|[[Miller Park (Milwaukee)|Miller Park]]
+|-
+|'''[[Pittsburgh Pirates]]'''
+|[[Pittsburgh|Pittsburgh, Pennsylvania]]
+|[[PNC Park]]
+|-
+|'''[[St. Louis Cardinals]]'''
+|[[St. Louis, Missouri]]
+|[[Busch Stadium]]
+|-
+! rowspan="5" |[[National League West|West]]
+|'''[[Arizona Diamondbacks]]'''
+|[[Phoenix, Arizona]]
+|[[Chase Field]]
+|-
+|'''[[Colorado Rockies]]'''
+|[[Denver|Denver, Colorado]]
+|[[Coors Field]]
+|-
+|'''[[Los Angeles Dodgers]]'''
+|[[Los Angeles|Los Angeles, California]]
+|[[Dodger Stadium]]
+|-
+|'''[[San Diego Padres]]'''
+|[[San Diego|San Diego, California]]
+|[[PETCO Park]]
+|-
+|'''[[San Francisco Giants]]'''
+|[[San Francisco|San Francisco, California]]
+|[[AT&T Park]]
+|-
+! rowspan="15" | [[American League|American]]
+! rowspan="5" | [[American League East|East]]
+|'''[[Baltimore Orioles]]'''
+|[[Baltimore|Baltimore, Maryland]]
+|[[Oriole Park at Camden Yards]]
+|-
+|'''[[Boston Red Sox]]'''
+|[[Boston|Boston, Massachusetts]]
+|[[Fenway Park]]
+|-
+|'''[[New York Yankees]]'''
+|[[New York City|New York, New York]] ([[Bronx]])
+|[[Yankee Stadium]]
+|-
+|'''[[Tampa Bay Rays]]'''
+|[[St. Petersburg, Florida]]
+|[[Tropicana Field]]
+|-
+|'''[[Toronto Blue Jays]]'''
+|[[Toronto]], [[Ontario]]
+|[[Rogers Centre]]
+|-
+! rowspan="5" | [[American League Central|Central]]
+|'''[[Chicago White Sox]]'''
+|[[Chicago|Chicago, Illinois]]
+|[[U.S. Cellular Field]]
+|-
+|'''[[Cleveland Indians]]'''
+|[[Cleveland|Cleveland, Ohio]]
+|[[Progressive Field]]
+|-
+|'''[[Detroit Tigers]]'''
+|[[Detroit|Detroit, Michigan]]
+|[[Comerica Park]]
+|-
+|'''[[Kansas City Royals]]'''
+|[[Kansas City, Missouri]]
+|[[Kauffman Stadium]]
+|-
+|'''[[Minnesota Twins]]'''
+|[[Minneapolis|Minneapolis, Minnesota]]
+|[[Target Field]]
+|-
+! rowspan="5" |[[American League West|West]]
+|'''[[Houston Astros]]'''
+|[[Houston|Houston, Texas]]
+|[[Minute Maid Park]]
+|-
+|'''[[Los Angeles Angels of Anaheim]]'''
+|[[Anaheim, California]]
+|[[Angel Stadium of Anaheim]]
+|-
+|'''[[Oakland Athletics]]'''
+|[[Oakland, California]]
+|[[O.co Coliseum]]
+|-
+|'''[[Seattle Mariners]]'''
+|[[Seattle|Seattle, Washington]]
+|[[Safeco Field]]
+|-
+|'''[[Texas Rangers (baseball)|Texas Rangers]]'''
+|[[Arlington, Texas]]
+|[[Rangers Ballpark in Arlington]]
+|}
+
+=== [[Southern League]] ===
+
+== [[Lacrosse]] ==
+=== [[Major League Lacrosse]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Team
+!City
+!Home Stadium
+|-
+|'''[[Boston Cannons]]'''
+|[[Boston|Boston, Massachusetts]]
+|[[Harvard Stadium]]
+|-
+|'''[[Charlotte Hounds]]'''
+|[[Charlotte, North Carolina]]
+|[[American Legion Memorial Stadium]]
+|-
+|'''[[Chesapeake Bayhawks]]'''
+|[[Annapolis, Maryland]]
+|[[Navy-Marine Corps Memorial Stadium]]
+|-
+|'''[[Denver Outlaws]]'''
+|[[Denver|Denver, Colorado]]
+|[[Sports Authority Field at Mile High]]
+|-
+|'''[[Hamilton Nationals]]'''
+|[[Hamilton, Ontario|Hamilton]], [[Ontario]]
+|[[Ron Joyce Stadium]]
+|-
+|'''[[Long Island Lizards]]'''
+|[[Hempstead (village), New York|Hempstead, New York]]
+|[[James M. Shuart Stadium]]
+|-
+|'''[[Ohio Machine]]'''
+|[[Columbus, Ohio]]
+|[[Ohio Weslyean University Stadium]]
+|-
+|'''[[Rochester Rattlers]]'''
+|[[Rochester, New York]]
+|[[Sahlen's Stadium]]
+|}
+
+=== [[National Lacrosse League]] ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+|-
+!Conference
+!Team
+!City
+!Home Arena
+|-
+! rowspan="4" | Eastern
+|'''[[Buffalo Bandits]]'''
+|[[Buffalo, New York|Buffalo]], [[New York]]
+|[[First Niagara Center]]
+|-
+|'''[[Philadelphia Wings]]'''
+|[[Philadelphia]], [[Pennsylvania]]
+|[[Wells Fargo Center (Philadelphia)|Wells Fargo Center]]'''
+|-
+|'''[[Rochester Knighthawks]]'''
+||[[Rochester, New York|Rochester]], [[New York]]
+|[[Blue Cross Arena]]
+|-
+|'''[[Toronto Rock]]'''
+|[[Toronto]], [[Ontario]]
+|[[Air Canada Centre]]
+|-
+! rowspan="5" | Western
+|'''[[Calgary Roughnecks]]'''
+|[[Calgary]], [[Alberta]]
+|[[Scotiabank Saddledome]]
+|-
+|'''[[Colorado Mammoth]]'''
+|[[Denver]], [[Colorado]]
+|[[Pepsi Center]]
+|-
+|'''[[Edmonton Rush]]'''
+|[[Edmonton]], [[Alberta]]
+|[[Rexall Place]]
+|-
+|'''[[Minnesota Swarm]]'''
+| [[Saint Paul, Minnesota|St. Paul, Minnesota]]
+|[[Xcel Energy Center]]
+|-
+|'''[[Washington Stealth]]'''
+|[[Everett, Washington]]
+|[[Comcast Arena at Everett]]
+|}
+
+== [[rugby football|Rugby]] ==
+=== National Rugby League USA ===
+{| class="wikitable" border=1 cellpadding=4 style="margin:1em; clear:right; border-collapse:collapse; text-align:left; font-size:100%; line-height:normal;"
+
+LEAGUE TO BEGIN PLAY MARCH 2010
+|-
+!Team
+!City
+!Home Arena
+|-
+|[[Boston]]  || [[]] || [[]]
+|-
+|[[Denver]]  || [[]] ||   [[]]
+|-
+|[[Jacksonville]]   || [[]] || [[]]
+|-
+|[[Los Angeles]]   || [[]] || [[]]
+|-
+|[[New York]]   || [[]] || [[]]
+|-
+|[[Philadelphia]]   || [[]] || [[]]
+|}
+--->
+
+==See also==
+{{Wikipedia books|Professional sports teams in the United States and Canada}}
+*[[List of American and Canadian cities by number of major professional sports franchises]]
+*[[List of major sports teams in the United States by city]]
+*[[Major professional sports leagues in the United States and Canada]]
+*[[U.S. states without major sports teams]]
+
+== References ==
+<references />
+
+==External links==
+*[http://www.angelfire.com/ns/agalley/napsl/napsl1.html North American Pro Sports Teams] - Lists every league that has operated in Canada and / or the United States.  Grouped by city.
+
+[[Category:Lists of sports teams in the United States]]
+[[Category:Lists of sports teams in Canada]]
+

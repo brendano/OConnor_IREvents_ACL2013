@@ -1,0 +1,15 @@
+numThreads = 2
+numFrames = 10
+pathFile = data/v7.pathfil.dthresh=500.pthresh=10
+dateFile = data/datefile.week
+contextModel = FrameSmoother
+numDims = 1
+maxIter = 50000
+displayEvery = 500
+saveEvery = 1000
+concResampleEvery = 100
+transVar = 1
+etaVar = 1
+priorScaleVar = 1
+priorIndepPositionVar = 100
+priorAlphaVar = 100

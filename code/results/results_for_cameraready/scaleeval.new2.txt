@@ -1,0 +1,576 @@
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=7.out	5.33751822644
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=1.out	3.44110803688
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=3.out	4.37404629079
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=8.out	3.35146025513
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=4.out	3.646224381
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=5.out	3.62924583128
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=1.out	3.47606243688
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=4.out	3.40720956796
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=3.out	4.92122205435
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=5.out	5.04459056545
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=4.out	3.55592632515
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=6.out	3.64404711239
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=3.out	2.85429196868
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=6.out	2.8225295011
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=7.out	3.55170889832
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=8.out	3.64577902605
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=6.out	5.33954465532
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=4.out	4.23270544335
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=7.out	3.37567887812
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=8.out	3.76758105288
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=1.out	1.92288451105
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=6.out	3.13867862793
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=3.out	1.95013833959
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=1.out	3.05363406095
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=3.out	3.40047562207
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=6.out	3.63348862753
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=2.out	2.10026351444
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=2.out	2.77543078518
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=2.out	5.33988587249
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=7.out	3.83044050823
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=4.out	2.85022713494
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=1.out	2.15646836254
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=3.out	1.88173790145
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=8.out	2.86699760526
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=1.out	5.04318855828
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=2.out	3.05556138892
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=4.out	3.62433586979
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=3.out	3.46916897199
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=8.out	4.02525722717
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255367.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255367.v7.sf.k=100.c=sg.out	1.99566346132
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=4.out	2.05904862246
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=5.out	3.40925586538
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255371.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255371.v7.sf.k=100.c=sg.out	1.63292009741
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=1.out	3.37410203973
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=1.out	1.86623216934
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255373.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255373.v7.sf.k=100.c=sg.out	2.13333997883
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=4.out	2.33412282839
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=3.out	3.35753254991
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=4.out	2.42384664615
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255366.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255366.v7.sf.k=100.c=sg.out	2.09467835499
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=7.out	3.36199388197
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=8.out	4.23913024478
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=1.out	4.98989964017
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=5.out	4.23246343251
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=1.out	3.26050611328
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=5.out	4.32727127272
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=1.out	4.23095524342
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=3.out	3.42204341125
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=1.out	3.45382300873
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=8.out	5.33026620768
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=2.out	2.20210928295
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=1.out	2.11632317512
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=3.out	4.93778950197
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=3.out	3.69560546098
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=5.out	5.34027472761
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=4.out	5.23357239734
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=5.out	3.51660880132
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=4.out	2.11882331815
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=7.out	4.31803174407
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=8.out	5.33937498672
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=2.out	1.64418353988
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=6.out	3.6226657482
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=1.out	2.12232630772
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255368.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255368.v7.sf.k=100.c=sg.out	1.84475551535
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=2.out	1.83292127232
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=6.out	5.34027033608
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=2.out	4.23728245034
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=8.out	4.32048529455
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=2.out	2.55455920719
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=2.out	3.67831969352
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=1.out	1.91227245757
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=2.out	2.03092453309
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=2.out	5.34003256846
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=7.out	4.37850269817
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=2.out	2.1966812936
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=6.out	3.49816026922
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=2.c=4.out	5.33978230586
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=2.c=7.out	5.33206740522
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=1.out	2.55716636861
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=8.out	1.91451375822
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.v.k=50.c=4.out	2.456290671
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=3.out	1.92314214829
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=4.out	3.01451868063
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255370.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255370.v7.sf.k=100.c=sg.out	2.0179147686
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=4.out	4.33566293218
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=1.out	4.32967978871
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=3.out	2.0114601234
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=7.out	3.28135787934
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=7.out	2.09455781976
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=3.out	4.31346323874
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=4.out	3.61953964298
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=5.out	3.37964007382
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=2.out	4.31645969983
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=2.out	3.58405526054
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=3.out	3.27767117858
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=5.out	2.51055268357
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=4.out	3.53935616498
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255379.v7.v.k=100.c=1.out	2.06676260102
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.v.k=4.c=2.out	3.59491146416
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=4.c=2.out	3.25565667843
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=7.out	4.43406911609
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255372.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255372.v7.sf.k=100.c=sg.out	2.00101931839
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=1.out	3.34022328788
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=8.out	3.57181112529
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255384.v7.v.k=50.c=4.out	1.91281887512
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=2.out	3.60883292599
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=3.out	2.36582216703
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=20.c=3.out	2.65375771052
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=4.out	2.08684537019
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=3.out	4.22797010234
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=3.out	3.55770155348
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252380.v7.sf.k=50.c=4.out	2.18070457139
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=3.c=6.out	4.34366884794
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=1.out	3.63915336348
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=8.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=4.c=8.out	3.44408797888
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=1.out	3.68358428921
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=4.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=4.out	4.29734395788
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/254585.v7.sf.k=4.c=2.out	3.75001620591
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255786.v7.sf.k=50.c=2.out	2.39117340618
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=5.c=2.out	3.49852152933
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=5.out	2.88651109019
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255785.v7.v.k=50.c=3.out	2.28012704933
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255369.v7.sf.k=100.c=sg.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255369.v7.sf.k=100.c=sg.out	2.0748011109
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=3.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=3.out	2.78076109424
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=5.c=5.out	3.87684177065
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=6.out	3.99013336069
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=5.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=10.c=5.out	3.53990877116
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=20.c=1.out	3.07052412499
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251742.v7.v.k=3.c=6.out	4.38873661674
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=7.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/251741.v7.sf.k=10.c=7.out	3.64844194398
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255386.v7.sf.k=20.c=2.out	3.40994805214
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=6.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=6.out	2.04546783209
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=2.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/255380.v7.sf.k=50.c=2.out	2.23943847846
+528 paths in model with gold scores
+2194 scored paths loaded
+loading  /usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=1.out/model.10000
+IMPURITY	/usr/users/9/brenocon/ptab/s/252382.v7.v.k=100.c=1.out	1.95565701391

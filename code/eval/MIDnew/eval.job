@@ -1,0 +1,37 @@
+#!/bin/zsh
+#PBS -l ncpus=32
+#PBS -l walltime=10:00:00
+#PBS -q batch
+#PBS -j oe
+source ~/fake_pbs.env
+cd $PBS_O_WORKDIR
+source $HOME/profile
+ja
+set -eux
+
+#################################################
+
+
+# cat ~/ptab/finished.txt | shuf |
+# setdiff ~/ptab/finished.txt =(grep AUC timeeval.9k.*.log | cut -f2) |
+# cat ~/ptab/finished.txt |
+echo > timeeval.nointerpolate.bla.log
+setdiff ~/ptab/finished.txt =(grep AUC timeeval.nointerpolate.*.log | cut -f2) |
+  parallel -j$PBS_NCPUS '
+  (
+  echo "===";
+  echo "START {}";
+  time (Rscript -e '"'"' source("functions.r"); do_evals("{}", eval_timesplit_multisample)'"'"')
+  ) 2>&1 
+  echo "END {}"
+  ' > timeeval.nointerpolate.$JOBID.log
+
+# setdiff ~/ptab/finished.txt dontcheck 
+# grep 'sf.*k=50' | parallel -j16 'Rscript -e '"'"' source("functions.r"); do_evals("{}", eval_timesplit_multisample)'"'" > timeeval.${JOBID}.log 2> timeeval.${JOBID}.err
+# cat /usr/users/9/brenocon/ptab/finished.6k.txt | parallel -j16 'Rscript -e '"'"' source("functions.r"); do_evals("{}", eval_timesplit_multisample, 5000, 5100)'"'" > timeeval.sample=5k_2samp.${JOBID}.log 2> timeeval.${JOBID}.err
+# setdiff ~/ptab/finished.6k.txt =(cat timeeval.sample=5k.*.log | grep AUC | cut -f2) | parallel -j16 'Rscript -e '"'"' source("functions.r"); do_evals("{}", eval_timesplit_multisample, 5000, 6000)'"'" > timeeval.sample=5k.more.${JOBID}.log 2> timeeval.${JOBID}.err
+
+# cat ~/ptab/finished.txt | grep -v k=100 | grep -v k=50 | parallel -j16 'Rscript -e '"'"' source("functions.r"); do_evals("{}", eval_timesplit_multisample, 7000, 10000)'"'" > timeeval.sample=7k..10k.${JOBID}.log 2> timeeval.${JOBID}.err
+
+#################################################
+ja -chlst

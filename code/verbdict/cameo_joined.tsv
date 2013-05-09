@@ -1,0 +1,309 @@
+			019	Express accord
+			0251	Appeal for easing of administrative sanctions
+			0252	Appeal for easing of popular dissent
+			0253	Appeal for release of persons or property
+			0254	Appeal for easing of economic sanctions, boycott, or embargo
+			0255	Appeal for target to allow international involvement (non-mediation)
+			0256	Appeal for de-escalation of military engagement
+			1011	Demand economic cooperation
+			1012	Demand military cooperation
+			1031	Demand economic aid
+			1032	Demand military aid
+			1033	Demand humanitarian aid
+			1034	Demand military protection or peacekeeping
+			1051	Demand easing of adminstrative sanctions
+			1052	Demand easing of popular dissent
+			1053	Demand release of persons or property
+			1054	Demand easing of economic sanctions, boycott, or embargo
+			1055	Demand that target allows international involvement (non-mediation)
+			1056	Demand de-escalation of military engagement
+			1221	Reject demand for economic aid
+			1222	Reject demand for military aid
+			1223	Reject demand for humanitarian aid
+			1224	Reject demand for military protection or peacekeeping
+			1241	Decline to ease administrative sanctions
+			1242	Decline to ease popular dissent
+			1243	Decline to release persons or property
+			1244	Decline to ease economic sanctions, boycott, or embargo
+			1245	Decline to allow international involvement (non-mediation)
+			1246	Decline to de-escalate military engagement
+			129	Veto
+			1661	Expel or withdraw peacekeepers
+			1662	Expel or withdraw inspectors, observers
+			1663	Expel or withdraw aid agencies
+01	0.0	MAKE PUBLIC STATEMENT	01	MAKE PUBLIC STATEMENT
+010	0.0	Make statement, not specified below	010	Make statement
+011	-0.1	Decline comment	011	Decline comment
+012	-0.4	Make pessimistic comment	012	Make pessimistic comment
+013	0.4	Make optimistic comment	013	Make optimistic comment
+014	0.0	Consider policy option	014	Consider policy option
+015	0.0	Acknowledge or claim responsibility	015	Acknowledge or claim responsibility
+016	3.4	Make empathetic comment	016	Deny responsibility
+017	0.0	Engage in symbolic act	017	Engage in symbolic act
+018	3.4	Express accord	018	Make empathetic commment
+02	3.0	APPEAL	02	APPEAL
+020	3.0	Appeal, not specified below	020	Make an appeal or request
+021	3.4	Appeal for cooperation, not specified below	021	Appeal for material cooperation
+0211	3.4	Appeal for diplomatic cooperation	0211	Appeal for economic cooperation
+0212	3.4	Appeal for material cooperation	0212	Appeal for military cooperation
+022	3.4	Appeal for policy support	022	Appeal for diplomatic cooperation (such as policy support)
+023	3.4	Appeal for aid, not specified below	023	Appeal for aid
+0231	3.4	Appeal for economic aid	0231	Appeal for economic aid
+0232	3.4	Appeal for military aid	0232	Appeal for military aid
+0233	3.4	Appeal for humanitarian aid	0233	Appeal for humanitarian aid
+0234	3.4	Appeal for military protection or peacekeeping	0234	Appeal for military protection or peacekeeping
+024	-0.3	Appeal for political reform, not specified below	024	Appeal for political reform
+0241	-0.3	Appeal for change in leadership	0241	Appeal for change in leadership
+0242	-0.3	Appeal for policy change	0242	Appeal for policy change
+0243	-0.3	Appeal for rights	0243	Appeal for rights
+0244	-0.3	Appeal for change in institutions, regime	0244	Appeal for change in institutions, regime
+025	-0.3	Appeal to yield	025	Appeal for target to yield
+026	4.0	Appeal to others to meet or negotiate	026	Appeal to others to meet or negotiate
+027	4.0	Appeal to others to settle dispute	027	Appeal to others to settle dispute
+028	4.0	Appeal to others to engage in mediation	028	Appeal to engage mediation
+03	4.0	EXPRESS INTENT TO COOPERATE	03	EXPRESS INTENT TO COOPERATE
+030	4.0	Express intent to cooperate, not specified below	030	Express intent to cooperate
+031	5.2	Express intent to engage in material cooperation, not specified below	031	Agree to engage in material cooperation
+0311	5.2	Express intent to cooperate economically	0311	Express intent to cooperate economically
+0312	5.2	Express intent to cooperate militarily	0312	Express intent to cooperate militarily
+032	4.5	Express intent to provide policy support	032	Express intent to engage in diplomatic cooperation (such as policy support)
+033	5.2	Express intent to provide aid, not specified below	033	Express intent to provide material aid
+0331	5.2	Express intent to provide economic aid	0331	Express intent to provide economic aid
+0332	5.2	Express intent to provide military aid	0332	Express intent to provide military aid
+0333	5.2	Express intent to provide humanitarian aid	0333	Express intent to provide humanitarian aid
+0334	6.0	Express intent to provide military protection or peacekeeping	0334	Express intent to provide military protection or peacekeeping
+034	7.0	Express intent to bring political reform, not specified below	034	Express intent to bring political reform
+0341	7.0	Express intent to change leadership	0341	Express intent to change leadership
+0342	7.0	Express intent to change policy	0342	Express intent to change policy
+0343	7.0	Express intent to provide rights	0343	Express intent to provide rights
+0344	7.0	Express intent to change institutions, regime	0344	Express intent to change institutions, regime
+035	7.0	Express intent to yield, not specified below	035	Express intent to yield
+0351	7.0	Express intent to ease administrative sanctions	0351	Express intent to ease administrative sanctions
+0352	7.0	Express intent to stop protests	0352	Express intent to ease popular dissent
+0353	7.0	Express intent to accede to political demands	0353	Express intent to release persons or property
+0354	7.0	Express intent to release persons or property	0354	Express intent to ease economic sanctions, boycott, embargo
+0355	7.0	Express intent to ease economic sanctions, boycott, or embargo	0355	Express intent to allow international involvement (non-mediation)
+0356	7.0	Express intent allow international involvement (not mediation)	0356	Express intent to de-escalate military engagement
+0357	7.0	Express intent to de-escalate military engagement 		
+036	4.0	Express intent to meet or negotiate	036	Express intent to meet or negotiate
+037	5.0	Express intent to settle dispute	037	Express intent to settle dispute
+038	7.0	Express intent to accept mediation	038	Express intent to accept mediation
+039	5.0	Express intent to mediate	039	Express intent to mediate
+04	1.0	CONSULT	04	CONSULT
+040	1.0	Consult, not specified below	040	Consult
+041	1.0	Discuss by telephone	041	Discuss by telephone
+042	1.9	Make a visit	042	Make a visit
+043	2.8	Host a visit	043	Host a visit
+044	2.5	Meet at a “third” location	044	Meet at a third location
+045	5.0	Mediate	045	Engage in mediation
+046	7.0	Engage in negotiation	046	Engage in negotiation
+05	3.5	ENGAGE IN DIPLOMATIC COOPERATION	05	ENGAGE IN DIPLOMATIC COOPERATION
+050	3.5	Engage in diplomatic cooperation, not specified below	050	Engage in diplomatic cooperation
+051	3.4	Praise or endorse	051	Praise or endorse
+052	3.5	Defend verbally	052	Defend verbally
+053	3.8	Rally support on behalf of	053	Rally support on behalf of
+054	6.0	Grant diplomatic recognition	054	Grant diplomatic recognition
+055	7.0	Apologize	055	Apolgize
+056	7.0	Forgive	056	Forgive
+057	8.0	Sign formal agreement	057	Sign formal agreement
+06	6.0	ENGAGE IN MATERIAL COOPERATION	06	ENGAGE IN MATERIAL COOPERATION
+060	6.0	Engage in material cooperation, not spec below	060	Engage in material cooperation
+061	6.4	Cooperate economically	061	Cooperate economically
+062	7.4	Cooperate militarily	062	Cooperate militarily
+063	7.4	Engage in judicial cooperation	063	Engage in judicial cooperation
+064	7.0	Share intelligence or information	064	Share intelligence or information
+07	7.0	PROVIDE AID	07	PROVIDE AID
+070	7.0	Provide aid, not specified below	070	Provide aid
+071	7.4	Provide economic aid	071	Provide economic aid
+072	8.3	Provide military aid	072	Provide military aid
+073	7.4	Provide humanitarian aid	073	Provide humanitarian aid
+074	8.5	Provide military protection or peacekeeping	074	Provide military protection or peacekeeping
+075	7.0	Grant asylum	075	Grant asylum	
+08	5.0	YIELD	08	YIELD
+080	5.0	Yield, not specified below 	080	Yield
+081	5.0	Ease administrative sanctions, not specified below	081	Ease administrative sanctions
+0811	5.0	Ease restrictions on freedoms of speech and expression 	0811	Ease restrictions on freedoms of expression
+0812	5.0	Ease ban on political parties or politicians	0812	Ease ban on political parties or politicians
+0813	5.0	Ease curfew	0813	Ease curfew
+0814	5.0	Ease state of emergency or martial law	0814	Ease state of emergency or martial law
+082	5.0	Ease popular protest 	082	Ease political dissent
+083	5.0	Accede to demands for political reform 	083	Accede to requests or demands for political reform
+0831	5.0	Accede to demands for change in leadership	0831	Accede to demands for change in leadership
+0832	5.0	Accede to demands for change in policy	0832	Accede to demands for change in policy
+0833	5.0	Accede to demands for rights	0833	Accede to demands for rights
+0834	5.0	Accede to demands for change in institutions, regime	0834	Accede to demands for change in institutions, regime
+084	7.0	Return, release, not specified below	084	Return, release
+0841	7.0	Return, release person(s)	0841	Return, release person(s)
+0842	7.0	Return, release property	0842	Return, release property
+085	7.0	Ease economic sanctions, boycott, embargo	085	Ease economic sanctions, boycott, embargo
+086	9.0	Allow international involvement	086	Allow international involvement
+0861	9.0	Receive deployment of peacekeepers	0861	Receive deployment of peacekeepers
+0862	9.0	Receive inspectors	0862	Receive inspectors
+0863	9.0	Allow delivery of humanitarian aid	0863	Allow delivery of humanitarian aid
+087	9.0	De-escalate military engagement	087	De-escalate military engagement
+0871	9.0	Declare truce, ceasefire	0871	Declare truce, ceasefire
+0872	9.0	Ease military blocka-2.0de	0872	Ease military blockade
+0873	9.0	Demobilize armed forces	0873	Demobilize armed forces
+0874	10.0	Retreat or surrender militarily	0874	Retreat or surrender militarily
+09	-2.0	INVESTIGATE	09	INVESTIGATE
+090	-2.0	Investigate, not specified below	090	Investigate
+091	-2.0	Investigate crime, corruption	091	Investigate crime, corruption
+092	-2.0	Investigate human rights abuses	092	Investigate human rights abuses
+093	-2.0	Investigate military action	093	Investigate military action
+094	-2.0	Investigate war crimes	094	Investigate war crimes
+10	-5.0	DEMAND	10	DEMAND
+100	-5.0	Demand, not specified below	100	Demand
+101	-5.0	Demand information, investigation	101	Demand material cooperation
+102	-5.0	Demand policy support	102	Demand diplomatic cooperation (such as policy support)
+103	-5.0	Demand aid, protection, or peacekeeping	103	Demand aid
+104	-5.0	Demand political reform, not specified below	104	Demand political reform
+1041	-5.0	Demand change in leadership	1041	Demand change in leadership
+1042	-5.0	Demand policy change	1042	Demand policy change
+1043	-5.0	Demand rights	1043	Demand rights
+1044	-5.0	Demand change in institutions, regime	1044	Demand change in institutions, regime
+105	-5.0	Demand mediation	105	Demand that target yields
+106	-5.0	Demand withdrawal	106	Demand meeting, negotiation
+107	-5.0	Demand ceasefire	107	Demand settling of dispute
+108	-5.0	Demand meeting, negotiation	108	Demand mediation
+11	-2.0	DISAPPROVE	11	DISAPPROVE
+110	-2.0	Disapprove, not specified below	110	Disapprove
+111	-2.0	Criticize or denounce 	111	Criticize or denounce
+112	-2.0	Accuse, not specified below	112	Accuse
+1121	-2.0	Accuse of crime, corruption	1121	Accuse of crime, corruption
+1122	-2.0	Accuse of human rights abuses	1122	Accuse of human rights abuses
+1123	-2.0	Accuse of aggression	1123	Accuse of aggression
+1124	-2.0	Accuse of war crimes	1124	Accuse of war crimes
+1125	-2.0	Accuse of espionage, treason	1125	Accuse of espionage, treason
+113	-2.0	Rally opposition against	113	Rally opposition against
+114	-2.0	Complain officially 	114	Complain officially
+115	-2.0	Bring lawsuit against 	115	Bring lawsuit against
+12	-4.0	REJECT	12	REJECT
+120	-4.0	Reject, not specified below	120	Reject
+121	-4.0	Reject proposal, not specified below	121	Reject material cooperation
+1211	-4.0	Reject ceasefire, withdrawal	1211	Reject economic cooperation
+1212	-4.0	Reject peacekeeping	1212	Reject military cooperation
+1213	-4.0	Reject settlement		
+122	-4.0	Reject request for material aid	122	Reject request or demand for material aid
+123	-4.0	Reject demands for political reform 	123	Reject request or demand for political reform
+1231	-4.0	Reject demands for change in leadership	1231	Reject demand for change in leadership
+1232	-4.0	Reject demands for policy change	1232	Reject demand for policy change
+1233	-4.0	Reject demand for rights	1233	Reject demand for rights
+1234	-4.0	Reject demand change in institutions, regime	1234	Reject demand for change in institutions, regime
+124	-5.0	Reject proposal to meet, discuss, or negotiate	124	Decline to yield
+125	-5.0	Reject mediation	125	Reject proposal to meet, discuss, negotiate
+126	-5.0	Defy norms, law	126	Reject mediation
+127	-5.0	Reject accusation, deny responsibility	127	Reject plan, agreement to settle dispute
+128	-5.0	Veto 	128	Defy norms, law
+13	-6.0	THREATEN	13	THREATEN
+130	-4.4	Threaten, not specified below	130	Threaten
+131	-5.8	Threaten non-force, not specified below	131	Threaten non-force
+1311	-5.8	Threaten to reduce or stop aid	1311	Threaten to reduce or stop aid
+1312	-5.8	Threaten to boycott, embargo, or sanction	1312	Threaten to boycott, embargo, or sanction
+1313	-5.8	Threaten to reduce or break relations	1313	Threaten to reduce or break relations
+132	-5.8	Threaten with administrative sanctions, not specified below	132	Threaten with administrative sanctions
+1321	-5.8	Threaten to impose restrictions on freedoms of speech and expression 	1321	Threaten to impose restrictions on freedoms of speech and expression
+1322	-5.8	Threaten to ban political parties or politicians	1322	Threaten to ban political parties or politicians
+1323	-5.8	Threaten to impose curfew	1323	Threaten to impose curfew
+1324	-5.8	Threaten to impose state of emergency or martial law	1324	Threaten to impose state of emergency or martial law
+133	-5.8	Threaten collective dissent	133	Threaten with political dissent, protest
+134	-5.8	Threaten to halt negotiations	134	Threaten to halt negotiations
+135	-5.8	Threaten to halt mediation	135	Threaten to halt mediation
+136	-7.0	Threaten to expel or withdraw peacekeepers	136	Threaten to halt (expel or withdraw) international involvement (non-mediation)
+137	-7.0	Threaten with violent repression	137	Threaten with violent repression
+138	-7.0	Threaten to use military force, not specified below	138	Threaten to use military force
+1381	-7.0	Threaten blockade	1381	Threaten blockade
+1382	-7.0	Threaten occupation 	1382	Threaten occupation
+1383	-7.0	Threaten unconventional violence 	1383	Threaten unconventional violence
+1384	-7.0	Threaten conventional attack 	1384	Threaten conventional attack
+1385	-7.0	Threaten attack with WMD	1385	Threaten attack with WMD
+139	-7.0	Give ultimatum	139	Give ultimatum
+14	-6.5	PROTEST	14	PROTEST
+140	-6.5	Engage in popular protest, not specified below	140	Engage in political dissent
+141	-6.5	Demonstrate or rally	141	Demonstrate or rally
+1411	-6.5	Demonstrate for change in leadership	1411	Demonstrate for leadership change
+1412	-6.5	Demonstrate for policy change	1412	Demonstrate for policy change
+1413	-6.5	Demonstrate for rights	1413	Demonstrate for rights
+1414	-6.5	Demonstrate for change in institutions, regime	1414	Demonstrate for change in institutions, regime
+142	-6.5	Conduct hunger strike, not specified below	142	Conduct hunger strike
+1421	-6.5	Conduct hunger strike for change in leadership	1421	Conduct hunger strike for leadership change
+1422	-6.5	Conduct hunger strike for policy change	1422	Conduct hunger strike for policy change
+1423	-6.5	Conduct hunger strike for rights	1423	Conduct hunger strike for rights
+1424	-6.5	Conduct hunger strike for change in institutions, regime 	1424	Conduct hunger strike for change in institutions, regime
+143	-6.5	Conduct strike or boycott, not specified below	143	Conduct strike or boycott
+1431	-6.5	Conduct strike or boycott for change in leadership  	1431	Conduct strike or boycott for change in leadership
+1432	-6.5	Conduct strike or boycott for policy change	1432	Conduct strike or boycott for policy change
+1433	-6.5	Conduct strike or boycott for rights	1433	Conduct strike or boycott for rights
+1434	-6.5	Conduct strike or boycott for change in institutions, regime	1434	Conduct strike or boycott for change in institutions, regime
+144	-7.5	Obstruct passage, block	144	Obstruct passage, block
+1441	-7.5	Obstruct passage to demand change in leadership  	1441	Obstruct passage to demand change in leadership
+1442	-7.5	Obstruct passage to demand policy change	1442	Obstruct passage to demand policy change
+1443	-7.5	Obstruct passage to demand rights	1443	Obstruct passage to demand rights
+1444	-7.5	Obstruct passage to demand change in institutions, regime	1444	Ostruct passage to demand change in institutions, regime
+145	-7.5	Protest violently, riot	145	Protest violently, riot
+1451	-7.5	Obstruct passage to demand change in leadership  	1451	Engage in violent protest for change in leadership
+1452	-7.5	Obstruct passage to demand policy change	1452	Engage in violent protest for policy change
+1453	-7.5	Obstruct passage to demand rights	1453	Engage in violent protest for rights
+1454	-7.5	Obstruct passage to demand change in institutions, regime	1454	Engage in violent protest for change in institutions, regime
+15	-7.2	EXHIBIT FORCE POSTURE	15	EXHIBIT MILITARY POSTURE
+150	-7.2	Demonstrate military or police power, not specified below	150	Demonstrate military or police power
+151	-7.2	Increase police alert status	151	Increase police alert status
+152	-7.2	Increase military alert status	152	Increase military alert status
+153	-7.2	Mobilize or increase police power	153	Mobilize or increase police power
+154	-7.2	Mobilize or increase armed forces 	154	Mobilize or increase armed forces
+16	-4.0	REDUCE RELATIONS	16	REDUCE RELATIONS
+160	-4.0	Reduce relations, not specified below	160	Reduce relations
+161	-4.0	Reduce or break diplomatic relations	161	Reduce or break diplomatic relations
+162	-5.6	Reduce or stop aid, not specified below	162	Reduce or stop aid
+1621	-5.6	Reduce or stop economic assistance	1621	Reduce or stop economic assistance
+1622	-5.6	Reduce or stop military assistance	1622	Reduce or stop military assistance
+1623	-5.6	Reduce or stop humanitarian assistance	1623	Reduce or stop humanitarian assistance
+163	-6.5	Halt negotiations	163	Impose embargo, boycott, or sanctions
+164	-7.0	Expel or withdraw, not specified below	164	Halt negotiations
+1641	-7.0	Expel or withdraw peacekeepers		
+1642	-7.0	Expel or withdraw inspectors, observers		
+1643	-7.0	Expel or withdraw aid agencies		
+165	-7.0	Halt mediation	165	Halt mediation
+166	-8.0	Impose embargo, boycott, or sanctions	166	Expel or withdraw
+17	-7.0	COERCE	17	COERCE
+170	-7.0	Coerce, not specified below 	170	Coerce
+171	-9.2	Seize or damage property, not specified below	171	Seize or damage property
+1711	-9.2	Confiscate property	1711	Confiscate property
+1712	-9.2	Destroy property	1712	Destroy property
+172	-5.0	Impose administrative sanctions, not specified below	172	Impose administrative sanctions
+1721	-5.0	Impose restrictions on freedoms of speech and expression 	1721	Impose restrictions on freedoms of speech and expression
+1722	-5.0	Ban political parties or politicians	1722	Ban political parties or politicians
+1723	-5.0	Impose curfew	1723	Impose curfew
+1724	-5.0	Impose state of emergency or martial law	1724	Impose state of emergency or martial law
+173	-5.0	Arrest, detain, or charge with legal action 	173	Arrest, detain, or charge with legal action
+174	-5.0	Expel or deport individuals	174	Expel or deport individuals
+175	-9.0	Use violent repression 	175	Use violent repression
+18	-9.0	ASSAULT	18	ASSAULT
+180	-9.0	Use unconventional violence, not specified below	180	Use unconventional violence
+181	-9.0	Abduct, hijack, or take hostage 	181	Abduct, hijack
+182	-9.5	Physically assault, not specified below	182	Physically assault
+1821	-9.0	Sexually assault	1821	Sexually assault
+1822	-9.0	Torture	1822	Torture
+1823	-10.0	Kill by physical assault	1823	Kill by physical assault
+183	-10.0	Conduct suicide, car, or other non-military bombing, not spec below	183	Conduct suicide, car, or other non-military bombing
+1831	-10.0	Carry out suicide bombing	1831	Carry out suicide bombing
+1832	-10.0	Carry out car bombing	1832	Carry out car bombing
+1833	-10.0	Carry out roadside bombing 	1833	Carry out roadside bombing
+184	-8.0	Use as human shield 	184	Use as human shield
+185	-8.0	Attempt to assassinate	185	Attempt to assassinate
+186	-10.0	Assassinate 	186	Assassinate
+19	-10.0	FIGHT	19	FIGHT
+190	-10.0	Use conventional military force, not specified below	190	Use conventional military force
+191	-9.5	Impose blockade, restrict movement 	191	Impose blockade, restrict movement
+192	-9.5	Occupy territory	192	Occupy territory
+193	-10.0	Fight with small arms and light weapons	193	Fight with small arms and light weapons
+194	-10.0	Fight with artillery and tanks	194	Fight with artillery and tanks
+195	-10.0	Employ aerial weapons	195	Employ aerial weapons
+196	-9.5	Violate ceasefire 	196	Violate ceasefire
+20	-10.0	ENGAGE IN UNCONVENTIONAL MASS VIOLENCE	20	ATTACK WITH WEAPONS OF MASS DESTRUCTION
+200	-10.0	Engage in unconventional mass violence, not specified below	200	Use unconventional mass violence
+201	-9.5	Engage in mass expulsion	201	Engage in mass expulsion
+202	-10.0	Engage in mass killings	202	Engage in mass killings
+203	-10.0	Engage in ethnic cleansing	203	Engage in ethnic cleansing
+204	-10.0	Use weapons of mass destruction, not specified below	204	Use weapons of mass destruction
+2041	-10.0	Use chemical, biological, or radiologicalweapons	2041	Use chemical, biological, or radiological weapons
+2042	-10.0	Detonate nuclear weapons	2042	Detonate nuclear weapons

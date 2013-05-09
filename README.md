@@ -3,7 +3,8 @@ OConnor_IREvents_ACL2013
 
 Replication software, data, and supplementary materials for the paper: O'Connor, Stewart and Smith, ACL-2013, "Learning to Extract International Relations from Political Context"
 
-Website: http://brenocon.com/irevents
+Website: http://brenocon.com/irevents and
+https://github.com/brendano/OConnor_IREvents_ACL2013
 
 Contact: Brendan O'Connor (http://brenocon.com, http://github.com/brendano)
 

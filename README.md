@@ -56,11 +56,57 @@ way for your system, the model should run with
 
     ./java.sh MainModel run.prop
 
-which will save Gibbs samples and other information to the directory "out".
-Scripts in the "post/" directory can postprocess it; for example,
-"post/viewframes.py" shows the "topics", i.e. most probable verb paths per
-frame.
+or to more easily get started use a the "toy settings" options file,
+
+    ./java.sh MainModel toysettings.prop
+
+This will save Gibbs samples and other information to the directory "out".
 
 If "./java.sh" doesn't work, just invoke "java" yourself with all the .jar
 files in lib/, ptab.jar, and the root directory on the classpath.
 
+Scripts in the "post/" directory can postprocess it the out/ directory.
+Post-processing example.  "post/viewframes.py" shows the "topics", i.e. most
+probable verb paths per frame.  For example, if you ran with
+`toysettings.prop`, it should have saved a Gibbs sample at iteration number 10
+Then run this and open tmp.html in your browser.  
+
+    python post/viewframes.py out/model.10 > tmp.html
+
+10 iterations is not enough to get good semantic coherence.  The topic-word
+report will look OK at 1000 iterations, but if you run for 10,000 iterations,
+it will be about as good as it will get.
+
+In the `out/` directory, some of the files are:
+
+  - *.vocab files are the vocabularies, i.e. name-to-number mappings.  The
+    first string has number 0, the second string has number 1, etc.
+  - (prefix).cPathFrame is the matrix of word-topic counts, from a sample.
+
+The prefixes take the form model.NNN, where NNN is the iteration whose Gibbs
+sample was saved.  The script average.py averages together a number of Gibbs
+samples to calculate posterior mean and variances.
+
+Model code
+==========
+
+MainModel.java runs the model.  It contains data management code, as well as
+inference procedures for most variables in the model.
+
+ContextModel.java contains the variables and inference for the contextual prior
+models.  See the comments at the top of the file for how it fits together.
+The `contextModel` option in the properties file can select between two classes
+to use:
+
+  - ScaleSmoother runs the "vanilla" model from the paper. (Make sure numDims=1.
+    If numDims>1,this code then runs another model that wasn't in the paper.)
+  - FrameSmoother is the Gaussian random walk model.
+
+NLP code
+========
+
+PathAn.java does the actor identification and event dependency path extraction,
+based on pre-parsed input.
+
+"myprolog" is an interpreter for a tiny fragment of Prolog.  I think it was
+used only for development and not actually at runtime?

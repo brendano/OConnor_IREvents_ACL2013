@@ -18,7 +18,7 @@ Files contained here (149 MB total; 35 MB without data/):
   - v7.pathfil.dthresh=500.pthresh=10: the event tuples files we used for
     experiments.  (But not the qualitative evaluation; contact us if you need
     that one, sorry!)  Tab-separated columns are:
-      - document ID
+      - document ID. if it is all numbers, e.g. `0733639`, that's from the LDC NYT Annotated Corpus. Other ones, e.g. `APW_ENG_20020805.0309`, are from Gigaword.  Most are from Gigaword.  (If it starts with `NYT_`, that means it's from Gigaword... the subset of Gigaword that is from the NYT.)
       - tuple ID: a string unique for that event tuple within the document. The
         first number is the sentence number.
       - datestamp of the document

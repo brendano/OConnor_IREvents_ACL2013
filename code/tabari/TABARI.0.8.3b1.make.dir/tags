@@ -1,0 +1,1075 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTOR_CODE_ERROR	TABARI.h	/^const int ACTOR_CODE_ERROR= 11;	\/\/ empty actor code in CoderClass:: getActorStructCodes$/;"	v
+ATTRIB_LIT	TABARI.h	/^const int ATTRIB_LIT   =  6;  	\/\/ litArray index for @$/;"	v
+Actor	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+Adjctv	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+Agent	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+Attrib	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+AutocodeSetup	interface.cp	/^int AutocodeSetup(void)	$/;"	f
+Auxil	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+Byword	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+CLAUSE_END_ERROR	TABARI.h	/^const int CLAUSE_END_ERROR =  22;		\/\/ can't find end of clause$/;"	v
+CLBRACK_LIT	TABARI.h	/^const int CLBRACK_LIT  = 11;    \/\/ litArray index for }$/;"	v
+CMP_OVRFLOW_ERROR	TABARI.h	/^const int CMP_OVRFLOW_ERROR=  25;		\/\/ Overflow in expandCompoundActors$/;"	v
+CODER_ERROR	TABARI.h	/^const int CODER_ERROR      =	21;		\/\/ unspecified coder error$/;"	v
+CODER_OK	TABARI.h	/^const int CODER_OK 			   =	0;		\/\/ coding okay$/;"	v
+COMMA_LIT	TABARI.h	/^const int COMMA_LIT    =  1;  	\/\/ litArray index for comma$/;"	v
+COMPOUND_LIT	TABARI.h	/^const int COMPOUND_LIT =  7;    \/\/ litArray index for %$/;"	v
+COMPOUND_TAG_ERROR	TABARI.h	/^const int COMPOUND_TAG_ERROR= 8;	\/\/ problem in tag balancing in compound marking$/;"	v
+CONVERT_AGENT_ERROR	TABARI.h	/^const int CONVERT_AGENT_ERROR= 12;	\/\/ empty agent tail in ParserClass:: convertAgents$/;"	v
+CharStore	memory.cp	/^CharStoreClass 		CharStore;$/;"	v
+CharStoreClass	TABARI.h	/^	CharStoreClass()$/;"	f	class:CharStoreClass
+CharStoreClass	TABARI.h	/^class CharStoreClass		\/\/ handles all character string storage$/;"	c
+CheckIndex	utilities.cp	/^void CheckIndex(toktype index, int max, const char *sloc)$/;"	f
+Clause	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+ClearScreen	interface.cp	/^void ClearScreen(void)$/;"	f
+CodeStore	memory.cp	/^CodeStoreClass 		CodeStore; $/;"	v
+CodeStoreClass	TABARI.h	/^	CodeStoreClass()$/;"	f	class:CodeStoreClass
+CodeStoreClass	TABARI.h	/^class CodeStoreClass		\/\/ handles code storage$/;"	c
+Code_Rec	TABARI.h	/^	struct Code_Rec{$/;"	s	class:CodeStoreClass
+Coder	coder.cp	/^	CoderClass Coder;$/;"	v
+CoderClass	TABARI.h	/^	CoderClass()$/;"	f	class:CoderClass
+CoderClass	TABARI.h	/^class CoderClass		\/\/ Coding routines$/;"	c
+Comma	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+CommentFile	input.cp	/^CommentFileClass	CommentFile;		$/;"	v
+CommentFileClass	TABARI.h	/^	CommentFileClass()$/;"	f	class:CommentFileClass
+CommentFileClass	TABARI.h	/^class CommentFileClass		$/;"	c
+Compound	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+Conj	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+Copy2Chr	utilities.cp	/^char * Copy2Chr(char *s1, char *s2, char c)  $/;"	f
+DATES_LONG	TABARI.h	/^const int DATES_LONG = 14;	\/\/ Date restrictions are too long $/;"	v
+DATE_INVLD	TABARI.h	/^const int DATE_INVLD = 15;	\/\/ Invalid date string $/;"	v
+DAY_OOR	TABARI.h	/^const int DAY_OOR    = 18;	\/\/ Day is out of range in date $/;"	v
+DEBUG_PAT	TABARI.h	/^#define DEBUG_PAT /;"	d
+DEBUG_VERB	TABARI.h	/^#define DEBUG_VERB /;"	d
+DUP_ROOT	TABARI.h	/^const int DUP_ROOT   = 19;	\/\/ General duplicate of root $/;"	v
+DUP_VERB	TABARI.h	/^const int DUP_VERB   = 11;	\/\/ Verb  duplicated an existing root$/;"	v
+DUP_VFORM	TABARI.h	/^const int DUP_VFORM  = 12;	\/\/ Verb form duplicated an existing root$/;"	v
+Determ	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+EMPTY_CODE	TABARI.h	/^const int EMPTY_CODE = 6;	\/\/ no code in [...]$/;"	v
+EVT_OVRFLOW_ERROR	TABARI.h	/^const int EVT_OVRFLOW_ERROR=  24;		\/\/ No additional storage in CoderClass::putEvent$/;"	v
+EVT_STRG_ERROR	TABARI.h	/^const int EVT_STRG_ERROR   =  26;		\/\/ Invalid index in getEventString$/;"	v
+FALSE	TABARI.h	/^#define FALSE /;"	d
+FALSE_3WAY	TABARI.h	/^#define FALSE_3WAY /;"	d
+GCC	Makefile	/^GCC=g++$/;"	m
+GENERIC_ERROR	TABARI.h	/^const int GENERIC_ERROR =	1;	\/\/ unspecified error$/;"	v
+GetAnswer	interface.cp	/^bool GetAnswer(char *s1, char * s2)$/;"	f
+GetAnswer	interface.cp	/^bool GetAnswer(char *sprompt, char cyes, char cno)$/;"	f
+GetInput	interface.cp	/^void GetInput(char *s, const char *sprompt)$/;"	f
+HEAD_ATTRIB_ERROR	TABARI.h	/^const int HEAD_ATTRIB_ERROR=  23;		\/\/ No head tag on attribution phrase$/;"	v
+HEAD_TAG_ERROR	TABARI.h	/^const int HEAD_TAG_ERROR= 5;	\/\/ <not used>$/;"	v
+Halt	TABARI.h	/^  Halt};  \/\/ Note: "Halt" should be the final type in order for asserts to work$/;"	e	enum:wordtype
+INIT_TOKTYPE	TABARI.h	/^const toktype INIT_TOKTYPE = 0xBABA;						\/\/ max number of files in AutoFile list	$/;"	v
+INPUT_EOF	TABARI.h	/^const int INPUT_EOF =	 1;	\/\/ last input operation hit eof$/;"	v
+INPUT_OK	TABARI.h	/^const int INPUT_OK 	=	 0;	\/\/ last input operation was okay$/;"	v
+INPUT_SKIP	TABARI.h	/^const int INPUT_SKIP = 2;	\/\/ last input operation requires a context-specific skip$/;"	v
+IncrementIndex	utilities.cp	/^void IncrementIndex(toktype &index, int max, const char *sloc)$/;"	f
+InitTABARI	interface.cp	/^void InitTABARI(void)		$/;"	f
+Int2Str	utilities.cp	/^char * Int2Str(char *s,int k)$/;"	f
+Issue	TABARI.h	/^  Issue, Synym, $/;"	e	enum:wordtype
+JulianString	utilities.cp	/^void JulianString (char *s, long jdate)	$/;"	f
+LINE_LONG	TABARI.h	/^const int LINE_LONG  = 4;	\/\/ input was > MAX_TAB_INPUT$/;"	v
+LIT_SIZE	TABARI.h	/^const int LIT_SIZE 		= 	64;	 \/\/ length of litstring[]$/;"	v
+Literals	memory.cp	/^LiteralsClass 		Literals;$/;"	v
+LiteralsClass	TABARI.h	/^	LiteralsClass()$/;"	f	class:LiteralsClass
+LiteralsClass	TABARI.h	/^class LiteralsClass   \/\/ pattern storage$/;"	c
+MARK_NOUN_ERROR	TABARI.h	/^const int MARK_NOUN_ERROR= 7;	\/\/ problem in noun marking$/;"	v
+MAX_CHAR	TABARI.h	/^const int MAX_CHAR  = 524288;    \/\/ size of CharBuf array  [update 09.09.17: 2 ^ 19  <12.09.12>]					$/;"	v
+MAX_CODES	TABARI.h	/^const int MAX_CODES  = 8192;     \/\/ max distinct codes [update  08.06.19 for SAE]$/;"	v
+MAX_DATE_LEN	TABARI.h	/^const int MAX_DATE_LEN  =   10;  \/\/ max length of date string (includes room 8-digit date and time-shift marker) 				$/;"	v
+MAX_DOCID_LEN	TABARI.h	/^const int MAX_DOCID_LEN =   64;  \/\/ max length of document ID string 				$/;"	v
+MAX_ENGDATE_LEN	TABARI.h	/^const int MAX_ENGDATE_LEN = 16;	 \/\/ max length of English version of date string 				$/;"	v
+MAX_ERROR	TABARI.h	/^const int MAX_ERROR			= 	 8;	 \/\/ maximum type of errors reported by ProcessorClass:: writeError$/;"	v
+MAX_EVENTS	TABARI.h	/^const int MAX_EVENTS = 64;       \/\/ max basic events found in a single text 		$/;"	v
+MAX_EVENT_STRINGS	TABARI.h	/^const int MAX_EVENT_STRINGS = 128;  \/\/ max events strings, following expansion of complex codes 		$/;"	v
+MAX_FREQ	TABARI.h	/^const int MAX_FREQ =       64;  	\/\/ size of kountFreq[]			$/;"	v
+MAX_INTRO	TABARI.h	/^#define MAX_INTRO /;"	d
+MAX_LEX	TABARI.h	/^const int MAX_LEX =       128;  	\/\/ max literals in sentence; size of lexArray			$/;"	v
+MAX_LITBUF	TABARI.h	/^const int MAX_LITBUF   = 65353; \/\/ size litBuf array (start, freq and synonym lists)  [update 09.09.17]$/;"	v
+MAX_LITERALS	TABARI.h	/^const int MAX_LITERALS =  49152;	\/\/ size of litArray [update 06.08.10, 12.01.09]$/;"	v
+MAX_LITRLIST	TABARI.h	/^const int MAX_LITRLIST =  512;  	\/\/ size of literaList[]			$/;"	v
+MAX_LIT_HASH	TABARI.h	/^const int MAX_LIT_HASH =  1369; \/\/ size of litIndex array$/;"	v
+MAX_PATTERN	TABARI.h	/^const int	MAX_PATTERN = 49152;	\/\/ size of PatternArray [update 08.04.17 for UGA]$/;"	v
+MAX_PHRASES	TABARI.h	/^const int MAX_PHRASES =  402432;		\/\/ size of phraseBuf array  [update 08.12.10]	$/;"	v
+MAX_PHRASE_ERROR	TABARI.h	/^const int MAX_PHRASE_ERROR =	27;		\/\/ Excessive words between nonconsecutive elements of a phrase (getActorHead)$/;"	v
+MAX_RECID_LEN	TABARI.h	/^const int MAX_RECID_LEN =   64;  \/\/ max length of record ID string 				$/;"	v
+MAX_REC_BACK	TABARI.h	/^const int MAX_REC_BACK 	= 	32;	 \/\/ maximum number of records one can go in reverse$/;"	v
+MAX_ROOTS	TABARI.h	/^const int	MAX_ROOTS = 32768;		\/\/ size of rootArray  [update 08.03.01 for UGA]$/;"	v
+MAX_SEASON	TABARI.h	/^#define MAX_SEASON /;"	d
+MAX_SENTENCE	TABARI.h	/^const int MAX_SENTENCE  = 2048;  \/\/ max length of source text + 1 				$/;"	v
+MAX_SYNT	TABARI.h	/^const int MAX_SYNT = MAX_LEX;$/;"	v
+MAX_TAB_INPUT	TABARI.h	/^const int MAX_TAB_INPUT =  256;  \/\/ max length of an input line + 1 $/;"	v
+MAX_TAGS	TABARI.h	/^const int MAX_TAGS =     1024;  	\/\/ size of tagArray[]			$/;"	v
+MAX_TAG_TYPES	TABARI.h	/^const int MAX_TAG_TYPES =  32;		\/\/ size of tagText[]			$/;"	v
+MAX_TEMP	TABARI.h	/^const int MAX_TEMP =      128;  	\/\/ size of tempArray[]			$/;"	v
+MAX_TIME_VALUE	TABARI.h	/^const int MAX_TIME_VALUE = 8191;	\/\/ maximum value of time increment\/decrement$/;"	v
+MAX_TOKENS	TABARI.h	/^const int MAX_TOKENS = 196608;	\/\/ size of TokenArray   [update 09.09.16: 65536 * 1.5]	[update 09.09.16: 65536 * 3]	$/;"	v
+MAX_XML_INPUT	TABARI.h	/^const int MAX_XML_INPUT =  512;  \/\/ max length of an XML input line + 1 $/;"	v
+MIN_LEX	TABARI.h	/^const int MIN_LEX= 8;					\/\/ minimum words for a valid sentence$/;"	v
+MISS_LBRAC	TABARI.h	/^const int MISS_LBRAC = 7;	\/\/ missing '['$/;"	v
+MISS_RBRAC	TABARI.h	/^const int MISS_RBRAC = 8;	\/\/ missing ']'$/;"	v
+MISS_SYN	TABARI.h	/^const int MISS_SYN   = 20;	\/\/ Undeclared &synset designator$/;"	v
+MISS_VERBM	TABARI.h	/^const int MISS_VERBM = 9;	\/\/ missing verb marker '*'$/;"	v
+MONTH_OOR	TABARI.h	/^const int MONTH_OOR  = 17;	\/\/ Month is out of range in date $/;"	v
+MakeJulian	utilities.cp	/^long MakeJulian (char *s)$/;"	f
+MakeTimeDateStr	utilities.cp	/^void MakeTimeDateStr (char *stime, char *sdate)$/;"	f
+MemTest	memory.cp	/^void MemTest(void)$/;"	f
+Modify	modify.cp	/^ModifyClass 		 Modify;$/;"	v
+ModifyClass	TABARI.h	/^class ModifyClass		\/\/ Dictionary modification routines$/;"	c
+Month	utilities.cp	/^const int	Month[] = {0,31,59,90,120,151,181,212,243,273,304,334,366};		\/\/ used for Julian computation: # days prior to Month[n] JAN=1$/;"	v
+NO_TEXT_ERROR	TABARI.h	/^const int NO_TEXT_ERROR = 2;	\/\/ no text in record$/;"	v
+NO_VFORM	TABARI.h	/^const int NO_VFORM   = 13;	\/\/ No verb forms inside {...} $/;"	v
+NUMBER_LIT	TABARI.h	/^const int NUMBER_LIT   =  2;    \/\/ litArray index for numbers will be 2$/;"	v
+Noun	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+Null	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+NullTag	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+Number	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+OFF_3WAY	TABARI.h	/^#define OFF_3WAY /;"	d
+OPBRACK_LIT	TABARI.h	/^const int OPBRACK_LIT  =  9;    \/\/ litArray index for {$/;"	v
+OR_LIT	TABARI.h	/^const int OR_LIT 			 = 10;  	\/\/ litArray index for |$/;"	v
+OtherMenu	interface.cp	/^int OtherMenu(bool hasProb)$/;"	f
+PARSE_OK	TABARI.h	/^const int PARSE_OK 			=	0;	\/\/ parsing okay$/;"	v
+PAT_ORPHAN	TABARI.h	/^const int PAT_ORPHAN = 10;	\/\/ patterns found before verb in .verbs file$/;"	v
+PRONOUN_REF_ERROR	TABARI.h	/^const int PRONOUN_REF_ERROR= 10;	\/\/ Missing pronoun reference tag in ParserClass:: getReference$/;"	v
+Parser	parser.cp	/^	ParserClass Parser;$/;"	v
+ParserClass	TABARI.h	/^	ParserClass()$/;"	f	class:ParserClass
+ParserClass	TABARI.h	/^class ParserClass		\/\/ Parsing routines$/;"	c
+Pause	interface.cp	/^void Pause(void)$/;"	f
+PhraseError	interface.cp	/^bool PhraseError (char *stin, char *sreason)$/;"	f
+Phrases	memory.cp	/^PhrasesClass 			Phrases;$/;"	v
+PhrasesClass	TABARI.h	/^	PhrasesClass()$/;"	f	class:PhrasesClass
+PhrasesClass	TABARI.h	/^class PhrasesClass   \/\/ phrase list storage$/;"	c
+Plural	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+Prep	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+Processor	process.cp	/^	ProcessorClass Processor;$/;"	v
+ProcessorClass	TABARI.h	/^	ProcessorClass()$/;"	f	class:ProcessorClass
+ProcessorClass	TABARI.h	/^class ProcessorClass		\/\/ Primary processing routines$/;"	c
+Pronoun	TABARI.h	/^  Adjctv, Auxil, Byword, Comma, Pronoun, Conj, Prep, Plural, Number, $/;"	e	enum:wordtype
+REPLACE_LIT	TABARI.h	/^const int REPLACE_LIT  = 15;    \/\/ litArray index for XML replacement text$/;"	v
+ReadArg	interface.cp	/^bool ReadArg(int argc, char *argv[],  char *sfilename)		\/\/ Process command line$/;"	f
+ReadFiles	input.cp	/^ReadFilesClass 		ReadFiles;$/;"	v
+ReadFilesClass	TABARI.h	/^	ReadFilesClass()$/;"	f	class:ReadFilesClass
+ReadFilesClass	TABARI.h	/^class ReadFilesClass		\/\/ Input routines$/;"	c
+ReadLine	interface.cp	/^void ReadLine(char *s)$/;"	f
+ReadXML	xmlinput.cp	/^ReadXMLClass 			ReadXML;$/;"	v
+ReadXMLClass	TABARI.h	/^ReadXMLClass ()$/;"	f	class:ReadXMLClass
+ReadXMLClass	TABARI.h	/^class ReadXMLClass		\/\/ Read XML input$/;"	c
+RecordMenu	interface.cp	/^int RecordMenu(void)$/;"	f
+Reference	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+Replace	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+ResetCurs	interface.cp	/^void ResetCurs(void)$/;"	f
+Roots	memory.cp	/^RootsClass 				Roots;$/;"	v
+RootsClass	TABARI.h	/^	RootsClass()$/;"	f	class:RootsClass
+RootsClass	TABARI.h	/^class RootsClass		\/\/ Root storage$/;"	c
+SFILE_SIZE	TABARI.h	/^const int SFILE_SIZE 	= 	64;	 \/\/ length of filestring[]$/;"	v
+SKIP_LIT	TABARI.h	/^const int SKIP_LIT     =  8;    \/\/ litArray index for ^$/;"	v
+SOURCE_LIT	TABARI.h	/^const int SOURCE_LIT   =  4;    \/\/ litArray index for \$$/;"	v
+STORY_LONG	TABARI.h	/^const int STORY_LONG = 5;	\/\/ story was > MAX_SENTENCE$/;"	v
+SUBORD_TAG_ERROR	TABARI.h	/^const int SUBORD_TAG_ERROR= 9;	\/\/ problem in tag balancing in subordinant clause marking$/;"	v
+SYMBOL_LIMIT	TABARI.h	/^const int SYMBOL_LIMIT = 16;  	\/\/ litArray indices involving symbols are < SYMBOL_LIMIT$/;"	v
+SetXMLTags	xmlinput.cp	/^void ReadXMLClass:: SetXMLTags (int index)$/;"	f	class:ReadXMLClass
+ShowAutoHelp	interface.cp	/^void ShowAutoHelp(void)	$/;"	f
+ShowFatalError	interface.cp	/^void ShowFatalError (const char *sreason, char *sfile, const char *shaiku)$/;"	f
+ShowFatalError	interface.cp	/^void ShowFatalError (const char *sreason, const char *shaiku)$/;"	f
+ShowWarningError	interface.cp	/^void ShowWarningError (const char *sreason, char *s2, const char *sresponse, const char *shaiku)$/;"	f
+ShowWarningError	interface.cp	/^void ShowWarningError (const char *sreason, const char *sresponse, const char *shaiku)$/;"	f
+Subord	TABARI.h	/^  Clause, Compound, Reference, Subord, Replace, NullTag,$/;"	e	enum:wordtype
+Synym	TABARI.h	/^  Issue, Synym, $/;"	e	enum:wordtype
+TAB_DEBUG	TABARI.h	/^#define TAB_DEBUG /;"	d
+TAIL_TAG_ERROR	TABARI.h	/^const int TAIL_TAG_ERROR= 6;	\/\/ <not used>$/;"	v
+TARGET_LIT	TABARI.h	/^const int TARGET_LIT   =  5;  	\/\/ litArray index for +$/;"	v
+TOO_LONG_ERROR	TABARI.h	/^const int TOO_LONG_ERROR= 3;	\/\/ too many words in sentence$/;"	v
+TOO_SHORT_ERROR	TABARI.h	/^const int TOO_SHORT_ERROR= 4;	\/\/ too few words in sentence$/;"	v
+TRUE	TABARI.h	/^#define TRUE /;"	d
+TRUE_3WAY	TABARI.h	/^#define TRUE_3WAY /;"	d
+TabariFlags	memory.cp	/^TabariFlagsClass 	TabariFlags;$/;"	v
+TabariFlagsClass	TABARI.h	/^	TabariFlagsClass()$/;"	f	class:TabariFlagsClass
+TabariFlagsClass	TABARI.h	/^class TabariFlagsClass		$/;"	c
+Time	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+TokenStore	memory.cp	/^TokenStoreClass 	TokenStore;$/;"	v
+TokenStoreClass	TABARI.h	/^	TokenStoreClass()$/;"	f	class:TokenStoreClass
+TokenStoreClass	TABARI.h	/^class TokenStoreClass		\/\/ handles all numerical storage$/;"	c
+TrimBlanks	utilities.cp	/^void TrimBlanks(char *s)$/;"	f
+TrimEndBlanks	utilities.cp	/^void TrimEndBlanks(char *s)$/;"	f
+TrimLeadBlanks	utilities.cp	/^void TrimLeadBlanks(char *s)$/;"	f
+VERB_LIT	TABARI.h	/^const int VERB_LIT     =  3;  	\/\/ litArray index for *$/;"	v
+Verb	TABARI.h	/^{	Null, Actor, Agent, Verb, Time, Attrib, Determ, Noun, $/;"	e	enum:wordtype
+WARN_LEVEL	TABARI.h	/^const int WARN_LEVEL = 32;	\/\/ controls when to issue warning in IncrementIndex$/;"	v
+WARN_PHRASES	TABARI.h	/^const int WARN_PHRASES = 400000;	\/\/ warning level for same$/;"	v
+WINDOW_HEIGHT	TABARI.h	/^const int WINDOW_HEIGHT =  48;	\/\/ height of output window$/;"	v
+WINDOW_LEFT	TABARI.h	/^const int WINDOW_LEFT 	=	 10;	\/\/ top pixel of output window$/;"	v
+WINDOW_TOP	TABARI.h	/^const int WINDOW_TOP		=  40;	\/\/ left pixel of output window$/;"	v
+WINDOW_WIDTH	TABARI.h	/^const int WINDOW_WIDTH 	=  80;	\/\/ width of output window$/;"	v
+WRITECHAR	TABARI.h	/^# define WRITECHAR(/;"	d
+WRITEEOL	TABARI.h	/^# define WRITEEOL(/;"	d
+WRITESTRING	TABARI.h	/^# define WRITESTRING(/;"	d
+WriteAlert	interface.cp	/^void WriteAlert(const char *s1)	$/;"	f
+WriteAlert	interface.cp	/^void WriteAlert(const char *s1, char *s2)	$/;"	f
+WriteFiles	output.cp	/^	WriteFilesClass WriteFiles;$/;"	v
+WriteFilesClass	TABARI.h	/^class WriteFilesClass		\/\/ output routines$/;"	c
+WriteFloat	interface.cp	/^void WriteFloat(const char *s1, float r)$/;"	f
+WriteLine	interface.cp	/^void WriteLine(char *s)$/;"	f
+WriteLine	interface.cp	/^void WriteLine(char *s1, char *s2)$/;"	f
+WriteLine	interface.cp	/^void WriteLine(char *s1, const char *s2)$/;"	f
+WriteLine	interface.cp	/^void WriteLine(const char *s)$/;"	f
+WriteLine	interface.cp	/^void WriteLine(const char *s1, char *s2)$/;"	f
+WriteLong	interface.cp	/^void WriteLong(const char *s1, long i)$/;"	f
+WriteNewLine	interface.cp	/^void WriteNewLine(const char *s)$/;"	f
+YEAR_OOR	TABARI.h	/^const int YEAR_OOR   = 16;	\/\/ Year is out of range in date $/;"	v
+abbrev	TABARI.h	/^	charptr		abbrev;    		\/\/ pointer to abbrev text in charBuf				$/;"	m	struct:freqStruct
+actParentIdx	TABARI.h	/^	tokindex actParentIdx; \/\/ index of current actor parent root$/;"	m	class:RootsClass
+actor	TABARI.h	/^		toktype actor;	\/\/ index of actor code$/;"	m	struct:CoderClass::actorStruct
+actorEmpty	coder.cp	/^bool CoderClass:: actorEmpty (actorStruct a)$/;"	f	class:CoderClass
+actorEqual	coder.cp	/^bool CoderClass:: actorEqual(actorStruct a, actorStruct  b)$/;"	f	class:CoderClass
+actorStruct	TABARI.h	/^	struct actorStruct {$/;"	s	class:CoderClass
+add	memory.cp	/^toktype LiteralsClass:: add(litStruct *plit, char *s)$/;"	f	class:LiteralsClass
+add2Phrase	memory.cp	/^void PhrasesClass::add2Phrase(toktype index,toktype marker)   $/;"	f	class:PhrasesClass
+addBlanks	input.cp	/^void ReadFilesClass::addBlanks (char *s, char c, int &len)$/;"	f	class:ReadFilesClass
+addCode	codes.cp	/^toktype CodeStoreClass::addCode (char *scode)$/;"	f	class:CodeStoreClass
+addCode	codes.cp	/^toktype CodeStoreClass::addCode (char *scode, char *stext)$/;"	f	class:CodeStoreClass
+addCode	codes.cp	/^toktype CodeStoreClass::addCode (const char *scode, char *stext)$/;"	f	class:CodeStoreClass
+addCompositeCode	coder.cp	/^void CoderClass:: addCompositeCode(char *s, toktype itokactor, toktype itokagent)$/;"	f	class:CoderClass
+addDictionary	process.cp	/^void ProcessorClass:: addDictionary(char *sfilename, wordtype type)$/;"	f	class:ProcessorClass
+addHeadTag	parser.cp	/^void ParserClass:: addHeadTag(int loc, toktype tag)$/;"	f	class:ParserClass
+addHeadTag	parser.cp	/^void ParserClass:: addHeadTag(int loc, toktype tag, toktype &index)$/;"	f	class:ParserClass
+addLitr	parser.cp	/^void ParserClass:: addLitr (toktype ilit, toktype icomp)$/;"	f	class:ParserClass
+addNullString	codes.cp	/^void CodeStoreClass::addNullString (char *s)$/;"	f	class:CodeStoreClass
+addPattern	modify.cp	/^void ModifyClass:: addPattern(int iroot)$/;"	f	class:ModifyClass
+addRoot	modify.cp	/^void ModifyClass:: addRoot(wordtype wty)$/;"	f	class:ModifyClass
+addSegHeadTag	parser.cp	/^void ParserClass:: addSegHeadTag(int loc, toktype tag, toktype index)$/;"	f	class:ParserClass
+addSegTailTag	parser.cp	/^void ParserClass:: addSegTailTag(int loc, toktype tag, toktype index)$/;"	f	class:ParserClass
+addStart	memory.cp	/^void LiteralsClass::addStart(tokptr ptok, toktype iRoot)$/;"	f	class:LiteralsClass
+addTailTag	parser.cp	/^void ParserClass:: addTailTag(int loc, toktype tag)$/;"	f	class:ParserClass
+addTailTag	parser.cp	/^void ParserClass:: addTailTag(int loc, toktype tag, toktype index)$/;"	f	class:ParserClass
+addTimeModList	process.cp	/^void ProcessorClass:: addTimeModList(void)$/;"	f	class:ProcessorClass
+agent	TABARI.h	/^		toktype agent;	\/\/ index of agent code$/;"	m	struct:CoderClass::actorStruct
+agtidx	TABARI.h	/^		rootindex agtidx; \/\/ index of agent root$/;"	m	struct:CoderClass::actorStruct
+alphaList	memory.cp	/^void LiteralsClass::alphaList(void)$/;"	f	class:LiteralsClass
+appendEventActor	codes.cp	/^void CodeStoreClass:: appendEventActor(char * sparse, char *s, const char *sc)$/;"	f	class:CodeStoreClass
+attidx	TABARI.h	/^		toktype attidx;			\/\/ codeArray index if attribution is complex$/;"	m	struct:CoderClass::eventStruct
+attrib	TABARI.h	/^		toktype attrib;			\/\/ attribution$/;"	m	struct:CoderClass::eventStruct
+attribCode	TABARI.h	/^		toktype attribCode;		\/\/ codeArray index for attribution$/;"	m	struct:CoderClass::evtStringsStruct
+autoCode	process.cp	/^void ProcessorClass:: autoCode(void)	$/;"	f	class:ProcessorClass
+backActor	coder.cp	/^void CoderClass:: backActor (int loc, int &locFound, actorStruct &actFound)$/;"	f	class:CoderClass
+backFiles	process.cp	/^void ProcessorClass:: backFiles(void)$/;"	f	class:ProcessorClass
+backrec	TABARI.h	/^	commloc backrec[MAX_REC_BACK]; \/\/ circular array of previous records$/;"	m	class:ProcessorClass
+cHash	memory.cp	/^void LiteralsClass:: cHash(char &ca, char &cb, int i)$/;"	f	class:LiteralsClass
+cellList	memory.cp	/^void LiteralsClass::cellList(char *s)$/;"	f	class:LiteralsClass
+changeActor	modify.cp	/^void ModifyClass:: changeActor(int iroot)$/;"	f	class:ModifyClass
+changeDict	process.cp	/^void ProcessorClass:: changeDict(int iDict, wordtype wtype)$/;"	f	class:ProcessorClass
+changeHeadTag	parser.cp	/^void ParserClass:: changeHeadTag(int loc, toktype oldtag, toktype newtag)$/;"	f	class:ParserClass
+changeMenu	modify.cp	/^int ModifyClass:: changeMenu(void)$/;"	f	class:ModifyClass
+changePattern	modify.cp	/^void ModifyClass:: changePattern(patStruct *ppat)$/;"	f	class:ModifyClass
+changeRootMenu	modify.cp	/^int ModifyClass:: changeRootMenu(void)$/;"	f	class:ModifyClass
+changeTailTag	parser.cp	/^void ParserClass:: changeTailTag(int loc, toktype oldtag, toktype newtag)$/;"	f	class:ParserClass
+changeVerb	modify.cp	/^void ModifyClass:: changeVerb(int iroot)$/;"	f	class:ModifyClass
+changeVerbMenu	modify.cp	/^int ModifyClass:: changeVerbMenu(void)$/;"	f	class:ModifyClass
+charBuf	TABARI.h	/^	char charBuf[MAX_CHAR];$/;"	m	class:CharStoreClass
+charNull	TABARI.h	/^	charptr charNull;		\/\/ used to initialize pointers to something meaningful$/;"	m	class:CharStoreClass
+charNullString	TABARI.h	/^	charptr charNullString;		\/\/ used to initialize pointers to something meaningful$/;"	m	class:CharStoreClass
+charptr	TABARI.h	/^typedef char *charptr;						\/\/ pointer to CharBuf[]$/;"	t
+check	memory.cp	/^bool LiteralsClass:: check(char *s)$/;"	f	class:LiteralsClass
+checkAgentCode	modify.cp	/^bool ModifyClass:: checkAgentCode(void)$/;"	f	class:ModifyClass
+checkAttribCode	coder.cp	/^bool CoderClass:: checkAttribCode (patStruct * pPat)$/;"	f	class:CoderClass
+checkCplxBool	parser.cp	/^void ParserClass:: checkCplxBool (bool check, bool value, const char * s)$/;"	f	class:ParserClass
+checkCplxValue	parser.cp	/^void ParserClass:: checkCplxValue (int check, int value, const char *s)$/;"	f	class:ParserClass
+checkDiscards	parser.cp	/^void ParserClass:: checkDiscards(void)$/;"	f	class:ParserClass
+checkDisplay	parser.cp	/^bool ParserClass:: checkDisplay(bool check)$/;"	f	class:ParserClass
+checkEventDups	coder.cp	/^bool CoderClass:: checkEventDups(int ievt)$/;"	f	class:CoderClass
+checkEvents	process.cp	/^void ProcessorClass:: checkEvents(void)	$/;"	f	class:ProcessorClass
+checkHeadTag	parser.cp	/^bool ParserClass:: checkHeadTag(int loc, toktype tag, toktype index)$/;"	f	class:ParserClass
+checkLength	xmlinput.cp	/^void ReadXMLClass:: checkLength(int incr, char * pst)$/;"	f	class:ReadXMLClass
+checkNonEvents	coder.cp	/^void CoderClass:: checkNonEvents(void)$/;"	f	class:CoderClass
+checkPassive	coder.cp	/^bool CoderClass:: checkPassive(int index)$/;"	f	class:CoderClass
+checkPattern	coder.cp	/^bool CoderClass:: checkPattern(patStruct *pPat, int loc, wordtype wtype ) $/;"	f	class:CoderClass
+checkSameActors	coder.cp	/^bool CoderClass:: checkSameActors(int ievt)$/;"	f	class:CoderClass
+checkTailTag	parser.cp	/^bool ParserClass:: checkTailTag(int loc, toktype tag)$/;"	f	class:ParserClass
+checkTime	coder.cp	/^void CoderClass:: checkTime(void)$/;"	f	class:CoderClass
+checkVerbs	coder.cp	/^void CoderClass:: checkVerbs(void)$/;"	f	class:CoderClass
+checksubPattern	coder.cp	/^int CoderClass:: checksubPattern(patStruct *pPat) $/;"	f	class:CoderClass
+closeError	process.cp	/^void ProcessorClass:: closeError(void)$/;"	f	class:ProcessorClass
+closeText	process.cp	/^void ProcessorClass:: closeText(void)$/;"	f	class:ProcessorClass
+closeXMLFile	xmlinput.cp	/^void ReadXMLClass:: closeXMLFile(void)$/;"	f	class:ReadXMLClass
+codeArray	TABARI.h	/^	} codeArray[MAX_CODES];$/;"	m	class:CodeStoreClass	typeref:struct:CodeStoreClass::Code_Rec
+codeElite	TABARI.h	/^	int codeElite;$/;"	m	class:CodeStoreClass
+codeEvents	coder.cp	/^void CoderClass:: codeEvents(void)$/;"	f	class:CoderClass
+codeFreqs	coder.cp	/^void CoderClass:: codeFreqs (void)$/;"	f	class:CoderClass
+codeIssues	coder.cp	/^void CoderClass:: codeIssues (void)$/;"	f	class:CoderClass
+codeMode	TABARI.h	/^	int	 codeMode;					\/\/ clause, sentence or all coding mode$/;"	m	class:CoderClass
+codeTest	codes.cp	/^void CodeStoreClass::codeTest(void)$/;"	f	class:CodeStoreClass
+coderError	coder.cp	/^void CoderClass:: coderError(const char *s, int ierror)$/;"	f	class:CoderClass
+commloc	TABARI.h	/^typedef	long commloc;						\/\/ type used for Comment file position indices$/;"	t
+compSynset	coder.cp	/^int CoderClass:: compSynset(void) $/;"	f	class:CoderClass
+compTarget	coder.cp	/^int CoderClass:: compTarget(void) $/;"	f	class:CoderClass
+condCheck	coder.cp	/^void CoderClass:: condCheck(int &state)$/;"	f	class:CoderClass
+condfskip	TABARI.h	/^	bool  condfskip;$/;"	m	class:CoderClass
+condlen	TABARI.h	/^	int   condlen;$/;"	m	class:CoderClass
+condloc	TABARI.h	/^	int   condloc;$/;"	m	class:CoderClass
+condtemp	TABARI.h	/^	int   condtemp;$/;"	m	class:CoderClass
+connEqual	TABARI.h	/^	toktype connEqual;$/;"	m	class:PhrasesClass
+connFullNext	TABARI.h	/^	toktype connFullNext, connPartNext, connFullSkip, connPartSkip;$/;"	m	class:PhrasesClass
+connFullSkip	TABARI.h	/^	toktype connFullNext, connPartNext, connFullSkip, connPartSkip;$/;"	m	class:PhrasesClass
+connPartNext	TABARI.h	/^	toktype connFullNext, connPartNext, connFullSkip, connPartSkip;$/;"	m	class:PhrasesClass
+connPartSkip	TABARI.h	/^	toktype connFullNext, connPartNext, connFullSkip, connPartSkip;$/;"	m	class:PhrasesClass
+continueCheck	coder.cp	/^int CoderClass:: continueCheck(void)$/;"	f	class:CoderClass
+convertAgents	parser.cp	/^void ParserClass:: convertAgents(void)$/;"	f	class:ParserClass
+copyEvent	coder.cp	/^void CoderClass:: copyEvent (int ka, int kb)$/;"	f	class:CoderClass
+correctMenu	interface.cp	/^void correctMenu(const char *s)$/;"	f
+countFreqs	memory.cp	/^void LiteralsClass:: countFreqs(toktype * ptok)$/;"	f	class:LiteralsClass
+countTags	parser.cp	/^int ParserClass:: countTags (wordtype thetype)$/;"	f	class:ParserClass
+countType	parser.cp	/^int ParserClass:: countType (wordtype thetype)$/;"	f	class:ParserClass
+cplxLimit	TABARI.h	/^	} cplxLimit, cplxValue;$/;"	m	class:ParserClass	typeref:struct:ParserClass::cplxStruct
+cplxStruct	TABARI.h	/^	struct cplxStruct {$/;"	s	class:ParserClass
+cplxValue	TABARI.h	/^	} cplxLimit, cplxValue;$/;"	m	class:ParserClass	typeref:struct:ParserClass::cplxStruct
+create	memory.cp	/^void LiteralsClass:: create(char *s)$/;"	f	class:LiteralsClass
+ctoktype	TABARI.h	/^typedef const int ctoktype;$/;"	t
+curDict	TABARI.h	/^	int curDict;                  \/\/ index of dictionary currently being read$/;"	m	class:ProcessorClass
+curFilename	TABARI.h	/^	filestring curFilename; \/\/ name of file currently being read$/;"	m	class:ReadFilesClass
+curLen	TABARI.h	/^	int 		curLen; $/;"	m	class:CommentFileClass
+curLoc	TABARI.h	/^	commloc curLoc;		\/\/ tailLen and tailLoc for current file; used for output$/;"	m	class:CommentFileClass
+cursc	TABARI.h	/^	int cursc; 				\/\/ current cursor column$/;"	m	class:TabariFlagsClass
+cursr	TABARI.h	/^	int cursr; 				\/\/ current cursor row: only active in NCURSES mode$/;"	m	class:TabariFlagsClass
+decodeEventCode	codes.cp	/^void CodeStoreClass:: decodeEventCode (toktype &evtcode, bool &fissub, bool &fisdom, toktype icode)$/;"	f	class:CodeStoreClass
+deletePattern	modify.cp	/^void ModifyClass:: deletePattern(patStruct *ppat)$/;"	f	class:ModifyClass
+deleteRoot	modify.cp	/^void ModifyClass:: deleteRoot(int iroot)$/;"	f	class:ModifyClass
+dereferencePronouns	parser.cp	/^void ParserClass:: dereferencePronouns(void)$/;"	f	class:ParserClass
+dictFileList	TABARI.h	/^	} dictFileList, *nextDict;$/;"	m	class:ProcessorClass	typeref:struct:ProcessorClass::dictListStruct
+dictListStruct	TABARI.h	/^	struct dictListStruct { \/\/ linked list for storing multiple dictionary file names$/;"	s	class:ProcessorClass
+dictType	TABARI.h	/^		wordtype dictType;				\/\/ type of dictionary$/;"	m	struct:ProcessorClass::dictListStruct
+didError	TABARI.h	/^	int didError[MAX_ERROR];  \/\/ record of errors already reported by  writeError$/;"	m	class:ProcessorClass
+displayPatterns	modify.cp	/^void ModifyClass:: displayPatterns(int iroot)$/;"	f	class:ModifyClass
+displayRoots	modify.cp	/^void ModifyClass:: displayRoots(wordtype wty)$/;"	f	class:ModifyClass
+doAll	TABARI.h	/^	bool 			doAll;       	\/\/ record all occurrences?$/;"	m	struct:issueHeadStruct
+doAttrib	coder.cp	/^void CoderClass:: doAttrib(void)$/;"	f	class:CoderClass
+doBRACKET	xmlinput.cp	/^char *  ReadXMLClass:: doBRACKET(char * pst)$/;"	f	class:ReadXMLClass
+doDupError	input.cp	/^void ReadFilesClass:: doDupError(const char *stype)$/;"	f	class:ReadFilesClass
+doFinalSysCalls	process.cp	/^void ProcessorClass:: doFinalSysCalls(void)	$/;"	f	class:ProcessorClass
+doIGNORE	xmlinput.cp	/^char *  ReadXMLClass:: doIGNORE(char * pst)$/;"	f	class:ReadXMLClass
+doLINE_LONG	input.cp	/^void ReadFilesClass:: doLINE_LONG(void)  $/;"	f	class:ReadFilesClass
+doModify	modify.cp	/^void ModifyClass:: doModify(void)$/;"	f	class:ModifyClass
+doNE	xmlinput.cp	/^char * ReadXMLClass:: doNE(char * pst)$/;"	f	class:ReadXMLClass
+doNumber	TABARI.h	/^	bool 			doNumber;			\/\/ process as a NUMBER issue?$/;"	m	struct:issueHeadStruct
+doOptionCommand	input.cp	/^void ReadFilesClass:: doOptionCommand(char *sCmd)$/;"	f	class:ReadFilesClass
+doOther	process.cp	/^void ProcessorClass:: doOther(void)$/;"	f	class:ProcessorClass
+doPRONOUN	xmlinput.cp	/^char * ReadXMLClass:: doPRONOUN(char * pst)$/;"	f	class:ReadXMLClass
+doParsing	parser.cp	/^void ParserClass:: doParsing(void)$/;"	f	class:ParserClass
+doPhraseError	input.cp	/^void ReadFilesClass:: doPhraseError(const char *sreason)$/;"	f	class:ReadFilesClass
+doProcess	process.cp	/^void ProcessorClass:: doProcess(char *sprojectname)	$/;"	f	class:ProcessorClass
+doValidation	process.cp	/^void ProcessorClass:: doValidation(void)	$/;"	f	class:ProcessorClass
+doVerb	coder.cp	/^void CoderClass:: doVerb (int index)$/;"	f	class:CoderClass
+duplicateRoot	memory.cp	/^bool LiteralsClass:: duplicateRoot(char *s)$/;"	f	class:LiteralsClass
+duplicateSyn	memory.cp	/^bool LiteralsClass:: duplicateSyn(char *s)$/;"	f	class:LiteralsClass
+endSession	process.cp	/^void ProcessorClass:: endSession(void)$/;"	f	class:ProcessorClass
+endl	utilities.cp	/^	cout << stime << "  " << sdate << endl;$/;"	v
+enterCode	modify.cp	/^bool ModifyClass:: enterCode(bool fnew)$/;"	f	class:ModifyClass
+errorFile	TABARI.h	/^	filestring errorFile;$/;"	m	class:ProcessorClass
+errstring	TABARI.h	/^typedef char errstring[81];					\/\/ error message string length  ### [08.07.05] : Magic number here; correct this $/;"	t
+evaluateComplexity	parser.cp	/^void ParserClass:: evaluateComplexity(void)$/;"	f	class:ParserClass
+evaluateEvents	coder.cp	/^void CoderClass:: evaluateEvents(void)$/;"	f	class:CoderClass
+event	TABARI.h	/^		toktype event;			\/\/ codeArray index of event$/;"	m	struct:CoderClass::eventStruct
+eventArray	TABARI.h	/^	} eventArray[MAX_EVENTS];$/;"	m	class:CoderClass	typeref:struct:CoderClass::eventStruct
+eventCode	TABARI.h	/^		toktype eventCode;		\/\/ event code$/;"	m	struct:CoderClass::evtStringsStruct
+eventFile	TABARI.h	/^	filestring eventFile;$/;"	m	class:ProcessorClass
+eventStrgs	TABARI.h	/^	} eventStrgs[MAX_EVENT_STRINGS];$/;"	m	class:CoderClass	typeref:struct:CoderClass::evtStringsStruct
+eventStruct	TABARI.h	/^	struct eventStruct {$/;"	s	class:CoderClass
+evtStringsStruct	TABARI.h	/^	struct evtStringsStruct {$/;"	s	class:CoderClass
+evtloc	TABARI.h	/^		toktype evtloc;			\/\/ lexArray index for start of verb$/;"	m	struct:CoderClass::eventStruct
+evtloc	TABARI.h	/^		toktype evtloc;			\/\/ lexArray index for start of verb$/;"	m	struct:CoderClass::evtStringsStruct
+expandCompoundCodes	coder.cp	/^void CoderClass:: expandCompoundCodes(void)$/;"	f	class:CoderClass
+f4DigitYear	TABARI.h	/^	bool f4DigitYear;   \/\/ dates have four-digit years$/;"	m	class:TabariFlagsClass
+fActorUsage	TABARI.h	/^	int	 fActorUsage;		\/\/ 3-way switch for saving actor usage files$/;"	m	class:TabariFlagsClass
+fAgentUsage	TABARI.h	/^	int	 fAgentUsage;		\/\/ 3-way switch for saving agent usage files$/;"	m	class:TabariFlagsClass
+fAutoCodemode	TABARI.h	/^	int	 fAutoCodemode; \/\/ command line auto-coding mode information$/;"	m	class:TabariFlagsClass
+fCheckCplx	TABARI.h	/^	bool fCheckCplx, fCplxStrg;  \/\/ check complexity conditions; write complexity string$/;"	m	class:ParserClass
+fCheckSkip	TABARI.h	/^	int	 fCheckSkip;    \/\/ ask whether to skip previously coded records$/;"	m	class:TabariFlagsClass
+fConvAgent	TABARI.h	/^	int	 fConvAgent;        \/\/ convert isolated agents to actors$/;"	m	class:TabariFlagsClass
+fCplxStrg	TABARI.h	/^	bool fCheckCplx, fCplxStrg;  \/\/ check complexity conditions; write complexity string$/;"	m	class:ParserClass
+fDefAFTER	TABARI.h	/^	bool 	fDefAFTER;   \/\/  AFTER option$/;"	m	class:CoderClass
+fDefPRIOR	TABARI.h	/^	bool	fDefPRIOR;   \/\/  PRIOR option$/;"	m	class:CoderClass
+fFBISMode	TABARI.h	/^	bool fFBISMode;			\/\/ FBIS mode -- affects reading of headers, treatment of brackets, etc.$/;"	m	class:TabariFlagsClass
+fHasDiscard	TABARI.h	/^	bool fHasDiscard;		\/\/ is there a primary discard code?$/;"	m	class:ParserClass
+fIgnoreConj	TABARI.h	/^	bool fIgnoreConj;   \/\/ code across multiple clauses	$/;"	m	class:TabariFlagsClass
+fIsComplex	TABARI.h	/^	bool fIsComplex;		\/\/ are complexity conditions met$/;"	m	class:ParserClass
+fNoEvt	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fNoSrc	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fNoTar	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fNoVerb	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fNonEvents	TABARI.h	/^	int  fNonEvents;		\/\/ create records for non-events: 2 => output nonevents only$/;"	m	class:TabariFlagsClass
+fOutputActRoots	TABARI.h	/^	bool fOutputActRoots;		\/\/ output root phrase for source and target actors to event records in CoderClass:: getEventString$/;"	m	class:ReadFilesClass
+fOutputAgtRoots	TABARI.h	/^	bool fOutputAgtRoots;		\/\/ output root phrase for source and target agents to event records in CoderClass:: getEventString$/;"	m	class:ReadFilesClass
+fOutputDoc	TABARI.h	/^	bool fOutputDoc;$/;"	m	class:ReadFilesClass
+fOutputID	TABARI.h	/^	bool fOutputID;$/;"	m	class:ReadFilesClass
+fOutputLabels	TABARI.h	/^	bool fOutputLabels;			\/\/ output event code labels in CoderClass:: getEventString$/;"	m	class:ReadFilesClass
+fOutputLocs	TABARI.h	/^	bool fOutputLocs;   		\/\/ output lexArray locations for the source, target, verb $/;"	m	class:ReadFilesClass
+fOutputMatch	TABARI.h	/^	bool fOutputMatch;			\/\/ output matched text to event records in CoderClass:: getEventString$/;"	m	class:ReadFilesClass
+fOutputParent	TABARI.h	/^	bool fOutputParent;   		\/\/ for fOutputActRoots, output the parent in an actor synonym set rather than the actual phrases $/;"	m	class:ReadFilesClass
+fOutputPats	TABARI.h	/^	bool fOutputPats;			\/\/ output matched patterns$/;"	m	class:ReadFilesClass
+fOutputSeq	TABARI.h	/^	bool fOutputSeq;$/;"	m	class:ReadFilesClass
+fOutputShift	TABARI.h	/^	bool fOutputShift;			\/\/ output time shifting information$/;"	m	class:ReadFilesClass
+fOutputStory	TABARI.h	/^	bool fOutputStory;$/;"	m	class:ReadFilesClass
+fOutputText	TABARI.h	/^	bool fOutputText;$/;"	m	class:ReadFilesClass
+fParseError	TABARI.h	/^	bool fParseError;				\/\/ true if there was a parsing error$/;"	m	class:CodeStoreClass
+fPause	TABARI.h	/^	bool fPause;$/;"	m	class:CoderClass
+fPhraseOK	TABARI.h	/^	bool fPhraseOK;				\/\/ any problems in the initial parse?$/;"	m	class:ReadFilesClass
+fPostAct	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fPreAct	TABARI.h	/^		bool fPreAct, fPostAct, fNoVerb, fNoSrc, fNoTar, fNoEvt;$/;"	m	struct:ParserClass::cplxStruct
+fRecCAPS	TABARI.h	/^ 	bool fRecCAPS; \/\/ inidividual record is all caps?$/;"	m	class:ParserClass
+fRegularSource	TABARI.h	/^	bool fRegularSource;\/\/ source was set using regular match, rather than through a pattern$/;"	m	class:CoderClass
+fRegularTarget	TABARI.h	/^	bool fRegularTarget;\/\/ same for target$/;"	m	class:CoderClass
+fSameActors	TABARI.h	/^	bool fSameActors;   \/\/ allow source and target to be identical	$/;"	m	class:TabariFlagsClass
+fShowHaiku	TABARI.h	/^	bool fShowHaiku;		\/\/ if false, do not show error haikus$/;"	m	class:TabariFlagsClass
+fVerbUsage	TABARI.h	/^	int	 fVerbUsage;		\/\/ 3-way switch for saving verb usage files$/;"	m	class:TabariFlagsClass
+fWarnDups	TABARI.h	/^	bool fWarnDups;			\/\/ issue warning when duplicate roots are found$/;"	m	class:TabariFlagsClass
+fcanForward	TABARI.h	/^	bool fcanForward;$/;"	m	class:ParserClass
+fchangeDict	TABARI.h	/^	bool	fchangeDict;	\/\/ change was made in at least one dictionary$/;"	m	class:ProcessorClass
+fcodeOptional	TABARI.h	/^	bool fcodeOptional;  \/\/ parseline allows no code$/;"	m	class:ReadFilesClass
+fcomm	TABARI.h	/^	fstream fcomm;$/;"	m	class:CommentFileClass
+fcond	TABARI.h	/^	bool  fcond;  		\/\/ doing alternative\/conditional$/;"	m	class:CoderClass
+fdoingFreq	TABARI.h	/^	bool fdoingFreq;		\/\/ processing frequency file$/;"	m	class:ReadFilesClass
+ferror	TABARI.h	/^	ofstream ferror;	\/\/ error output file$/;"	m	class:ProcessorClass
+fhasAttribList	TABARI.h	/^	bool fhasAttribList;\/\/ <ATTRIB> list in verbs file  #### <09.01.07> these have not been adjusted for multiple files$/;"	m	class:TabariFlagsClass
+fhasClauses	TABARI.h	/^	bool fhasClauses;		\/\/ are there multiple clauses? $/;"	m	class:ParserClass
+fhasComplex	TABARI.h	/^	bool fhasDiscard, fhasComplex;$/;"	m	class:CoderClass
+fhasDefltSrc	TABARI.h	/^	bool 	fhasDefltSrc;	\/\/ 	default source code is available$/;"	m	class:CoderClass
+fhasDefltTar	TABARI.h	/^	bool 	fhasDefltTar;	\/\/  same for target$/;"	m	class:CoderClass
+fhasDiscard	TABARI.h	/^	bool fhasDiscard, fhasComplex;$/;"	m	class:CoderClass
+fhasDoc	TABARI.h	/^	bool fhasDoc;$/;"	m	class:ReadFilesClass
+fhasDocs	TABARI.h	/^	bool fhasDocs;    \/\/ project file has <dochead> and\/or <doctail> tags$/;"	m	class:ProcessorClass
+fhasFreqs	TABARI.h	/^	bool fhasFreqs;			\/\/ Freqs are being coded$/;"	m	class:TabariFlagsClass
+fhasIssues	TABARI.h	/^	bool fhasIssues;		\/\/ Issues are being coded$/;"	m	class:TabariFlagsClass
+fhasProblem	TABARI.h	/^	bool fhasProblem;		\/\/ no events coded due to discard, complex, etc.$/;"	m	class:CoderClass
+fhasRun	TABARI.h	/^	bool fhasRun;			\/\/ project file has a <run> command$/;"	m	class:ProcessorClass
+fhasTimeList	TABARI.h	/^	bool fhasTimeList;	\/\/ <TIME> list in verbs file$/;"	m	class:TabariFlagsClass
+fileName	TABARI.h	/^		filestring fileName;$/;"	m	struct:ProcessorClass::dictListStruct
+fileName	TABARI.h	/^		filestring fileName;$/;"	m	struct:ProcessorClass::textListStruct
+filestring	TABARI.h	/^typedef char filestring[SFILE_SIZE];		\/\/ file name string length; may need to be longer $/;"	t
+filterText	parser.cp	/^void ParserClass:: filterText(void)$/;"	f	class:ParserClass
+filtext	TABARI.h	/^	char filtext[MAX_SENTENCE]; 	\/\/ filtered text$/;"	m	class:ParserClass
+fin	TABARI.h	/^	ifstream fin;			\/\/ input file$/;"	m	class:ReadFilesClass
+fin	TABARI.h	/^	ifstream fin;			\/\/ text input file$/;"	m	class:ProcessorClass
+fin	TABARI.h	/^	ifstream fin;			\/\/ text input file$/;"	m	class:ReadXMLClass
+find	memory.cp	/^bool LiteralsClass:: find(litStruct **plit, char *s)$/;"	f	class:LiteralsClass
+findActor	coder.cp	/^void CoderClass:: findActor (int loc, int &locFound, actorStruct &actFound)$/;"	f	class:CoderClass
+findAgent	coder.cp	/^void CoderClass:: findAgent (int loc, actorStruct &actFound)$/;"	f	class:CoderClass
+findCode	codes.cp	/^toktype CodeStoreClass::findCode (char *scode)$/;"	f	class:CodeStoreClass
+firstActorDict	TABARI.h	/^	int firstActorDict; \/\/ first flat actor dictionary: new entries stored here$/;"	m	class:ProcessorClass
+firstAgentDict	TABARI.h	/^	int firstAgentDict; \/\/ first flat actor dictionary: new entries stored here$/;"	m	class:ProcessorClass
+firstHaiku	interface.cp	/^void firstHaiku(void)$/;"	f
+firstVerbDict	TABARI.h	/^	int firstVerbDict;  \/\/ first flat verb dictionary: new entries stored here$/;"	m	class:ProcessorClass
+fisEvent	TABARI.h	/^		bool fisEvent;$/;"	m	struct:CoderClass::evtStringsStruct
+fisNumeric	TABARI.h	/^	bool fisNumeric;  	\/\/ processing a numeric issue$/;"	m	class:ReadFilesClass
+fisPassive	TABARI.h	/^	bool fisPassive;   \/\/ passive voice$/;"	m	class:CoderClass
+fisdom	TABARI.h	/^		bool 		fisdom;			\/\/ dominant?$/;"	m	struct:CoderClass::eventStruct
+fisevt	TABARI.h	/^		bool 		fisevt;			\/\/ valid event?$/;"	m	struct:CoderClass::eventStruct
+fissub	TABARI.h	/^		bool 		fissub;			\/\/ subordinant?$/;"	m	struct:CoderClass::eventStruct
+flagSynm	TABARI.h	/^	toktype flagSynm,flagSynmFS,flagSynmPN;$/;"	m	class:PhrasesClass
+flagSynmFS	TABARI.h	/^	toktype flagSynm,flagSynmFS,flagSynmPN;$/;"	m	class:PhrasesClass
+flagSynmPN	TABARI.h	/^	toktype flagSynm,flagSynmFS,flagSynmPN;$/;"	m	class:PhrasesClass
+flags	TABARI.h	/^		toktype flags;		\/\/ indicator flags$/;"	m	struct:ParserClass::lexStruct
+flags	TABARI.h	/^		toktype flags;		\/\/ indicator flags$/;"	m	struct:ParserClass::syntStruct
+fopenError	TABARI.h	/^	bool fopenError;							\/\/ error file is open$/;"	m	class:ProcessorClass
+found	TABARI.h	/^	bool 			found;				\/\/ has a code in this category been found?$/;"	m	struct:issueHeadStruct
+fout	TABARI.h	/^	ofstream fout;			\/\/ output file$/;"	m	class:WriteFilesClass
+fout	TABARI.h	/^	ofstream fout;		\/\/ event output file$/;"	m	class:ProcessorClass
+fprob	TABARI.h	/^	ofstream fprob;		\/\/ problems output file; ### currently needs to be public for ShowParsing$/;"	m	class:ProcessorClass
+freqFile	TABARI.h	/^	filestring freqFile;$/;"	m	class:ProcessorClass
+freqHead	TABARI.h	/^	freqStruct  freqHead; 			\/\/ start of freq lists$/;"	m	class:CoderClass
+freqStruct	TABARI.h	/^struct freqStruct {  			\/\/ freq list elements$/;"	s
+fskipMode	TABARI.h	/^	bool fskipMode;	\/\/ are skips allowed in text? (otherwise match required on next item)$/;"	m	class:CoderClass
+fullMode	TABARI.h	/^	bool fullMode;	\/\/ is full match required on current target? (otherwise partial match allowed)$/;"	m	class:CoderClass
+fuseForward	TABARI.h	/^	bool fuseForward;	\/\/ ### should this be in TABARIFlags??$/;"	m	class:ParserClass
+fusingXML	TABARI.h	/^	bool fusingXML;		\/\/ using XML file$/;"	m	class:ProcessorClass
+fwriteEvents	TABARI.h	/^	bool fwriteEvents;  \/\/ write events to a file$/;"	m	class:TabariFlagsClass
+fwroteProb	TABARI.h	/^	bool		fwroteProb;   	\/\/ wrote to the problems file; don't delete it$/;"	m	class:ProcessorClass
+get	memory.cp	/^char * PhrasesClass:: get(char *sphrase, tokptr phrase)$/;"	f	class:PhrasesClass
+get3Way	input.cp	/^int ReadFilesClass:: get3Way(void)$/;"	f	class:ReadFilesClass
+getActorCode	codes.cp	/^void CodeStoreClass::getActorCode (char *s, tokptr ptok)$/;"	f	class:CodeStoreClass
+getActorHead	coder.cp	/^int CoderClass:: getActorHead(int loc, bool &fmatch)$/;"	f	class:CoderClass
+getActorString	codes.cp	/^void CodeStoreClass::getActorString (char *s, toktype itok)$/;"	f	class:CodeStoreClass
+getActorStructCodes	coder.cp	/^void CoderClass:: getActorStructCodes(actorStruct &actFound, int loc )$/;"	f	class:CoderClass
+getActorTail	coder.cp	/^int CoderClass:: getActorTail(int loc)$/;"	f	class:CoderClass
+getAgentCodePtr	codes.cp	/^char * CodeStoreClass::getAgentCodePtr (toktype tokindex)$/;"	f	class:CodeStoreClass
+getAttribActor	coder.cp	/^void CoderClass:: getAttribActor (int loc)$/;"	f	class:CoderClass
+getBoolean	input.cp	/^bool ReadFilesClass:: getBoolean(void)$/;"	f	class:ReadFilesClass
+getCOMMA	input.cp	/^void ReadFilesClass:: getCOMMA(void)$/;"	f	class:ReadFilesClass
+getCOMPLEX	input.cp	/^void ReadFilesClass:: getCOMPLEX(void)$/;"	f	class:ReadFilesClass
+getCodeLabel	codes.cp	/^char* CodeStoreClass::getCodeLabel (toktype itok)$/;"	f	class:CodeStoreClass
+getCodePtr	codes.cp	/^char* CodeStoreClass::getCodePtr (toktype itok)$/;"	f	class:CodeStoreClass
+getComment	input.cp	/^void CommentFileClass::getComment(commloc loc, char *scomm)$/;"	f	class:CommentFileClass
+getCompound	coder.cp	/^int CoderClass:: getCompound(int loc)$/;"	f	class:CoderClass
+getCompound	coder.cp	/^int CoderClass:: getCompound(int loc, bool &fmatch)$/;"	f	class:CoderClass
+getDEFAULT	input.cp	/^void ReadFilesClass:: getDEFAULT(void)$/;"	f	class:ReadFilesClass
+getEventCode	codes.cp	/^void CodeStoreClass:: getEventCode (toktype &icode, toktype &ipair, toktype itok)$/;"	f	class:CodeStoreClass
+getEventString	coder.cp	/^char * CoderClass:: getEventString(char *s, int ievt)$/;"	f	class:CoderClass
+getEventString	codes.cp	/^void CodeStoreClass::getEventString (char *s, toktype itok)$/;"	f	class:CodeStoreClass
+getFORWARD	input.cp	/^void ReadFilesClass:: getFORWARD(void)$/;"	f	class:ReadFilesClass
+getFREQ	input.cp	/^int ReadFilesClass:: getFREQ(void)$/;"	f	class:ReadFilesClass
+getField	input.cp	/^void ReadFilesClass:: getField (char *s, const char *substr, char *sout)$/;"	f	class:ReadFilesClass
+getISSUE	input.cp	/^int ReadFilesClass:: getISSUE(void)$/;"	f	class:ReadFilesClass
+getIndex	memory.cp	/^toktype LiteralsClass::	getIndex(litStruct *plit)$/;"	f	class:LiteralsClass
+getInteger	input.cp	/^void ReadFilesClass:: getInteger (char *s, const char *substr, int &iout)$/;"	f	class:ReadFilesClass
+getIssueString	codes.cp	/^void CodeStoreClass::getIssueString (char *s, toktype itok)$/;"	f	class:CodeStoreClass
+getLABEL	input.cp	/^void ReadFilesClass:: getLABEL(void)$/;"	f	class:ReadFilesClass
+getLitr	parser.cp	/^int ParserClass:: getLitr(void)$/;"	f	class:ParserClass
+getNONEVENTS	input.cp	/^void ReadFilesClass:: getNONEVENTS(void) $/;"	f	class:ReadFilesClass
+getNonEventString	coder.cp	/^char * CoderClass:: getNonEventString(char *s)$/;"	f	class:CoderClass
+getOUTPUT	input.cp	/^void ReadFilesClass:: getOUTPUT(void)$/;"	f	class:ReadFilesClass
+getParseError	parser.cp	/^void ParserClass:: getParseError(char *s)$/;"	f	class:ParserClass
+getPatterns	coder.cp	/^char * CoderClass:: getPatterns(char *s, int ievt)	$/;"	f	class:CoderClass
+getReference	parser.cp	/^toktype ParserClass:: getReference(int loc)$/;"	f	class:ParserClass
+getRegularSource	coder.cp	/^void CoderClass:: getRegularSource(int index)$/;"	f	class:CoderClass
+getRegularTarget	coder.cp	/^void CoderClass:: getRegularTarget (int index)$/;"	f	class:CoderClass
+getResponse	modify.cp	/^char ModifyClass:: getResponse(void)$/;"	f	class:ModifyClass
+getSET	input.cp	/^void ReadFilesClass:: getSET(void)$/;"	f	class:ReadFilesClass
+getTail	input.cp	/^bool CommentFileClass:: getTail(char *s)$/;"	f	class:CommentFileClass
+getTailTag	parser.cp	/^toktype ParserClass:: getTailTag(int loc, toktype tag)$/;"	f	class:ParserClass
+getTimeCode	codes.cp	/^int CodeStoreClass::getTimeCode (toktype itok, bool &isIndex)$/;"	f	class:CodeStoreClass
+getTimeString	codes.cp	/^void CodeStoreClass::getTimeString (char *s, toktype itok)$/;"	f	class:CodeStoreClass
+getTokPtr	memory.cp	/^tokptr TokenStoreClass:: getTokPtr(tokindex index) $/;"	f	class:TokenStoreClass
+getToken	memory.cp	/^toktype TokenStoreClass:: getToken (tokptr loc)$/;"	f	class:TokenStoreClass
+getTokenValue	memory.cp	/^toktype TokenStoreClass:: getTokenValue (tokindex index)$/;"	f	class:TokenStoreClass
+getUpper	interface.cp	/^char getUpper(void)$/;"	f
+getXMLDate	xmlinput.cp	/^bool ReadXMLClass:: getXMLDate(void)$/;"	f	class:ReadXMLClass
+getsLine	input.cp	/^void ReadFilesClass:: getsLine(void)$/;"	f	class:ReadFilesClass
+getsLine	process.cp	/^void ProcessorClass:: getsLine(void)$/;"	f	class:ProcessorClass
+getsLineError	process.cp	/^void ProcessorClass:: getsLineError(int err)$/;"	f	class:ProcessorClass
+gotoEnd	xmlinput.cp	/^char * ReadXMLClass:: gotoEnd(char * pst)$/;"	f	class:ReadXMLClass
+hasAdjctList	TABARI.h	/^		bool hasAdjctList;  \/\/ ### <09.01.07> also need the equivalent -- union? -- for time and attribut$/;"	m	struct:ProcessorClass::dictListStruct
+hasHeadTag	parser.cp	/^bool ParserClass:: hasHeadTag(int loc, toktype tag)$/;"	f	class:ParserClass
+hasHeadTag	parser.cp	/^bool ParserClass:: hasHeadTag(int loc, toktype tag, toktype &index)$/;"	f	class:ParserClass
+hasLitr	parser.cp	/^int ParserClass:: hasLitr (int index, toktype litr)$/;"	f	class:ParserClass
+hasNounList	TABARI.h	/^		bool hasNounList;      $/;"	m	struct:ProcessorClass::dictListStruct
+hasTailTag	parser.cp	/^bool ParserClass:: hasTailTag(int loc, toktype tag)$/;"	f	class:ParserClass
+hasTailTag	parser.cp	/^bool ParserClass:: hasTailTag(int loc, toktype tag, toktype index)$/;"	f	class:ParserClass
+htmlParsing	parser.cp	/^void ParserClass:: htmlParsing(void)$/;"	f	class:ParserClass
+iCode	TABARI.h	/^	toktype iCode;$/;"	m	class:CodeStoreClass
+iDict	TABARI.h	/^		int        	iDict;    \/\/ source dictionary index$/;"	m	struct:RootsClass::rootStruct
+iDict	TABARI.h	/^	int iDict;         \/\/ index of dictionary         $/;"	m	class:ProcessorClass
+iFreq	TABARI.h	/^	int iFreq;					\/\/ freq categories + 1$/;"	m	class:CoderClass
+iHash	memory.cp	/^int LiteralsClass::	iHash(char *s)$/;"	f	class:LiteralsClass
+iIDInfoLen	TABARI.h	/^	int iIDInfoLen;		$/;"	m	class:ReadFilesClass
+iIDInfoLoc	TABARI.h	/^	int iIDInfoLoc;$/;"	m	class:ReadFilesClass
+iLex	TABARI.h	/^	int iLex;						\/\/ final active cell in lexArray$/;"	m	class:ParserClass
+iLit	TABARI.h	/^	toktype iLit;$/;"	m	class:LiteralsClass
+iLitBuf	TABARI.h	/^	toktype iLitBuf;$/;"	m	class:LiteralsClass
+iLitr	TABARI.h	/^	int iLitr; $/;"	m	class:ParserClass
+iMatch	TABARI.h	/^	int iMatch; $/;"	m	class:ParserClass
+iPattern	TABARI.h	/^	toktype iPattern;$/;"	m	class:RootsClass
+iPauseStatus	TABARI.h	/^	int iPauseStatus;							\/\/ pause after coding?$/;"	m	class:ProcessorClass
+iPhrase	TABARI.h	/^	phrindex iPhrase;	$/;"	m	class:PhrasesClass
+iRoot	TABARI.h	/^	toktype iRoot;$/;"	m	class:RootsClass
+iSelect	TABARI.h	/^	int 	iSelect;			\/\/ item selected in menu	$/;"	m	class:ModifyClass
+iSentLen	TABARI.h	/^	int iSentLen;$/;"	m	class:ReadFilesClass
+iSentLoc	TABARI.h	/^	int iSentLoc;$/;"	m	class:ReadFilesClass
+iStoryLen	TABARI.h	/^	int iStoryLen;$/;"	m	class:ReadFilesClass
+iStoryLoc	TABARI.h	/^	int iStoryLoc;$/;"	m	class:ReadFilesClass
+iSynt	TABARI.h	/^	int iSynt;					\/\/ final active cell in syntArray (iLex + 1)$/;"	m	class:ParserClass
+iTag	TABARI.h	/^	int iTag;    \/\/ this has value of the *next* tag to be added$/;"	m	class:ParserClass
+iTemp	TABARI.h	/^	int iTemp; $/;"	m	class:ParserClass
+iTemp	TABARI.h	/^	int iTemp;$/;"	m	class:CoderClass
+iToken	TABARI.h	/^	toktype iToken;    \/\/ ### this is needed in CodeStoreClass::storeActorCode; just make it friend?$/;"	m	class:TokenStoreClass
+iclass	TABARI.h	/^		tokindex 	iclass;  	\/\/ for verbs: 0 = no additional forms; + => highest index of forms; - => verb form$/;"	m	struct:RootsClass::rootStruct
+icode	TABARI.h	/^	toktype 		icode;    		\/\/ location of default codes$/;"	m	struct:issueHeadStruct
+icode	TABARI.h	/^	toktype 		icode;    	\/\/ location of codes: see codes.cp for details $/;"	m	struct:patStruct
+icode	TABARI.h	/^	toktype icode;					\/\/ codeArray index$/;"	m	struct:issueListStruct
+icomment	TABARI.h	/^	commloc 		icomment; 	\/\/ filepos for comments $/;"	m	struct:patStruct
+idxForwActor	TABARI.h	/^	int  idxForwActor;  	\/\/ index of forwarded actor$/;"	m	class:ParserClass
+idxForwCompd	TABARI.h	/^	int  idxForwCompd;		\/\/ index of forwarded compound$/;"	m	class:ParserClass
+idxText	TABARI.h	/^	int idxText;$/;"	m	class:ReadXMLClass
+idxcodeDefSrc	TABARI.h	/^	toktype idxcodeDefSrc;		\/\/  indices for default codes$/;"	m	class:CoderClass
+idxcodeDefTar	TABARI.h	/^	toktype idxcodeDefTar;$/;"	m	class:CoderClass
+iendClause	TABARI.h	/^	int istartClause,iendClause;  \/\/ start and end of clause containing verb$/;"	m	class:CoderClass
+ifreq	TABARI.h	/^	toktype 	ifreq;	 	\/\/ index of litBuf list of freq tags for the literal	$/;"	m	struct:litStruct
+ilit	TABARI.h	/^		int 		ilit;			\/\/ index to start of literal list in literaList; -1 if none$/;"	m	struct:ParserClass::syntStruct
+ilit	TABARI.h	/^		int 	ilit;		\/\/ index to start of literal list in literaList; -1 if none$/;"	m	struct:ParserClass::lexStruct
+imatch	TABARI.h	/^		tokindex imatch;			\/\/ TokBuf index of lexArray indices for matched phrase$/;"	m	struct:CoderClass::evtStringsStruct
+imatch	TABARI.h	/^		tokindex imatch;           \/\/ TokBuf index of lexArray indices for matched phrase$/;"	m	struct:CoderClass::eventStruct
+inReplace	TABARI.h	/^	bool inReplace;   \/\/ marking a replace field$/;"	m	class:ReadXMLClass
+index	TABARI.h	/^		int index;				\/\/ index used to keep track of roots$/;"	m	struct:ProcessorClass::dictListStruct
+index	TABARI.h	/^		toktype index;		\/\/ array index (used to convert pointers)$/;"	m	struct:ParserClass::syntStruct
+index	TABARI.h	/^		toktype index;  \/\/ index of start of complex code; zero if none$/;"	m	struct:CoderClass::actorStruct
+indexAttrib	TABARI.h	/^	int indexAttrib;$/;"	m	class:CoderClass
+indexBBN	TABARI.h	/^	int  indexBBN;$/;"	m	class:ReadXMLClass
+indexBlank	TABARI.h	/^	int indexBlank;$/;"	m	class:CodeStoreClass
+indexComplex	TABARI.h	/^	int indexComplex;$/;"	m	class:CodeStoreClass
+indexCompound	TABARI.h	/^	int indexCompound;$/;"	m	class:CoderClass
+indexCompound	TABARI.h	/^	int indexSource, indexTarget, indexCompound;$/;"	m	class:ParserClass
+indexCurrent	TABARI.h	/^	int indexCurrent;  \/\/ XML type currently active  $/;"	m	class:ReadXMLClass
+indexDiscard	TABARI.h	/^	int indexDiscard;$/;"	m	class:CodeStoreClass
+indexNull	TABARI.h	/^	int indexNull;$/;"	m	class:CodeStoreClass
+indexSource	TABARI.h	/^	int indexSource, indexTarget, indexCompound;$/;"	m	class:ParserClass
+indexSource	TABARI.h	/^	int indexSource;		\/\/ indices for actors located in patterns$/;"	m	class:CoderClass
+indexTarget	TABARI.h	/^	int indexSource, indexTarget, indexCompound;$/;"	m	class:ParserClass
+indexTarget	TABARI.h	/^	int indexTarget;$/;"	m	class:CoderClass
+indexVerid	TABARI.h	/^	int  indexVerid;$/;"	m	class:ReadXMLClass
+indexXML	TABARI.h	/^		int indexXML;				\/\/ type of XML formatting$/;"	m	struct:ProcessorClass::textListStruct
+initCondit	coder.cp	/^void CoderClass:: initCondit(void)$/;"	f	class:CoderClass
+initLitr	parser.cp	/^void ParserClass:: initLitr(void)$/;"	f	class:ParserClass
+initRoot	memory.cp	/^void RootsClass::initRoot(void)$/;"	f	class:RootsClass
+initSession	process.cp	/^void ProcessorClass:: initSession(void)$/;"	f	class:ProcessorClass
+initTerminal	interface.cp	/^void initTerminal(void)$/;"	f
+insertReplace	xmlinput.cp	/^void ReadXMLClass:: insertReplace(char * pst)$/;"	f	class:ReadXMLClass
+insertStr	input.cp	/^void ReadFilesClass:: insertStr(char *s1, char *s2)  $/;"	f	class:ReadFilesClass
+instring	TABARI.h	/^typedef char instring[MAX_TAB_INPUT];		\/\/ input string length; also used for most other strings  $/;"	t
+iparseError	TABARI.h	/^	int iparseError;$/;"	m	class:ParserClass
+irecback	TABARI.h	/^	int			irecback;							\/\/ index of same$/;"	m	class:ProcessorClass
+iroot	TABARI.h	/^		rootindex iroot;	\/\/ index of rootArray entry$/;"	m	struct:ParserClass::syntStruct
+irootSelect	TABARI.h	/^	toktype irootSelect[WINDOW_HEIGHT];  \/\/ rootArray indices by line; this is actually a little bigger than it needs to be$/;"	m	class:ModifyClass
+isDiscardCode	memory.cp	/^bool RootsClass:: isDiscardCode(rootindex iroot)$/;"	f	class:RootsClass
+isFlat	TABARI.h	/^		bool isFlat;      \/\/ flat dictionary?$/;"	m	struct:ProcessorClass::dictListStruct
+isHigh	TABARI.h	/^	bool isHigh;		\/\/ true if doing upper check$/;"	m	class:CoderClass
+isNullActor	memory.cp	/^bool RootsClass:: isNullActor(rootindex iroot)$/;"	f	class:RootsClass
+isNullVerb	memory.cp	/^bool RootsClass:: isNullVerb(rootindex iroot)$/;"	f	class:RootsClass
+isSynRoot	TABARI.h	/^	bool isSynRoot;                         \/\/ storing a synset root, so treat it as a literal. See Phrases.store()$/;"	m	class:ReadFilesClass
+issueFile	TABARI.h	/^	filestring issueFile;$/;"	m	class:ProcessorClass
+issueHead	TABARI.h	/^	issueHeadStruct  issueHead; \/\/ start of issue lists$/;"	m	class:CoderClass
+issueHeadStruct	TABARI.h	/^struct issueHeadStruct {  \/\/ start of issue lists$/;"	s
+issueListStruct	TABARI.h	/^struct issueListStruct { 	\/\/ issue list elements: primarily used in CoderClass$/;"	s
+istart	TABARI.h	/^	toktype 	istart;  	\/\/ index of litBuf list of phrases that begin with this literal $/;"	m	struct:litStruct
+istartClause	TABARI.h	/^	int istartClause,iendClause;  \/\/ start and end of clause containing verb$/;"	m	class:CoderClass
+itempToken	TABARI.h	/^	tokindex itempToken;			\/\/ index for matching index storage $/;"	m	class:CoderClass
+julianDate	TABARI.h	/^	long julianDate;						\/\/ julian date$/;"	m	class:ProcessorClass
+ka	utilities.cp	/^int ka = 123;$/;"	v
+kategory	TABARI.h	/^	int 			kategory;			\/\/ category number$/;"	m	struct:freqStruct
+kategory	TABARI.h	/^	int 			kategory;			\/\/ category number$/;"	m	struct:issueHeadStruct
+kountFreq	TABARI.h	/^	toktype kountFreq[MAX_FREQ];  \/\/ individual freq counts		$/;"	m	class:LiteralsClass
+lastSeq	TABARI.h	/^	int lastSeq;				\/\/ of previous sentence sequence number; set to -1 on new story	$/;"	m	class:ProcessorClass
+lastSynt	TABARI.h	/^	int  lastSynt;				\/\/ iSynt from previous record$/;"	m	class:ParserClass
+lenalt	TABARI.h	/^	int	lenalt;               \/\/ length of text matched in alternatives$/;"	m	class:CoderClass
+length	TABARI.h	/^	int				length;		\/\/ length of phrase; used to determine order of evaluation$/;"	m	struct:patStruct
+length	TABARI.h	/^	int			length;		\/\/ number of chars in text$/;"	m	struct:litStruct
+lengthPattern	memory.cp	/^void RootsClass:: lengthPattern(int &len, int &alt)$/;"	f	class:RootsClass
+lexArray	TABARI.h	/^	} lexArray[MAX_LEX];$/;"	m	class:ParserClass	typeref:struct:ParserClass::lexStruct
+lexStruct	TABARI.h	/^	struct lexStruct {$/;"	s	class:ParserClass
+litAND	TABARI.h	/^	toktype litAND; \/\/ literal indices for various words$/;"	m	class:RootsClass
+litArray	TABARI.h	/^	litStruct litArray[MAX_LITERALS];$/;"	m	class:LiteralsClass
+litBuf	TABARI.h	/^	toktype litBuf[MAX_LITBUF];  \/\/ storage of istart lists$/;"	m	class:LiteralsClass
+litHE	TABARI.h	/^	toktype litHE;$/;"	m	class:RootsClass
+litIT	TABARI.h	/^	toktype litIT;$/;"	m	class:RootsClass
+litIndex	TABARI.h	/^	litStruct *litIndex[MAX_LIT_HASH];  \/\/ hashed index to litArray$/;"	m	class:LiteralsClass
+litNOR	TABARI.h	/^	toktype litNOR;$/;"	m	class:RootsClass
+litStruct	TABARI.h	/^struct litStruct {   	\/\/ directory for literals$/;"	s
+litSub	memory.cp	/^toktype LiteralsClass:: litSub(char *s1, char *s2)$/;"	f	class:LiteralsClass
+litTHE	TABARI.h	/^	toktype litTHE;$/;"	m	class:RootsClass
+literaList	TABARI.h	/^	toktype literaList[MAX_LITRLIST];  \/\/ lists of matched literals$/;"	m	class:ParserClass
+litstring	TABARI.h	/^typedef char litstring[LIT_SIZE];			\/\/ literal string length$/;"	t
+locComment	TABARI.h	/^	commloc locComment;		\/\/ location of comment in comment file					$/;"	m	class:ReadFilesClass
+locSynt	TABARI.h	/^	int locSynt;		\/\/ current text location$/;"	m	class:CoderClass
+main	TABARI.cp	/^int main(int argc, char *argv[])$/;"	f
+make	memory.cp	/^void PhrasesClass:: make(toktype tokar[], char *s)$/;"	f	class:PhrasesClass
+makeCode	codes.cp	/^toktype CodeStoreClass::makeCode (char *scode, toktype mask)$/;"	f	class:CodeStoreClass
+makeEnglishDate	process.cp	/^void ProcessorClass:: makeEnglishDate(void)$/;"	f	class:ProcessorClass
+makeEvent	coder.cp	/^void CoderClass:: makeEvent (patStruct * pPat, int index)$/;"	f	class:CoderClass
+makeEventStrings	coder.cp	/^void CoderClass:: makeEventStrings (void)$/;"	f	class:CoderClass
+makeFBISCompound	parser.cp	/^void ParserClass:: makeFBISCompound(void)$/;"	f	class:ParserClass
+makeIssueString	coder.cp	/^void CoderClass:: makeIssueString (void)$/;"	f	class:CoderClass
+makeLex	parser.cp	/^void ParserClass:: makeLex(void)$/;"	f	class:ParserClass
+makeLine	output.cp	/^void WriteFilesClass:: makeLine(char *s, char *scode, patStruct *pPat)$/;"	f	class:WriteFilesClass
+makeSynt	parser.cp	/^void ParserClass:: makeSynt(void)$/;"	f	class:ParserClass
+markClauses	parser.cp	/^void ParserClass:: markClauses(void)$/;"	f	class:ParserClass
+markCompound	parser.cp	/^void ParserClass:: markCompound(void)$/;"	f	class:ParserClass
+markNouns	parser.cp	/^void ParserClass:: markNouns(void)$/;"	f	class:ParserClass
+markSubordinate	parser.cp	/^void ParserClass:: markSubordinate(void)$/;"	f	class:ParserClass
+maskActrCode	TABARI.h	/^	toktype maskActrCode, maskActrFlag;$/;"	m	class:CodeStoreClass
+maskActrFlag	TABARI.h	/^	toktype maskActrCode, maskActrFlag;$/;"	m	class:CodeStoreClass
+maskActrPair	TABARI.h	/^	toktype maskActrPair, maskActrStop;$/;"	m	class:CodeStoreClass
+maskActrStop	TABARI.h	/^	toktype maskActrPair, maskActrStop;$/;"	m	class:CodeStoreClass
+maskConstrnt	TABARI.h	/^	toktype maskConstrnt, maskLTCntsrt, maskGTCntsrt, maskINCntsrt;$/;"	m	class:CodeStoreClass
+maskContinue	TABARI.h	/^	toktype maskContinue, maskContnOff;$/;"	m	class:CodeStoreClass
+maskContnOff	TABARI.h	/^	toktype maskContinue, maskContnOff;$/;"	m	class:CodeStoreClass
+maskDate	TABARI.h	/^	toktype maskDate;$/;"	m	class:CodeStoreClass
+maskDateHead	TABARI.h	/^	toktype maskDateHead, maskDateInit, maskDateSkip;$/;"	m	class:CodeStoreClass
+maskDateInit	TABARI.h	/^	toktype maskDateHead, maskDateInit, maskDateSkip;$/;"	m	class:CodeStoreClass
+maskDateSkip	TABARI.h	/^	toktype maskDateHead, maskDateInit, maskDateSkip;$/;"	m	class:CodeStoreClass
+maskEvntAtt	TABARI.h	/^	toktype maskEvntSrc, maskEvntTar, maskEvntAtt;$/;"	m	class:CodeStoreClass
+maskEvntCode	TABARI.h	/^	toktype maskEvntCode, maskEvntFlag;$/;"	m	class:CodeStoreClass
+maskEvntFlag	TABARI.h	/^	toktype maskEvntCode, maskEvntFlag;$/;"	m	class:CodeStoreClass
+maskEvntSrc	TABARI.h	/^	toktype maskEvntSrc, maskEvntTar, maskEvntAtt;$/;"	m	class:CodeStoreClass
+maskEvntTar	TABARI.h	/^	toktype maskEvntSrc, maskEvntTar, maskEvntAtt;$/;"	m	class:CodeStoreClass
+maskEvtDomin	TABARI.h	/^	toktype maskEvtSubor, maskEvtDomin;$/;"	m	class:CodeStoreClass
+maskEvtPair	TABARI.h	/^	toktype maskEvtPair;$/;"	m	class:CodeStoreClass
+maskEvtSubor	TABARI.h	/^	toktype maskEvtSubor, maskEvtDomin;$/;"	m	class:CodeStoreClass
+maskGTCntsrt	TABARI.h	/^	toktype maskConstrnt, maskLTCntsrt, maskGTCntsrt, maskINCntsrt;$/;"	m	class:CodeStoreClass
+maskINCntsrt	TABARI.h	/^	toktype maskConstrnt, maskLTCntsrt, maskGTCntsrt, maskINCntsrt;$/;"	m	class:CodeStoreClass
+maskIssuNext	TABARI.h	/^	toktype maskPairNext, maskIssuNext, maskSTANext;$/;"	m	class:CodeStoreClass
+maskLTCntsrt	TABARI.h	/^	toktype maskConstrnt, maskLTCntsrt, maskGTCntsrt, maskINCntsrt;$/;"	m	class:CodeStoreClass
+maskPairNext	TABARI.h	/^	toktype maskPairNext, maskIssuNext, maskSTANext;$/;"	m	class:CodeStoreClass
+maskRefer	TABARI.h	/^	toktype maskRefer;$/;"	m	class:ParserClass
+maskSTANext	TABARI.h	/^	toktype maskPairNext, maskIssuNext, maskSTANext;$/;"	m	class:CodeStoreClass
+maskSpecHead	TABARI.h	/^	toktype maskSpecHead;$/;"	m	class:CodeStoreClass
+maskTimeClr	TABARI.h	/^	toktype maskTimeCode, maskTimeDecr, maskTimeClr;$/;"	m	class:CodeStoreClass
+maskTimeCode	TABARI.h	/^	toktype maskTimeCode, maskTimeDecr, maskTimeClr;$/;"	m	class:CodeStoreClass
+maskTimeDecr	TABARI.h	/^	toktype maskTimeCode, maskTimeDecr, maskTimeClr;$/;"	m	class:CodeStoreClass
+maskType	TABARI.h	/^	toktype maskType;$/;"	m	class:CodeStoreClass
+matchArray	TABARI.h	/^	int matchArray[MAX_TEMP];  \/\/ storage for the longest root matched$/;"	m	class:ParserClass
+matchLex	parser.cp	/^bool ParserClass:: matchLex(int &nmatch, tokptr phrase, wordtype wtype,int ibegin)$/;"	f	class:ParserClass
+maxBegSubord	TABARI.h	/^	int minBegSubord, maxBegSubord;   \/\/ min and max size for an initial subordinate clause$/;"	m	class:ParserClass
+maxEndSubord	TABARI.h	/^	int minEndSubord, maxEndSubord;   \/\/ min and max size for a terminal subordinate clause$/;"	m	class:ParserClass
+maxItem	TABARI.h	/^	int 	minItem, maxItem;  \/\/ minimum and maximum $/;"	m	class:ModifyClass
+maxSubord	TABARI.h	/^	int minSubord, maxSubord;   \/\/ min and max size for a subordinate (comma-delimited) clause$/;"	m	class:ParserClass
+maxalt	TABARI.h	/^	int				maxalt;		\/\/ length of longest string inside any alternative pattern$/;"	m	struct:patStruct
+minBegSubord	TABARI.h	/^	int minBegSubord, maxBegSubord;   \/\/ min and max size for an initial subordinate clause$/;"	m	class:ParserClass
+minEndSubord	TABARI.h	/^	int minEndSubord, maxEndSubord;   \/\/ min and max size for a terminal subordinate clause$/;"	m	class:ParserClass
+minItem	TABARI.h	/^	int 	minItem, maxItem;  \/\/ minimum and maximum $/;"	m	class:ModifyClass
+minLex	TABARI.h	/^	int minLex;			\/\/ minimum size for valid sentence$/;"	m	class:ParserClass
+minSubord	TABARI.h	/^	int minSubord, maxSubord;   \/\/ min and max size for a subordinate (comma-delimited) clause$/;"	m	class:ParserClass
+modifyMenu	modify.cp	/^int ModifyClass:: modifyMenu(void)$/;"	f	class:ModifyClass
+nActor	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nActorChanges	TABARI.h	/^	int 		nActorChanges;			\/\/ number of changes made this session$/;"	m	class:ProcessorClass
+nChanges	TABARI.h	/^		int nChanges;  $/;"	m	struct:ProcessorClass::dictListStruct
+nConj	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nEvents	TABARI.h	/^	int  nEvents;				\/\/ number of events found - 1  (i.e. 0 => 1 event found)$/;"	m	class:CoderClass
+nLast	TABARI.h	/^	long		nLast;				\/\/ last record coded$/;"	m	class:ProcessorClass
+nLateVerb	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nNonRes	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nPronoun	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nRecords	TABARI.h	/^	long 		nRecords;		\/\/ number of records coded this session$/;"	m	class:ProcessorClass
+nSeq	TABARI.h	/^	int nSeq;						\/\/ sequence number	$/;"	m	class:ProcessorClass
+nSession	TABARI.h	/^	int 		nSession;			\/\/ number of coding sessions$/;"	m	class:ProcessorClass
+nVerb	TABARI.h	/^		int nVerb, nActor, nConj, nPronoun, nLateVerb, nNonRes;$/;"	m	struct:ParserClass::cplxStruct
+nVerbChanges	TABARI.h	/^	int 		nVerbChanges;			\/\/ number of changes made this session$/;"	m	class:ProcessorClass
+needcodes	TABARI.h	/^	bool needcodes;     \/\/ need date restrictions on previous entry$/;"	m	class:RootsClass
+newLiteral	memory.cp	/^toktype LiteralsClass:: newLiteral(void)$/;"	f	class:LiteralsClass
+newPattern	memory.cp	/^patStruct * RootsClass::newPattern(void)   $/;"	f	class:RootsClass
+next	TABARI.h	/^		dictListStruct * next;$/;"	m	struct:ProcessorClass::dictListStruct
+next	TABARI.h	/^		textListStruct * next;$/;"	m	struct:ProcessorClass::textListStruct
+nextActorCode	codes.cp	/^void CodeStoreClass:: nextActorCode (toktype &idxactor, toktype &idxagent, tokptr *pnext, toktype istart)$/;"	f	class:CodeStoreClass
+nextCheck	coder.cp	/^int CoderClass:: nextCheck(void) $/;"	f	class:CoderClass
+nextDict	TABARI.h	/^	} dictFileList, *nextDict;$/;"	m	class:ProcessorClass	typeref:struct:ProcessorClass::dictListStruct
+nextEvt	TABARI.h	/^		int 		nextEvt;		\/\/ eventArray index used to keep final strings in a plausible order$/;"	m	struct:CoderClass::eventStruct
+nextFile	TABARI.h	/^	} textFileList, *nextFile;$/;"	m	class:ProcessorClass	typeref:struct:ProcessorClass::textListStruct
+nextTextFile	process.cp	/^void ProcessorClass:: nextTextFile(char *s)$/;"	f	class:ProcessorClass
+nlinesread	TABARI.h	/^	int nlinesread;			\/\/ number of lines read in current file$/;"	m	class:TabariFlagsClass
+nullSubordinate	parser.cp	/^void ParserClass:: nullSubordinate(void)$/;"	f	class:ParserClass
+openError	process.cp	/^void ProcessorClass:: openError(void)$/;"	f	class:ProcessorClass
+openFile	input.cp	/^void ReadFilesClass:: openFile(char *sfilename)$/;"	f	class:ReadFilesClass
+openFile	output.cp	/^void WriteFilesClass:: openFile(char *sfilename)$/;"	f	class:WriteFilesClass
+openNextText	process.cp	/^bool ProcessorClass:: openNextText(void)$/;"	f	class:ProcessorClass
+openXMLFile	xmlinput.cp	/^bool ReadXMLClass:: openXMLFile(char * sfilename)$/;"	f	class:ReadXMLClass
+optionsError	input.cp	/^void ReadFilesClass:: optionsError (const char *s)$/;"	f	class:ReadFilesClass
+optionsFile	TABARI.h	/^	filestring optionsFile;$/;"	m	class:ProcessorClass
+pCharLast	TABARI.h	/^	charptr pCharLast; \/\/ last active cell in charBuf$/;"	m	class:CharStoreClass
+pLast	TABARI.h	/^	char * pLast;				\/\/ holds point in sLine where previous sentence ended$/;"	m	class:ReadXMLClass
+pSent	TABARI.h	/^	char * pSent;			\/\/ used to transfer info to Processor.sentText $/;"	m	class:ReadXMLClass
+parseActorString	codes.cp	/^void CodeStoreClass::parseActorString (char * sparse, char *s)$/;"	f	class:CodeStoreClass
+parseError	parser.cp	/^void ParserClass:: parseError(const char *s, int ierror)$/;"	f	class:ParserClass
+parseEventString	codes.cp	/^void CodeStoreClass::parseEventString (char * sparse, char *s)$/;"	f	class:CodeStoreClass
+parseIssueString	codes.cp	/^void CodeStoreClass::parseIssueString (char * sparse, char *s)$/;"	f	class:CodeStoreClass
+parseLine	input.cp	/^void ReadFilesClass::parseLine (void)$/;"	f	class:ReadFilesClass
+patArray	TABARI.h	/^	patStruct patArray[MAX_PATTERN];$/;"	m	class:RootsClass
+patStruct	TABARI.h	/^struct patStruct {  	\/\/ primarily used in PatternsClass$/;"	s
+patindex	TABARI.h	/^typedef int  patindex;						\/\/ index of PatternArray[]$/;"	t
+pauseDisplayMenu	modify.cp	/^int ModifyClass:: pauseDisplayMenu(wordtype wty)$/;"	f	class:ModifyClass
+pausePatternMenu	modify.cp	/^int ModifyClass:: pausePatternMenu(bool fend)$/;"	f	class:ModifyClass
+pchar	TABARI.h	/^	charptr		pchar;   	\/\/ pointer to text in charBuf				$/;"	m	struct:litStruct
+pcode	TABARI.h	/^		charptr pcode;    \/\/ location of code string in CharBuf }$/;"	m	struct:CodeStoreClass::Code_Rec
+pend	TABARI.h	/^		charptr pend;		\/\/ end of match, if any  (### no longer used?)$/;"	m	struct:ParserClass::lexStruct
+pheadtag	TABARI.h	/^		toktype pheadtag;	\/\/ tag list prior to word$/;"	m	struct:ParserClass::syntStruct
+phrase	TABARI.h	/^		tokptr	 	phrase;   \/\/ pointer to phrase list$/;"	m	struct:RootsClass::rootStruct
+phrase	TABARI.h	/^	charptr			phrase;    		\/\/ pointer to category text in charBuf				$/;"	m	struct:issueHeadStruct
+phrase	TABARI.h	/^	charptr		phrase;    		\/\/ pointer to category text in charBuf				$/;"	m	struct:freqStruct
+phrase	TABARI.h	/^	tokptr 			phrase;   	\/\/ index of phrase list in Literals.litArray			$/;"	m	struct:patStruct
+phraseBuf	TABARI.h	/^	toktype phraseBuf[MAX_PHRASES];$/;"	m	class:PhrasesClass
+phrindex	TABARI.h	/^typedef	int phrindex;						\/\/ index for phraseBuf[]$/;"	t
+plist	TABARI.h	/^		issueListStruct * plist;\/\/ first list item for coded issue$/;"	m	union:issueHeadStruct::__anon1
+pnext	TABARI.h	/^	freqStruct * pnext;			\/\/ next element$/;"	m	struct:freqStruct
+pnext	TABARI.h	/^	issueHeadStruct * pnext;\/\/ next header$/;"	m	struct:issueHeadStruct
+pnext	TABARI.h	/^	issueListStruct * pnext;\/\/ next list item$/;"	m	struct:issueListStruct
+pnext	TABARI.h	/^	litStruct *pnext; 		\/\/ pointer to next literal in alphabetic list	$/;"	m	struct:litStruct
+pnext	TABARI.h	/^	patStruct*pnext;    \/\/ next pattern record; NULL if none	$/;"	m	struct:patStruct
+ppat	TABARI.h	/^		patStruct* 	ppat;	\/\/ pointer to pattern list; first pattern carries root code $/;"	m	struct:RootsClass::rootStruct
+ppat	TABARI.h	/^		patStruct* ppat;		  \/\/ matching pattern$/;"	m	struct:CoderClass::evtStringsStruct
+ppat	TABARI.h	/^		patStruct* ppat;            \/\/ matching pattern$/;"	m	struct:CoderClass::eventStruct
+ppatSelect	TABARI.h	/^	patStruct* ppatSelect[WINDOW_HEIGHT];  \/\/ rootArray indices by line; this is actually a little bigger than it needs to be$/;"	m	class:ModifyClass
+probFile	TABARI.h	/^	filestring probFile;$/;"	m	class:ProcessorClass
+projectFile	TABARI.h	/^	filestring projectFile;	$/;"	m	class:ProcessorClass
+pt	TABARI.cp	/^tokptr pt; $/;"	v
+ptPat	TABARI.h	/^	tokptr ptPat;		\/\/ pointer to current pattern location$/;"	m	class:CoderClass
+ptThisPat	TABARI.h	/^	tokptr ptThisPat;	\/\/ pointer to pattern being evaluated$/;"	m	class:CoderClass
+ptailtag	TABARI.h	/^		toktype ptailtag;	\/\/ tag list following word$/;"	m	struct:ParserClass::syntStruct
+ptext	TABARI.h	/^		charptr ptext;		\/\/ start text in senfilt$/;"	m	struct:ParserClass::lexStruct
+ptext	TABARI.h	/^		charptr ptext;    \/\/ location of label in CharBuf }$/;"	m	struct:CodeStoreClass::Code_Rec
+putCharStr	memory.cp	/^charptr CharStoreClass::putCharStr (char *s)$/;"	f	class:CharStoreClass
+putComment	input.cp	/^commloc CommentFileClass::putComment(char *sphrase)$/;"	f	class:CommentFileClass
+putDate	codes.cp	/^void CodeStoreClass::putDate(char *s)$/;"	f	class:CodeStoreClass
+putEvent	coder.cp	/^void CoderClass:: putEvent (patStruct * pPat, int index, actorStruct actSource, actorStruct actTarget )$/;"	f	class:CoderClass
+putTail	input.cp	/^void CommentFileClass::putTail(char *sphrase)$/;"	f	class:CommentFileClass
+putToken	memory.cp	/^tokindex TokenStoreClass:: putToken (toktype tokitem)$/;"	f	class:TokenStoreClass
+readActors	input.cp	/^void ReadFilesClass:: readActors(void)$/;"	f	class:ReadFilesClass
+readAgents	input.cp	/^void ReadFilesClass:: readAgents(char *sfilename)$/;"	f	class:ReadFilesClass
+readAttrib	input.cp	/^void ReadFilesClass:: readAttrib(void)$/;"	f	class:ReadFilesClass
+readFreqs	input.cp	/^void ReadFilesClass:: readFreqs(char *sfilename)$/;"	f	class:ReadFilesClass
+readIssues	input.cp	/^void ReadFilesClass:: readIssues(char *sfilename)$/;"	f	class:ReadFilesClass
+readLine	input.cp	/^bool ReadFilesClass::readLine(void)$/;"	f	class:ReadFilesClass
+readNextRecord	process.cp	/^bool ProcessorClass:: readNextRecord(void)$/;"	f	class:ProcessorClass
+readOptions	input.cp	/^void ReadFilesClass:: readOptions(char *sfilename)$/;"	f	class:ReadFilesClass
+readProject	process.cp	/^void ProcessorClass:: readProject(char *sfilename)$/;"	f	class:ProcessorClass
+readRecord	process.cp	/^void ProcessorClass:: readRecord(bool forward)$/;"	f	class:ProcessorClass
+readSynsets	input.cp	/^void ReadFilesClass:: readSynsets(void)$/;"	f	class:ReadFilesClass
+readTime	input.cp	/^void ReadFilesClass:: readTime(void)$/;"	f	class:ReadFilesClass
+readVerbs	input.cp	/^void ReadFilesClass:: readVerbs(char *sfilename)$/;"	f	class:ReadFilesClass
+readWord	input.cp	/^void ReadFilesClass:: readWord(const char *sendtag, wordtype wtype)$/;"	f	class:ReadFilesClass
+readXMLRecord	xmlinput.cp	/^void ReadXMLClass:: readXMLRecord(void)$/;"	f	class:ReadXMLClass
+recoverCodes	coder.cp	/^void CoderClass:: recoverCodes(void)$/;"	f	class:CoderClass
+reopenComment	input.cp	/^void CommentFileClass::reopenComment(ProcessorClass::dictListStruct *dictFile)$/;"	f	class:CommentFileClass
+resetInteger	input.cp	/^void ReadFilesClass:: resetInteger (char *s, const char *substr, int &iout)$/;"	f	class:ReadFilesClass
+restoreState	coder.cp	/^void CoderClass:: restoreState(void)$/;"	f	class:CoderClass
+reverseRecord	process.cp	/^void ProcessorClass:: reverseRecord(int irev)$/;"	f	class:ProcessorClass
+rootArray	TABARI.h	/^	} rootArray[MAX_ROOTS];$/;"	m	class:RootsClass	typeref:struct:RootsClass::rootStruct
+rootDefActor	TABARI.h	/^	toktype rootDefActor;$/;"	m	class:RootsClass
+rootFORMER	TABARI.h	/^	toktype rootFORMER;$/;"	m	class:RootsClass
+rootStruct	TABARI.h	/^	struct rootStruct {$/;"	s	class:RootsClass
+rootidx	TABARI.h	/^		rootindex rootidx; \/\/ index of actor root$/;"	m	struct:CoderClass::actorStruct
+rootindex	TABARI.h	/^typedef int  rootindex;						\/\/ index of rootArray[]$/;"	t
+s	utilities.cp	/^instring s = "     ";$/;"	v
+s	utilities.cp	/^instring s;$/;"	v
+sBBNTag	TABARI.h	/^	char sBBNTag[4];    \/\/ = "BBN"$/;"	m	class:ReadXMLClass
+sBlankCode	TABARI.h	/^const char sBlankCode[]   = "***";$/;"	v
+sBracEnd	TABARI.h	/^	char sBracEnd[11]; 	\/\/ = "<\/BRACKET>";$/;"	m	class:ReadXMLClass
+sBracTag	TABARI.h	/^	char sBracTag[10]; 	\/\/ = "<BRACKET>";$/;"	m	class:ReadXMLClass
+sCode	TABARI.h	/^	instring sCode;				\/\/ code found inside [] in input line$/;"	m	class:ReadFilesClass
+sCodeNull	TABARI.h	/^const char sCodeNull[]    = "[---]";  \/\/ inserts null code into sCode on phrase parsing errors$/;"	v
+sCoder	TABARI.h	/^	litstring 	sCoder;	\/\/ coder id$/;"	m	class:ProcessorClass
+sComment	TABARI.h	/^	instring sComment;		\/\/ comment found after ; in input line$/;"	m	class:ReadFilesClass
+sComplex	TABARI.h	/^	instring sComplex;$/;"	m	class:ParserClass
+sComplexCode	TABARI.h	/^const char sComplexCode[] = "+++";$/;"	v
+sDateLine	TABARI.h	/^	char sDateLine[10]; 	\/\/"INFODATE:";$/;"	m	class:ReadXMLClass
+sDiscardCode	TABARI.h	/^const char sDiscardCode[] = "###";$/;"	v
+sDoc	TABARI.h	/^	litstring 	sDoc;	  \/\/ documentation header$/;"	m	class:ProcessorClass
+sDocID	TABARI.h	/^	char sDocID[MAX_DOCID_LEN];		\/\/ document ID$/;"	m	class:ProcessorClass
+sEliteCode	TABARI.h	/^const char sEliteCode[]   = "~ELI";  \/\/ used on agents when 'FORMER' is found$/;"	v
+sErrEMPTY_CODE	TABARI.h	/^const char sErrEMPTY_CODE[] = "No code specified between [...]"; $/;"	v
+sErrMISS_LBRAC	TABARI.h	/^const char sErrMISS_LBRAC[] = "Missing left-bracket ["; $/;"	v
+sErrMISS_RBRAC	TABARI.h	/^const char sErrMISS_RBRAC[] = "Missing right-bracket ]"; $/;"	v
+sIgnrEnd	TABARI.h	/^	char sIgnrEnd[11]; 	\/\/ = "<\/IGNORE>";$/;"	m	class:ReadXMLClass
+sIgnrTag	TABARI.h	/^	char sIgnrTag[10]; 	\/\/ = "<IGNORE>";$/;"	m	class:ReadXMLClass
+sIssueCodes	TABARI.h	/^	instring sIssueCodes;				\/\/ issue code string$/;"	m	class:CoderClass
+sLine	TABARI.h	/^	char sLine[MAX_XML_INPUT];		\/\/ input string$/;"	m	class:ReadXMLClass
+sLine	TABARI.h	/^	instring 	sLine;		\/\/ input string$/;"	m	class:ProcessorClass
+sLine	TABARI.h	/^	instring sLine;			\/\/ buffer for input line$/;"	m	class:ReadFilesClass
+sMatch	TABARI.h	/^	instring sMatch;		\/\/ string that was matched$/;"	m	class:CoderClass
+sMonths	TABARI.h	/^	char sMonths[40]; \/\/ month abbreviations$/;"	m	class:ProcessorClass
+sNounEnd	TABARI.h	/^	char sNounEnd[6]; 	\/\/ = "<\/NE>";$/;"	m	class:ReadXMLClass
+sNounFld	TABARI.h	/^	char sNounFld[4]; 	\/\/ = "WDN";$/;"	m	class:ReadXMLClass
+sNounTag	TABARI.h	/^	char sNounTag[5]; 	\/\/ = "<NE ";$/;"	m	class:ReadXMLClass
+sNullCode	TABARI.h	/^const char sNullCode[]    = "---";$/;"	v
+sParseError	TABARI.h	/^	errstring sParseError;	\/\/ and this gives the reason$/;"	m	class:CodeStoreClass
+sPhrase	TABARI.h	/^	instring sPhrase;  		\/\/ phrase found in input line$/;"	m	class:ReadFilesClass
+sProblem	TABARI.h	/^	instring sProblem;	\/\/ description of reason no events coded$/;"	m	class:CoderClass
+sPronEnd	TABARI.h	/^	char sPronEnd[11]; 	\/\/ = "<\/PRONOUN>";$/;"	m	class:ReadXMLClass
+sPronTag	TABARI.h	/^	char sPronTag[10]; 	\/\/ = "<PRONOUN ";$/;"	m	class:ReadXMLClass
+sRecDate	TABARI.h	/^	char sRecDate[MAX_DATE_LEN];	\/\/ record date$/;"	m	class:ProcessorClass
+sRecEngDate	TABARI.h	/^	char sRecEngDate[MAX_ENGDATE_LEN];	\/\/ English version of record date$/;"	m	class:ProcessorClass
+sRecID	TABARI.h	/^	char sRecID[MAX_RECID_LEN];		\/\/ record ID$/;"	m	class:ProcessorClass
+sRecIDLine	TABARI.h	/^	char sRecIDLine[10]; 	\/\/"SERIAL:";$/;"	m	class:ReadXMLClass
+sRelease	TABARI.h	/^const char sRelease[]     = "0.8.3b1a";   	\/\/ Release number$/;"	v
+sReleaseDate	TABARI.h	/^const char sReleaseDate[] = "June 2012";   \/\/ Release date$/;"	v
+sSentEnd	TABARI.h	/^	char sSentEnd[5]; 	\/\/ = "<\/S>";$/;"	m	class:ReadXMLClass
+sSentFld	TABARI.h	/^	char sSentFld[3]; 	\/\/ = "ID";$/;"	m	class:ReadXMLClass
+sSentTag	TABARI.h	/^	char sSentTag[4];	\/\/ = "<S ";$/;"	m	class:ReadXMLClass
+sShiftDate	TABARI.h	/^	char sShiftDate[MAX_DATE_LEN];	\/\/ shifted record date$/;"	m	class:CoderClass
+sStart	TABARI.h	/^	litstring 	sStart;	\/\/ starting time$/;"	m	class:ProcessorClass
+sTextEnd	TABARI.h	/^	char sTextEnd[8]; 	\/\/ = "<\/TEXT>";$/;"	m	class:ReadXMLClass
+sTextTag	TABARI.h	/^	char sTextTag[7];	\/\/ "<TEXT>";$/;"	m	class:ReadXMLClass
+sTimeShift	TABARI.h	/^    char sTimeShift[16];	\/\/ record is time-shifted$/;"	m	class:CoderClass
+sVeridTag	TABARI.h	/^	char sVeridTag[6];    \/\/ = "Verid"$/;"	m	class:ReadXMLClass
+sXMLField	TABARI.h	/^	char sXMLField[6];	\/\/ ="\\"XML\\"" ; possible field in <textfile>$/;"	m	class:ProcessorClass
+safeGetLine	interface.cp	/^bool safeGetLine(char *s)$/;"	f
+sagtroot	TABARI.h	/^		rootindex sagtroot;     \/\/ root index for matched source agent$/;"	m	struct:CoderClass::eventStruct
+sagtroot	TABARI.h	/^		rootindex sagtroot;   \/\/ root index for matched source agent$/;"	m	struct:CoderClass::evtStringsStruct
+saveState	coder.cp	/^void CoderClass:: saveState(void)$/;"	f	class:CoderClass
+scommNew	TABARI.h	/^	filestring scommNew;					\/\/ code + date string$/;"	m	class:ProcessorClass
+sdate	utilities.cp	/^litstring stime,sdate;$/;"	v
+sdaterest	TABARI.h	/^	instring sdaterest; \/\/ date restrictions$/;"	m	class:RootsClass
+sentText	TABARI.h	/^	char sentText[MAX_SENTENCE]; 	\/\/ original text$/;"	m	class:ProcessorClass
+set	input.cp	/^void ReadFilesClass:: set(char *sphrase, char *scode, char *scomment, commloc loc)   $/;"	f	class:ReadFilesClass
+setActor	coder.cp	/^void CoderClass:: setActor (actorStruct &a, actorStruct  b)$/;"	f	class:CoderClass
+setClauseBounds	coder.cp	/^bool CoderClass:: setClauseBounds(void)$/;"	f	class:CoderClass
+setComma	TABARI.h	/^	toktype setMidCap, setInitCap, setNumber, setComma;$/;"	m	class:ParserClass
+setCompd	TABARI.h	/^	toktype setCompd;$/;"	m	class:ParserClass
+setDateSkips	codes.cp	/^void CodeStoreClass::setDateSkips(toktype datehead)$/;"	f	class:CodeStoreClass
+setDefaultSource	coder.cp	/^void CoderClass:: setDefaultSource(void)$/;"	f	class:CoderClass
+setDefaultTarget	coder.cp	/^void CoderClass:: setDefaultTarget(void)$/;"	f	class:CoderClass
+setForward	parser.cp	/^void ParserClass:: setForward(void)$/;"	f	class:ParserClass
+setInitCap	TABARI.h	/^	toktype setMidCap, setInitCap, setNumber, setComma;$/;"	m	class:ParserClass
+setMidCap	TABARI.h	/^	toktype setMidCap, setInitCap, setNumber, setComma;$/;"	m	class:ParserClass
+setNumber	TABARI.h	/^	toktype setMidCap, setInitCap, setNumber, setComma;$/;"	m	class:ParserClass
+setProblemString	coder.cp	/^void CoderClass:: setProblemString(char *s)$/;"	f	class:CoderClass
+setProblemString	coder.cp	/^void CoderClass:: setProblemString(const char *s)$/;"	f	class:CoderClass
+setRefer	TABARI.h	/^	toktype setRefer;$/;"	m	class:ParserClass
+setReplace	TABARI.h	/^	toktype setReplace;$/;"	m	class:ParserClass
+setXMLType	xmlinput.cp	/^int ReadXMLClass:: setXMLType(char * sLine)$/;"	f	class:ReadXMLClass
+setcodeMode	coder.cp	/^void CoderClass:: setcodeMode(char *s)$/;"	f	class:CoderClass
+setupChange	modify.cp	/^void ModifyClass:: setupChange(void)$/;"	f	class:ModifyClass
+setupMenu	interface.cp	/^void setupMenu(bool hasinit)$/;"	f
+sfcommname	TABARI.h	/^	char 		sfcommname[14];$/;"	m	class:CommentFileClass
+shAutumn	TABARI.h	/^const char shAutumn[MAX_SEASON][96] = {$/;"	v
+shError00	TABARI.h	/^const char shError00[] = ""; \/\/ shError default$/;"	v
+shError01	TABARI.h	/^const char shError01[] = "The file has ended\/Your long work is now finished\/The world is at rest"; \/\/ Normal text file EOF$/;"	v
+shError02	TABARI.h	/^const char shError02[] = "Where is the data?\/The file has suddenly ended\/I can work no more"; \/\/ unexpected EOF$/;"	v
+shError03	TABARI.h	/^const char shError03[] = "File will not open\/Do you not trust me with it?\/Is it too private?"; \/\/ cannot open file$/;"	v
+shError04	TABARI.h	/^const char shError04[] = "The file will not close\/It remains open forever\/The ages will marvel"; \/\/ cannot close file$/;"	v
+shError05	TABARI.h	/^const char shError05[] = "Frodo told Gandalf\/\\"I cannot read the letters\\"\/So I with this file"; \/\/ generic read error$/;"	v
+shError06	TABARI.h	/^const char shError06[] = "Writing is ancient\/Sumerian scribes were adept\/This program is not"; \/\/ generic output problem$/;"	v
+shError07	TABARI.h	/^const char shError07[] = "The file was closed\/But it will not reopen now\/Success is fleeting"; \/\/ cannot reopen file$/;"	v
+shError08	TABARI.h	/^const char shError08[] = "File will not open\/It remains a mystery\/Much like life itself"; \/\/ skipping a file in ProcessorClass:: openNextText(void)$/;"	v
+shError09	TABARI.h	/^const char shError09[] = "What is in a name?\/This one must be dear to you\/The Bard would wonder"; \/\/ attempting to rename file in ProcessorClass$/;"	v
+shError0A	TABARI.h	/^const char shError0A[] = "No actors or verbs?\/This is very much like Zen\/But I can't code it"; \/\/ missing files in ProcessorClass:: readProject(void)$/;"	v
+shError10	TABARI.h	/^const char shError10[] = "Far too much to learn\/My mind is stretched so thin\/The end may be near"; \/\/ memory warning$/;"	v
+shError11	TABARI.h	/^const char shError11[] = "The world is finite\/Am I not a part of it?\/You demand too much"; \/\/ out of memory error$/;"	v
+shError12	TABARI.h	/^const char shError12[] = "In this one sentence\/I find surprising detail!\/Too much for poor me"; \/\/ out of memory error$/;"	v
+shError21	TABARI.h	/^const char shError21[] = "Please enter a code\/You would not want me to guess\/I know so little"; \/\/ Enter code$/;"	v
+shError22	TABARI.h	/^const char shError22[] = "One hand is clapping?\/Text before the beginning?\/You cannot go there"; \/\/ Reverse read before start of file$/;"	v
+shError31	TABARI.h	/^const char shError31[] = "Input was too long\/You want far too much from me\/I will die instead"; \/\/ Instring too long$/;"	v
+shError32	TABARI.h	/^const char shError32[] = "Input was too long\/Why do you ask all this from me?\/I will ignore it"; \/\/ Instring too long$/;"	v
+shError33	TABARI.h	/^const char shError33[] = "That is meaningless!\/\\"Indeterminant error???\\"\/I am not pleased"; 		\/\/ Undocumented error thrown to readNextRecord$/;"	v
+shError34	TABARI.h	/^const char shError34[] = "Your system command\/Could not be implemented\/Sorry about that"; 		\/\/ system() called returned -1 in ProcessorClass:: readProject$/;"	v
+shError41	TABARI.h	/^const char shError41[] = "FORWARD was too long\/It could remember the past\/But not in this case"; \/\/ FORWARD string too long$/;"	v
+shError42	TABARI.h	/^const char shError42[] = "The string I found here\/Makes no sense at all to me\/I will ignore it"; \/\/ string cannot be interpreted$/;"	v
+shError51	TABARI.h	/^const char shError51[] = "The date I found here\/Is outside my time and space\/It must be a dream"; \/\/ date cannot be interpreted$/;"	v
+shError52	TABARI.h	/^const char shError52[] = "More than twenty years?!\/You see to a distant time!\/Alas, I cannot"; \/\/ date cannot be interpreted$/;"	v
+shError61	TABARI.h	/^const char shError61[] = "The record marker\/In this XML input\/Is too long for me"; \/\/ XML ID too long (ReadXMLClass:: getXMLDate)$/;"	v
+shError62	TABARI.h	/^const char shError62[] = "Where is the date field?\/I must know when things happen\/This is important!"; \/\/ No XML date marker (ReadXMLClass:: openXMLFile(void))$/;"	v
+shError91	TABARI.h	/^const char shError91[] = "The Evil Empire\/Is not an option for us now\/Choose Mac or Linux"; \/\/ attempt to choose Windows OS$/;"	v
+shError92	TABARI.h	/^const char shError92[] = "You are too greedy\/Or perhaps schizophrenic?\/Just one system,please"; \/\/ multiple OS$/;"	v
+shError93	TABARI.h	/^const char shError93[] = "No instructions here?\/I cannot decide alone\/Please choose a system"; \/\/ no OS specified$/;"	v
+shError98	TABARI.h	/^const char shError98[] = "Nothing you can do\/The fault is the programmer's\/We are quite sorry"; \/\/ deep errors$/;"	v
+shError99	TABARI.h	/^const char shError99[] = "This is not haiku\/Yet employing recursion\/There is no problem"; \/\/ bailout in showHaiku()$/;"	v
+shIntro	TABARI.h	/^const char shIntro[MAX_INTRO][96] = {$/;"	v
+shSpring	TABARI.h	/^const char shSpring[MAX_SEASON][96] = {$/;"	v
+shSummer	TABARI.h	/^const char shSummer[MAX_SEASON][96] = {$/;"	v
+shWinter	TABARI.h	/^const char shWinter[MAX_SEASON][96] = {$/;"	v
+shiftDate	coder.cp	/^bool CoderClass:: shiftDate (patStruct * pPat)$/;"	f	class:CoderClass
+showDate	process.cp	/^void ProcessorClass:: showDate(void)	$/;"	f	class:ProcessorClass
+showEvents	process.cp	/^void ProcessorClass:: showEvents(void)	$/;"	f	class:ProcessorClass
+showFreqs	process.cp	/^void ProcessorClass:: showFreqs(void)	$/;"	f	class:ProcessorClass
+showHaiku	interface.cp	/^void showHaiku(const char * shaiku)$/;"	f
+showLitr	parser.cp	/^void ParserClass:: showLitr(int idx)$/;"	f	class:ParserClass
+showMemory	process.cp	/^void ProcessorClass:: showMemory(void)$/;"	f	class:ProcessorClass
+showMenu	interface.cp	/^void showMenu(const char *s)$/;"	f
+showParsing	parser.cp	/^void ParserClass:: showParsing(void)$/;"	f	class:ParserClass
+showRecord	process.cp	/^void ProcessorClass:: showRecord(void)$/;"	f	class:ProcessorClass
+showTags	parser.cp	/^void ParserClass:: showTags(void)$/;"	f	class:ParserClass
+showTimeModList	process.cp	/^void ProcessorClass:: showTimeModList(void)$/;"	f	class:ProcessorClass
+skipRecords	process.cp	/^void ProcessorClass:: skipRecords(void)$/;"	f	class:ProcessorClass
+skipRemainder	process.cp	/^void ProcessorClass:: skipRemainder(void)	$/;"	f	class:ProcessorClass
+skipSegment	parser.cp	/^bool ParserClass:: skipSegment(int &index, wordtype wtype)$/;"	f	class:ParserClass
+skipSegment	parser.cp	/^bool ParserClass:: skipSegment(syntStruct * &psyn, wordtype wtype)$/;"	f	class:ParserClass
+skipXMLRecords	xmlinput.cp	/^void ReadXMLClass:: skipXMLRecords(void)$/;"	f	class:ReadXMLClass
+skipXMLRemainder	xmlinput.cp	/^void ReadXMLClass:: skipXMLRemainder(void)	$/;"	f	class:ReadXMLClass
+slastRecID	TABARI.h	/^	char slastRecID[MAX_RECID_LEN];	\/\/ previous record ID$/;"	m	class:ProcessorClass
+sortTimeOutput	process.cp	/^void ProcessorClass:: sortTimeOutput(void)$/;"	f	class:ProcessorClass
+source	TABARI.h	/^		toktype source;			\/\/ codeArray index of source$/;"	m	struct:CoderClass::eventStruct
+sourceCode	TABARI.h	/^		toktype sourceCode;		\/\/ codeArray index for source$/;"	m	struct:CoderClass::evtStringsStruct
+srcagt	TABARI.h	/^		toktype srcagt;			\/\/ same for source agent$/;"	m	struct:CoderClass::eventStruct
+srcagtCode	TABARI.h	/^		toktype srcagtCode;		\/\/ same for source agent$/;"	m	struct:CoderClass::evtStringsStruct
+srcidx	TABARI.h	/^		toktype srcidx;			\/\/ codeArray index if source is complex$/;"	m	struct:CoderClass::eventStruct
+srcloc	TABARI.h	/^		toktype srcloc;			\/\/ lexArray index for start of source $/;"	m	struct:CoderClass::eventStruct
+srcloc	TABARI.h	/^		toktype srcloc;			\/\/ lexArray index for start of source $/;"	m	struct:CoderClass::evtStringsStruct
+srcroot	TABARI.h	/^		rootindex srcroot;      \/\/ root index for matched source$/;"	m	struct:CoderClass::eventStruct
+srcroot	TABARI.h	/^		rootindex srcroot;    \/\/ root index for matched source$/;"	m	struct:CoderClass::evtStringsStruct
+start	TABARI.h	/^	char 	start[2]; 		\/\/ holds the starting characters$/;"	m	class:ModifyClass
+startDisplayMenu	modify.cp	/^int ModifyClass:: startDisplayMenu(bool deletePrompt)$/;"	f	class:ModifyClass
+startSent	xmlinput.cp	/^char *  ReadXMLClass:: startSent(void)$/;"	f	class:ReadXMLClass
+stateCheck	coder.cp	/^int CoderClass:: stateCheck(int result)$/;"	f	class:CoderClass
+stime	utilities.cp	/^litstring stime,sdate;$/;"	v
+store	memory.cp	/^tokptr PhrasesClass:: store(char *s)$/;"	f	class:PhrasesClass
+storeActor	memory.cp	/^void RootsClass::storeActor(void)$/;"	f	class:RootsClass
+storeActorCode	codes.cp	/^toktype CodeStoreClass::storeActorCode (char * s)$/;"	f	class:CodeStoreClass
+storeActorString	codes.cp	/^toktype CodeStoreClass::storeActorString (char *st)$/;"	f	class:CodeStoreClass
+storeAgent	memory.cp	/^void RootsClass::storeAgent(void)$/;"	f	class:RootsClass
+storeAgentCode	codes.cp	/^toktype CodeStoreClass::storeAgentCode (char * s)$/;"	f	class:CodeStoreClass
+storeAttrib	memory.cp	/^toktype RootsClass::storeAttrib(void)$/;"	f	class:RootsClass
+storeCode	codes.cp	/^toktype CodeStoreClass::storeCode (char *scode, toktype mask)$/;"	f	class:CodeStoreClass
+storeDatedString	codes.cp	/^toktype CodeStoreClass::storeDatedString (char * s)$/;"	f	class:CodeStoreClass
+storeEventString	codes.cp	/^toktype CodeStoreClass::storeEventString (char * st)$/;"	f	class:CodeStoreClass
+storeFreq	memory.cp	/^void LiteralsClass:: storeFreq(char *s, int kat)$/;"	f	class:LiteralsClass
+storeIssue	memory.cp	/^void RootsClass::storeIssue(int kat, bool isNumeric)$/;"	f	class:RootsClass
+storeIssueString	codes.cp	/^toktype CodeStoreClass::storeIssueString (char *s)$/;"	f	class:CodeStoreClass
+storeMatch	coder.cp	/^tokindex CoderClass:: storeMatch(void)$/;"	f	class:CoderClass
+storePattern	memory.cp	/^void RootsClass::storePattern(toktype idxroot, wordtype wtype)$/;"	f	class:RootsClass
+storeTail	input.cp	/^void ReadFilesClass:: storeTail(void)$/;"	f	class:ReadFilesClass
+storeTime	memory.cp	/^toktype RootsClass::storeTime(void)$/;"	f	class:RootsClass
+storeTimeCode	codes.cp	/^toktype CodeStoreClass::storeTimeCode (char * s)$/;"	f	class:CodeStoreClass
+storeType	memory.cp	/^void RootsClass::storeType(const char *sphrase, wordtype wtype)$/;"	f	class:RootsClass
+storeVerb	memory.cp	/^toktype RootsClass::storeVerb(void)$/;"	f	class:RootsClass
+storeVerbForm	memory.cp	/^void RootsClass::storeVerbForm(toktype idxroot)$/;"	f	class:RootsClass
+storeWord	memory.cp	/^void RootsClass::storeWord(char *sphrase, wordtype wtype)$/;"	f	class:RootsClass
+syntArray	TABARI.h	/^	} syntArray[MAX_SYNT];$/;"	m	class:ParserClass	typeref:struct:ParserClass::syntStruct
+syntStruct	TABARI.h	/^	struct syntStruct {$/;"	s	class:ParserClass
+sz	TABARI.cp	/^instring sz;$/;"	v
+tagArray	TABARI.h	/^	toktype tagArray[MAX_TAGS];			\/\/ storage for head and tail tags$/;"	m	class:ParserClass
+tagColor	TABARI.h	/^	char tagColor[MAX_TAG_TYPES][8]; \/\/ colors for the showParse tags$/;"	m	class:ParserClass
+tagTab	TABARI.h	/^	int tagTab[MAX_TAG_TYPES];			\/\/ number of blanks to use to fill out tags$/;"	m	class:ParserClass
+tagText	TABARI.h	/^	char tagText[MAX_TAG_TYPES][9]; \/\/ labels for the showParse tags$/;"	m	class:ParserClass
+tagtroot	TABARI.h	/^		rootindex tagtroot;     \/\/ root index for matched target agent$/;"	m	struct:CoderClass::eventStruct
+tagtroot	TABARI.h	/^		rootindex tagtroot;   \/\/ root index for matched target agent$/;"	m	struct:CoderClass::evtStringsStruct
+tailLen	TABARI.h	/^		int     tailLen;$/;"	m	struct:ProcessorClass::dictListStruct
+tailLoc	TABARI.h	/^		commloc tailLoc;  \/\/ location and number of comments at end of file$/;"	m	struct:ProcessorClass::dictListStruct
+taragt	TABARI.h	/^		toktype taragt;			\/\/ target agent$/;"	m	struct:CoderClass::eventStruct
+taragtCode	TABARI.h	/^		toktype taragtCode;		\/\/ target agent$/;"	m	struct:CoderClass::evtStringsStruct
+target	TABARI.h	/^		toktype target;			\/\/ target$/;"	m	struct:CoderClass::eventStruct
+targetCode	TABARI.h	/^		toktype targetCode;		\/\/ target$/;"	m	struct:CoderClass::evtStringsStruct
+taridx	TABARI.h	/^		toktype taridx;			\/\/ codeArray index if target is complex$/;"	m	struct:CoderClass::eventStruct
+tarloc	TABARI.h	/^		toktype tarloc;			\/\/ lexArray index for start of target$/;"	m	struct:CoderClass::eventStruct
+tarloc	TABARI.h	/^		toktype tarloc;			\/\/ lexArray index for start of target$/;"	m	struct:CoderClass::evtStringsStruct
+tarroot	TABARI.h	/^		rootindex tarroot;      \/\/ root index for matched target$/;"	m	struct:CoderClass::eventStruct
+tarroot	TABARI.h	/^		rootindex tarroot;    \/\/ root index for matched target$/;"	m	struct:CoderClass::evtStringsStruct
+tempArray	TABARI.h	/^	int tempArray[MAX_TEMP];  \/\/ temporary storage\/stack$/;"	m	class:CoderClass
+tempArray	TABARI.h	/^	int tempArray[MAX_TEMP];  \/\/ temporary storage\/stack$/;"	m	class:ParserClass
+test	input.cp	/^void ReadFilesClass:: test(void) $/;"	f	class:ReadFilesClass
+testCplx	parser.cp	/^void ParserClass:: testCplx(void)$/;"	f	class:ParserClass
+testOptions	input.cp	/^void ReadFilesClass:: testOptions(void)$/;"	f	class:ReadFilesClass
+textFile	TABARI.h	/^	filestring textFile;   \/\/ textfile currently being processed$/;"	m	class:ProcessorClass
+textFileList	TABARI.h	/^	} textFileList, *nextFile;$/;"	m	class:ProcessorClass	typeref:struct:ProcessorClass::textListStruct
+textListStruct	TABARI.h	/^	struct textListStruct { \/\/ linked list for storing multiple text file names$/;"	s	class:ProcessorClass
+textptr	TABARI.h	/^typedef int  textptr;						\/\/ used for stored info in a random access file$/;"	t
+theAttrib	TABARI.h	/^	actorStruct theAttrib;  \/\/ attribution actor$/;"	m	class:CoderClass
+theRoot	TABARI.h	/^	RootsClass::rootStruct theRoot;				\/\/ source of patterns$/;"	m	class:ModifyClass
+theSource	TABARI.h	/^	actorStruct theSource;$/;"	m	class:CoderClass
+theTarget	TABARI.h	/^	actorStruct theTarget;$/;"	m	class:CoderClass
+tokText	TABARI.h	/^	tokindex tokText;		\/\/ start of list of text files$/;"	m	class:ProcessorClass
+tokenBuf	TABARI.h	/^	toktype  tokenBuf[MAX_TOKENS];$/;"	m	class:TokenStoreClass
+tokindex	TABARI.h	/^typedef	int tokindex;						\/\/ index for tokenBuf[]$/;"	t
+tokptr	TABARI.h	/^typedef	int *tokptr;                        \/\/ pointer to TokenBuf[] -- should be 32-bit words$/;"	t
+toktype	TABARI.h	/^typedef int toktype;										\/\/ type of TokenBuf[] -- should be 32-bit$/;"	t
+total	TABARI.h	/^		int total;							\/\/ total for numeric issue$/;"	m	union:issueHeadStruct::__anon1
+totalEvents	TABARI.h	/^	long		totalEvents;		\/\/ total events coded in session$/;"	m	class:ProcessorClass
+trimCommand	input.cp	/^void ReadFilesClass:: trimCommand (char *s)$/;"	f	class:ReadFilesClass
+used	TABARI.h	/^		int			used;			\/\/ number of times used$/;"	m	struct:RootsClass::rootStruct
+used	TABARI.h	/^	int				used;		\/\/ number of times used$/;"	m	struct:patStruct
+valEndList	TABARI.h	/^	toktype valEndList;$/;"	m	class:PhrasesClass
+validateDate	process.cp	/^void ProcessorClass:: validateDate(char *ps)$/;"	f	class:ProcessorClass
+verbroot	TABARI.h	/^		rootindex verbroot;     \/\/ root index for matched verb; 0 signals a non-event$/;"	m	struct:CoderClass::eventStruct
+verbroot	TABARI.h	/^		rootindex verbroot;   \/\/ root index for matched verb$/;"	m	struct:CoderClass::evtStringsStruct
+where	TABARI.h	/^		int     where;  \/\/ where the actor was found$/;"	m	struct:CoderClass::actorStruct
+wordtype	TABARI.h	/^enum wordtype $/;"	g
+writeActorUsage	output.cp	/^void WriteFilesClass:: writeActorUsage(bool doActors)$/;"	f	class:WriteFilesClass
+writeActors	output.cp	/^void WriteFilesClass:: writeActors(ProcessorClass::dictListStruct *dictFile)$/;"	f	class:WriteFilesClass
+writeDoc	process.cp	/^void ProcessorClass:: writeDoc(void)$/;"	f	class:ProcessorClass
+writeError	process.cp	/^void ProcessorClass:: writeError(const char *s, char *s1, int ierror)$/;"	f	class:ProcessorClass
+writeEvents	process.cp	/^void ProcessorClass:: writeEvents(void)	$/;"	f	class:ProcessorClass
+writeIDs	process.cp	/^void ProcessorClass:: writeIDs(int loc, int len)	$/;"	f	class:ProcessorClass
+writeIntro	interface.cp	/^void writeIntro(void)$/;"	f
+writeParsing	parser.cp	/^void ParserClass:: writeParsing(const char *sinfo)$/;"	f	class:ParserClass
+writeProbIDs	process.cp	/^void ProcessorClass:: writeProbIDs(int loc, int len)	$/;"	f	class:ProcessorClass
+writeProblem	process.cp	/^void ProcessorClass:: writeProblem(void)	$/;"	f	class:ProcessorClass
+writeProject	process.cp	/^void ProcessorClass:: writeProject(void)$/;"	f	class:ProcessorClass
+writeTimeShift	process.cp	/^void ProcessorClass:: writeTimeShift(timeModListStruct * ptime)$/;"	f	class:ProcessorClass
+writeUsage	process.cp	/^void ProcessorClass:: writeUsage(void)$/;"	f	class:ProcessorClass
+writeVerbUsage	output.cp	/^void WriteFilesClass:: writeVerbUsage(void)$/;"	f	class:WriteFilesClass
+writeVerbs	output.cp	/^void WriteFilesClass:: writeVerbs(ProcessorClass::dictListStruct *dictFile)$/;"	f	class:WriteFilesClass
+writeXMLIDs	process.cp	/^void ProcessorClass:: writeXMLIDs(void)	$/;"	f	class:ProcessorClass
+writeXMLInfo	xmlinput.cp	/^void ReadXMLClass:: writeXMLInfo(void)$/;"	f	class:ReadXMLClass
+wtype	TABARI.h	/^		wordtype 	wtype;  	\/\/ type $/;"	m	struct:RootsClass::rootStruct
+wtype	TABARI.h	/^		wordtype wtype;		\/\/ word type$/;"	m	struct:ParserClass::syntStruct
+zeroActor	coder.cp	/^void CoderClass:: zeroActor (actorStruct &a)$/;"	f	class:CoderClass
+zeroIssues	coder.cp	/^void CoderClass:: zeroIssues (void)$/;"	f	class:CoderClass
+~CommentFileClass	TABARI.h	/^	~CommentFileClass()$/;"	f	class:CommentFileClass
+~ProcessorClass	TABARI.h	/^	~ProcessorClass()$/;"	f	class:ProcessorClass
+~TabariFlagsClass	TABARI.h	/^	~TabariFlagsClass(void)$/;"	f	class:TabariFlagsClass

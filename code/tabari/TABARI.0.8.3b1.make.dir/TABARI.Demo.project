@@ -1,0 +1,64 @@
+Demonstration file for TABARI.0.5.0B1, 10 April 2005
+<actorsfile> 	TABARI.Demo.actors
+<verbsfile> 	TABARI.Demo.verbs
+<optionsfile> TABARI.Demo.options
+<textfile> 		TABARI.Demo.text
+<eventfile> 	TABARI.Demo
+<problemfile> TABARI.Demo.prob
+<coder> DEMO
+<session 1> <coder pas> <date Mon 18 Jun 2007> <start 15:57 CDT> <end 16:01 CDT> <records 6> <changes 4> <last 6>
+<session 2> <coder pas> <date Mon 18 Jun 2007> <start 16:01 CDT> <end 16:03 CDT> <records 2> <changes 3> <last 2>
+<session 3> <coder pas> <date Wed 20 Jun 2007> <start 09:16 CDT> <end 09:17 CDT> <records 46> <changes 0> <last 0>
+<session 4> <coder pas> <date Mon 30 Jul 2007> <start 15:22 CDT> <end 15:24 CDT> <records 35> <actorchanges 0> <verbchanges 0> <last 35>
+<session 5> <coder pas> <date Tue 31 Jul 2007> <start 14:26 CDT> <end 14:26 CDT> <records 8> <actorchanges 0> <verbchanges 0> <last 8>
+<session 6> <coder pas> <date Tue 31 Jul 2007> <start 14:27 CDT> <end 14:27 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 7> <coder pas> <date Wed 01 Aug 2007> <start 10:53 CDT> <end 10:53 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 8> <coder qfsdf> <date Wed 01 Aug 2007> <start 10:53 CDT> <end 10:53 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 9> <coder pas> <date Wed 01 Aug 2007> <start 10:56 CDT> <end 10:56 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 10> <coder pas> <date Wed 01 Aug 2007> <start 11:05 CDT> <end 11:06 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 11> <coder pas> <date Wed 01 Aug 2007> <start 11:21 CDT> <end 11:21 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 12> <coder pas> <date Wed 01 Aug 2007> <start 11:21 CDT> <end 11:21 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 13> <coder pas> <date Wed 01 Aug 2007> <start 11:21 CDT> <end 11:21 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 14> <coder pas> <date Wed 01 Aug 2007> <start 11:21 CDT> <end 11:22 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 15> <coder pas> <date Fri 03 Aug 2007> <start 15:10 CDT> <end 15:11 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 16> <coder pas> <date Fri 03 Aug 2007> <start 15:14 CDT> <end 15:16 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 17> <coder pas> <date Fri 03 Aug 2007> <start 15:16 CDT> <end 15:16 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 18> <coder pas> <date Fri 03 Aug 2007> <start 15:19 CDT> <end 15:19 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 19> <coder pas> <date Fri 03 Aug 2007> <start 15:23 CDT> <end 15:24 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 20> <coder pas> <date Fri 03 Aug 2007> <start 15:28 CDT> <end 15:28 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 21> <coder pas> <date Fri 03 Aug 2007> <start 15:29 CDT> <end 15:29 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 22> <coder DEMO> <date Fri 03 Aug 2007> <start 15:40 CDT> <end 15:40 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 23> <coder DEMO> <date Fri 03 Aug 2007> <start 15:40 CDT> <end 15:40 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 24> <coder DEMO> <date Fri 03 Aug 2007> <start 15:41 CDT> <end 15:41 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 25> <coder DEMO> <date Fri 03 Aug 2007> <start 15:44 CDT> <end 15:44 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 26> <coder DEMO> <date Fri 03 Aug 2007> <start 15:46 CDT> <end 15:46 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 27> <coder DEMO> <date Fri 03 Aug 2007> <start 15:47 CDT> <end 15:47 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 28> <coder DEMO> <date Fri 03 Aug 2007> <start 16:22 CDT> <end 16:22 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 29> <coder DEMO> <date Fri 03 Aug 2007> <start 16:22 CDT> <end 16:23 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 30> <coder DEMO> <date Fri 03 Aug 2007> <start 16:23 CDT> <end 16:23 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 31> <coder DEMO> <date Fri 03 Aug 2007> <start 16:24 CDT> <end 16:24 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 32> <coder DEMO> <date Fri 03 Aug 2007> <start 16:30 CDT> <end 16:30 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 33> <coder DEMO> <date Fri 03 Aug 2007> <start 16:30 CDT> <end 16:30 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 34> <coder DEMO> <date Mon 06 Aug 2007> <start 09:51 CDT> <end 09:51 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 35> <coder DEMO> <date Thu 22 May 2008> <start 09:07 CDT> <end 09:08 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 46>
+<session 36> <coder DEMO> <date Thu 22 May 2008> <start 09:08 CDT> <end 09:08 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 37> <coder DEMO> <date Thu 22 May 2008> <start 09:09 CDT> <end 09:09 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 38> <coder DEMO> <date Fri 30 May 2008> <start 11:46 CDT> <end 11:47 CDT> <records 10> <actorchanges 0> <verbchanges 0> <last 10>
+<session 39> <coder DEMO> <date Fri 30 May 2008> <start 11:52 CDT> <end 11:52 CDT> <records 10> <actorchanges 0> <verbchanges 0> <last 10>
+<session 40> <coder DEMO> <date Wed 25 Jun 2008> <start 14:13 CDT> <end 14:13 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 41> <coder DEMO> <date Thu 26 Jun 2008> <start 10:13 CDT> <end 10:13 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 42> <coder DEMO> <date Thu 26 Jun 2008> <start 10:15 CDT> <end 10:15 CDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 43> <coder DEMO> <date Fri 09 Jan 2009> <start 14:48 CST> <end 14:49 CST> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 44> <coder DEMO> <date Wed 24 Jun 2009> <start 10:06 CDT> <end 10:06 CDT> <records 4> <actorchanges 0> <verbchanges 0> <last 4>
+<session 45> <coder DEMO> <date Mon 14 Sep 2009> <start 12:08 CDT> <end 15:51 CDT> <records 2> <actorchanges 0> <verbchanges 0> <last 2>
+<session 46> <coder DEMO> <date Mon 25 Apr 2011> <start 12:34 EDT> <end 12:35 EDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 47> <coder DEMO> <date Mon 25 Apr 2011> <start 12:35 EDT> <end 13:09 EDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 48> <coder DEMO> <date Tue 26 Apr 2011> <start 09:06 EDT> <end 09:06 EDT> <records 2> <actorchanges 0> <verbchanges 0> <last 2>
+<session 49> <coder DEMO> <date Thu 19 May 2011> <start 14:59 EDT> <end 15:00 EDT> <records 46> <actorchanges 0> <verbchanges 0> <last 0>
+<session 50> <coder DEMO> <date Wed 11 Jan 2012> <start 11:56 CET> <end 11:56 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 51> <coder DEMO> <date Wed 11 Jan 2012> <start 12:02 CET> <end 12:05 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 52> <coder DEMO> <date Wed 11 Jan 2012> <start 13:46 CET> <end 13:47 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 53> <coder DEMO> <date Wed 11 Jan 2012> <start 13:50 CET> <end 13:50 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 54> <coder DEMO> <date Wed 11 Jan 2012> <start 13:51 CET> <end 13:52 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 55> <coder DEMO> <date Wed 11 Jan 2012> <start 15:38 CET> <end 15:38 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 56> <coder DEMO> <date Fri 27 Jan 2012> <start 15:39 CET> <end 15:40 CET> <records 9> <actorchanges 0> <verbchanges 0> <last 9>

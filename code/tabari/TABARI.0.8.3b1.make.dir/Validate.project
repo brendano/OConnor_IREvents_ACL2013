@@ -1,0 +1,117 @@
+Validation file for TABARI, 31 March 2000
+<problemfile> Validate.prob
+<actorsfile> 	TABARI.Demo.actors
+<verbsfile> 	TABARI.Demo.verbs
+<optionsfile> Validate.options
+<agentsfile>  Validate.agents
+<textfile> 		Validate.text
+<eventfile> 	TBRI.Val
+<errorfile> 	Validate.error
+<coder> VALDT
+<session 1> <coder ***> <date Fri 31 Mar 2000> <start 21:33> <end 21:33> <records 8> <changes 0> <last 0>
+<session 7> <coder ***> <date Fri 31 Mar 2000> <start 21:52> <end 21:53> <records 5> <changes 2> <last 0>
+<session 8> <coder pas> <date Sat 01 Apr 2000> <start 07:21> <end 07:22> <records 4> <changes 3> <last 0>
+<session 29> <coder pas> <date Fri 07 Apr 2000> <start 11:42> <end 11:44> <records 1> <changes 2> <last 1>
+<session 31> <coder pas> <date Mon 10 Apr 2000> <start 21:28> <end 21:28> <records 56> <changes 0> <last 0>
+<session 32> <coder pas> <date Sun 17 Sep 2000> <start 20:13> <end 20:13> <records 1> <changes 0> <last 1>
+<session 44> <coder pas> <date Sat 15 Sep 2001> <start 21:31> <end 21:31> <records 1> <changes 0> <last 1>
+<session 45> <coder pas> <date Sun 16 Sep 2001> <start 20:20> <end 20:21> <records 1> <changes 0> <last 1>
+<session 46> <coder pas> <date Sat 20 Oct 2001> <start 07:26> <end 07:28> <records 8> <changes 0> <last 8>
+<session 73> <coder debug> <date Fri 23 Nov 2001> <start 21:16> <end 21:19> <records 36> <changes 0> <last 65>
+<session 74> <coder debug> <date Sat 24 Nov 2001> <start 17:02> <end 17:03> <records 12> <changes 0> <last 77>
+<session 115> <coder pas> <date Thu 06 Dec 2001> <start 21:06> <end 21:06> <records 17> <changes 0> <last 17>
+<session 116> <coder debug> <date Fri 07 Dec 2001> <start 20:26> <end 20:26> <records 1> <changes 0> <last 18>
+<session 125> <coder debug> <date Sat 08 Dec 2001> <start 07:54> <end 07:54> <records 3> <changes 0> <last 102>
+<session 126> <coder debug> <date Sun 09 Dec 2001> <start 20:42> <end 20:43> <records 58> <changes 0> <last 160>
+<session 128> <coder debug> <date Tue 11 Dec 2001> <start 11:22> <end 11:22> <records 1> <changes 0> <last 162>
+<session 129> <coder debug> <date Thu 13 Dec 2001> <start 20:31> <end 20:32> <records 1> <changes 0> <last 163>
+<session 163> <coder debug> <date Sun 16 Dec 2001> <start 20:48> <end 20:49> <records 7> <changes 0> <last 110>
+<session 165> <coder pas> <date Mon 17 Dec 2001> <start 11:25> <end 11:25> <records 29> <changes 0> <last 29>
+<session 166> <coder pas> <date Tue 18 Dec 2001> <start 07:09> <end 07:09> <records 1> <changes 0> <last 1>
+<session 167> <coder pas> <date Sat 05 Jan 2002> <start 10:42> <end 10:42> <records 17> <changes 0> <last 17>
+<session 168> <coder pas> <date Sun 20 Jan 2002> <start 07:53> <end 07:54> <records 55> <changes 0> <last 55>
+<session 179> <coder debug> <date Mon 21 Jan 2002> <start 07:02> <end 07:07> <records 30> <changes 0> <last 74>
+<session 181> <coder debug> <date Thu 24 Jan 2002> <start 09:42> <end 09:43> <records 81> <changes 0> <last 0>
+<session 212> <coder debug> <date Fri 25 Jan 2002> <start 21:37> <end 21:39> <records 39> <changes 0> <last 47>
+<session 213> <coder debug> <date Sat 26 Jan 2002> <start 06:56> <end 06:57> <records 1> <changes 1> <last 48>
+<session 262> <coder pas> <date Sun 27 Jan 2002> <start 19:57> <end 20:00> <records 41> <changes 0> <last 41>
+<session 264> <coder pas> <date Tue 29 Jan 2002> <start 11:30> <end 11:38> <records 74> <changes 0> <last 74>
+<session 265> <coder pas> <date Mon 04 Feb 2002> <start 13:25> <end 13:26> <records 1> <changes 0> <last 1>
+<session 267> <coder debug> <date Tue 05 Feb 2002> <start 09:30> <end 09:30> <records 18> <changes 0> <last 19>
+<session 306> <coder debug> <date Thu 07 Feb 2002> <start 21:32> <end 21:33> <records 85> <changes 0> <last 434>
+<session 308> <coder debug> <date Fri 08 Feb 2002> <start 07:04> <end 07:05> <records 33> <changes 0> <last 35>
+<session 340> <coder debug> <date Sat 09 Feb 2002> <start 22:53> <end 22:55> <records 77> <changes 0> <last 292>
+<session 341> <coder PAS> <date Sun 10 Feb 2002> <start 08:30> <end 08:33> <records 95> <changes 0> <last 95>
+<session 350> <coder debug> <date Mon 11 Feb 2002> <start 17:31> <end 17:32> <records 112> <changes 0> <last 424>
+<session 352> <coder debug> <date Thu 14 Feb 2002> <start 07:37> <end 07:37> <records 1> <changes 0> <last 128>
+<session 408> <coder debug> <date Sat 16 Feb 2002> <start 20:53> <end 20:55> <records 7> <changes 0> <last 529>
+<session 410> <coder debug> <date Sun 17 Feb 2002> <start 08:50> <end 08:52> <records 2> <changes 0> <last 537>
+<session 430> <coder pas> <date Sat 23 Feb 2002> <start 07:02> <end 07:02> <records 9> <changes 0> <last 9>
+<session 432> <coder pas> <date Tue 26 Feb 2002> <start 09:13> <end 09:15> <records 10> <changes 5> <last 21>
+<session 448> <coder debug> <date Sat 02 Mar 2002> <start 13:21> <end 13:21> <records 158> <changes 0> <last 0>
+<session 450> <coder pas> <date Sat 09 Mar 2002> <start 09:16> <end 09:16> <records 158> <changes 0> <last 0>
+<session 469> <coder pas> <date Sun 10 Mar 2002> <start 13:41> <end 13:41> <records 2> <changes 0> <last 2>
+<session 471> <coder pas> <date Tue 12 Mar 2002> <start 08:51> <end 08:52> <records 165> <changes 0> <last 0>
+<session 483> <coder pas> <date Thu 14 Mar 2002> <start 13:29> <end 13:30> <records 167> <changes 0> <last 0>
+<session 484> <coder pas> <date Fri 15 Mar 2002> <start 20:04> <end 20:05> <records 6> <changes 0> <last 6>
+<session 485> <coder pas> <date Sun 26 Jan 2003> <start 16:47> <end 16:47> <records 167> <changes 0> <last 0>
+<session 488> <coder pas> <date Fri 18 Apr 2003> <start 20:54> <end 20:56> <records 31> <changes 0> <last 31>
+<session 490> <coder debug> <date Sat 19 Apr 2003> <start 14:45> <end 14:45> <records 11> <changes 0> <last 47>
+<session 530> <coder debug> <date Tue 22 Apr 2003> <start 08:25> <end 08:27> <records 4> <changes 0> <last 340>
+<session 532> <coder debug> <date Thu 24 Apr 2003> <start 05:51> <end 05:51> <records 1> <changes 0> <last 509>
+<session 550> <coder debug> <date Sat 26 Apr 2003> <start 20:55> <end 20:56> <records 4> <changes 0> <last 1608>
+<session 552> <coder debug> <date Sun 27 Apr 2003> <start 07:22> <end 07:23> <records 197> <changes 0> <last 0>
+<session 570> <coder pas> <date Wed 28 May 2003> <start 22:00> <end 22:02> <records 2> <changes 1> <last 2>
+<session 572> <coder debug> <date Tue 10 Jun 2003> <start 08:02> <end 08:03> <records 2> <changes 0> <last 3>
+<session 599> <coder debug> <date Wed 11 Jun 2003> <start 07:30> <end 07:30> <records 2> <changes 0> <last 230>
+<session 601> <coder debug> <date Mon 14 Jul 2003> <start 08:59> <end 08:59> <records 2> <changes 0> <last 11>
+<session 625> <coder pas> <date Tue 15 Jul 2003> <start 10:31> <end 10:32> <records 3> <changes 2> <last 3>
+<session 627> <coder pas> <date Thu 28 Apr 2005> <start 12:13 CDT> <end 12:15 CDT> <records 227> <changes 0> <last 227>
+<session 629> <coder pas> <date Sun 01 May 2005> <start 20:38 CDT> <end 20:40 CDT> <records 7> <changes 0> <last 7>
+<session 671> <coder debug> <date Mon 02 May 2005> <start 16:42 CDT> <end 16:47 CDT> <records 1> <changes 0> <last 132>
+<session 673> <coder pas> <date Mon 02 May 2005> <start 16:52 CDT> <end 16:52 CDT> <records 1> <changes 0> <last 1>
+<session 685> <coder debug> <date Tue 03 May 2005> <start 21:01 CDT> <end 21:07 CDT> <records 8> <changes 0> <last 26>
+<session 710> <coder debug> <date Wed 04 May 2005> <start 16:57 CDT> <end 16:57 CDT> <records 203> <changes 0> <last 359>
+<session 711> <coder debug> <date Thu 05 May 2005> <start 15:22 CDT> <end 15:23 CDT> <records 10> <changes 0> <last 369>
+<session 712> <coder debug> <date Mon 09 May 2005> <start 12:33 CDT> <end 12:33 CDT> <records 213> <actorchanges 0> <verbchanges 0> <last 582>
+<session 713> <coder debug> <date Thu 16 Mar 2006> <start 08:44 CST> <end 08:44 CST> <records 1> <actorchanges 0> <verbchanges 0> <last 583>
+<session 714> <coder pas> <date Thu 22 May 2008> <start 09:23 CDT> <end 09:25 CDT> <records 243> <actorchanges 0> <verbchanges 0> <last 243>
+<session 729> <coder pas> <date Fri 30 May 2008> <start 14:55 CDT> <end 14:57 CDT> <records 218> <actorchanges 0> <verbchanges 0> <last 218>
+<session 730> <coder pas> <date Sat 31 May 2008> <start 09:54 CDT> <end 09:55 CDT> <records 218> <actorchanges 0> <verbchanges 0> <last 218>
+<session 734> <coder pas> <date Sun 01 Jun 2008> <start 14:22 CDT> <end 14:23 CDT> <records 220> <actorchanges 0> <verbchanges 0> <last 220>
+<session 747> <coder pas> <date Mon 02 Jun 2008> <start 10:33 CDT> <end 10:41 CDT> <records 2> <actorchanges 0> <verbchanges 0> <last 2>
+<session 748> <coder debug> <date Thu 12 Jun 2008> <start 10:16 CDT> <end 10:17 CDT> <records 2> <actorchanges 0> <verbchanges 0> <last 4>
+<session 762> <coder pas> <date Fri 13 Jun 2008> <start 16:20 CDT> <end 16:20 CDT> <records 249> <actorchanges 0> <verbchanges 0> <last 0>
+<session 763> <coder pas> <date Sat 14 Jun 2008> <start 11:30 CDT> <end 11:30 CDT> <records 219> <actorchanges 0> <verbchanges 0> <last 219>
+<session 764> <coder pas> <date Sun 15 Jun 2008> <start 20:21 CDT> <end 20:21 CDT> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 815> <coder pas> <date Tue 01 Jul 2008> <start 15:13 CDT> <end 15:14 CDT> <records 225> <actorchanges 0> <verbchanges 0> <last 225>
+<session 818> <coder pas> <date Thu 17 Jul 2008> <start 18:20 CDT> <end 18:21 CDT> <records 9> <actorchanges 0> <verbchanges 0> <last 9>
+<session 819> <coder pas> <date Sat 19 Jul 2008> <start 10:25 CDT> <end 10:25 CDT> <records 1790> <actorchanges 0> <verbchanges 0> <last 0>
+<session 824> <coder pas> <date Mon 08 Dec 2008> <start 16:09 CST> <end 16:10 CST> <records 1> <actorchanges 0> <verbchanges 0> <last 1>
+<session 825> <coder pas> <date Thu 01 Jan 2009> <start 11:42 CST> <end 11:43 CST> <records 235> <actorchanges 0> <verbchanges 0> <last 235>
+<session 826> <coder pas> <date Fri 02 Jan 2009> <start 12:14 CST> <end 12:16 CST> <records 227> <actorchanges 0> <verbchanges 0> <last 227>
+<session 830> <coder pas> <date Wed 01 Jul 2009> <start 15:00 CDT> <end 15:01 CDT> <records 287> <actorchanges 0> <verbchanges 0> <last 287>
+<session 831> <coder pas> <date Thu 17 Sep 2009> <start 18:41 CDT> <end 18:42 CDT> <records 287> <actorchanges 0> <verbchanges 0> <last 287>
+<session 887> <coder VALDT> <date Sat 19 Sep 2009> <start 12:51 CDT> <end 12:51 CDT> <records 11> <actorchanges 0> <verbchanges 0> <last 11>
+<session 889> <coder VALDT> <date Fri 13 Nov 2009> <start 11:06 EST> <end 11:07 EST> <records 302> <actorchanges 0> <verbchanges 0> <last 302>
+<session 915> <coder VALDT> <date Thu 19 Nov 2009> <start 16:12 EST> <end 16:13 EST> <records 306> <actorchanges 0> <verbchanges 0> <last 2566>
+<session 917> <coder VALDT> <date Thu 07 Jan 2010> <start 13:57 EST> <end 13:58 EST> <records 306> <actorchanges 0> <verbchanges 0> <last 3179>
+<session 921> <coder VALDT> <date Fri 08 Jan 2010> <start 09:40 EST> <end 09:41 EST> <records 40> <actorchanges 0> <verbchanges 0> <last 3813>
+<session 949> <coder VALDT> <date Sat 09 Jan 2010> <start 12:44 EST> <end 12:44 EST> <records 10> <actorchanges 0> <verbchanges 0> <last 5977>
+<session 802> <coder pas> <date Mon 25 Apr 2011> <start 13:23 EDT> <end 14:11 EDT> <records 223> <actorchanges 0> <verbchanges 0> <last 223>
+<session 803> <coder VALDT> <date Mon 25 Apr 2011> <start 14:14 EDT> <end 14:25 EDT> <records 1> <actorchanges 0> <verbchanges 0> <last 224>
+<session 832> <coder VALDT> <date Tue 26 Apr 2011> <start 12:54 EDT> <end 12:54 EDT> <records 315> <actorchanges 0> <verbchanges 0> <last 3680>
+<session 833> <coder VALDT> <date Thu 19 May 2011> <start 15:00 EDT> <end 15:02 EDT> <records 1> <actorchanges 0> <verbchanges 0> <last 3681>
+<session 834> <coder VALDT> <date Wed 27 Jul 2011> <start 12:00 EDT> <end 12:00 EDT> <records 315> <actorchanges 0> <verbchanges 0> <last 3996>
+<session 835> <coder VALDT> <date Mon 14 Nov 2011> <start 17:24 EST> <end 17:24 EST> <records 315> <actorchanges 0> <verbchanges 0> <last 4311>
+<session 836> <coder VALDT> <date Wed 11 Jan 2012> <start 13:47 CET> <end 13:47 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 4312>
+<session 841> <coder VALDT> <date Thu 12 Jan 2012> <start 17:13 CET> <end 17:13 CET> <records 315> <actorchanges 0> <verbchanges 0> <last 5259>
+<session 842> <coder VALDT> <date Fri 13 Jan 2012> <start 09:02 CET> <end 09:02 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 5260>
+<session 844> <coder VALDT> <date Tue 17 Jan 2012> <start 10:00 CET> <end 10:01 CET> <records 315> <actorchanges 0> <verbchanges 0> <last 5890>
+<session 851> <coder debug> <date Fri 20 Jan 2012> <start 17:16 CET> <end 17:17 CET> <records 315> <actorchanges 0> <verbchanges 0> <last 7781>
+<session 852> <coder VALDT> <date Mon 23 Jan 2012> <start 11:54 CET> <end 11:55 CET> <records 315> <actorchanges 0> <verbchanges 0> <last 8096>
+<session 866> <coder debug> <date Tue 24 Jan 2012> <start 15:06 CET> <end 15:06 CET> <records 375> <actorchanges 0> <verbchanges 0> <last 12676>
+<session 867> <coder debug> <date Thu 26 Jan 2012> <start 15:12 CET> <end 15:12 CET> <records 375> <actorchanges 0> <verbchanges 0> <last 13051>
+<session 872> <coder debug> <date Fri 27 Jan 2012> <start 10:59 CET> <end 11:00 CET> <records 1> <actorchanges 0> <verbchanges 0> <last 14182>
+<session 878> <coder debug> <date Mon 30 Jan 2012> <start 11:25 CET> <end 11:25 CET> <records 8> <actorchanges 0> <verbchanges 0> <last 14257>
+<session 879> <coder VALDT> <date Thu 09 Feb 2012> <start 12:31 CET> <end 12:33 CET> <records 36> <actorchanges 0> <verbchanges 0> <last 14293>

@@ -1,0 +1,4099 @@
+
+##################################################################
+#
+#                   TABARI VALIDATION SUITE
+#            To run, use ./TABARI -c, followed by menu
+#                     options O then v
+#            See Validate.project for required files
+#                Version compatibility: 0.8.3b1
+#                  Last Update: 2 June 2012
+#
+##################################################################
+
+000101  START-00
+Validation suite for TABARI 0.8.3.  Use O)ther followed by V)alidate
+menu options -- program should automatically code all of these sentences
+until it hits a record that says "end of the standard validation records"
+/*\n------------------------------------------------------------------ 
+\n[Comments concerning the feature of the program being tested will be
+found here, followed by the events that should be coded in {}]
+\n{+++}  */
+
+950101  TIME-Modify
+Changing .options file command to disable this until we need to check
+it, since otherwise it is activated automatically by the presence of
+<TIME> records in the .verbs file. 
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: TIME SHIFT = FALSE } */    
+
+
+##################################################################
+#
+#                        BASIC TESTS
+#
+##################################################################
+
+950101  DEMO-01
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple coding]
+\n{ ARN / GON / 064 } */    
+
+950101  DEMO-02
+Arnor is about To Restore full diplomatic ties with Gondor almost 
+five years after Ent crowds burned down its Entian embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n["Restore" is shifted to a noun by capitalization, so there is only 
+one event]   
+\n{ ARN / ENT / 222 }  */   
+
+950101  DEMO-03
+Arnor is about the restore full diplomatic ties with Gondor almost 
+five years after Ent crowds burned down its Entian embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n["the restore" is shifted to noun by determiner THE_, so only one event]   
+\n{ ARN / ENT / 222 }  */   
+
+950103  DEMO-04
+Dagolath's first Deputy Prime Minister Telemar left for 
+Minas Tirith on Wednesday for meetings of the joint transport 
+committee with Arnor, the Dagolathi news agency reported. 
+/*\n------------------------------------------------------------------
+\n[Paired events: LEFT_ generates a "visit" and "receive visit" events]
+\n{ DAG / GON / 032 } 950103      
+\n{ GON / DAG / 033 } 950103   */   
+
+950101  DEMO-05
+Arnor is about to restore fxll diplomatic ties with Gondor almost 
+five years after volleyball crowds burned down its embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex coding from a phrase; may require setting COMPLEX=1]
+\n-{ARN / GON / 064  } */
+
+950106  DEMO-06
+The Calenardhon government condemned an attack by Osgiliath soldiers 
+in south Ithilen on Thursday and promised aid to the affected Ithilen villages. 
+/*\n------------------------------------------------------------------ 
+\n[Coding two events from a compound sentence]
+\n{ CALGOV / OSGMIL / 122 } 950106      
+\n{ CALGOV / ITH / 050  } 950106 */
+
+950107  DEMO-07
+Arnor believes Dagolath and Osgiliath can cope with a decrease in vital 
+water from the mighty Entwash river when a major dam is filled next 
+month. 
+/*\n------------------------------------------------------------------ 
+\n[Compound target]
+\n{ ARN / DAG / 023 } 950107      
+\n{ ARN / OSG / 023 } 950107 */
+
+950108  DEMO-08
+The ambassadors of Arnor, Osgiliath and Gondor presented 
+credentials to Ithilen's president on Wednesday in a further 
+show of support to his government by their countries. 
+/*\n------------------------------------------------------------------ 
+\n[Compound actor list; however, note that the agent AMBASSADORS is
+not carried through to the other actors. Also see COMPOUND-24]
+\n{ ARNGOV / ITHGOVPRS / 032 } 950108      
+\n{ OSG / ITHGOVPRS / 032 } 950108      
+\n{ GON / ITHGOVPRS / 032 } 950108 */
+
+950110  DEMO-09
+Gondor's Prime Minister Falastur said he regretted Eriador's 
+refusal to talk to Calenardhon leader Calimehtar, the Lorien 
+news agency LANA reported on Thursday. 
+/*\n------------------------------------------------------------------ 
+\nIllustrates use of the subordinate "SAID" code and dereferencing 
+of "he".  Also the 113 code indicates that the pronoun was correctly 
+caught by $ in pattern. Note also GONGOV agent
+\n{ GONGOV / ERI / 113 }  */
+
+950110  DEMO-10
+Gondor's Prime Minister Falastur noted that North Yemen regretted Eriador's 
+refusal to talk to Calenardhon leader Calimehtar. 
+/*\n------------------------------------------------------------------ 
+\nModification of the DEMO-09 to check for a target in a lower match
+\n{ GONGOV / YEMNO / 115 }  */
+
+950111  DEMO-11
+Bree Prime Minister Romendacil will meet Eriadori and Calenardhon 
+leaders during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Paired events with a compound target]
+\n{ BREGOV / ERI / 031 }      
+\n{ ERI / BREGOV / 031 }      
+\n{ BREGOV / CAL / 031 }       
+\n{ CAL / BREGOV / 031 }  */
+
+950112  DEMO-12
+Eriador expressed hopes on Thursday that Osgiliath, the state's 
+fiercest foe, could be drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Next few DEMO- events demonstrate some additional vocabulary and 
+sentence structure ]
+\n{ ERI / OSG / 024 } 950112 */
+
+950113  DEMO-13
+Arnor on Thursday signed an 800 million ducat trade protocol 
+for 1990 with Dagolath, its biggest trading partner, officials said./*
+\n{ ARN / DAG / 085 } 950113 */
+
+950114  DEMO-14
+Ithilen's militia vowed on Thursday to wage war on the Rohans until that 
+group yielded ground seized in six days of fighting./*
+\n{ ITH / ROH / 173 } 950114 */
+
+950115  DEMO-15
+Arnor signed an accord on Thursday to supply Gondor with some 
+50,000 tonnes of wheat, worth 11.8 million ducats, an Arnorian 
+embassy spokesman said./*
+\n{ ARN / GON / 081 } 950115 */
+
+950116  DEMO-16
+Fornost President Umbardacil has again appealed for peace in Ithilen in 
+a message to the spiritial leader of the war-torn nation's influential 
+Douzu community./*
+\n{ FORGOVPRS / ITH / 095 } 950116 */
+
+950117  DEMO-17
+Bree President Romendacil arrived in Gondor on Monday on his first 
+official foreign visit since pro-restoration demonstrators 
+in Eymn Muil were crushed last June./*
+\n{ BREGOVPRS / GON / 032 } 950117      
+\n{ GON / BREGOVPRS / 033 } 950117 */
+
+950118  DEMO-18
+Calenardhon urged Bree on Monday to help win a greater role for 
+it in forthcoming peace talks./*
+\n{ CAL / BRE / 102 } 950118 */
+
+950119  DEMO-19
+Arnor's foreign minister, in remarks published on Monday, urged 
+Eriador to respond to Gondor's proposals on elections./*
+\n{ ARNGOVFRM / ERI / 102 } 950119 */
+
+##################################################################
+#
+#                    COMPLEX PATTERNS
+#
+##################################################################
+
+950114  PATTERN-01
+Ithilen's palace guard militia was freed from Barad-dur after that 
+group yielded ground seized in six days of fighting.
+/*\n------------------------------------------------------------------
+\n Test of source/target reversal in the first event due to pattern 
+\nFREE \n- + * FROM $  [066]
+\n (Yeah, yeah, we know nothing gets freed from Barad-dur...)
+\n{ MOR / ITH / 066 } 950114 */
+
+950102  PATTERN-02
+Old foes Gondor and Osgiliath have postponed their meeting after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of % (compounds) in a pattern.  Should match
+\nMEET \n- % HAVE POSTPONED *  [191]
+\n{ GON / OSG / 191 } 950102      
+\n{ OSG / GON / 191 } 950102  */    
+
+950102  PATTERN-02a
+Arnor has exchanged prisoners with Gondor and Osgiliath after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of % (compounds) in a pattern; compound following verb.  
+Should match
+\nEXCHANG \n- % HAS * WITH % [191]
+\n{ GON / OSG / 067 }      
+\n{ OSG / GON / 067 }  */    
+
+950102  PATTERN-03
+Gondor and Osgiliath have postponed their meet after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of % (compounds) in a pattern at location 0.  Should match
+\nMEET \n- % HAVE POSTPONED *  [191]
+]
+\n{ GON / OSG / 191 } 950102      
+\n{ OSG / GON / 191 } 950102  */    
+
+950112  PATTERN-03a
+An Eriadorian was shot dead in Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Target + token but no $ token in pattern; matches
+\n SHOT  [223] \n - + WAS * DEAD  [224] ]
+\n{ OSG / ERI / 224 }*/
+
+950112  PATTERN-04
+Eriador has called for sanctions against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[First option in an alternative word set; alternatives follow verb]
+\n{ ERI / OSG / 172 } */
+
+950112  PATTERN-05
+Eriador has called for a boycott against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; alternatives follow verb]
+\n{ ERI / OSG / 172  }*/
+
+950112  PATTERN-06
+Eriador has called for an embargo against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Third option in a alternative word set; alternatives follow verb]
+\n{ ERI / OSG / 172  }*/
+
+950112  PATTERN-04a
+Eriador has carried out exercises against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; alternatives immediately follow verb]
+\n{ ERI / OSG / 182 }*/
+
+950112  PATTERN-05a
+Eriador has carried out manuvers  against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; alternatives immediately follow verb]
+\n{ ERI / OSG / 182  }*/
+
+950112  PATTERN-06a
+Eriador has carried out a raid against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[alternative word set should fail; alternatives immediately follow verb]
+\n{ ERI / OSG / 211  }*/
+
+950118  PATTERN-07
+Calenardhon has not urged Bree on Monday to win a greater role in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; alternatives immediately before verb]
+\n{ CAL / BRE / 121 } */
+
+950118  PATTERN-08
+Calenardhon has refxsed to urge Bree on Monday to win a greater role in  
+forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; alternatives immediately before verb]
+\n{ CAL / BRE / 121 } CRITIZE  */
+
+950118  PATTERN-07a
+Calenardhon has recently raised its voice for Bree to win a greater role 
+in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; pattern before verb]
+\n{ CAL / BRE / 042 } ENDORSE */
+
+950118  PATTERN-08a
+Calenardhon has recently ottered its voice for Bree to win a greater role 
+in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; pattern before verb]
+\n{ CAL / BRE / 042 } ENDORSE */
+
+950118  PATTERN-09
+Calenardhon has declined to urge Bree on Monday to win a greater role in 
+forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Third option in a alternative word set; alternatives immediately before verb]
+\n{ CAL / BRE / 121 } */
+
+950101  PATTERN-10
+Arnor called for the Group of 77 to support its position against Mordor
+ /*\n------------------------------------------------------------------
+\n[should match the pattern CALL \n-* FOR; this checks that alternatives
+following verb fails correctly]
+\n{ ARN / G77 / 095 }   */    
+
+950118  PATTERN-11
+Calenardhon has urged Bree on Monday to win a greater role in 
+forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Third option in a alternative word set; this checks that alternatives
+prior to verb fails correctly]]
+\n{ CAL / BRE / 122 } */
+
+950115  PATTERN-12
+Arnor suggested Gondor should apply Geneva conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern alternatives with adjacent connector on SHOULD...APPLY; first option
+in alternatives following verb
+\n { ARN / ROH / 151 }  */
+
+950115  PATTERN-12a
+Arnor suggested Gondor should require Geneva conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern alternatives with adjacent connector on SHOULD...REQUIRE, plus
+a target before verb; first option alternatives follow verb
+\n { ARN / GON / 151 } */
+
+950115  PATTERN-12b
+Arnor suggested Gondor should demand Geneva conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SHOULD...DEMAND; first option
+word set follows verb; GON is set by +
+\n { ARN / GON / 161 } */
+
+950115  PATTERN-12c
+Arnor suggested never Gondor should demand Shriners conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SUGGESTED_[]; first option
+word set prior to verb
+\n { ARN / ROH / 171 } */
+
+950115  PATTERN-13
+Arnor suggested Gondor should apply international conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SHOULD...APPLY; second option
+alternatives follow verb
+\n { ARN / ROH / 151 } */
+
+950115  PATTERN-13a
+Arnor suggested Gondor should require international conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SHOULD...REQUIRE, plus
+a target before verb; second option; alternatives follows verb
+\n { ARN / GON / 151 } */
+
+950115  PATTERN-13b
+Arnor suggested Gondor should demand international conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SHOULD...DEMAND; first option
+word set follows verb; GON is set by +
+\n { ARN / GON / 161 } */
+
+950115  PATTERN-13c
+Arnor suggested don't Gondor should demand Shriners conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set with adjacent connector on SUGGESTED_[]; second option
+word set prior to verb
+\n { ARN / ROH / 171 } */
+
+950115  PATTERN-14
+Arnor suggested it should not apply any international conventions 
+in its dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern alternatives 151 should fail due to ANY between adjacent connector
+ on SHOULD...APPLY_[];
+\n { ARN / ROH / 152 } */
+
+950115  PATTERN-14a
+Arnor suggested it should not require any international conventions 
+in its dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n  Pattern word set 151 should fail due to adjacent connector on 
+SHOULD...REQUIRE, plus a target before verb
+\n { ARN / ROH / 101 } */
+
+950115  PATTERN-14b
+Arnor suggested it should demand international Shriners conventions 
+in its dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set 161 should fail due to SHRINERS between adjacent connector
+ on SHOULD...DEMAND_[INTERNATIONAL ]_;
+\n { ARN / ROH / 162 } */
+
+950115  PATTERN-14b'
+Arnor suggested it should demand Shriners conventions 
+in its dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set 161 should fail due to SHRINERS between adjacent connector
+ on SHOULD...DEMAND_*_CONVENTION;
+\n { ARN / ROH / 162 } */
+
+950115  PATTERN-14c
+Arnor suggested it never should demand international Shriners conventions 
+in its dealings with Rohan, an Arnorian embassy spokesman said.
+/*\n------------------------------------------------------------------ 
+\n Pattern word set 171 should fail due to IT between adjacent connector
+ on SUGGESTED;
+\n { ARN / ROH / 162 } */
+
+950101  PATTERN-16
+Arnor is about to sign a new protocol with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals following verb
+\n{ ARN / GON / 084 } */    
+
+950101  PATTERN-17
+Arnor is about to sign an old protocol with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals following verb should fail
+\n{ ARN / GON / 085 } */    
+
+950101  PATTERN-18
+Arnor is about show no sign with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals prior to verb
+\n{ ARN / GON / 082 } */    
+
+950101  PATTERN-19
+Arnor is about show it has no new sign with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals prior to verb should fail
+\n{ ARN / GON / 083} */    
+
+950101  PATTERN-19a
+Arnor is about show it has no little new sign with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals prior to verb should fail
+\n{ ARN / GON / 083} */    
+
+950101  PATTERN-20
+Arnor is about shxw it has no new sign with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n only main verb should match
+\n{ ARN / GON / 081} */    
+
+950101  PATTERN-21
+Arnor is about to sign an old protocol with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n connected literals following verb should fail
+\n{ ARN / GON / 085 } */    
+
+950101  PATTERN-22
+Arnor is about to withdraw from diplomatic efforts with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n first pattern in a long pattern list
+\n{ ARN / GON / 194 } */    
+
+950101  PATTERN-23
+Arnor is about to withdraw from a treaty with Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n middle pattern in a long pattern list
+\n{ ARN / GON / 198 } */    
+
+950101  PATTERN-24
+Arnor is about to withdraw now from Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n last pattern in a long pattern list
+\n{ ARN / GON / 012 } */    
+
+950112  PATTERN-25
+Eriador's death toll has risen in the dispute with  Osgiliath, the state's 
+fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Check on correct matching of multi-word verb phrase]
+\n{ ERI / OSG / 223 }*/
+
+950104  PATTERN-26
+Mordor with Fornost and Gondor welcxmed a resumption of formal   
+diplomatic ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Compound with actor before it;\n WELCXME\n-% * \nshould catch the compound, not first actor
+\n Also implements a symetric code ]
+\n{ FOR / GON / 044 } 
+\n{ GON / FOR / 045 }  */    
+\n{ GON / FOR / 044 } 
+\n{ FOR / GON / 045 }  */    
+
+950104  PATTERN-27
+Mordor with Fornost and Gondor welcymed a resumption of formal   
+diplomatic ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Compound with actor before it;\n WELCYME\n-% * \nshould catch the compound, not first actor
+\n Simple code]
+\n{ FOR / GON / 046 } 
+\n{ GON / FOR / 046 }  */    
+
+950104  PATTERN-28
+Mordor with Fornost and Gondor welcomed a resumption of formal   
+diplomatic ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Compound with actor before it; should match WELCOME, not compound]
+\n{ ORC / OSG / 041 }  */    
+
+950118  PATTERN-29a
+Calenardhon has recently loudly included its voice for Bree to win a 
+greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern before verb]
+\n{ CAL / BRE / 043 } */
+
+950118  PATTERN-29b
+Calenardhon has recently strongly assxrted its voice for Bree to win a 
+greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern before verb]
+\n{ CAL / BRE / 043 } ENDORSE */
+
+950118  PATTERN-29c
+Calenardhon has recently loudly raised its voice for Bree to win a greater role 
+in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern before verb;
+multi-word pattern should fail]
+\n{ CAL / BRE / 042 }*/
+
+950118  PATTERN-29d
+Calenardhon has recently strongly raised its voice for Bree to win a greater role 
+in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern before verb;
+multi-word pattern should fail]
+\n{ CAL / BRE / 042 } ENDORSE */
+
+950118  PATTERN-29e
+Calenardhon has recently loudly boldly included its voice for Bree to win a 
+greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern before verb; 
+should skip intermediate word and match]
+\n{ CAL / BRE / 043 } */
+
+950118  PATTERN-29f
+Calenardhon has recently strongly boldly assxrted its voice for Bree to win a 
+greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern before verb 
+should skip intermediate word and match]
+\n{ CAL / BRE / 043 } ENDORSE */
+
+950112  PATTERN-30a
+Eriador has asked for economic sanctions against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern, alternatives follow verb]
+\n{ ERI / OSG / 172 }*/
+
+950112  PATTERN-30b
+Eriador has asked for a total boycott against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern, alternatives follow verb]
+\n{ ERI / OSG / 172  }*/
+
+950112  PATTERN-30c
+Eriador has asked for economic restraint against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern, alternatives follow verb;
+pattern should fail]
+\n{ ERI / OSG / 090 }*/
+
+950112  PATTERN-30d
+Eriador has asked for a total war against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern, alternatives follow verb
+pattern should fail]
+\n{ ERI / OSG / 090  }*/
+
+950112  PATTERN-30e
+Eriador has asked for economic high sanctions against Osgiliath, the state's 
+fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[First option in a alternative word set; multi-word pattern, alternatives follow verb;
+pattern should fail due to intermediate word]
+\n{ ERI / OSG / 090 }*/
+
+950112  PATTERN-30f
+Eriador has asked for a total complete boycott against Osgiliath, the state's 
+fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern, alternatives follow verb;
+pattern should fail due to intermediate word]
+\n{ ERI / OSG / 090  }*/
+
+950102  PATTERN-31
+Mordor et Arnor will be hosting Osgiliath to celebrate Tabaski with Eriador
+next week at Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of ^ (actor skipping) in a pattern; skipped actor before verb.  
+\n{ ARN / ERI / 042 }  */    
+
+950102  PATTERN-31b
+Arnor was United Arab Emirates for Eriador warning next week. 
+/*\n------------------------------------------------------------------
+\nTest of ^ (actor skipping) in a pattern; skipped actor before verb;
+adjacent $ ^.  
+\n{ ARN / ERI / 164 }  */    
+
+950102  PATTERN-32
+Arnor has celebrated Eid at Osgiliath with Gondor after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of ^ (actor skipping) in a pattern; skipped actor follows verb.  
+\n{ ARN / GON / 043 }  */    
+
+950102  PATTERN-32a
+Arnor has celebrated Iftar at Osgiliath with the leaders of Gondor in Eriador 
+after a hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of multiple ^ (actor skipping) in a pattern
+\n{ ARN / ERI / 044 }  */    
+
+950102  PATTERN-32b
+Arnor has celebrated Eid at Osgiliath and Eriador with Gondor after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of ^ (actor skipping) in a pattern; compound actor is skipped.  
+\n{ ARN / GON / 043 }  */    
+
+950102  PATTERN-32c
+Arnor has celebrated Eid at United Arab Emirates  with Gondor after a 
+hafling was reported on the pass of Cirith Ungol. 
+/*\n------------------------------------------------------------------
+\nTest of ^ (actor skipping) in a pattern; skipped actor follows verb.  
+\n{ ARN / GON / 043 }  */    
+
+990809  PATTERN-32d 
+Ithilen warned at the United Arab Emirates of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nConfirm that skip token ^ doesn't add actor to upper match string;
+test adjacent ^ + tokens with multi-word skip
+\n{ ITH / DOL / 162 } */
+
+950102  PATTERN-33a
+Ithilen's militia vowed to resist to the end the Rohans unless that 
+group yielded ground seized in six days of fighting.
+/*\n------------------------------------------------------------------ 
+\n[Matches option in a alternatives word set; longer fixed pattern follows
+alternatives]
+\n{ ITH / ROH / 113 }  */
+
+950102  PATTERN-33b
+Ithilen's militia vowed resistance to the end to the invading Rohans 
+unless that group yielded ground seized in six days of fighting.
+/*\n------------------------------------------------------------------ 
+\n[Matches longer fixed patterns after first matching a shorter pattern
+with alternatives]
+\n{ ITH / ROH / 114 }  */
+
+950102  PATTERN-33c
+Ithilen's militia vowed to resist to the end of the earth the Rohans unless  
+they yielded ground seized in six days of fighting.
+/*\n------------------------------------------------------------------ 
+\n[Matches longer  pattern with alternatives after first matching a 
+shorter pattern with alternatives]
+\n{ ITH / ROH / 115 }  */
+
+##################################################################
+#
+#                    PATTERN CONNECTORS
+#
+##################################################################
+
+950102   CONNECT-01
+Old foes Gondor and Osgiliath have renewed diplomatic ties after a 
+12-year break in a step that holds advantages for both major 
+powers. 
+/*\n------------------------------------------------------------------
+\n[Test on problem of getting incorrect multi-word phrases.  Check the parse
+\n to confirm that "HAVE" is not matching "HAVE NOTHING TO DO WITH" [022]
+\n{ GON / OSG / 064 } 950102      
+\n{ OSG / GON / 064 } 950102  */    
+
+950102   CONNECT-01A
+Old foes Gondor and Osgiliath have renewed diplomatic ties after a 
+12-year break in a step that holds advantages for both major 
+powers have. 
+/*\n------------------------------------------------------------------
+\n[Test on problem of getting incorrect multi-word phrases.  Check the parse
+\n to confirm that "HAVE" is not matching "HAVE NOTHING TO DO WITH" [022]
+\n This puts it at the end of the sentence
+\n{ GON / OSG / 064 } 950102      
+\n{ OSG / GON / 064 } 950102  */    
+
+950102  CONNECT-01B
+Have Old foes Gondor and Osgiliath have renewed diplomatic ties after a 
+12-year break? 
+/*\n------------------------------------------------------------------
+\n[Test on problem of getting incorrect multi-word phrases.  Check the parse
+\n to confirm that "HAVE" is not matching "HAVE NOTHING TO DO WITH" [022]
+\n This puts it at the beginning of the sentence
+\n{ GON / OSG / 064 } 950102      
+\n{ OSG / GON / 064 } 950102  */    
+
+950116  CONNECT-02
+Fornost President Umbardacil has again appealed for peace in Ithilen state-run television in 
+a message to the spiritual leader of the war-torn nation's influential 
+Douzu community./*
+\nTesting for correct match on multi-word, disconnected actor phrase
+\n{ FORGOVPRS / ITHTV / 095 } 950116 */
+
+920102  CONNECT-03
+Gollum was in on accord with an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ spaced below verb. Match will be
+075A due to "IN_ *" (which is matched over IN_* because it is longer;
+note that these two patterns are redundant)
+\n { HOB / GON / 075A } */
+
+920102  CONNECT-04
+Gollum was in acknowledge with an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ connected immediately below verb. Match
+will be 074 due to "IN_*" pattern
+\n { HOB / GON / 074 } */
+
+920102  CONNECT-05
+Gollum was seen to break in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ above verb with + and $ 
+\n{ GON / HOB / 075 } */
+
+920102  CONNECT-06
+Gollum was seen to break into an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ above verb; does not match on
+BREAK and matches instead on PARADE
+\n{  HOB / GON / 1717  } */
+
+920102  CONNECT-07
+Gollum abandoned efforts to stop an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for phrase of first verb in dictionary
+\n{ HOB / GON / 987 } */
+
+920102  CONNECT-08
+Gollum allowed that Mordor isn't a really pleasant place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper phrase
+\n{ HOB / ORC / 024 } */
+
+920102  CONNECT-09
+Gollum allowed that Mordor isn't a real pleasant place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper phrase
+\n{ HOB / ORC / 024 } */
+
+920102  CONNECT-10
+Gollum allowed that Mordor isn't a real easy or pleasant place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper phrase; match should fail and use default code
+\n{ HOB / ORC / 060 } */
+
+920102  CONNECT-11
+Gollum noted he would now boycott an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for connected words: HE between NOTED
+and WOULD requires a skip, so event is 174
+\n{ HOB / GON / 174 } */
+
+920102  CONNECT-12
+Gollum noted would now boycott an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for connected words: NOTED_WOULD 
+allows 
+\n{ HOB / GON / 173 } */
+
+920102  CONNECT-13
+Gollum notedown would now boycott an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for connected words in lower match
+\n{ HOB / GON / 174 } */
+
+920102  CONNECT-14
+Gollum abandoned an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for first verb in dictionary
+\n{ HOB / GON / 345 } */
+
+920102  CONNECT-15
+Gollum will bargain for asylum in Gondor, AFP reported. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for connected words in upper match
+\n{ HOB / GON / 174K } */
+
+920102  CONNECT-16
+Gollum will bargain foreign asylum in Gondor, AFP reported. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition for connected words in upper match
+\n{ HOB / GON / 174L } */
+
+920102  CONNECT-17
+Gollum was known to break into an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ -- pattern word with length <= 2 --
+\n which wasn't working in vers. 0.4.6
+\n{ HOB / GON / 1717 } */
+
+920102  CONNECT-18
+Gollum was knowned to break into an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of _ termination in a pattern word with length > 2 chars
+\n{ HOB / GON / 1717 } */
+
+920102  CONNECT-19
+Gollum was known to breakdown in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of _ termination in a root
+\n{ HOB / GON / 111 } */
+
+920102  CONNECT-20
+Gollum was known to break in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_, which wasn't working in 0.4.6
+\n{ GON / HOB / 076 } */
+
+920102  CONNECT-21
+Gollum was known to brake in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of partial string match in a root
+\n{ HOB / GON / 111 } */
+
+920102  CONNECT-22
+Gollum was in an accord with an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nMatch to verb ACCORD cancelled by determiner AN
+\n { HOB / GON / 111 } */
+
+920102  CONNECT-23
+Gollum recently allowed that Mordor isn't a such neat place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in lower phrase
+\n{ HOB / ORC / 025 } */
+
+920102  CONNECT-24
+Gollum recent allowed that Mordor isn't a such neat place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in lower phrase
+\n{ HOB / ORC / 025 } */
+
+920102  CONNECT-25
+Gollum recently did allow that Mordor isn't a such neat place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper phrase; match should fail and use default code
+\n{ HOB / ORC / 060 } */
+
+920102  CONNECT-26
+Gollum  allowed that Mordor isn't the neatest place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper phrase; 
+\n{ HOB / ORC / 027 } */
+
+920102  CONNECT-27
+Gollum recently did allow that Mordor isn't the neat or cool place to visit. 
+/*\n------------------------------------------------------------------ 
+\nTest of ~_ connector in upper and lower phrase; match should fail and 
+use default code
+\n{ HOB / ORC / 060 } */
+
+920102  CONNECT-28
+Gollum was in accord with an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN_ spaced immediately below verb, which 
+wasn't working in vers. 0.4.6
+\n{ HOB / GON / 075 } */
+
+920102  CONNECT-29
+Gollum was into accord with an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of pattern recognition of IN immediately below verb. Match
+will be 072 due to "INTO"
+\n { HOB / GON / 072 } */
+
+
+##################################################################
+#
+#            INDEXED HEAD AND TAIL TAG MARKING
+#
+##################################################################
+
+920102  MARK-00
+Gollum, centre of a diplomatic row between Radagast the Brown, called on 
+Gondor late Sunday to be allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: test that regular coding works
+\n{ HOB / GON / 095 }*/
+
+920102  MARK-01
+Gollum accompanying Radagast, the Brown wizard of reknown, called on 
+Gondor late Sunday to be allowed to leave Lorien by elves.  
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: actor tail cancelled in subordinate clause
+\n{ HOB / GON / 095 } */
+
+920102  MARK-02
+Gollum, centre of a diplomatic row between Radagast, the Brown called on 
+Gondor late Sunday to be allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: actor head cancelled in subordinate clause. For the
+next few cases, use the P)arse to make sure cancellation is occurring
+\n{ HOB / GON / 095 } */
+
+920102  MARK-03
+Gollum, centre of a diplomatic row between Radagast the, Brown called on 
+Gondor late Sunday to be allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: actor head cancelled in subordinate clause. For the
+next few cases, use the P)arse to make sure cancellation is occurring
+\n{ HOB / GON / 095 } */
+
+920102  MARK-04
+Gollum centre of a diplomatic row between Radagast the Brown called on 
+Gondor late Sunday to be allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: test that coding would get RAD in absence of 
+subordinate clause
+\n{ RAD / GON / 095 } */
+
+920102  MARK-05
+Gollum, centre of a diplomatic row between Radagast, the Brown called on 
+Gondor late Sunday to be allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nIndexed marking: actor head cancelled in subordinate clause
+\n{ HOB / GON / 095 } */
+
+000102  MARK-06
+Elrond brushed aside reports, rumored to originate in Mordor, 
+that Calimehtar attacked Gandalf /*\n
+------------------------------------------------------------------ 
+\nIndexed marking: normal coding
+\n{ ELF / CAL / 142 }*/
+
+000102  MARK-07
+Elrond, brushed aside reports rumored to originate in Mordor, 
+that Calimehtar attacked Gandalf /*\n
+------------------------------------------------------------------ 
+\nIndexed marking: normal coding
+\n{ ELF / WIZ / 223 }*/
+
+000102  MARK-08
+Elrond brushed, aside reports rumored to originate in Mordor, 
+that Calimehtar attacked Gandalf /*\n
+------------------------------------------------------------------ 
+\nIndexed marking: verb cancelled by tail in subordinate clause
+\n{ ELF / WIZ / 223 }*/
+
+000102  MARK-09
+Elrond, suspicious as ever of Mordor brushed, aside reports 
+that Calimehtar attacked Gandalf /*\n
+------------------------------------------------------------------ 
+\nIndexed marking: verb cancelled by head in subordinate clause
+\n{ ELF / WIZ / 223 }*/
+
+000102  MARK-10
+Elrond, suspicious as ever of Mordor, brushed aside reports 
+that Calimehtar attacked Gandalf /*\n
+------------------------------------------------------------------ 
+\nIndexed marking: return to normal coding with verb following
+subordinate clause
+\n{ ELF / CAL / 142 }*/
+
+
+##################################################################
+#
+#                   SKIP OPERATOR ^
+#
+##################################################################
+
+990809  SKIP-01 
+Ithilen warned at the Gondor of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nConfirm that skip token ^ doesn't add actor to upper match string
+\n{ ITH / DOL / 162 } */
+
+990809  SKIP-02
+Now the United Arab Emirates have been warned of the Prince of Dol_Amroth 
+recently. 
+/*\n------------------------------------------------------------------ 
+\n[Multi-word token match for testing matched text facility]
+\n{ DOL / UAE / 165 } */
+
+990809  SKIP-03 
+Ithilen warned at the North Yemen of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nConfirm that skip token ^ doesn't add actor to upper match string
+\n{ ITH / DOL / 162 } */
+
+990809  SKIP-04 
+Ithilen in Gondor  warned of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\n[Confirm that skip token ^ doesn't add actor to lower match string]
+\n{ ITH / DOL / 163 } */
+
+950104  FBIS-001-001  CEP20020711000012a
+Mordor, Rohan, Fornost and Bree welcomed a resumption of formal 
+diplomatic ties between Gondor and Osgiliath after a 12-year rift, the 
+official news agency WFNA said on Thursday . 
+/*\n------------------------------------------------------------------
+\n[commas should not be converted to conjunctions in FBIS mode]
+\n{  ORC / GON / 041 } (PRAISE)    WELCOMED 
+\n{  ORC / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  ROH / GON / 041 } (PRAISE)    WELCOMED 
+\n{  ROH / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  FOR / GON / 041 } (PRAISE)    WELCOMED 
+\n{  FOR / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  BRE / GON / 041 } (PRAISE)    WELCOMED 
+\n{  BRE / OSG / 041 } (PRAISE)    WELCOMED 
+*/     
+
+
+##################################################################
+#
+#         ACTOR SYNONYMS AND MULTI-LINE DATA RESTRICTIONS
+#                     (version 0.7.5)
+#
+##################################################################
+
+9501201  ACTORSYN-01
+Gollum is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of actor synonyms]
+\n{ HOB / GON / 064 } */    
+
+951101  ACTORSYN-02
+Smeagol is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of actor synonyms]
+\n{ HOBGOV / GON / 064 } */    
+
+951101  ACTORSYN-03
+Arnor  is about to restore full diplomatic ties with Slinker almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of actor synonyms]
+\n{ ARN / HOBGOV / 064 } */    
+
+950101  ACTORSYN-04
+Stinker is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of actor synonyms]
+\n{ HOB / GON / 064 } */    
+
+980101  ACTORSYN-05
+Arnor  is about to restore full diplomatic ties with Slinker almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of date restrictions in actor synonyms]
+\n{ ARN / HOBGOV / 064 } */    
+
+990101  ACTORSYN-06
+Smeagol is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of date restrictions in actor synonyms]
+\n{ HOBGOV / GON / 064 } */    
+
+010101  ACTORSYN-07
+Arnor is about to restore full diplomatic ties with Slinker almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of date restrictions in actor synonyms]
+\n{ ARN / HOBREB / 064 } */    
+
+781223  ACTORSYN-08
+Zimbabwe is about to restore full diplomatic ties with Slinker almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of date restrictions in actor synonyms in the final entry in the actor list]
+\n{ RHO / HOB / 064 } */    
+
+010101  ACTORSYN-09
+Arnor is about to restore full diplomatic ties with Zimbabwe almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of date restrictions in actor synonyms in the final entry in the actor list]
+\n{ ARN / ZBW / 064 } */    
+
+
+##################################################################
+#
+#                       VERB SYNONYMS
+#
+##################################################################
+
+950101  VERBFORM-05
+Estonia broken down with Libya's almost five years after crowds 
+trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word phrase in verb form]
+\n{ EST / LBY / 1717 } */    
+
+950101  VERBFORM-05
+Estonia break  with Libya's almost five years after crowds 
+trashed, its embassy a senior official, said on, Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word phrase in verb form]
+\n{ EST / LBY / 1717 } */    
+
+950101  VERBFORM-05a
+Estonia broken down a treaty with Libya's  almost five years after 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word phrase in verb form with pattern]
+\n{ EST / LBY / 161 } */    
+
+950101  VERBFORM-01
+Estonia is about to act from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that ACT_ main verb is working]
+\n{ EST / LBY / 100 } */    
+
+950101  VERBFORM-01a
+Estonia is acting from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that ACTING_ verb form is working]
+\n{ EST / LBY / 100 } */    
+
+950101  VERBFORM-01b
+Estonia has actxd from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that ACTXD verb form is working]
+\n{ EST / LBY / 100 } */    
+
+950101  VERBFORM-01c
+Estonia actuality from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that ACTUALITY  verb form is working]
+\n{ EST / LBY / 100 } */    
+
+950101  VERBFORM-01c
+Estonia actualityss from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that ACTUALITY  verb form is working]
+\n{ EST / LBY / 100 } */    
+
+950101  VERBFORM-02
+Estonia said it would act now  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that first pattern is working with main verb]
+\n{ EST / LBY / 101 } */    
+
+950101  VERBFORM-02a
+Estonia said it would acting now  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that first pattern is working with first verb form]
+\n{ EST / LBY / 101 } */    
+
+950101  VERBFORM-02b
+Estonia said  would actxd now  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that first pattern is working with second verb form]
+\n{ EST / LBY / 101 } */    
+
+950101  VERBFORM-02c
+Estonia said it would actuality now  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that first pattern is working with third verb form]
+\n{ EST / LBY / 101 } */    
+
+950101  VERBFORM-03
+Estonia act on a resolution  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that second pattern is working with main verb]
+\n{ EST / LBY / 102 } */    
+
+950101  VERBFORM-03a
+Estonia is acting on a resolution with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that second pattern is working with first verb form]
+\n{ EST / LBY / 102 } */    
+
+950101  VERBFORM-03b
+Estonia actxd on a resolution with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that second pattern is working with second verb form]
+\n{ EST / LBY / 102 } */    
+
+950101  VERBFORM-03c
+Estonia actuality on a resolution with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that second pattern is working with third verb form]
+\n{ EST / LBY / 102 } */    
+
+950101  VERBFORM-04
+Estonia act on some programs with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that third pattern is working with main verb]
+\n{ EST / LBY / 103 } */    
+
+950101  VERBFORM-04a
+Estonia actxd on some programs with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that third pattern is working with main verb]
+\n{ EST / LBY / 103 } */    
+
+950101  VERBFORM-05
+Estonia broken down  with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word phrase in verb form]
+\n{ EST / LBY / 1717 } */    
+
+950101  VERBFORM-05a
+Estonia broken down a treaty with Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word phrase in verb form with pattern]
+\n{ EST / LBY / 161 } */    
+
+
+##################################################################
+#
+#                REGULAR VERB ENDINGS
+#
+##################################################################
+
+950101  VERBEND-01
+Estonia is about to depart from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that DEPART_ verb is in dictionary; see later tests]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01a
+Estonia departs from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending S]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01b
+Estonia departed from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ED]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01c
+Estonia departx from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that invalid verb ending does not match: should not code]
+\n{ --- } */    
+
+950101  VERBEND-01d
+Estonia departes from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ES]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01e
+Estonia departen from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending EN]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01f
+Estonia departing from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ING]
+\n{ EST / LBY / 032 } */    
+
+950101  VERBEND-01g
+Estonia departink from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that invalid verb ending does not match: should not code]
+\n{ --- } */    
+
+950101  VERBEND-02
+Estonia will deplore Libya's  almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that DEPLORE_ verb is in dictionary; see later tests]
+\n{ EST / LBY / 122 } */    
+
+950101  VERBEND-02a
+Estonia deplores from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending S]
+\n{ EST / LBY / 122 } */    
+
+950101  VERBEND-02b
+Estonia deplored from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ED on verb ending with E]
+\n{ EST / LBY / 122 } */    
+
+950101  VERBEND-02c
+Estonia  deplorez from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Incorrect ending: should not code]
+\n{ --- } */    
+
+950101  VERBEND-03
+Estonia said it deplore from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check on SAID *DEPLORE in dictionary]
+\n{ EST / LBY / 123 } */    
+
+950101  VERBEND-03a
+Estonia said it deplored from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ED on verb ending with E in pattern]
+\n{ EST / LBY / 123 } */    
+
+950101  VERBEND-03b
+Estonia deplorex from Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Incorrect ending: should not code]
+\n{ --- } */    
+
+950101  VERBEND-04b
+Estonia arms  Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending S]
+\n{ EST / LBY / 182 } */    
+
+950101  VERBEND-04b
+Estonia armed  Libya almost five years after  
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending ED]
+\n{ EST / LBY / 182 } */    
+
+950101  VERBEND-05
+Mouse will ban Libya almost five years after crowds trashed its
+embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that MOUSE/ BAN= exist ]
+\n{ MUS / LBY / 191 } */    
+
+950101  VERBEND-05a
+Mouse is baning Libya almost five years after crowds trashed its
+embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending should not code ]
+\n{ --- } */    
+
+950101  VERBEND-05b
+Mouse has baned Libya almost five years after crowds trashed its
+embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Verb ending should not code ]
+\n{ --- } */    
+
+
+##################################################################
+#
+#                   REGULAR NOUN ENDINGS
+#
+##################################################################
+
+950101  NOUNEND-01
+Estonia is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings]
+\n{ EST / LBY / 064 } */    
+
+950101  NOUNEND-02
+Estonia's is about to restore full diplomatic ties with Libyas almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings]
+\n{ EST / LBY / 064 } */    
+
+950101  NOUNEND-03
+Estonias is about to restore full diplomatic ties with Libya's almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings]
+\n{ EST / LBY / 064 } */    
+
+950101  NOUNEND-04
+Estonia's is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings]
+\n{ EST / LBY / 064 } */    
+
+950101  NOUNEND-05
+Estoniab is about to restore full diplomatic ties with Libyaq almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: no actor before verb]
+\n{ +++ } */    
+
+950101  NOUNEND-06
+Estoniaxs is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: no actor before verb]
+\n{ +++ } */    
+
+950101  NOUNEND-07
+Estonia is about to restore full diplomatic ties with Ithilen government 
+radio almost crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: multiple word phrase]
+\n{ EST / ITHRAD / 064 } */    
+
+950101  NOUNEND-08
+Estonia is about to restore full diplomatic ties with Ithilen government 
+radios almost crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: multiple word phrase]
+\n{ EST / ITHRAD / 064 } */    
+
+950101  NOUNEND-09
+Estonia is about to restore full diplomatic ties with ithilen government 
+radio's almost crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: multiple word phrase]
+\n{ EST / ITHRAD / 064 } */      
+
+950101  NOUNEND-10
+Estonia is about to restore full diplomatic ties with ithilen's government 
+radio almost crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: multiple word phrase]
+\n{ EST / ITHGOV / 064 } */      
+
+950101  NOUNEND-11
+Estonia is about to restore full diplomatic ties with ithilen government's 
+radio almost crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Noun endings: multiple word phrase]
+\n{ EST / ITHGOV / 064 } */      
+
+950101  NOUNEND-12
+Estonia is about to donate cash to Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that DONATE_ verb is in dictionary; see later tests]
+\n{ EST / LBY / 073 } */    
+
+950101  NOUNEND-12
+Estonia donate's cash to Libya almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that noun endings do not match on verb: should not code]
+\n{ --- } */    
+
+950101  NOUNEND-13
+Estonia  plan's to expel  Libya's ambassador 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that noun endings do not match on phrase: 200 code]
+\n{ EST / LBYGOV / 200 } */    
+
+950101  NOUNEND-13a
+Estonia will plan to expel  Libya's ambassador 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that PLAN_TO-EXPEL phrase is in dictionaryL 201 code]
+\n{ EST / LBYGOV / 201 } */    
+
+950101  NOUNEND-13b
+Estonia  plans tos expel  Libya's ambassador 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that noun endings do not match on phrase: 200 code]
+\n{ EST / LBYGOV / 200 } */    
+
+950101  NOUNEND-14
+Mouse is about to donate cash to Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check that MOUSE= / DONATE_ exist ]
+\n{ MUS / LBY / 073 } */    
+
+950101  NOUNEND-14a
+Mouses is about to donate cash to Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should not accept additional S; complex, no code]
+\n{ +++ } */    
+
+950101  NOUNEND-14b
+Mouses is about to donate cash to Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should not accept additional 'S; complex, no code]
+\n{ +++ } */    
+
+950101  NOUNEND-15a
+The Kuwaiti government is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should not match THE_KU_ [USAEDU]; this was used to check an apparent
+\n bug that was actually a dictionary problem]
+\n{ KUWGOV / LBY / 064 } */    
+
+950101  NOUNEND-15b
+The KU basketball team is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should match THE_KU_ [USAEDU] Noun endings]
+\n{ USAEDU / LBY / 064 } */    
+
+950101  NOUNEND-15c
+The KU's basketball team is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should THE_KU_ [USAEDU] ]
+\n{ USAEDU / LBY / 064 } */    
+
+950101  NOUNEND-16a
+The Australian government is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should not match THE_AU_ [IGOAFR]; earlier bug from not checking for terminal
+\n blank following regular endings]
+\n{ AUSGOV / LBY / 064 } */    
+
+950101  NOUNEND-16b
+The AU is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should match THE_AU_ [IGOAFR]]
+\n{ IGOAFR / LBY / 064 } */    
+
+950101  NOUNEND-16c
+The AU's  is about to restore full diplomatic ties with Libya almost 
+crowds trashed its embassy, a senior official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should match THE_AU_ [IGOAFR] with noun ending]
+\n{ IGOAFR / LBY / 064 } */    
+
+
+##################################################################
+#
+#                           SYNSETS
+#
+##################################################################
+
+950101 SYNSET-01
+Arnor will abandon full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple coding for potential synset match]
+\n{ ARN / GON / 901 } */    
+
+950101 SYNSET-02
+Arnor will abandon full &TIETYPE ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Just to make sure we aren't hitting a synset directly, or getting any
+\n crashes when doing this.
+\n{ ARN / GON / 345 } */    
+
+950101 SYNSET-03
+Arnor will abandon full economic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element in upper match]
+\n{ ARN / GON / 902 } */    
+
+950101 SYNSET-04
+Arnor will abandon full cultural ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element in upper match]
+\n{ ARN / GON / 902 } */    
+
+950101 SYNSET-05
+Arnor will abandon full military ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element in upper match]
+\n{ ARN / GON / 902 } */    
+
+950101 SYNSET-06a
+Arnor will abandon full military txes with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element in upper match: should not match]
+\n{ ARN / GON / 345 } */    
+
+950111 SYNSET-06b
+Bree Prime Minister Romendacil didn't clash xver the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match: should not match]
+\n{ BREGOV / ERI / 223 }  */
+
+950101 SYNSET-06c
+Arnor will abandon full symbolic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Not in the synset: should not code]
+\n{ ARN / GON / 345 } */    
+
+950101 SYNSET-07
+Arnor will contribute a million dollars to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element in lower match: this currently matches a simple pattern
+\n which may or may not be what we want it to do.]
+\n{ ARN / GON / 071 } */    
+
+950101 SYNSET-08a
+Arnor will contribute a million euros to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element as last element of phrase in upper match]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-08b
+Arnor will contribute a million kroner to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset element as last element of phrase in upper match]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-09
+Arnor will contribute a million swiss francs to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word synset element in upper match; also adds a plural]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-10
+Arnor will contribute a million golden goblin galleons to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word synset element in upper match]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-11a
+Arnor will contribute a million goblin galleons to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Partial Multi-word synset element in upper match; should not match]
+\n{ ARN / GON / 070 } */    
+
+950101 SYNSET-11b
+Arnor will contribute a million golden galleons to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Partial Multi-word synset element in upper match; should not match]
+\n{ ARN / GON / 070 } */    
+
+950111 SYNSET-12
+Bree Prime Minister Romendacil clashed over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Verb containing lower synset but no match]
+\n{ BREGOV / ERI / 121 }  */
+
+950111 SYNSET-13
+Bree Prime Minister Romendacil didn't clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match]
+\n{ BREGOV / ERI / 904 }  */
+
+950111 SYNSET-14
+Bree Prime Minister Romendacil will not clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match]
+\n{ BREGOV / ERI / 904 }  */
+
+950111 SYNSET-15a
+Bree Prime Minister Romendacil will not ever clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match]
+\n{ BREGOV / ERI / 905 }  */
+
+950111 SYNSET-15b
+Bree Prime Minister Romendacil can't ever clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match]
+\n{ BREGOV / ERI / 905 }  */
+
+950111 SYNSET-16
+Bree Prime Minister Romendacil unexpectedly won't clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match, &syn is second element in pattern]
+\n{ BREGOV / ERI / 906 }  */
+
+950111 SYNSET-17
+Bree Prime Minister Romendacil most certainly really did not clash over the efforts of Eriadori  
+to deal with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex synset pattern in lower match]
+\n{ BREGOV / ERI / 904 }  */
+
+950111 SYNSET-18
+Bree Prime Minister Romendacil didn't clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Verb containing lower synset ]
+\n{ BREGOV / ERI / 904 }  */
+
+950101 SYNSET-19a
+Arnor will contribute a million yum yennyener to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should allow ending on an open match]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-19a
+Arnor will contribute a million Javanese yener to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should allow ending on an open match]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-19b
+Arnor will contribute a million kroneren to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should fail due to closed match on KRONER_]
+\n{ ARN / GON / 070 } */    
+
+950101 SYNSET-20a
+Arnor will contribute a million austrian florin to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Pre-check on open match within a phrase]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-20b
+Arnor will contribute a million austrian gold florin to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should allow open match within a phrase]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-21a
+Arnor will adopt a resolution with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset development: closed match in conventional pattern ]
+\n{ ARN / GON / 102 } */    
+
+950101 SYNSET-21b
+Arnor will adopt a set of resolutions with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset development: failed closed match in conventional pattern ]
+\n{ ARN / GON / 081 } */    
+
+950101 SYNSET-21c
+Arnor will adopt a revolution with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset development: open match in conventional pattern ]
+\n{ ARN / GON / 802 } */    
+
+950101 SYNSET-21d
+Arnor will adopt a revolutionary manifesto with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset development: open match in conventional pattern ]
+\n{ ARN / GON / 802 } */    
+
+950101 SYNSET-21e
+Arnor saidth would act now with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Synset development: open match in conventional pattern ]
+\n{ ARN / GON / 101 } */    
+
+950118  SYNSET-21f
+Calenardhon has recently strongly boldly assxrted its voice for Bree to win a 
+greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Second option in a alternative word set; multi-word pattern before verb 
+should skip intermediate word and match. Throw this in here just to make sure
+I haven't messed up the conditionals...but also run Validate.project...]
+\n{ CAL / BRE / 043 } ENDORSE */
+
+950101 SYNSET-22a
+Arnor will abandon new economic relations with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[synset upper match: internal consecutive]
+\n{ ARN / GON / 903 } */    
+
+950101 SYNSET-22b
+Arnor will abandon new global economic relations with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[synset upper match: internal consecutive; fails]
+\n{ ARN / GON / 345 } */    
+
+950101 SYNSET-22bb
+Arnor will abandon new global economic trade relations with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[synset upper match: internal consecutive; fails]
+\n{ ARN / GON / 345 } */    
+
+950101 SYNSET-22c
+Arnor will abandon improved economic relations with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[synset upper match: internal open]
+\n{ ARN / GON / 904 } */    
+
+950101 SYNSET-22d
+Arnor will abandon improved global economic relations with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[synset match: internal consecutive]
+\n{ ARN / GON / 904 } */    
+
+950111 SYNSET-22e
+Bree Prime Minister Romendacil unexpectedly now won't try to clash over the efforts of Eriadori to deal 
+with an orc infestation during a brief private trip to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Synset element in lower match, open connector]
+\n{ BREGOV / ERI / 906 }  */
+
+950111 SYNSET-22f
+Bree Prime Minister Romendacil most certainly won't ever clash over the efforts of Eriadori  
+to deal with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex synset pattern in lower match, closed connector]
+\n{ BREGOV / ERI / 907 }  */
+
+950111 SYNSET-22g
+Bree Prime Minister Romendacil most certainly really did not ever clash over the efforts of Eriadori  
+to deal with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex synset pattern in lower match, closed connector]
+\n{ BREGOV / ERI / 907 }  */
+
+950111 SYNSET-22h
+Bree Prime Minister Romendacil most certainly really did not even ever clash over the efforts 
+of Eriadori to deal with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex synset pattern in lower match, closed connector, fails]
+\n{ BREGOV / ERI / 907 }  */
+
+950111 SYNSET-22i
+Bree Prime Minister Romendacil most certainly really won't even ever clash over the efforts 
+of Eriadori to deal with an orc infestation during a brief private visit to Eriador starting on Sunday. 
+/*\n------------------------------------------------------------------ 
+\n[Complex synset pattern in lower match, closed connector, fails on 907]
+\n{ BREGOV / ERI / 905 }  */
+
+950118 SYNSET-23a
+Calenardhon welcomed memos from Bree on its role for in forthcoming peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match: no match]
+\n{ CAL / BRE / 041 } 950118 */
+
+950118 SYNSET-23b
+Calenardhon welcomed economic memos from Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match]
+\n{ CAL / BRE / 911 } 950118 */
+
+950118 SYNSET-23c
+Calenardhon welcomed economic rumors about Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match]
+\n{ CAL / BRE / 915 } 950118 */
+
+950118 SYNSET-23d
+Calenardhon welcomed economic memos not about Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match]
+\n{ CAL / BRE / 915 } 950118 */
+
+950118 SYNSET-23e
+Calenardhon welcomed cultural memos sent by Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match]
+\n{ CAL / BRE / 912 } 950118 */
+
+950118 SYNSET-23ee
+Calenardhon welcomed cultural secret memos sent by Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match; fails on a closed connector]
+\n{ CAL / BRE / 041 } 950118 */
+
+950118 SYNSET-23f
+Calenardhon welcomed memos on economic issue from Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match]
+\n{ CAL / BRE / 911 } 950118 */
+
+950118 SYNSET-23g
+Calenardhon welcomed cultural internal memos from Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match: fails on closed]
+\n{ CAL / BRE / 041  } 950118 */
+
+950118 SYNSET-23h
+Calenardhon welcomed cultural internal assurances sent by Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match: matches open]
+\n{ CAL / BRE / 914 } 950118 */
+
+950118 SYNSET-23i
+Calenardhon welcomed assurances on cultural issues from Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match: matches open]
+\n{ CAL / BRE / 913 } 950118 */
+
+950118 SYNSET-23j
+Calenardhon welcomed assurances on cultural issues sent from Bree on its role for in forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------
+\n[Recursive synset match: matches open]
+\n{ CAL / BRE / 913 } 950118 */
+
+950101 SYNSET-24a
+Arnor will contribute a million peso Bree to Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test of $ in a pattern. The tests in SYNSET-24* are essentially just a proof-of-concept
+\n and are not an exhaustive test <12.01.24>]
+\n{ BRE / GON / 903 } */    
+
+950101 SYNSET-24b
+Arnor is inching nearer to accord with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test with basic conditional ]
+\n{ ARN / GON / 083 } */    
+
+950101 SYNSET-24c
+Arnor is inching dollar exchange to accord with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test with synset inside a conditional ]
+\n{ ARN / GON / 083 } */    
+
+950101 SYNSET-24d
+Arnor is inching yen to accord with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test with synset inside a conditional; should fail due to consecutive on EXCHANGE ]
+\n{ ARN / GON / 072 } */    
+
+950101 SYNSET-24e
+Arnor is inching military to accord with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Test with synset inside a conditional ]
+\n{ ARN / GON / 083 } */    
+
+##################################################################
+#
+#                 INCORRECTLY FORMATTED INPUT
+#
+##################################################################
+
+920102  FBIS-002-001  CEP20020711000013
+2. -- Gollum participated in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of FBIS non-alphabetic prefixes
+\n{ HOB / GON / 111 } */
+
+000102  FBIS-003-001  CEP20020711000014
+UN Security Council resolution 1344 (2001), imposing mandatory UN sanctions 
+in relation to Liberia, was adopted on 7  March 2001. The resolution was 
+co-sponsored by the UK and US in response to the findings of the UN Expert 
+Panel on Sierra Leone on violations of the Sierra Leone arms embargo and the 
+link between the trade in diamonds and arms. The Security Council determined 
+that the active support provided by the Government of Liberia for armed rebel 
+groups in neighbouring countries, and in particular the RUF in Sierra Leone, 
+constitutes a threat to international peace and security in the region.
+/*\n------------------------------------------------------------------ 
+\nTest of FBIS paragraphs
+\n{+++} */
+
+920102  FBIS-004-001  CEP20020711000015
+Gollum, centre of a diplomatic row between Radagast the Brown,arrived 
+back in Gondor late Sunday after being allowed to leave Lorien by elves. 
+/*\n------------------------------------------------------------------ 
+\nCheck that FBIS document ID is picked up
+\n{ HOB / GON / 032 }
+\n{ GON / HOB / 033 }*/
+
+950112  DEBUG-08
+A choice of celebratory New Year drinks seemed the most obvious division between 
+opposing units of Bosnian soldiers toasting 1996 on Monday. NATO had some of 
+Bosnia's soldiers where it wanted them on a first New Year's day of peace -- 
+away from the frontline drinking to a future out of uniform. The first U.S 
+armoured cavalry troops in Bosnia are using an old collective farm with a 
+crop dusters' airstrip as a forward base for enforcing peace in the volatile 
+northeast. U.S military convoys rolled over the Sava river bridge into Bosnia on 
+Monday but numbers dropped to avoid creating a New Year's day army traffic jam.
+The first hint of a challenge to the authority of the NATO peace mission to 
+Bosnia emerged with a report that separatist Serbs had seized 11 civilians 
+travelling on roads in Sarajavo opened by peacekeepers.
+/*\n------------------------------------------------------------------ 
+\n[Excessive words (>MAX_LEX/SYNT) in record]
+\n{+++}*/
+
+020407 DEBUG-08a
+Also present on the occasion were Chairman of Yangon Division Peace and
+Development Council Commander Brig-Gen Myint Swe, ministers, deputy ministers,
+officials at the State Peace and Development Council Office, the ambassadors of
+foreign missions in Yangon, high-ranking delegates of the member countries of
+the Greater Mekong Subregion - Cambodia, the People's Republic of China, the
+Lao People's Democratic Republic, the Union of Myanmar, the Socialist Republic
+of Vietnam and Thailand; officials of Pacific Asia Travel Association (PATA);
+Asian Development Bank (ADB); Economic and Social Commission of Asia and
+Pacific (ESCAP); Agency for Coordinating Mekong Tourism Activities; UNESCO;
+tourism operators of 23 countries; officials of the Ministry of Hotels and
+Tourism and domestic tourism operators are a challenge to the authority of 
+the NATO peace mission as Bosnia emerged with a report that separatist Serbs 
+had seized 11 civilians travelling on roads in Sarajavo opened by peacekeepers.
+/*\n------------------------------------------------------------------ 
+\n[Excessive words in record]
+\n{+++}*/
+
+950112  DEBUG-08b
+A choice of celebratory New Year drinks seemed the most obvious division between 
+opposing units of Bosnian soldiers toasting 1996 on Monday. NATO had some of 
+Bosnia's soldiers where it wanted them on a first New Year's day of peace -- 
+away from the frontline drinking to a future out of uniform. The first U.S 
+armoured cavalry troops in Bosnia are using an old collective farm with a 
+crop dusters' airstrip as a forward base for enforcing peace in the volatile 
+northeast. U.S military convoys rolled over the Sava river bridge into Bosnia on 
+Monday but numbers dropped to avoid creating a New Year's day army traffic jam.
+The first hint of a challenge to the authority of the NATO peace mission to 
+Bosnia emerged with a report that separatist Serbs had seized 11 civilians 
+travelling on roads in Sarajavo opened by peacekeepers.
+A choice of celebratory New Year drinks seemed the most obvious division between 
+opposing units of Bosnian soldiers toasting 1996 on Monday. NATO had some of 
+/*\n**
+\n------------------------------------------------------------------ 
+\n[Excessive characters (> MAX_SENTENCE) in text with default values; 
+\nshould truncate and add this to end of text, as well as filing error 
+\nreport in errorfile. The validation record is in this odd place so that
+\nit won't get zapped by the truncation...]
+\n{+++}
+\n------------------------------------------------------------------ 
+\n** */
+Bosnia's soldiers where it wanted them on a first New Year's day of peace -- 
+away from the frontline drinking to a future out of uniform. The first U.S 
+armoured cavalry troops in Bosnia are using an old collective farm with a 
+crop dusters' airstrip as a forward base for enforcing peace in the volatile 
+northeast. U.S military convoys rolled over the Sava river bridge into Bosnia on 
+Monday but numbers dropped to avoid creating a New Year's day army traffic jam.
+The first hint of a challenge to the authority of the NATO peace mission to 
+Bosnia emerged with a report that separatist Serbs had seized 11 civilians 
+travelling on roads in Sarajavo opened by peacekeepers.
+A choice of celebratory New Year drinks seemed the most obvious division between 
+opposing units of Bosnian soldiers toasting 1996 on Monday. NATO had some of 
+Bosnia's soldiers where it wanted them on a first New Year's day of peace -- 
+away from the frontline drinking to a future out of uniform. The first U.S 
+armoured cavalry troops in Bosnia are using an old collective farm with a 
+crop dusters' airstrip as a forward base for enforcing peace in the volatile 
+northeast. U.S military convoys rolled over the Sava river bridge into Bosnia on 
+Monday but numbers dropped to avoid creating a New Year's day army traffic jam.
+The first hint of a challenge to the authority of the NATO peace mission to 
+Bosnia emerged with a report that separatist Serbs had seized 11 civilians 
+travelling on roads in Sarajavo opened by peacekeepers.
+
+950112  DEBUG-10
+Eriador has called for a boycott against Osgiliath, the state's fiercest foe 
+ABosniangovernmentministersaidonMondayseparatistSerbshadseized11civilianstravellingonroads 
+NATO has opened around Sarajevo. 
+/*\n------------------------------------------------------------------ 
+\n[Excessive characters in a literal; program should automatically break it ]
+\n{ ERI / OSG / 172  }*/
+
+000423   DEBUG-21
+Following is the medals table after the seventh day competition at the world
+athletics championships on Thursday (tabulated under - gold, silver, bronze):
+Prince of Dol_Amroth434 Gondor374
+Arnor222 Dagolath221
+Osgiliath221 Elrond212
+Mordor120 Frodo111
+Bilbo110 Barad-Dur110
+Bree102 Lorien102
+Eriador101 Gollum101
+Lorien101 Bulgaria100 Ithilen
+TELEVISION100 Senegal100
+Taiwan100 Saudi021
+France010 Italy010
+Iran010 Iraq010
+India010 Indonesia001
+Kuwait001 Lebanon001 Radagast
+the Brown001 Libya001 Note: Two silvers, no
+bronze, awarded in men's high jump.
+/*\n------------------------------------------------------------------ 
+\n Involves non-printing characters and bad formatting that caused 
+a crash in earlier versions
+\n{ +++ } */
+
+000423   DEBUG-22
+Following is the medals table after the seventh day competition at the 
+world athletics championships on Thursday (tabulated under - gold, silver, 
+bronze): United States43
+/*\n------------------------------------------------------------------ 
+\n Involves non-printing characters and bad formatting that caused 
+a crash in earlier versions
+\n{ +++ } */
+
+##################################################################
+#
+#                     NOUN MARKING
+#
+##################################################################
+
+950101  NOUN-01
+Arnor is about to restore full diplomatic ties with Boromir in Gondor  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n[Null-coded actor in sentence; should convert to noun]
+\n{ ARN / GON / 064 } */    
+
+950101  NOUN-02
+Arnor is about to restore full diplomatic ties with the Prince of Dol
+Amroth in Gondor almost five years after crowds trashed its embassy. 
+/*\n------------------------------------------------------------------
+\n[Null-coded actor phrase  due to date restriction in sentence; should convert to noun]
+\n{ ARN / GON / 064 } */    
+
+960101  NOUN-03
+Arnor is about to restore full diplomatic ties with the Prince of Dol
+Amroth in Gondor almost five years after crowds trashed its embassy. 
+/*\n------------------------------------------------------------------
+\n[Actor phrase is active in sentence; should be coded]
+\n{ ARN / DOL / 064 } */    
+
+950101  NOUN-04
+Arnor is about to restore good diplomatic ties with the Group of 77  
+almost five years after evil forces had a meeting at its embassy.
+ /*\n------------------------------------------------------------------
+\n[Test for the typing of an assortment of nouns and adjectives ]
+\n{ ARN / G77 / 064 }   */    
+
+
+##################################################################
+#
+#                      COMPOUND PHRASES
+#
+##################################################################
+
+950102  COMPOUND-01
+Old foes Gondor and Osgiliath have renewed diplomatic ties after a 
+12-year break in a step that holds advantages for both major 
+powers. 
+/*\n------------------------------------------------------------------
+\n[Start of tests of compounds.  Note that some of these contain
+incomplete lists of the actual events generated.
+\nSymmetric event: same code with source/target reversed ]
+\n{ GON / OSG / 064 } 950102      
+\n{ OSG / GON / 064 } 950102  */    
+
+950104  COMPOUND-02
+Fornost and Gondor welcomed a resumption of formal diplomatic ties with  
+Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Codes a compound source]
+\n{ FOR / OSG / 041 } 950104
+\n{ GON / OSG / 041 } 950104  */    
+
+950104  COMPOUND-03
+Fornost welcomed a resumption of formal diplomatic ties between Gondor 
+and Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Codes a compound target]
+\n{ FOR / GON / 041 } 950104      
+\n{ FOR / OSG  / 041 } 950104  */  
+
+950104  COMPOUND-04
+Fornost and Gondor welcomed a resumption of formal diplomatic ties
+between Eriador and Osgiliath after a 12-year rift, the official news
+agency WFNA said on Thursday . 
+/*\n------------------------------------------------------------------
+\n[Codes a compound source and target]
+\n{ FOR / ERI / 041 } 950104      
+\n{ FOR / OSG / 041 }       
+\n{ GON / ERI / 041 } 950104      
+\n{ GON / OSG / 041 } 950104   */    
+
+950104  COMPOUND-05
+Mordor, Rohan, Fornost and Bree welcomed a resumption of formal 
+diplomatic ties between Gondor and Osgiliath after a 12-year rift, the 
+official news agency WFNA said on Thursday . 
+/*\n------------------------------------------------------------------
+\n[Codes a compound comma delimited source and target]
+\n{  ORC / GON / 041 } (PRAISE)    WELCOMED 
+\n{  ORC / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  ROH / GON / 041 } (PRAISE)    WELCOMED 
+\n{  ROH / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  FOR / GON / 041 } (PRAISE)    WELCOMED 
+\n{  FOR / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  BRE / GON / 041 } (PRAISE)    WELCOMED 
+\n{  BRE / OSG / 041 } (PRAISE)    WELCOMED 
+*/     
+
+950104  COMPOUND-06
+Fornost and Gondor welcxmed a resumption of formal diplomatic ties
+ between Gondor and Osgiliath after a 12-year rift, the official news
+ agency WFNA said on Thursday . 
+/*\n------------------------------------------------------------------ 
+\n[Codes a paired compound source 
+\n{ FOR / GON / 044 } 950104      
+\n{ GON / FOR / 045 } 950104      
+\n{ GON / FOR / 044 } 950104      
+\n{ FOR / GON / 045 }   /*
+
+950104  COMPOUND-07
+Mordor, the Shire, Fornost and Bree welcomed a resumption of formal 
+diplomatic ties between Minas Tirith and Osgiliath after a 12-year rift,  
+the official news agency WFNA said on Thursday . 
+/*\n------------------------------------------------------------------
+\n[Codes a compound comma delimited source and target with multi-word
+roots.  ### Output records listed below aren't complete ###]
+\n{  ORC / GON / 041 } (PRAISE)    WELCOMED 
+\n{  ORC / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  FRO / GON / 041 } (PRAISE)    WELCOMED 
+\n{  BIL / GON / 041 } (PRAISE)    WELCOMED 
+\n{  SAM / GON / 041 } (PRAISE)    WELCOMED 
+\n{  FRO / OSG / 041 } (PRAISE)    WELCOMED 
+\n{  BIL / OSG / 041 } (PRAISE)    WELCOMED 
+\n-{ --- / --- / 000 }
+*/
+
+950102  COMPOUND-08
+Old foes Gondor, the Shire, and Osgiliath have renewed diplomatic ties after a 
+12-year break in a step that holds advantages for both major 
+powers. 
+/*\n------------------------------------------------------------------
+\n[Symetric compound with coded compound and multi-word root; generates
+about 32 events] 
+\n-{ --- / --- / 000 }
+*/    
+
+950101  COMPOUND-09
+The Shire is about to restore full diplomatic ties with Lorien almost 
+five years after crowds burned down its embassy. 
+/*\n------------------------------------------------------------------
+\n[Tests coded compounds]
+\n{ FRO / ELR / 064 }   
+\n{ FRO / GAL / 064 }   
+\n{ BIL / ELR / 064 }   
+\n{ BIL / GAL / 064 }   
+\n{ SAM / ELR / 064 }   
+\n{ SAM / GAL / 064 } */    
+
+950104  COMPOUND-10
+Fornost and the evil awful Gondor welcomed a resumption of formal diplomatic  
+ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Codes a simple compound source with adjectives]
+\n{ FOR / OSG / 041 }
+\n{ GON / OSG / 041 } */    
+
+950104  COMPOUND-11
+Evil Mordor, the awful Fornost, and good Gondor welcomed a resumption of formal   
+diplomatic ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Codes a multiple compound source with determiner and adjectives]
+\n{ ORC / OSG / 041 } 
+\n{ FOR / OSG / 041 } 
+\n{ GON / OSG / 041 }   */    
+
+950104  COMPOUND-12
+Arnor, Calenardhon and the evil awful Gondor welcomed a resumption of formal diplomatic  
+ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Multiple actors in initial phrase]
+\n{ ARN / OSG / 041 }
+\n{ CAL / OSG / 041 }
+\n{ GON / OSG / 041 } */    
+
+950104  COMPOUND-13
+Calenardhon and the evil Arnor awful Gondor welcomed a resumption of formal diplomatic  
+ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Multiple actors in second phrase: is this a bug or a feature?? 
+\n{ CAL / OSG / 041 }
+\n{ ARN / OSG / 041 }
+\n{ GON / OSG / 041 } */    
+
+950104  COMPOUND-14
+The lions and the evil awful Gondor welcomed a resumption of formal diplomatic  
+ties with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Should not detect compound]
+\n{ GON / OSG / 041 } */    
+
+950104  COMPOUND-15
+Lions, tigers, and Gondor welcomed a resumption of formal diplomatic ties  
+with Osgiliath after a 12-year rift, the official news agency WFNA said 
+on Thursday. 
+/*\n------------------------------------------------------------------\n 
+[Should not detect compound]
+\n{ GON / OSG / 041 }   */    
+
+990809  COMPOUND-16 
+Ithilen's awful and evil minister Calimehtar warned of the Prince of 
+Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest <adjctv><conj><adjctv> construction; ; shouldn't generate a
+compound phrase
+\n{ ITH / DOL / 160 } */
+
+990809  COMPOUND-17 
+Ithilen's awful and cool minister Calimehtar warned of the Prince of 
+Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest <adjctv><conj><adjctv> construction; COOL is not designated an
+adjective so this will generate a compound phrase, but not code the 
+first phrase
+\n{ CALGOV / DOL / 160 }  */
+
+990809  COMPOUND-18 
+Ithilen's sheep and goats of Gondor warned of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest of <actor><noun><conj><noun> construction; shouldn't generate a
+compound phrase
+\n{ ITH / DOL / 160 }  */
+
+990809  COMPOUND-19 
+Ithilen's sheep and pigs of Gondor warned of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest of <actor><noun><conj><noun> construction; PIGS is not designated a
+noun so this will generate a compound phrase, but not code the first
+phrase
+\n{ GON / DOL / 160 }  */
+
+990809  COMPOUND-20 
+Ithilen and the Gondor warned at the Gondor of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest <actor><conj><detr><actor> construction
+\n{ ITH / DOL / 162 } 
+\n{ GON / DOL / 162 } */
+
+920102  COMPOUND-21
+Neither Galadriel nor Gollum participated in an anti- Gondor parade 
+on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of NOR conjunction
+\n{ ELF / GON / 111 } 
+\n{ HOB / GON / 111 } */
+
+990809  COMPOUND-22 
+Danish shot and wounded Gondor in six days of fighting. 
+/*\n------------------------------------------------------------------ 
+\nTest verb containing a conjunction
+\n{ DEN / GON / 223 }*/
+
+990809  COMPOUND-23 
+Danish birds and bees warned at the Gondor of the Prince of Dol_Amroth. 
+/*\n------------------------------------------------------------------ 
+\nTest <noun><conj><noun> construction when first noun is part of an
+actor phrase
+\nCurrently doesn't work -- deactivated
+\n-{ DANBRD / DOL / 162 }*/
+
+950108  COMPOUND-24
+The ambassadors of Arnor, Osgiliath and Gondor presented their 
+credentials to Ithilen's president on Wednesday in a further 
+show of support to his government by their countries. 
+/*\n------------------------------------------------------------------ 
+\n[10.01.08: This is more of a bug than a feature: what is happening here is that
+THEIR is dereferenced and creates a <cmp> <verb> <cmp> structure rather than
+getting ITHILEN as the target: the effect is as though we had a reflexive
+code. Incorrect use of the pronoun, but a strong test of dereferencing a
+compound so I'm leaving it here. Also we've got a problem of not passing the
+agent into the compound -- see DEMO-08. ]
+\n{ ARNGOV / OSG / 032 } 950108      
+\n{ ARNGOV / GON / 032 } 950108      
+\n{ OSG / ARNGOV / 032 } 950108      
+\n{ OSG / GON / 032 } 950108      
+\n{ GON / ARNGOV / 032 } 950108 
+\n{ GON / OSG / 032 } 950108 */
+
+
+##################################################################
+#
+#                      ALL-CAPS DETECTION
+#
+##################################################################
+
+950101  CAPS-01
+ARNOR IS ABOUT TO RESTORE FULL DIPLOMATIC TIES WITH GONDOR ALMOST 
+FIVE YEARS AFTER CROWDS TRASHED ITS EMBASSY, A SENIOR OFFICIAL 
+SAID ON SATURDAY. 
+/*\n------------------------------------------------------------------
+\n[Test of ALL CAPS detection]
+\n{ ARN / GON / 064 } */    
+
+950102  CAPS-02
+ARNOR HAS EXCHANGED PRISONERS WITH GONDOR AND OSGILIATH AFTER A 
+HAFLING WAS REPORTED ON THE PASS OF CIRITH UNGOL. 
+/*\n------------------------------------------------------------------
+\n[Test of ALL CAPS detection]
+\n{ GON / OSG / 067 }      
+\n{ OSG / GON / 067 }  */    
+
+
+##################################################################
+#
+#                      CLAUSE MARKING
+#
+##################################################################
+
+950101  CLAUSE-01
+Arnor is about, to restore full diplomatic ties with, Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Deletion of subordinate clauses]
+\nNo events {---} */    
+
+950105  CLAUSE-03
+Gondor accepts that Calenardon might affirm an attack by sheep and evil awful goats 
+from Osgiliath soldiers assailing  south Ithilen but Dagolath promised aid to 
+the affected Ithilen towns 
+/*\n------------------------------------------------------------------ 
+\n Check that sentence doesn't split clauses on the compound noun 
+\n BY CLAUSE
+\n{ GON / OSGMIL / 042 }
+\n{ DAG / ITH / 050 } */
+
+
+##################################################################
+#
+#                     HYPHEN CONVERSION
+#
+##################################################################
+
+950102  TEXT-01
+The United States Attorney General John Ashcroft warned the Al-Gore terrorist 
+group to stay out of Florida. 
+/*\n------------------------------------------------------------------
+\nTest of actor containing a hyphen
+adjacent $ ^  
+\n{ USAGOV / AGR / 160 }  */    
+
+950102  TEXT-02
+The United Nations warned Al Gore to stay out of Florida. 
+/*\n------------------------------------------------------------------
+\nText of non-hyphenated version of the same actor 
+\n{ UNO / AGR / 160 }  */    
+
+950102  TEXT-03
+The United Nations warned Al "The Weasel" Gore to stay out of Florida. 
+/*\n------------------------------------------------------------------
+\nText of non-hyphenated version of the same actor 
+\n{ UNO / TEN / 160 }  */    
+
+
+##################################################################
+#
+#                    PRONOUN COREFERENCING
+#
+##################################################################
+
+950118  PRON-01
+Calenardhon urged Bree on Monday to chill out and then it requested that 
+Elrond assist with a greater role in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[basic pronoun tests: these should be dereferenced and used in coding.
+The use of "and then" forces the second verb to be coded without subject
+forwarding; also see the SET: CODE ALL records with the PRON-xxA identifiers]
+\n{ CAL / BRE / 102 }  
+\n{ CAL / ELF / 092 } */
+
+950118  PRON-02
+Galadriel urged Bree on Monday to chill out and then she asked Gondor to 
+assist her to win a greater role as she organized the forthcoming peace 
+talks.
+/*\n------------------------------------------------------------------ 
+\n{ ELF / BRE / 102 } 950118
+\n{ ELF / GON / 090 } 950118 */
+
+950118  PRON-03
+Elrond urged Bree to chill out and Gondor asked him to take a greater 
+role in the forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n{ ELF / BRE / 102 } 950118
+\n{ GON / ELF / 090 } 950118 */
+
+950118  PRON-04
+Elrond and Gondor urged Bree on Monday  to chill out and then they 
+requested that Rohan assist them to win a greater role in the forthcoming 
+peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Pronoun tests: dereferencing of a compound]
+\n{ ELF / BRE / 102 } 950118
+\n{ GON / BRE / 102 } 950118
+\n{ ELF / ROH / 092 } 950118
+\n{ GON / ROH / 092 } 950118 */
+
+
+##################################################################
+#
+#                     PASSIVE VOICE
+#
+##################################################################
+
+950112  PASV-01
+Eriador was opposed by Osgiliath, the state's fiercest foe, 
+in being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic detection of passive voice in a simple verb]
+\n{ OSG / ERI / 112 } */
+
+950112  PASV-02
+Eriador was fiercely opposed by Osgiliath, the state's fiercest foe, 
+in being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic detection of passive voice in a simple verb plus adverb]
+\n{ OSG / ERI / 112 }   */
+
+950112  PASV-03
+Eriador has been received by courier money from Osgiliath, the state's 
+fiercest foe, to be drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Cancellation of passive voice actor switching by +/$ pattern fitting;
+\n(order is still OSG-ERI, but it is set by the pattern)]
+\n{ OSG / ERI / 071 }  */
+
+950112  PASV-04
+Eriador was opposed earlier by Osgiliath, the state's fiercest foe, 
+in being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic detection of passive voice in a verb followed by a 
+\n modifier, which failed in earlier versions]
+\n{ OSG / ERI / 112 } */
+
+950112  PASV-05
+Rebuked by Eriador, the state's fiercest foe, 
+Osgiliath is being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Generated an array bounds problem in earlier versions; goes to 
+\n complex since no actor before verb]
+\n{ +++ }   */
+
+
+##################################################################
+#
+#                          DISCARD CODES
+#
+##################################################################
+
+950105  DISCARD-1
+Gondor's hopes of success in their first World Cup soccer finals 
+since 584 have been shaken by the loss of their top scorer, 
+seriously injured in a car accident. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic rejection of an event due to verb in the discard list]
+\n{###} */
+
+950105  DISCARD-2
+The Nasgul said on Friday that an arms embargo against Mordor would not 
+work and warned that a blockade of the Bay of Belfalas would harm all  
+countries of the region. 
+/*\n------------------------------------------------------------------ 
+\n[Discard code in source] 
+\n{###}*/
+
+950105  DISCARD-02
+The information ministry of Mordor and Nasgul said on Friday that an arms 
+embargo against Mordor would not  work and warned that a blockade of 
+the Bay of Belfalas would harm all countries of the region. 
+/*\n------------------------------------------------------------------ 
+\n[Discard code in compound source]
+\n{###} */
+
+950105  DISCARD-03
+Mordor said on Friday that an arms embargo against the Nasgul would not 
+work and warned that a blockade of the Bay of Belfalas would harm all  
+countries of the region. 
+/*\n------------------------------------------------------------------ 
+\n[Discard code in target] 
+\n{###}*/
+
+950101  DISCARD-04
+Arnor is about to restore full diplxmatic ties with Gondor almost 
+five years after crowds burned down its USSR embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n[Discard coding from verb]
+\n{###} */
+
+950101  DISCARD-05
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after Onodoher crowds burned down its embassy, a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should go to a discard because there is a dated discard code
+on Onodoher
+\n{###}*/
+
+910101  DISCARD-06
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after Onodoher crowds burned down its embassy, a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Should not discard because of the dated discard code
+\n{ ARN / GON / 064 } 910101  
+*/
+
+
+##################################################################
+#
+#                        COMPLEX CODES
+#
+##################################################################
+
+950105  COMPLEX-01
+Gondor blasted Dagolath in their first Planetary Cup final despite 
+the loss of their top scorer. 
+/*\n------------------------------------------------------------------ 
+\n[Complex code in verb pattern] 
+\n{+++}*/
+
+950105  COMPLEX-02
+Isildur repelled Dagolath in their first Planetary Cup final despite 
+the loss of their top scorer. 
+/*\n------------------------------------------------------------------ 
+\n[Complex code in source] 
+\n{+++}*/
+
+950105  COMPLEX-03
+Gondor repelled Isildur in their first Planetary Cup final despite 
+the loss of their top scorer. 
+/*\n------------------------------------------------------------------ 
+\n[Complex code in target] 
+\n{+++}*/
+
+950105  COMPLEX-04
+Gondor alleged and acknowledged that Calenardon might affirm
+an attack by Osgiliath soldiers allowed in south Ithilen  but promised
+aid to the affected Ithilen and Dagolath towns 
+/*\n------------------------------------------------------------------ 
+\n[Excessive number of verbs (5) 
+\n{+++}*/
+
+950105  COMPLEX-05
+Gondor alleged and acknowledged that Calenardon might affirm
+an attack by Osgiliath soldiers allowed in south Ithilen  but the promised
+aid went to the affected Ithilen and Dagolath towns 
+/*\n------------------------------------------------------------------ 
+\n Should code rather than triggering complex -- "the promised" goes to noun 
+\n{ OSGMIL / ITH / 023} */
+
+950105  COMPLEX-06
+On accord Gondor repelled Mordor in their first Planetary Cup final despite 
+the loss of their top scorer. 
+/*\n------------------------------------------------------------------ 
+\n[Null-coded verb before actor; should not reject] 
+\n{ GON / ORC / 223} */
+
+950105  COMPLEX-07
+Gondor accepts and acknowledged that Calenardon might affirm or allow
+an attack by Osgiliath soldiers in south Ithilen or north Belfalas on 
+Thursday but promise aid to the affected Ithilen and Dagolath towns 
+/*\n------------------------------------------------------------------ 
+\n[Excessive number of conjunctions (4).  (Conjunctions 
+are 4 rather than 5 because "Ithilen and Dagolath" is a compound
+\n{+++}*/
+
+950105  COMPLEX-C08
+Red Cross accepts that Secretary General might affirm or allow
+an attack by Osgiliath soldiers in south Ithilen on Thursday
+/*\n------------------------------------------------------------------ 
+\n[Should not discard provided we are counting actor phrases rather than
+words.  Needs COMPLEX ACTORS[5] to check correctly; otherwise always
+accepts.]
+\n { NGO / UNO / 042}
+\n { NGO / OSGMIL / 060} */
+
+950105  COMPLEX-C09
+Gondor called on Calenardon to affirm or cast doubt that it carried out
+an attack by Osgiliath soldiers in south Ithilen on Thursday
+/*\n------------------------------------------------------------------ 
+\n[Should not discard provided we are counting verb phrases rather than
+words
+\n{ GON / OSGMIL / 141}*/
+
+
+##################################################################
+#
+#                   DATE RESTRICTIONS
+#  Note: This was never really completed and a full logical set
+#        of these would be useful
+#
+##################################################################
+
+950101  DATE-01
+Axnor is about to restore full diplomatic ties with Gondor almost 
+five years after Ent crowds burned down its embassy, a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check dated code [AR1 <911226] [AR2] >
+\n{ AR2 / GON / 064 } 
+*/
+
+910101  DATE-02
+Axnor is about to restore full diplomatic ties with Gondor almost 
+five years after Onodoher crowds burned down its embassy, a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Check dated code [AR1 <911226]
+\n{ AR1 / GON / 064 } 
+*/
+
+
+##################################################################
+#
+#                        AGENTS
+#
+##################################################################
+
+950101  AGENTS-1
+Arnor security officials are about to restore full diplomatic 
+ties with Gondor police. 
+/*\n------------------------------------------------------------------
+\n[Suffixed agent coding]
+\n{ ARNGOV / GONCOP / 064 } */    
+
+950101  AGENTS-2
+White House security officials are about to restore full diplomatic 
+ties with Minas Tirith border police. 
+/*\n------------------------------------------------------------------
+\n[Multi-word suffixed agents ]
+\n{ USAGOV / GONCOP / 064 } */    
+
+950101  AGENTS-3
+Human rights activists in Arnor are about to restore 
+full diplomatic ties with human rights activists Gondor. 
+/*\n------------------------------------------------------------------
+\n[Prefixed agent, with and without preposition ]
+\n{ NGMARN / NGMGON / 064 } */    
+
+950101  AGENTS-4
+Human rights activists Amnesty International are about to restore 
+full diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------
+\n[Prefixed agent should not be prefixed to the code]
+\n{ NGM / GON / 064 } */    
+
+950101  AGENTS-5
+Washington security officials are about to restore full diplomatic 
+ties with Gondor. 
+/*\n------------------------------------------------------------------
+\n[Redundant agent should not be suffixed to the code]
+\n{ USAGOV / GON / 064 } */    
+
+950101  AGENTS-6
+White House security officials are about to restore full diplomatic 
+ties with Gondor. 
+/*\n------------------------------------------------------------------
+\n[Redundant agent should not be suffixed to the code]
+\n{ USAGOV / GON / 064 } */    
+
+950101  AGENTS-7
+The Quibbler government newspaper is about to restore full diplomatic 
+ties with Gondor now. 
+/*\n------------------------------------------------------------------
+\n[Redundant 6-char agent should not be suffixed to the code]
+\n{ HGWGOVMED / GON / 064 } */    
+
+950101  AGENTS-8
+Human rights activists Amnesty International are about to restore 
+full diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------
+\n[Redundant agent should not be prefixed to the code]
+\n{ NGM / GON / 064 } */    
+
+950101  AGENTS-8
+Arnor former security officials are about to restore full diplomatic 
+ties with former Gondor prosecutors. 
+/*\n------------------------------------------------------------------
+\n[FORMER conversion agent coding]
+\n{ ARNELI / GONELI / 064 } */    
+
+950101  AGENTS-9
+Former security officials in White House are about to restore full 
+diplomatic ties with former Minas Tirith border police. 
+/*\n------------------------------------------------------------------
+\n[FORMER prior to prefixed agent ]
+\n{ USAGOVELI / GONELI / 064 } */    
+
+950101  AGENTS-10
+West German world government activists are about to restore 
+full diplomatic ties with human rights activists of Gonzo GMO. 
+/*\n------------------------------------------------------------------
+\n[Check that the internal 'WGO', NGM is not removed ]
+\n{ GMWGOVWGO / NGMGONGMO / 064 } */   
+
+950101  950101  AGENTS-11
+White House security officials are about to restore full diplomatic 
+ties with Gondor and Arnor. 
+/*\n------------------------------------------------------------------
+\n[checks for a bug discovered by VanB when an actor-agent is followed
+\n by a compound]
+\n{ USAGOV / GON / 064 } */    
+\n{ USAGOV / ARN / 064 } */    
+
+
+##################################################################
+#
+#                        AGENT CONVERSION
+#
+##################################################################
+
+950101  CONV-Modify
+Changing the .options file command to activate agent conversion 
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: CONVERT AGENT = TRUE } */    
+
+950101  CONV-01
+Arnor is about to restore full diplomatic ties with the Muslims almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple target agent]
+\n{ ARN / ~MOS / 064 } */    
+
+950101  CONV-02
+Arnor is about to restore full diplomatic ties with fundamentalist jihad almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[multi-word target agent]
+\n{ ARN / ~MOSREB / 064 } */    
+
+950101  CONV-03
+Guerrillas are about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple target agent]
+\n{ ~REB / GON / 064 } */    
+
+950101  CONV-04
+Security forces are about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[multi-word target agent]
+\n{ ~MIL / GON / 064 } */    
+
+950101  CONV-05
+Security forces are about to restore full diplomatic ties with fundamentalist jihad almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Multi-word source and target agent]
+\n{ ~MIL / ~MOSREB / 064 } */    
+
+950107  CONV-07
+Arnor believes police and security forces can cope with a decrease in vital 
+water from the mighty Entwash river when a major dam is filled next 
+month. 
+/*\n------------------------------------------------------------------ 
+\n[Compound target]
+\n{ ARN / ~COP / 023 } 950206      
+\n{ ARN / ~MIL / 023 } 950206 */
+
+950107  CONV-07
+Clerics and lawmakers believe Dagolath and Osgiliath can cope with a decrease in vital 
+water from the mighty Entwash river when a major dam is filled next 
+month. 
+/*\n------------------------------------------------------------------ 
+\n[Compound source and target]
+\n{ ~MOS / DAG / 023 } 950206      
+\n{ ~MOS / OSG / 023 } 950206      
+\n{ ~LEG / DAG / 023 } 950206 
+\n{ ~LEG / OSG / 023 } 950206 */
+
+950101  CONV-Restore
+Changing the .options file command to deactivate agent conversion 
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: CONVERT AGENT = FALSE } */    
+
+
+##################################################################
+#
+#                       MISCELLANEOUS
+#  Note: Some of these are actually fairly specific to some of
+#        the features tested above, and could be moved
+#
+##################################################################
+
+881027  DEBUG-01
+Mordor was reported on Friday to have reinforced its positions  
+near Durthang and an Orc leader said the move could be a 
+prelude to military action.  
+/*\n------------------------------------------------------------------ 
+\n[DURTHANG ORC is coded across the conjunction AND; this will cause
+problems if compounds aren't checking for actor headtags.  The 
+unlimited construction DURTHANG...ORC is not recommended but shows
+up occasionally in KEDS dictionaries ]
+\n { ORC / MORORC / 025 }
+\n { ORC / MORORC / 023 } */
+
+880102  DEBUG-02
+A Calenardhon militia chief said on Saturday an outpost of 
+Durthang should be set up in areas not controlled by rebel 
+Orc forces.  
+/*\n------------------------------------------------------------------ 
+\n[Same problem with the root "DURTHANG ORC", now it is coded across 
+the verbs SHOULD and SET_UP. This can cause problems in the default
+actor searches ]
+\n{CAL  /   MORORC / 102 } */
+
+950101  DEBUG-03
+Arnor is about to restore full diplomatic ties with Gondor now. 
+/*\n------------------------------------------------------------------
+\n[Simple coding]
+\n{ ARN / GON / 064 } */    
+
+950101  DEBUG-04
+Arnor is about to restore full diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------
+\n[Simple coding with target at end of sentence]
+\n{ ARN / GON / 064 } */    
+
+950115  DEBUG-05
+Arnor suggested never Gondor should demand Shriners conventions in its 
+dealings with Rohan, an Arnorian embassy spokesman he said.
+/*\n------------------------------------------------------------------ 
+\n Could cause problem with pronoun in subordinate clause if attribution 
+is used and tail tags not set correctly
+\n { ARN / ROH / 171 } */
+
+950115  DEBUG-06
+Arnor and Gondor Defense Ministers Arnor and Gondor appealed for peace in its 
+dealings with Rohan, an Arnorian embassy spokesman he said.
+/*\n------------------------------------------------------------------ 
+\n Duplicate codes in compound phrase -- mimics behavior of compound involving
+states followed by names of leaders (which is barely grammatically correct, but
+occurs...).  Should code okay provided target follows verb.
+\n { ARN / ROH / 095 } 
+\n { GON / ROH / 095 } */
+
+950112  DEBUG-07
+And Eriador has called for a boycott against Osgiliath, the state's fiercest foe. 
+/*\n------------------------------------------------------------------ 
+\n[Conjunction at beginning of sentence]
+\n{ ERI / OSG / 172  }*/
+
+920102  DEBUG-09
+Gollum participated in an anti- Gondor parade on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of adding an "anti-" prefix (05.05.03: this is probably redundant)
+\n{ HOB / GON / 111 } */
+
+830809  DEBUG-11
+The recent flare-up in fighting between Eriador and Osgiliath on their northern 
+and central fronts has alarmed Gondor, which fears it may be sucked into the 
+three-year-old conflict between its neighbors. 
+/*\n------------------------------------------------------------------ 
+\n[Pronoun dereferencing another pronoun dereferencing a compound;
+\nturn off complex filter to get this to code ]
+\n{+++}
+\n{ ERI / OSG / 223  }
+\n{ OSG / ERI / 223  }
+\n{ GON / ERI / 022  }
+\n{ GON / OSG / 022  }*/
+
+820727  DEBUG-12
+Gondor launched a new bombing and shelling offensive against besieged 
+Osgiliath during the night following daylight raids in which 
+Arnor spokesmen said 54 civilians were killed or injured. 
+/*\n------------------------------------------------------------------ 
+\n[Conjunction at next to last position in sentence; could cause 
+\nproblems with clause marking]
+\n{ GON / ARN / 220 }*/
+
+820727  DEBUG-13
+Prince of Dol Amroth launched a new bombing offensive against besieged 
+Osgiliath during the night following their daylight raids in which 
+Arnor spokesmen said 54 civilians were killed. 
+/*\n------------------------------------------------------------------ 
+\n[Embedded null-coded actors with pronoun derefence; Parser:markNouns needs 
+\nto skip over embedded tags.  Rejected on a complex (no actor before verb), but 
+\nlook to be sure parse dereferences THEIR to OSGILIATH]
+\n{ +++ }*/
+
+820727  DEBUG-14
+Anthony of Dol Amroth tanks launched a new bombing offensive against besieged 
+Osgiliath during the night following their daylight raids in which 
+Arnor spokesmen said 54 civilians were killed. 
+/*\n------------------------------------------------------------------ 
+\n[Second word in an actor phrase -- AMROTH TANKS -- is also used in the  
+match of a verb pattern.]
+\n{  AMRTNK / OSG / 224 }*/
+
+950101  DEBUG-15
+Arnor is about to restore full diplomatic ties with the Group of 77  
+almost five years after crowds trashed its embassy, a senior official 
+said on Saturday.
+ /*\n------------------------------------------------------------------
+\n[Actor phrase that contains a number]
+\n{ ARN / G77 / 064 }   */    
+
+950101  DEBUG-16
+Arnor called upon the Group of 77 to support its position against Mordor
+ /*\n------------------------------------------------------------------
+\n[Verb phrase containing multiple words]
+\n{ ARN / G77 / 097 }   */    
+
+000423   DEBUG-17
+Among them was the Prince of Dol_Amroth, associated with the IMF
+and Red Cross, and Elrond the chief of military attack intelligence.
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of compound and subordinate phrases that caused
+ a crash/infinite loop in earlier versions
+\n{ DOL / ELF / 223 } */
+
+000423   DEBUG-17a
+Among them was the Prince of Dol_Amroth, associated with the IMF
+and Red Cross, and Elrond the chief of military intelligence.
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of compound and subordinate phrases that caused
+ a crash/infinite loop in earlier versions
+\n{ --- } */
+
+000423   DEBUG-18
+Resumption of ties between Arnor and Gondor may spur reconciliation 
+between Calenardhon and Gondor, and Gondor and Dagolath, the Osgiliath
+newspaper al-Raya said on Friday. 
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of multiple compound phrases that caused
+ a crash/infinite loop in earlier versions
+\n{+++} */
+
+000423   DEBUG-18a
+Ties between Arnor and Gondor may permit reconciliation 
+between Calenardhon and Gondor, and Ithilen and Dagolath, the Osgiliath
+newspaper al-Raya said on Friday. 
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of multiple compound phrases that caused
+ a crash/infinite loop in earlier versions
+\n{  ARN /  CAL /  060 }
+\n{  ARN /  GON /  060 }
+\n{  ARN /  ITH /  060 }
+\n{  ARN /  DAG /  060 }
+\n{  GON /  CAL /  060 }
+\n{  GON /  ITH /  060 }
+\n{  GON /  DAG /  060 } */
+
+990101 DEBUG-19 
+On improvement of primary health and Gondor's health centres, he said
+government proposed to take up the issue with the World Bank in a phased manner
+with priority being assigned to states with low health indices.
+/*\n------------------------------------------------------------------ 
+\n Caused the writeParse routines to crash in earlier versions
+\n{ GON / IBR / 100 } */
+
+000423   DEBUG-20
+Gondor said that the Ents would change their attack method from goats to
+sheep, especially to the Nepal, Arnor and Dagolath Osgiliath,
+Mordor and Elrond who are working in Eriador.
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of compound and subordinate phrases that caused
+ a crash/infinite loop in earlier versions
+\n{  GON /  ARN /  223 }
+\n{  GON /  DAG /  223 } */
+
+000423   DEBUG-23
+Frodo said he has deep satisfaction toward Gondor and Arnor's Elrond, 
+and Gondor's dramatic cooperation and its eye-catching development are of 
+great significance to the region and even the entire world, he noted.
+/*\n------------------------------------------------------------------ 
+\n Involves an overlap of compound and subordinate phrases that caused 
+an infinite loop in earlier versions
+\n{  HOB /  GON /  041 }
+\n{  HOB /  ARN /  041 }
+\n{  HOB /  ELF /  041 } */
+
+950106  DEBUG-24a
+The Calenardhon government issue condemned an attack by Osgiliath soldiers 
+in south Ithilen on Thursday and promised raids to the affected Ithilen villages. 
+/*\n------------------------------------------------------------------ 
+\n[Minor variants on DEMO-06 used to test pattern reporting]
+\n{ CALGOV / OSGMIL / 132 } 950106      
+\n{ CALGOV / ITH / 173  } 950106 */
+
+950106  DEBUG-24b
+The Calenardhon government chided an attack by Osgiliath soldiers 
+in south Ithilen on Thursday and ousted  the affected Ithilen villages. 
+/*\n------------------------------------------------------------------ 
+\n[Coding two events from a compound sentence]
+\n{ CALGOV / OSGMIL / 131 } 950106      
+\n{ CALGOV / ITH / 201  } 950106 */
+
+
+##################################################################
+#
+#            TESTS REQUIRING SPECIAL SETTINGS
+#                SET BY OPTION: OPTIONS
+#
+##################################################################
+
+##################################################################
+#
+#                        DEFAULT:
+#
+##################################################################
+
+950101 DEFAULT-CMD01
+Initiating change in .options file and as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+Switch DEFAULT: commands on
+Switch COMPLEX: to eliminate NOACTPRIOR
+/*\n------------------------------------------------------------------    
+\n{ OPTION:  DEFAULT: SOURCE [DEFSRC] PRIOR TARGET [DEFTAR] AFTER  }     
+\n{ OPTION:  COMPLEX: VERBS[5] CONJ[4] EXPLAIN  }  */    
+
+950101 DEFAULT-01
+Fxrnost is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source]
+\n{ DEFSRC / GON / 064 } */    
+
+950101 DEFAULT-02
+Fornost is about to restore  full diplomatic ties with Gxndor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default target]
+\n{ FOR / DEFTAR / 064 } */    
+
+950101 DEFAULT-03
+Fxrnost is about to restore  full diplomatic ties with Gxndor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source and target]
+\n{ DEFSRC / DEFTAR / 064 } */    
+
+950101 DEFAULT-04exp
+Fornost is about to restore full diplomatic ties with Gondor and Bree almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source with compound target; make sure the basic code works]
+\n{ FOR / GON / 064 }     
+\n{ FOR / BRE / 064 } */    
+
+950101 DEFAULT-04
+Fxrnost is about to restore full diplomatic ties with Gondor and Bree almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source with compound target]
+\n{ DEFSRC / GON / 064 }     
+\n{ DEFSRC / BRE / 064 } */    
+
+950101 DEFAULT-05
+Bree and Arnor are about to restore full diplomatic ties with Gxndor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default target with compound source]
+\n{ BRE / DEFTAR / 064 }     
+\n{ ARN / DEFTAR / 064 } */    
+
+950101 DEFAULT-CMD02
+Initiating change in .options file and as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+Switch DEFAULT: turn off PRIOR. DEFAULT : OFF is needed first to reset this
+/*\n------------------------------------------------------------------    
+\n{ OPTION: DEFAULT: OFF } 
+\n{ OPTION: DEFAULT: SOURCE [DEFSRC]  TARGET [DEFTAR] AFTER  } */    
+
+950101 DEFAULT-06a
+Fxrnost is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source; PRIOR not active]
+\n{ GON / DEFTAR / 064 } */    
+
+950101 DEFAULT-06b
+Fxrnost is about to restore full diplomatic ties with Gondor and Bree almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source with compound target; PRIOR not active]
+\n{ GON / BRE / 064 }     
+
+950101 DEFAULT-CMD02
+Initiating change in .options file and as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+Switch DEFAULT: turn off AFTER. DEFAULT : OFF is needed first to reset this
+/*\n------------------------------------------------------------------    
+\n{ OPTION: DEFAULT: OFF } 
+\n{ OPTION: DEFAULT: SOURCE [DEFSRC] PRIOR  TARGET [DEFTAR] } */    
+
+950101 DEFAULT-07a
+Fornost is about to restore full diplomatic ties with Gxndor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default source; AFTER not active]
+\n{ FOR / DEFTAR / 064 } */    
+
+950101 DEFAULT-07b
+Bree and Arnor are about to restore full diplomatic ties with Gxndor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Default target with compound source; AFTER not active]
+\n{ BRE / ARN / 064 } */    
+
+950101 DEFAULT-CMD04
+Changing .options file command as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+Switch DEFAULT: commands OFF
+Switch COMPLEX to previous status
+/*\n------------------------------------------------------------------    
+\n{ OPTION: DEFAULT: OFF } 
+\n{ OPTION:  COMPLEX: VERBS[5] CONJ[4] NOACTPRIOR EXPLAIN  } */    
+
+
+##################################################################
+#
+#                 4-DIGIT YEARS ON INPUT
+#
+##################################################################
+
+950101 YYYY-Initiate
+Initiating change in .options file Note that by doing things at this point, we bypass the 
+YYYY requirement on the date restrictions, which are currently in YY form. Also note that 
+if the dates fail due to being invalid, the screen error is messy because the program is 
+in autocode mode; the Validate.error file is cleaner.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: YYYY = TRUE } */    
+
+20150607 YYYY-01
+Fornost is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[YYYY test.]
+\n{ FOR / GON / 064 } */    
+
+19140724 YYYY-02
+Fornost is about to restore full diplomatic ties with Gondor and Bree almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[YYYY test.]
+\n{ FOR / GON / 064 }     
+\n{ FOR / BRE / 064 } */    
+
+186010029 YYYY-03
+Fornost is about to restore full diplomatic ties with Gondor and Bree almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[YYYY test.]
+\n{ FOR / GON / 064 }     
+\n{ FOR / BRE / 064 } */    
+
+19510724 YYYY-04
+Fornost is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[YYYY test.]
+\n{ FOR / GON / 064 } */    
+
+19950101 YYYY-Cancel
+Initiating change in .options file: note that the date has to be in 
+YYYY mode here or the system will generate an error on input.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: YYYY = FALSE } */  
+
+950101  YYYY-check
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Confirm that we are back into YY mode]
+\n{ ARN / GON / 064 } */    :
+
+
+##################################################################
+#
+#                         TIME SHIFTING
+#
+##################################################################
+
+950101  TIME-Modify
+Changing .options file command as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: TIME SHIFT = TRUE } */    
+
+950104 TIME-01
+Yesterday, Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after crowds trashed its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple time shift coding]
+\n{ ARN / GON / 064 } 950103 */    
+
+950101 TIME-02
+Arnor is about to restore full diplomatic ties with Gondor tomorrow almost 
+five years after crowds burned down its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Simple time shift coding]
+\n{ ARN / GON / 064 } 950102  */    
+
+950101 TIME-03
+Arnor is about To Restore full diplomatic ties with Gondor, kan wa ma kan, 
+ almost 
+five years after Ent crowds burned down its Entian embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n Time-signalled discard code  
+\n{ ### }  */   
+
+950101 TIME-04
+When peace comes, Arnor will the restore full diplomatic ties with Gondor almost 
+five years after Ent crowds burned down its Entian embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------
+\n  Time-signalled complexity code    
+\n{+++}  */   
+
+950103 TIME-05
+Dagolath's first Deputy Prime Minister Telemar left for 
+Minas Tirith last month for meetings of the joint transport 
+committee with Arnor, the Dagolathi news agency reported. 
+/*\n------------------------------------------------------------------
+\n[Paired events: LEFT_ generates a "visit" and "receive visit" events]
+\n{ DAG / GON / 032 } 941204      
+\n{ GON / DAG / 033 }  */   
+
+950103 TIME-06
+Dagolath's first Deputy Prime Minister Telemar will leave for 
+Minas Tirith tomorrow and a week from now to attend meetings of the joint trade 
+committee with Arnor, the Dagolathi news agency reported. 
+/*\n------------------------------------------------------------------
+\n Time shifting using a pattern which gives a +8
+\n-{ DAG / ARN / 031 } 950111   */   
+
+950130 TIME-07
+Dagolath's first Deputy Prime Minister Telemar will leave for 
+Minas Tirith tomorrow and tomorrow and tomorrow to attend meetings of the joint trade 
+committee with Arnor, the Dagolathi news agency reported. 
+/*\n------------------------------------------------------------------
+\n Time shifting using a pattern which gives a +3 across a month boundary
+\n-{ DAG / ARN / 031 } 950202   */   
+
+950106 TIME-08
+The Calenardhon government condemned an attack by Osgiliath soldiers 
+in south Ithilen on Thursday and promised aid to the affected Ithilen villages. 
+/*\n------------------------------------------------------------------ 
+\n Should not produce a change
+\n{ CALGOV / OSGMIL / 122 } 950106      
+\n{ CALGOV / ITH / 050  } 950106 */
+
+950101  TIME-Cancel
+Changing .options file command to disable this until we finally want
+to check it, though at the moment there are no texts here where it
+would cause a problem.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: TIME SHIFT = FALSE } */    
+
+##################################################################
+#
+#                 SET: CODE CLAUSE/SENTENCE/ALL
+#
+##################################################################
+
+950105  CODEBY-01
+Gondor accepts that Calenardon might affirm an attack by Osgiliath soldiers in
+south Ithilen or assail Arnor on Thursday but Dagolath promised aid to 
+the affected Ithilen towns 
+/*\n------------------------------------------------------------------ 
+\n[This can be used to test the various SET: CODE BY options
+\n First do BY CLAUSE, which is our usual default
+\n { GON / OSGMIL / 042 }
+\n { GON / ARN / 122 }
+\n { DAG / ITH / 050 } */
+
+950101  CODEBY-Modify
+Changing .options file command as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: CODE BY SENTENCE } */    
+
+950105  CODEBY-02
+Gondor accepts that Calenardon might affirm an attack by Osgiliath soldiers in
+south Ithilen or assail Arnor on Thursday but Dagolath promised aid to 
+the affected Ithilen towns 
+/*\n------------------------------------------------------------------ 
+\n[This can be used to test the various SET: CODE BY options
+\n BY SENTENCE
+\n { GON / OSGMIL / 042 } */
+
+950101  CODEBY-Modify
+Changing .options file command as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: CODE ALL } */    
+
+950105  CODEBY-03
+Gondor accepts that Calenardon might affirm an attack by Osgiliath soldiers in
+south Ithilen or assail Arnor on Thursday but Dagolath promised aid to 
+the affected Ithilen towns 
+/*\n------------------------------------------------------------------ 
+\n[This can be used to test the various SET: CODE BY options
+\n The remaining cases are CODE ALL
+\n { GON / OSGMIL / 042 }
+\n { GON / ARN / 122 }
+\n { DAG / ITH / 050 } */
+
+950101  CODEBY-04
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after crowds burned down its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Two verb codes if using SET: CODE ALL]
+\n{ ARN / GON / 064 }   
+\n{ ARN / GON / 222 } */    
+
+950118  CODEBY-05
+Calenardhon urged Bree on Monday to assist it to win a greater role
+in forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[basic pronoun tests: these should be dereferenced and used in coding]
+\n Options file should SET: CODE ALL for these tests to work
+\n{ CAL / BRE / 102 } 950118 
+\n{ CAL / BRE / 092 } 950118 */
+
+950118  CODEBY-06
+Galadriel urged Bree on Monday to assist her to win a greater role
+it as she organized the forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Pronoun tests: simple dereferencing]
+\n Requires  SET: CODE ALL 
+\n{ ELF / BRE / 102 } 950118
+\n{ ELF / BRE / 092 } 950118 */
+
+950118  CODEBY-07
+Elrond urged Bree on Monday to assist him to win a greater role
+in the forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Pronoun tests: simple dereferencing ]
+\n Requires  SET: CODE ALL 
+\n{ ELF / BRE / 102 } 950118
+\n{ ELF / BRE / 092 } 950118 */
+
+950118  CODEBY-08
+Elrond and Gondor urged Bree on Monday to  assist them to win a greater role
+in the forthcoming peace talks.
+/*\n------------------------------------------------------------------ 
+\n[Pronoun tests: dereferencing of a compound]
+\n Requires  SET: CODE ALL 
+\n{ ELF / BRE / 102 } 950118
+\n{ GON / BRE / 102 } 950118
+\n{ ELF / BRE / 092 } 950118
+\n{ GON / BRE / 092 } 950118 */
+
+950112  CODEBY-09
+Eriador was opposed by Osgiliath, the state's fiercest foe, 
+in being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic detection of passive voice in a simple verb]
+\n Requires  SET: CODE ALL 
+\n{ OSG / ERI / 112 }  
+\n{ ERI / GON / 064 }*/
+
+950112  CODEBY-10
+Eriador was fiercely opposed by Osgiliath, the state's fiercest foe, 
+in being drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Automatic detection of passive voice in a simple verb plus adverb]
+\n Requires  SET: CODE ALL 
+\n{ OSG / ERI / 112 } 
+\n{ ERI / GON / 064 }  */
+
+950112  CODEBY-11
+Eriador has been received by courier money from Osgiliath, the state's 
+fiercest foe, to be drawn into the peace process by its resumption 
+of diplomatic ties with Gondor. 
+/*\n------------------------------------------------------------------ 
+\n[Cancellation of passive voice actor switching by +/$ pattern fitting;
+\n(order is still OSG-ERI, but it is set by the pattern)]
+\n Requires  SET: CODE ALL 
+\n{ OSG / ERI / 071 } 
+\n{ ERI / GON / 064 }  */
+
+950103  CODEBY-12
+Dagolath's first Deputy Prime Minister Telemar left for 
+Minas Tirith on Wednesday to attend meetings of the joint trade 
+committee with Arnor, the Dagolathi news agency reported. 
+/*\n------------------------------------------------------------------
+\n[Dominant event: only ATTEND will code when coding in ALL mode]
+\n Requires  SET: CODE ALL 
+\n{ DAG / ARN / 031 } 950103   */   
+
+950101  CODEBY-Cancel
+Changing .options file command as well as putting sufficient text
+in this record to get past the minimum sentence length filter:
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: CODE BY CLAUSE } */    
+
+950101  CODEBY-13
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after crowds burned down its embassy, a senior official 
+said on Saturday. 
+/*\n------------------------------------------------------------------
+\n[Confirm that the reset to BY CLAUSE worked before doing further validation]
+\n{ ARN / GON / 064 } */    
+
+##################################################################
+#
+#                      FORWARDING
+#
+##################################################################
+
+950101 FRWD-Initialize
+Initiating change in .options file to test the forwarding options;
+DEFAULT and COMPLEX are set to make sure these are interacting correctly
+an OUTPUT option is also changed here so that the code could be 
+used to test STORY SENT, but this is not checked in the validation 
+/*\n------------------------------------------------------------------    
+\n{ OPTION: FORWARD: ^^*****NNN*SSS } 
+\n{ OPTION: OUTPUT: ID STORY SENT }  
+\n{ OPTION: DEFAULT: SOURCE [DEFSRC] PRIOR TARGET [DEFTAR] AFTER  }     
+\n{ OPTION: COMPLEX: VERBS[5] CONJ[4] EXPLAIN  }  */    
+
+950116  FRWD-001-001
+Fornost President Umbardacil has again appealed for peace in Ithilen state-run 
+television in a message to the spiritual leader of the war-torn nation's  
+influential Douzu community.
+/*\n------------------------------------------------------------------ 
+\nThis following sequence of events tests pronoun forwarding.  This
+\n requires use of the FORWARD command
+\nFORWARD: ^^*****NNN*SSS
+\n{ FORGOVPRS / ITHTV / 095 }  */
+
+950116  FRWD-001-002
+He has also asked Gondor to provide help in mediating the conflict. 
+/*\n------------------------------------------------------------------ 
+\n FOR should be forwarded; note that this doesn't get the agent, only the
+\n actor
+\n{ FOR / GON / 090 } */
+
+950116  FRWD-001-003
+Gondor expressed reluctance to become involved in the internal affairs of its
+neighbor Ithilen.
+/*\n------------------------------------------------------------------ 
+\n Subject should be reinitialized to GON
+\n{ GON / ITH / 020 } */
+
+950116  FRWD-001-004
+However, it acknowledged the concerns of the expatriate Fornost community in
+this issue.
+/*\n------------------------------------------------------------------ 
+\n GON should be forwarded
+\n{ GON / FOR / 023 } */
+
+950116  FRWD-001-005
+In a later statement it promised additional aid to Arnor.
+/*\n------------------------------------------------------------------ 
+\n <12.02.08> Secondary forwarding currently doesn't work and in the current 
+configuration goes back to the original. This is simply a check against
+crashes -- see comments in manual. 
+\n{ FOR / ARN / 050 } */
+
+950116  FRWD-002-001
+Fornost and Barad-Dur have again appealed for peace in Ithilen in 
+a message to the spiritial leader of the war-torn nation's influential 
+Douzu community.
+/*\n------------------------------------------------------------------ 
+\n Test of forwarding a compound
+\n{ FOR / ITH / 095 }
+\n{ MOR / ITH / 095 } */
+
+950116  FRWD-002-002
+They have expressed reluctance to become involved in the internal affairs 
+of its neighbor Ithilen.
+/*\n------------------------------------------------------------------ 
+\n <12.02.08> Compound should forward but it doesn't -- see comments in manual 
+\n{ FOR / ITH / 020 } */
+
+950116  FRWD-002-003
+And they promised additional aid to Arnor if it would agree to attend a
+conference.
+/*\n------------------------------------------------------------------ 
+\n Secondary forwarding of compound: in addition to doing a ITH/ARN/050 coding, it has
+\n also been know to this skips the first verb and go to a default target coding on 
+\n AGREE (ITH/DEFSRC/031. Which is probably not really a good thing...
+\n{ ITH / ARN / 050 }  */
+
+950101 FRWD-Modify
+Switching off the DEFAULT and going the usual COMPLEX options to see  
+whether this also works in that mode.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: DEFAULT: OFF } 
+\n{ OPTION: COMPLEX: VERBS[5] CONJ[4] NOACTPRIOR EXPLAIN  } */    
+
+950116  FRWD-003-001
+Fornost President Umbardacil has again appealed for peace in Ithilen state-run 
+television in a message to the spiritual leader of the war-torn nation's  
+influential Douzu community.
+/*\n------------------------------------------------------------------ 
+\nThis following sequence of events tests pronoun forwarding.  This
+requires use of the FORWARD command
+\nFORWARD: ^^*****NNN*SSS
+\n{ FORGOVPRS / ITHTV / 095 }  */
+
+950116  FRWD-003-002
+He has also asked Gondor to provide help in mediating the conflict. 
+/*\n------------------------------------------------------------------ 
+\n FOR should be forwarded
+\n{ FOR / GON / 090 } */
+
+950116  FRWD-003-003
+Gondor expressed reluctance to become involved in the internal affairs of its
+neighbor Ithilen.
+/*\n------------------------------------------------------------------ 
+\n Subject should be reinitialized to GON
+\n{ GON / ITH / 020 } */
+
+950116  FRWD-003-004
+However, it acknowledged the concerns of the expatriate Fornost community in
+this issue.
+/*\n------------------------------------------------------------------ 
+\n GON should be forwarded
+\n{ GON / FOR / 023 } */
+
+950116  FRWD-003-005
+In a later statement it promised additional aid to Arnor.
+/*\n------------------------------------------------------------------ 
+\n <12.02.08> Secondary forwarding of GON currently doesn't work and instead
+forwards the original FOR
+\n{ FOR / ARN / 050 } */
+
+950101 FRWD-Cancel
+Canceling FORWARD changes in .options file and returning to the state 
+prior to the change..
+/*\n------------------------------------------------------------------    
+\n{ OPTION: FORWARD: ^^*****NNN*SSS OFF }  */    
+
+
+##################################################################
+#
+#                            COMMA
+#
+##################################################################
+
+950101  COMMA-01A
+Arnor is about to restore full diplomatic ties with Gxndor, almost 
+five years aftxr Calenardhon crowds burned down its embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Standard elimination of comma-delimited clause
+\n{---} */
+
+950101  COMMA-01B
+Arnor is about to restore full diplomatic ties with Gxndor almost 
+five years after Cxlenardhon crowds burned down its embassy,  a senior 
+Bree official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Standard elimination of comma-delimited terminal clause
+\n{---} */
+
+950101  COMMA-01C
+Arnor is about to restore complete, full diplomatic ties with Gondor almost 
+five years after Cxlenardhon crowds burned down its embassy,  a senior 
+Bree official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Initial comma-delimited clause should not be eliminated
+\n\n{ ARN / GON / 064 } 950101 */
+
+950101 COMMA-Change
+Change length of comma-delimited initial, internal and terminal clauses
+/*\n------------------------------------------------------------------    
+\n{ OPTION: COMMA: MIN = 4 MAX = 6 EMIN = 3 EMAX = 6 BMIN = 3 BMAX = 8}  */    
+
+950101  COMMA-02A
+Arnor is about to restore full diplomatic ties with Gxndor, almost 
+five years after Calenardhon crowds burned down its embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Should match the internal clause
+\n{ ARN / CAL / 064 } 950101 */
+
+950101  COMMA-02B
+Arnor is about to restore full diplomatic ties with Gxndor almost 
+five years aftxr Cxlenardhon crowds burned down its embassy,  a 
+clearly inebriated Bree official said today. 
+/*\n------------------------------------------------------------------ 
+\n Should match the terminal clause
+\n{ ARN / BREGOV / 064 } 950101 */
+
+950101  COMMA-02C
+Arnor is about to restore complete, full diplomatic ties with Gondor almost 
+five years after Cxlenardhon crowds burned down its embassy,  a senior 
+Bree official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Initial comma-delimited clause should be eliminated
+\n\n{GON / BREGOV / 222}  */
+
+950101  COMMA-02D
+Arnor is said to be about to restore complete, full diplomatic ties with
+Gondor almost five years after Calenardhon crowds burned down its embassy,
+a senior Bree official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Initial comma-delimited clause should not be eliminated
+\n\n{ARN / GON / 064} */
+
+950101 COMMA-Change
+Turn off all of the comma-delimited clauses checking at this point
+/*\n------------------------------------------------------------------    
+\n{ OPTION: COMMA: OFF}  */    
+
+950101  COMMA-03A
+Arnor is about to restore full diplomatic ties with Gondor, almost 
+five years after Calenardhon crowds burned down its embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Should match the internal clause
+\n{ ARN / GON / 064 }  */
+
+950101  COMMA-03B
+Arnor is about to rxstore full diplomatic ties with Gondor, almost 
+five years after Calenardhon crowds burned down its embassy,  a 
+clearly inebriated Bree official said today. 
+/*\n------------------------------------------------------------------ 
+\n Should match the terminal clause
+\n{ ARN / BREGOV / 222 }  */
+
+950101  COMMA-03C
+Arnxr is about to rxstore full diplomatic ties with Gondor, almost 
+five years after Calenardhon crowds burned down its embassy,  a 
+senior Bree official said today. 
+/*\n------------------------------------------------------------------ 
+\n Should match the terminal clause
+\n{ GON / BREGOV / 222 }  */
+
+950101  COMMA-03D
+Arnxr is about to rxstore full diplomatic ties with Gondor, restoring full 
+diplomatic ties five years after Calenardhon crowds burned down its embassy,  a 
+senior Bree official said today. 
+/*\n------------------------------------------------------------------ 
+\n Should match the terminal clause
+\n{ GON / CAL / 064 } */
+
+950101  COMMA-03E
+Arnxr is about to rxstore full diplomatic ties with Gondor, almost 
+five years after Calenardhon crowds burned down its embassy,  a 
+senior Bree official said today. 
+/*\n------------------------------------------------------------------ 
+\n Should match the terminal clause
+\n{ GON / BREGOV / 222 } */
+
+950101 COMMA-Cancel
+Canceling COMMA changes in .options file and returning to the state 
+prior to the change. BMAX = 0 guarantees that the condition will never be
+met
+/*\n------------------------------------------------------------------    
+\n{ OPTION: COMMA: MIN = 2 MAX = 10 EMIN = 2 EMAX = 10 BMIN = 255 BMAX = 0}  */    
+
+950101  COMMA-04A
+Arnor is about to restore full diplomatic ties with Gxndor, several 
+years after Calenardhon crowds burned down its embassy,  a senior 
+official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Standard elimination of internal comma-delimited clause
+\n{---} 950101 */
+
+950101  COMMA-04B
+Arnor is about to restore full diplomatic ties with Gxndor almost 
+five years after Cxlenardhon crowds burned down its embassy,  a senior 
+Bree official said on Saturday. 
+/*\n------------------------------------------------------------------ 
+\n Standard elimination of comma-delimited terminal clause
+\n{---} 950101 */
+
+##################################################################
+#
+#                        MINIMUM WORDS
+#
+##################################################################
+
+970101  MINWRD-01
+Gondor's planes attacked Osgiliath. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{---} */
+
+970102 MINWRD-ACTIVATE
+Reducing the minimum words using a SET: command and also filling this in 
+a bit.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: MINIMUM WORDS = 4  */    
+
+950103  MINWRD-02
+Gondor's planes attacked Osgiliath. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{ GON / OSG / 225 } */
+
+970104 MINWRD-Reset
+Increasing the minimum words using a SET: command and also filling this in 
+a bit.
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: MINIMUM WORDS = 20  */    
+
+950103  MINWRD-03
+Arnor is about to restore diplomatic ties with Gondor almost 
+five years after Calenardhon crowds burned its embassy. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{---} */
+
+950103  MINWRD-04
+Arnor is about to restore full diplomatic ties with Gondor almost 
+five years after Calenardhon crowds burned down its embassy. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{ ARN / GON / 064 } */
+
+970104 MINWRD-Cancel
+Resetting the minimum words using a SET: command to the default
+/*\n------------------------------------------------------------------    
+\n{ OPTION: SET: MINIMUM WORDS = 8  */    
+
+970105  MINWRD-05
+Gondor's planes attacked Osgiliath on Friday night. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{---} */
+
+
+##################################################################
+#
+#                 NORMAL TERMINATION RECORD
+#
+##################################################################
+
+990101  FINAL-01
+This is the end of the standard validation records.  If you reached this
+record without the program stopping to report an error, it is working
+correctly.
+\n
+\nThe remaining records require other .options settings, or crash the program,
+\n and were only used for the debugging of additional features which generally are not used.  
+\n
+\nPress Q to quit the program.
+
+
+##################################################################
+#
+#         OTHER TESTS REQUIRING SPECIAL SETTINGS
+#               OR WHICH CRASH THE PROGRAM
+#
+##################################################################
+
+950112  LINELONG-01
+A choice of celebratory New Year drinks seemed the most obvious division between opposing units of Bosnian soldiers toasting 1996 on Monday. NATO had some of Bosnia's soldiers where it wanted them on a first New Year's day of peace -- away from the frontline drinking to a future out of uniform. The first U.S 
+armoured cavalry troops in Bosnia are using an old collective farm with a 
+crop dusters' airstrip.
+/*\n------------------------------------------------------------------ 
+\n[Line too long: causes fatal error]
+\n{+++}*/
+
+950112  DEBUG-09
+Eriador has called for a boycott against Osgiliath, the state's fiercest foe. 
+A Bosnian government minister said on Monday separatist Serbs had seized 11 
+civilianstravellingonroads NATO has opened around Sarajevo.Bosnians greeted
+the New Year's freshstartof peaceonMondaywithabarrage of noise and 
+joy from guns used justweeksagoinawarwhichkilled 200,000 people.
+Bosnia, broken by 3-1/2 yearsofconflict, entered 1996 tothesoundofshooting 
+as weapons from a war that killed 200,000 people werefiredtocelebrateafresh 
+start--peace. Achoiceofcelebratory New Year drinks seemed the mostobvious 
+division betweenopposingunitsofBosniansoldierstoasting 1996 on Monday.
+NATO had some of Bosnia's soldiers whereitwantedthemonafirst New Year's 
+day of peace -- away fromthefrontlinedrinkingtoafutureoutofuniform.
+The first U.S armoured cavalry troops in Bosniaareusinganoldcollectivefarm 
+with a crop dusters' airstrip asaforwardbaseforenforcingpeaceinthe 
+volatile northeast. U.S militaryconvoysrolledovertheSava river bridge into 
+Bosnia on Monday but numbers droppedtoavoidcreatinganarmytrafficjam.
+/*\n------------------------------------------------------------------ 
+\n[Excessive characters in record without excessive words: need to set
+\n           const int MAX_SENTENCE  = 1024;  
+\nin TABARI.h to get this to generate an overload; also turn off complex filter 				
+]
+\n{+++}
+\n{ ERI / OSG / 172  }*/
+
+830809  MISC-01
+Gondor has called for a boycott of Osgiliath. 
+/*\n------------------------------------------------------------------ 
+\n[Test of minLex/ SET: MINIMUM WORDS = ;
+\n{ GON / OSG / 172 }
+\n{---} */
+
+920102  FBIS-001-001  CEP20020711000011
+[Gandalf] Gollum [participated] in an anti- Gondor [ticket-tape] parade 
+on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of skip of FBIS bracked text, e.g. speaker prefixes
+\nBeginning of test of SET: FBIS = TRUE
+\nThis is also configured with FBIS document IDs: required . options commands are
+\n  FORWARD: ^^*****NNN*SSS DOC OFF
+\n  OUTPUT: DOC
+\n{ HOB / GON / 111 } */
+
+920102  FBIS-001-001  CEP20020711000012
+Galadriel, Gollum participated in an anti- Gondor parade 
+on Saturday. 
+/*\n------------------------------------------------------------------ 
+\nTest of FBIS comma -> conjunction facility
+\nSET: FBIS = TRUE to test these facilities
+\n{ ELF / GON / 111 } 
+\n{ HOB / GON / 111 } */
+
+000102  FBIS-002-002  CEP20020711000013a
+2. -- ** 
+/*\n------------------------------------------------------------------ 
+\nMake sure program doesn't crash when the non-alpha filter knocks out
+entire sentence.  Note that this first case also wipes out the comment
+block; check what happens with FBIS-02b, which has no comment block.
+\n-{---} */
+
+000102  FBIS-002-003  CEP20020711000013b
+2. -- ** 
+
+061118 00589742 004
+Representatives of Turkey, India, Afghanistan, Iran, Tajikistan, Uzbekistan,
+Turkmenistan, Pakistan, the People's Republic of China, the United Arab
+Emirates, Kazakhstan, Kyrgyzstan, Canada, France, Germany, Italy, Japan, Russia,
+the United States, Britain, Finland, the European Commission, the Council of
+Europe, the International Monetary Fund, the World Bank and the United Nations
+are in attendance at the conference.
+/*\n------------------------------------------------------------------ 
+\n<090922: Modify this so that it picks up a zillion of the demo.actors
+\nIt is currently causing a seg fault, despite the enlarged tokBuf...need
+\nto eliminate that
+\n  OUTPUT: DOC
+\n{ HOB / GON / 111 } */
+
+
+
+
+
+
